@@ -3,7 +3,7 @@
 int main(int, char**){
     KENG::ProvinceRegistry pr;
     pr.ReadProvinceFile();
-    // pr.Print();
+    pr.Print();
 
     KENG::RealmRegistry rr;
     rr.ReadRealmFile();
