@@ -2,7 +2,7 @@
 
 namespace KENG {
     void RealmRegistry::ReadRealmFile(void) {
-        const std::string fpath = "History/realms.kengdat";
+        const std::string fpath = "History/realms/realms.kengdat";
 
         std::ifstream inputFile(fpath);
     

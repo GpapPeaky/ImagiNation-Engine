@@ -519,6 +519,7 @@
       <p class="section-label">Detected</p>
       <div class="stats">
         <div class="stat-box"><span class="num" id="statNations">—</span><span class="lbl">Nations</span></div>
+        <div class="stat-box"><span class="num" id="statLandmasses">—</span><span class="lbl">Landmasses</span></div>
         <div class="stat-box"><span class="num" id="statLand">—</span><span class="lbl">Land px</span></div>
         <div class="stat-box"><span class="num" id="statSize">—</span><span class="lbl">Dimensions</span></div>
         <div class="stat-box"><span class="num" id="statProvinces">—</span><span class="lbl">Provinces</span></div>
@@ -593,6 +594,7 @@ const msgOriginal       = document.getElementById("msgOriginal");
 const msgGenerated      = document.getElementById("msgGenerated");
 const statsWrap         = document.getElementById("statsWrap");
 const statNations       = document.getElementById("statNations");
+const statLandmasses    = document.getElementById("statLandmasses");
 const statLand          = document.getElementById("statLand");
 const statSize          = document.getElementById("statSize");
 const statProvinces     = document.getElementById("statProvinces");
@@ -618,6 +620,13 @@ let nations = new Map();
 let provinces = [];
 let generatedImageData = null;
 let nationTargets = new Map();
+
+// Flattened list of connected components across all nations.
+// A "nation" can be split across islands / exclaves that share
+// the same colour but aren't touching — each needs its own seed(s)
+// or the flood-fill can never reach it.
+// Entry: { id, nationKey, pixels:[{x,y,index}] }
+let landmasses = [];
 
 // ------------------------------
 // UI HELPERS
@@ -680,6 +689,8 @@ function handleFile(file){
 
     generatedCtx.clearRect(0, 0, imageWidth, imageHeight);
     generatedImageData = null;
+    landmasses = [];
+    statLandmasses.textContent = "—";
     rgbOutput.value = "";
     manifestCount.textContent = "0 entries";
     paletteCtx.clearRect(0,0,paletteStrip.width, paletteStrip.height);
@@ -760,8 +771,73 @@ async function scanImage(){
   if(nations.size === 0){
     setStatus("No nations detected — is the whole image black?", "warn");
     generateButton.disabled = true;
-  } else {
-    setStatus(`Detected ${nations.size} nation${nations.size === 1 ? "" : "s"}. Ready to generate.`, "ok");
+    return;
+  }
+
+  setStatus(`Detected ${nations.size} nation${nations.size === 1 ? "" : "s"}. Tracing landmasses…`);
+  await findLandmasses();
+
+  statLandmasses.textContent = landmasses.length;
+  setStatus(`Detected ${nations.size} nation${nations.size === 1 ? "" : "s"} across ${landmasses.length} landmass${landmasses.length === 1 ? "" : "es"}. Ready to generate.`, "ok");
+}
+
+// ------------------------------
+// CONNECTED-COMPONENT DETECTION
+// A nation's colour can appear in more than one disconnected
+// blob (islands, exclaves separated by a strait, etc). Each
+// blob needs to be identified on its own, because a flood-fill
+// can only ever grow through pixels it can physically reach —
+// otherwise a disconnected blob with no seed of its own is left
+// unpainted and renders as water.
+// ------------------------------
+
+async function findLandmasses(){
+
+  landmasses = [];
+  let landmassID = 0;
+  let stepsSinceYield = 0;
+
+  for(const [nationKey, nation] of nations){
+
+    const byIndex = new Map();
+    for(const p of nation.pixels) byIndex.set(p.index, p);
+
+    const visited = new Set();
+
+    for(const start of nation.pixels){
+
+      if(visited.has(start.index)) continue;
+
+      // BFS out from `start` across this nation's own pixels only
+      const stack = [start.index];
+      visited.add(start.index);
+      const blob = [];
+
+      while(stack.length){
+
+        const idx = stack.pop();
+        blob.push(byIndex.get(idx));
+
+        const x = idx % imageWidth;
+        const y = Math.floor(idx / imageWidth);
+
+        for(const n of getNeighbours(x, y)){
+          const nidx = n.y * imageWidth + n.x;
+          if(byIndex.has(nidx) && !visited.has(nidx)){
+            visited.add(nidx);
+            stack.push(nidx);
+          }
+        }
+
+        stepsSinceYield++;
+        if(stepsSinceYield >= 30000){
+          stepsSinceYield = 0;
+          await yieldToUI();
+        }
+      }
+
+      landmasses.push({ id: landmassID++, nationKey, pixels: blob });
+    }
   }
 }
 
@@ -803,7 +879,7 @@ async function generateProvinces(){
     return;
   }
 
-  if(nations.size === 0){
+  if(landmasses.length === 0){
     setStatus("No land detected to partition.", "warn");
     return;
   }
@@ -824,7 +900,7 @@ async function generateProvinces(){
 
   allocateProvinceTargets(requested);
 
-  await growAllNations();
+  await growAllLandmasses();
 
   createProvinceColours();
 
@@ -849,49 +925,54 @@ async function generateProvinces(){
 
 function allocateProvinceTargets(total){
 
-  nationTargets.clear();
+  // Guarantee every landmass gets at least one province — otherwise
+  // a small island with no seed of its own can never be reached by
+  // the flood-fill and is left unpainted (rendered as water).
+  // If there are more landmasses than requested provinces, the
+  // per-landmass floor takes priority and the final count will run
+  // a little over `total` rather than leave land unpainted.
+
+  nationTargets.clear(); // keyed by landmass id here
 
   let land = 0;
-  for(const nation of nations.values()){
-    land += nation.pixels.length;
+  for(const lm of landmasses){
+    land += lm.pixels.length;
   }
 
   let assigned = 0;
 
-  for(const [key, nation] of nations){
-    let amount = Math.floor((nation.pixels.length / land) * total);
+  for(const lm of landmasses){
+    let amount = Math.floor((lm.pixels.length / land) * total);
     if(amount < 1) amount = 1;
-    if(amount > nation.pixels.length) amount = nation.pixels.length;
-    nationTargets.set(key, amount);
+    if(amount > lm.pixels.length) amount = lm.pixels.length;
+    nationTargets.set(lm.id, amount);
     assigned += amount;
   }
 
-  // trim excess provinces, largest allocations first, never below 1
+  // trim excess provinces, never below 1 per landmass
   while(assigned > total){
     let reduced = false;
-    for(const key of nationTargets.keys()){
-      if(nationTargets.get(key) > 1){
-        nationTargets.set(key, nationTargets.get(key) - 1);
+    for(const lm of landmasses){
+      if(nationTargets.get(lm.id) > 1){
+        nationTargets.set(lm.id, nationTargets.get(lm.id) - 1);
         assigned--;
         reduced = true;
         if(assigned <= total) break;
       }
     }
-    if(!reduced) break; // safety valve: every nation already at its floor
+    if(!reduced) break; // safety valve: every landmass already at its floor
   }
 
   // distribute any shortfall (rounding down can leave provinces unassigned)
-  const keys = [...nationTargets.keys()];
   let k = 0;
-  while(assigned < total && keys.length){
-    const key = keys[k % keys.length];
-    const nation = nations.get(key);
-    if(nationTargets.get(key) < nation.pixels.length){
-      nationTargets.set(key, nationTargets.get(key) + 1);
+  while(assigned < total && landmasses.length){
+    const lm = landmasses[k % landmasses.length];
+    if(nationTargets.get(lm.id) < lm.pixels.length){
+      nationTargets.set(lm.id, nationTargets.get(lm.id) + 1);
       assigned++;
     }
     k++;
-    if(k > keys.length * 4) break; // safety valve: no nation has room left
+    if(k > landmasses.length * 4) break; // safety valve: no landmass has room left
   }
 }
 
@@ -899,23 +980,23 @@ function allocateProvinceTargets(total){
 // GROW ALL NATIONS (chunked, async)
 // ------------------------------
 
-async function growAllNations(){
+async function growAllLandmasses(){
 
   let provinceID = 0;
   let done = 0;
-  const totalNations = nations.size;
+  const totalLandmasses = landmasses.length;
 
-  for(const [nationKey, nation] of nations){
+  for(const lm of landmasses){
 
-    const count = nationTargets.get(nationKey);
+    const count = nationTargets.get(lm.id);
 
-    const result = await growNation(nation, count, provinceID);
+    const result = await growLandmass(lm, count, provinceID);
 
     provinces.push(...result);
     provinceID += result.length;
 
     done++;
-    setProgress(done / totalNations);
+    setProgress(done / totalLandmasses);
     await yieldToUI();
   }
 }
@@ -927,9 +1008,9 @@ async function growAllNations(){
 // the original nation's exact silhouette.
 // ------------------------------
 
-async function growNation(nation, count, startID){
+async function growLandmass(landmass, count, startID){
 
-  const pixels = nation.pixels;
+  const pixels = landmass.pixels;
 
   const pixelSet = new Set();
   for(const p of pixels) pixelSet.add(p.index);
