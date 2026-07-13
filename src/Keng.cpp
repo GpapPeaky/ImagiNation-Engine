@@ -37,7 +37,7 @@ int main(int, char**){
     /* Map creation */
     OGL_Object* map = OGL_CreateObject(OGL_GetShader("tex"));
     OGL_CreateTextureQuad(*map->mesh);
-    OGL_LoadBitmapToObject(*map->mesh, "History/realms/mapMask.bmp");
+    OGL_LoadBitmapToObject(*map->mesh, "History/provinces/min_province_map.png");
     /* Create the object node */
     OGL_ONode* onodeMap = OGL_CreateNode(map, "map");
     TRS::S(*map, {10.0f * 2.035f, 10.f, 1.f});
