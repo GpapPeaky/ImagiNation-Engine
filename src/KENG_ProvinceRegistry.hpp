@@ -18,7 +18,7 @@ namespace KENG {
             ProvinceRegistry(void);
             ~ProvinceRegistry(void);
 
-            void ReadProvinceFile(void); // One specific file History/Provs.dat
+            void ReadProvinceFile(void); // One specific file History/provinces.kengdat -> Id is set inside the file, to get the index -> id - 1
 
             Province& GetProvince(std::array<ui8, 3> color);
             

@@ -24,6 +24,6 @@ namespace KENG {
 
             std::string Name(void);
 
-            void AssignProvinces(void); // Assign province ids
+            void AssignProvinces(void); // Assign province ids, read from file
     };
 }

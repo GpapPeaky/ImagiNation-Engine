@@ -11,7 +11,9 @@ namespace KENG {
             llui id                               = 0;
             std::string name                      = "PROV";
             ui32 color                            = 0xffffff;
-
+            // TODO: Terrain type
+            // TODO: Development
+            // TODO: Buildings
         public:
             Province(llui id, std::string name, ui32 color);
             ~Province(void);
