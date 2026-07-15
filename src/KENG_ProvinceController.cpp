@@ -5,12 +5,11 @@ namespace KENG {
 
     ProvinceController::~ProvinceController(void) {}
 
-    Province& ProvinceController::GetHoveredProvince(ProvinceRegistry& pr, GLuint provMap) {
-        hoveredColor = Utils::GetPixelAtMouse(provMap);
-        std::array<float, 3> color = Utils::UnpackRGB_01(hoveredColor);
+    Province& ProvinceController::GetHoveredProvince(ProvinceRegistry& pr, OGL_Object& provMap) {
+        std::array<ui8, 3> color = OGL_GetHoveredColourFromTexture(provMap.mat.texture, OGL_GetModel(provMap), OGL_RenderView);
 
-        // std::cout << color[0] << " " << color[1] << " " << color[2] << "\n";
+        hoveredColor = Utils::PackRGB(color[0], color[1], color[2]);
 
-        return pr.GetProvince(Utils::UnpackRGB_0255(hoveredColor));
+        return pr.GetProvince(color);
     }
 }

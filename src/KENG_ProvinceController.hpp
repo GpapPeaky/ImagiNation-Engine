@@ -13,6 +13,6 @@ namespace KENG {
             ProvinceController(void);
             ~ProvinceController(void);
 
-            Province& GetHoveredProvince(ProvinceRegistry& pr, GLuint provMap);
+            Province& GetHoveredProvince(ProvinceRegistry& pr, OGL_Object& provMap);
     };
 }

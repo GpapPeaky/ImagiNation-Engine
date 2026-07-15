@@ -14,8 +14,6 @@ namespace KENG::Utils {
     std::array<float, 3> UnpackRGB_01(ui32 rgb);
     std::array<ui8, 3> UnpackRGB_0255(ui32 rgb);
 
-    ui32 GetPixelAtMouse(GLuint texture);
-
     extern std::ofstream LOG_RLM;  // Realm logging file
     extern std::ofstream LOG_PROV; // Proving logging file
 } // Keng/Utils
