@@ -2,7 +2,7 @@
 
 namespace KENG {
     void RealmRegistry::ReadRealmFile(void) {
-        const std::string fpath = "History/realms/realms.kengdat";
+        const std::string fpath = "History/realms/realms.txt";
 
         std::ifstream inputFile(fpath);
     
@@ -19,7 +19,7 @@ namespace KENG {
                 continue;
     
             std::stringstream ss(line);
-    
+            //
             int r, g, b;
             std::string realmType;
             std::string name;

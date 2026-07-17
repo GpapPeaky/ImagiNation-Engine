@@ -11,7 +11,7 @@ namespace KENG {
         auto it = colorToId.find(packedRGB); // Just need to find a number, not an entire array!
 
         if (it != colorToId.end()) {
-            return provinces[it->second];
+            return provinces[it->second - 1];
         }
 
         const llui KENG_NULLPROV_ID = 0xffffffff;
@@ -20,7 +20,7 @@ namespace KENG {
     }
 
     void ProvinceRegistry::ReadProvinceFile(void) {
-        const std::string fpath = "History/provinces/provinces.kengdat";
+        const std::string fpath = "History/provinces/province_colors.txt";
 
         std::ifstream inputFile(fpath);
     

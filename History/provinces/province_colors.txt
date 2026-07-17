@@ -1,0 +1,1593 @@
+1 "Oakhaven" 51 146 90
+2 "Eldoria" 10 108 37
+3 "Valoria" 239 118 240
+4 "Shadowfen" 76 29 36
+5 "Glimmerhold" 140 202 46
+6 "Ravenspire" 26 232 118
+7 "Frostguard" 96 226 105
+8 "Ironridge" 201 35 112
+9 "Stonehelm" 192 20 247
+10 "Stormwatch" 174 34 104
+11 "Riverbend" 0 182 46
+12 "Duskwood" 32 59 179
+13 "Highcliff" 120 28 98
+14 "Sunspire" 114 196 166
+15 "Moonbrook" 123 157 233
+16 "Winterfell" 252 17 150
+17 "Deepwood" 95 141 24
+18 "Blackstone" 17 121 218
+19 "Silverrun" 122 65 70
+20 "Goldmeadow" 7 80 198
+21 "Ambervale" 33 16 198
+22 "Wildwood" 51 236 175
+23 "Thornfield" 169 78 238
+24 "Mistshroud" 236 161 236
+25 "Redrock" 103 81 20
+26 "Greenshield" 134 198 209
+27 "Northwatch" 178 110 141
+28 "Southreach" 86 176 179
+29 "Eastmarker" 221 250 174
+30 "Westward" 178 180 232
+31 "Dragonclaw" 63 75 205
+32 "Wyvernsrest" 239 40 198
+33 "Gryphonspeak" 45 182 63
+34 "Krakenbay" 99 96 161
+35 "Phoenixrise" 252 144 89
+36 "Falconscrest" 99 178 208
+37 "Wolfpack" 2 48 113
+38 "Bearsden" 68 116 166
+39 "Stagshead" 147 233 219
+40 "Foxburrow" 91 250 122
+41 "Owlsroost" 6 18 238
+42 "Vipersnest" 254 155 162
+43 "Lionsden" 175 255 255
+44 "Eaglesnest" 131 170 113
+45 "Hawksperch" 228 7 99
+46 "Ravenloft" 61 127 62
+47 "Crowsnest" 250 126 110
+48 "Dovesdale" 132 110 94
+49 "Swallowtail" 71 185 120
+50 "Swanlake" 172 204 39
+51 "Bridgewater" 31 15 213
+52 "Clearwater" 11 239 237
+53 "Deepwater" 217 212 217
+54 "Fairwater" 245 43 5
+55 "Freshwater" 201 94 220
+56 "Goldwater" 192 216 199
+57 "Silverwater" 69 2 49
+58 "Stillwater" 195 73 134
+59 "Sweetwater" 163 22 47
+60 "Whitewater" 80 212 151
+61 "Blackwater" 54 238 42
+62 "Bluewater" 191 206 81
+63 "Greenwater" 86 224 120
+64 "Redwater" 101 142 9
+65 "Yellowwater" 87 66 111
+66 "Muddywater" 150 103 20
+67 "Saltwater" 142 104 99
+68 "Stormwater" 169 176 199
+69 "Rainwater" 81 169 170
+70 "Meltwater" 242 189 120
+71 "Icewater" 246 88 154
+72 "Firewater" 199 229 123
+73 "Windwater" 209 205 135
+74 "Earthwater" 125 124 39
+75 "Ironwater" 56 92 199
+76 "Stonewater" 106 215 209
+77 "Woodwater" 127 90 175
+78 "Leafwater" 227 77 205
+79 "Flowerwater" 254 29 149
+80 "Rootwater" 60 50 114
+81 "Barkwater" 8 249 206
+82 "Seedwater" 205 220 20
+83 "Nutwater" 244 70 175
+84 "Berrywater" 233 160 10
+85 "Fruitwater" 22 87 142
+86 "Grainwater" 230 212 167
+87 "Grasswater" 196 130 192
+88 "Mosswater" 26 204 67
+89 "Fernwater" 83 28 154
+90 "Reedwater" 217 222 49
+91 "Rushwater" 24 124 114
+92 "Sedgewater" 122 96 200
+93 "Willowwater" 106 245 157
+94 "Alderwater" 82 166 92
+95 "Birchwater" 156 222 112
+96 "Ashwater" 181 7 67
+97 "Oakwater" 5 139 64
+98 "Elmwater" 249 214 210
+99 "Maplewater" 250 83 100
+100 "Pinewater" 116 107 95
+101 "Almerhold" 209 138 48
+102 "Bregor" 123 26 63
+103 "Calenhad" 221 133 249
+104 "Durnholde" 99 56 200
+105 "Esteldin" 118 155 22
+106 "Forchel" 129 27 78
+107 "Gondamon" 240 32 219
+108 "Henneth" 44 23 39
+109 "Imladris" 160 106 157
+110 "Jarnurg" 183 132 168
+111 "Kelsin" 220 206 178
+112 "Linhir" 121 181 39
+113 "Minas" 249 162 112
+114 "Nurn" 199 0 249
+115 "Osgiliath" 77 58 43
+116 "Pelargir" 246 186 115
+117 "Rhosgobel" 45 236 58
+118 "Sarnford" 92 58 234
+119 "Tarnost" 237 14 240
+120 "Umbar" 77 211 181
+121 "Valimar" 229 244 164
+122 "Wulfburg" 32 220 40
+123 "Xanadu" 104 244 171
+124 "Yester" 41 169 153
+125 "Zulian" 204 100 91
+126 "Aethelgard" 190 145 92
+127 "Brunwich" 103 153 8
+128 "Carldor" 52 232 200
+129 "Dunmere" 142 232 8
+130 "Evershield" 225 3 50
+131 "Fenmar" 150 166 176
+132 "Grimshear" 25 57 238
+133 "Hallowvale" 213 40 86
+134 "Isengard" 51 222 83
+135 "Jorvik" 159 197 79
+136 "Kirkwall" 131 72 182
+137 "Lothering" 74 210 241
+138 "Murnival" 95 204 107
+139 "Noxus" 44 163 143
+140 "Oristano" 28 192 201
+141 "Prydain" 154 142 129
+142 "Quarth" 16 120 36
+143 "Redoran" 233 232 27
+144 "Sadrith" 144 74 210
+145 "Telvanni" 111 8 179
+146 "Ushuaia" 241 140 41
+147 "Verdistis" 128 65 158
+148 "Whiterun" 136 146 125
+149 "Ysmir" 115 234 49
+150 "Zandalar" 171 178 36
+151 "Ashenvale" 156 87 193
+152 "Boreand" 176 66 116
+153 "Cinderford" 81 223 165
+154 "Dreadfort" 235 151 193
+155 "Emberstrike" 231 214 49
+156 "Frostfire" 177 6 97
+157 "Gloomspire" 180 145 187
+158 "Hellfire" 89 228 169
+159 "Ironforge" 12 103 151
+160 "Jolund" 56 134 239
+161 "Kaldorei" 70 172 28
+162 "Lordaeron" 162 67 136
+163 "Mulgore" 182 182 158
+164 "Netherstorm" 238 112 201
+165 "Outland" 179 218 116
+166 "Plaguelands" 112 97 8
+167 "Quelthalas" 144 110 241
+168 "Redridge" 126 108 154
+169 "Silithus" 164 198 109
+170 "Tanaris" 109 230 212
+171 "Uldum" 67 56 59
+172 "Vashjir" 146 38 12
+173 "Winterspring" 196 26 177
+174 "Xibala" 68 127 150
+175 "Zangarmarsh" 123 192 38
+176 "Ahnqiraj" 214 72 201
+177 "Blackrock" 191 128 237
+178 "CaerDarrow" 159 213 250
+179 "Dalaran" 227 176 92
+180 "Ebonhold" 244 125 126
+181 "Felwood" 62 165 201
+182 "GrimBatol" 43 148 170
+183 "Hearthglen" 37 179 137
+184 "Icecrown" 151 111 211
+185 "JinthaAlor" 237 50 242
+186 "KulTiras" 144 101 80
+187 "LochModan" 235 116 88
+188 "Moonglade" 105 202 116
+189 "Nagrand" 117 209 17
+190 "Orgrimmar" 122 244 151
+191 "Pyrewood" 225 158 114
+192 "QuelDanas" 22 56 12
+193 "Rethban" 131 47 209
+194 "Stormwind" 147 236 42
+195 "Theramore" 177 218 130
+196 "Undercity" 71 100 69
+197 "Valormok" 192 244 221
+198 "Westfall" 135 246 179
+199 "Xoroth" 5 211 52
+200 "Yojamba" 167 248 202
+201 "Zulfarrak" 215 205 223
+202 "Alterac" 255 190 222
+203 "Badlands" 138 54 50
+204 "Crater" 226 158 69
+205 "Darnassus" 115 99 131
+206 "Exodar" 166 238 85
+207 "Feralas" 232 171 38
+208 "Gnomeregan" 161 3 98
+209 "Hyjal" 62 98 114
+210 "Ironstrider" 40 49 194
+211 "Kezan" 202 221 188
+212 "Lochton" 144 208 202
+213 "Maelstrom" 227 115 88
+214 "Northrend" 46 50 208
+215 "Onyxia" 221 120 157
+216 "Pandaria" 89 175 41
+217 "Ravenholdt" 13 66 223
+218 "Shattrath" 100 156 42
+219 "Tirisfal" 201 38 117
+220 "Ulduar" 166 77 41
+221 "Vrykul" 102 121 178
+222 "Warsong" 116 24 123
+223 "Xandros" 58 146 238
+224 "Yulon" 35 82 117
+225 "Zangara" 154 196 124
+226 "Anvilmar" 9 81 109
+227 "Brill" 219 101 179
+228 "Crossroads" 122 107 184
+229 "Darkshire" 82 204 231
+230 "Everlook" 205 243 171
+231 "Feathermoon" 85 76 110
+232 "Gadgetzan" 86 65 155
+233 "Hammerfall" 58 60 157
+234 "Ilisidi" 107 169 223
+235 "Kargath" 85 241 203
+236 "Lakeshire" 97 127 203
+237 "Menethil" 251 191 75
+238 "Nighthaven" 142 27 180
+239 "Ogrim" 131 253 115
+240 "Plaguewood" 70 209 241
+241 "Ratchet" 66 0 153
+242 "Sentinel" 224 246 214
+243 "TarrenMill" 140 29 18
+244 "Ursin" 176 224 184
+245 "Valgarde" 184 169 51
+246 "Wildhammer" 12 228 237
+247 "Xylem" 26 250 82
+248 "Yalnu" 74 87 203
+249 "Zabra" 7 102 196
+250 "Acheron" 189 144 166
+251 "BaelModan" 214 64 222
+252 "Centaur" 189 226 213
+253 "DireMaul" 220 223 246
+254 "Eversong" 158 163 171
+255 "Farstrider" 109 153 96
+256 "Garadar" 181 42 127
+257 "Halalaa" 224 193 115
+258 "Isildur" 89 202 167
+259 "Jubei" 137 175 132
+260 "Kiljaeden" 221 218 118
+261 "Liadrin" 190 182 232
+262 "Malorne" 152 175 67
+263 "Nefarian" 212 45 243
+264 "Onu" 223 157 99
+265 "Perenolde" 33 105 253
+266 "Ragnaros" 7 251 44
+267 "Sargeras" 250 191 89
+268 "Terenas" 101 30 242
+269 "Uther" 179 132 94
+270 "Velen" 79 91 10
+271 "Wrathion" 164 14 97
+272 "Xavius" 27 7 204
+273 "Ysera" 32 178 182
+274 "Zuljin" 29 120 139
+275 "Archimonde" 125 197 180
+276 "Balnazzar" 171 4 156
+277 "Chogall" 17 158 175
+278 "Deathwing" 26 254 86
+279 "Elune" 48 144 253
+280 "Freya" 191 189 14
+281 "Guldan" 49 241 244
+282 "Hogger" 241 151 25
+283 "Illidan" 105 24 232
+284 "Jaraxxus" 3 223 204
+285 "Kaelthas" 44 88 47
+286 "Loken" 77 237 125
+287 "Malygos" 208 8 31
+288 "Nozdormu" 33 20 128
+289 "Onyx" 171 125 12
+290 "Pterrordax" 216 171 44
+291 "Quilboar" 18 11 76
+292 "Rexxar" 196 7 214
+293 "Sylvanas" 90 9 52
+294 "Thrall" 61 125 210
+295 "Uldaman" 216 204 26
+296 "Voljin" 151 98 119
+297 "Wrynn" 227 169 83
+298 "Xarantaur" 39 12 25
+299 "Ymiron" 206 245 52
+300 "Zulaman" 67 208 15
+301 "Acamar" 240 6 19
+302 "Bellatrix" 64 3 172
+303 "Canopus" 158 50 69
+304 "Deneb" 116 252 72
+305 "Eraklyon" 45 204 31
+306 "Fomalhaut" 52 14 54
+307 "Gacrux" 243 43 247
+308 "Hadadar" 213 143 204
+309 "Izar" 68 165 34
+310 "Jabbah" 172 214 97
+311 "Kornephoros" 119 141 245
+312 "Lesath" 15 54 72
+313 "Marfik" 224 59 197
+314 "Nunki" 83 6 215
+315 "Okda" 213 2 233
+316 "Polaris" 206 155 100
+317 "Rasalas" 171 57 181
+318 "Sabik" 213 73 68
+319 "Tejat" 184 53 126
+320 "Unukalhai" 189 103 205
+321 "Vega" 80 75 155
+322 "Wazn" 220 74 83
+323 "Zaniah" 202 208 96
+324 "Alzir" 134 71 44
+325 "Botein" 122 26 34
+326 "Chara" 17 179 173
+327 "Dilib" 182 126 55
+328 "Edasich" 211 228 44
+329 "FumAlSamakah" 212 81 245
+330 "Gorgonea" 33 47 254
+331 "Heze" 39 233 176
+332 "Iclil" 80 234 120
+333 "Jishui" 7 156 191
+334 "Kraz" 182 105 239
+335 "Larawag" 200 189 117
+336 "Mankib" 167 3 186
+337 "Nashira" 191 164 41
+338 "Ogma" 122 11 45
+339 "Piautos" 66 164 48
+340 "Ran" 131 217 158
+341 "Saclateni" 167 20 224
+342 "Taiyi" 24 192 97
+343 "Ukdah" 66 73 141
+344 "Veritate" 142 23 205
+345 "Wurren" 104 151 141
+346 "Xuange" 59 51 55
+347 "Yed" 112 85 53
+348 "Zaurak" 115 105 243
+349 "Alkes" 175 216 219
+350 "Banda" 141 14 88
+351 "Cujam" 121 117 212
+352 "Duhr" 221 120 187
+353 "Elgafar" 37 129 118
+354 "Franz" 186 252 112
+355 "Guniibuu" 7 82 20
+356 "Hatysa" 119 239 206
+357 "Intercrus" 117 61 6
+358 "Jeka" 107 167 41
+359 "Kalausi" 196 152 160
+360 "Liesma" 234 122 215
+361 "Montuno" 73 183 56
+362 "Natasha" 75 187 46
+363 "Pipirima" 91 241 35
+364 "Rapeto" 226 194 130
+365 "Sika" 77 153 182
+366 "Tangra" 6 226 41
+367 "Uruk" 118 7 70
+368 "Vytis" 10 114 121
+369 "Wandelo" 43 142 42
+370 "Xolotl" 69 199 198
+371 "Yvaine" 194 133 182
+372 "Zun" 12 53 102
+373 "Aethel" 142 65 63
+374 "Beowulf" 180 19 174
+375 "Cynewulf" 231 23 28
+376 "Dunstan" 146 182 244
+377 "Eadric" 32 92 161
+378 "Frith" 252 115 141
+379 "Godwin" 145 102 35
+380 "Hrothgar" 72 159 206
+381 "Icel" 141 138 249
+382 "Jovian" 202 144 13
+383 "Knut" 106 29 118
+384 "Leofric" 216 155 159
+385 "Munderic" 126 117 242
+386 "Nithard" 199 22 217
+387 "Odo" 30 232 192
+388 "Penda" 236 85 17
+389 "Quendreda" 158 201 54
+390 "Roric" 158 174 155
+391 "Sigeric" 86 112 171
+392 "Tostig" 49 119 206
+393 "Uhtred" 153 48 114
+394 "Vortigern" 250 5 255
+395 "Wulfric" 189 96 225
+396 "Xene" 79 172 131
+397 "Yric" 24 84 78
+398 "Zeb" 133 195 175
+399 "Agatha" 255 99 14
+400 "Bertha" 242 159 216
+401 "Cuthburga" 199 225 119
+402 "Doda" 234 149 85
+403 "Ealswith" 197 36 221
+404 "Frideswide" 196 250 121
+405 "Gisela" 80 129 150
+406 "Hilda" 212 36 156
+407 "Ida" 187 77 247
+408 "Judith" 112 104 17
+409 "Kendra" 93 222 86
+410 "Lioba" 237 27 47
+411 "Mildred" 139 137 7
+412 "Neva" 161 147 74
+413 "Osburh" 154 164 98
+414 "Pega" 225 38 184
+415 "Quenburga" 224 131 185
+416 "Ricula" 2 39 207
+417 "Sexburga" 177 124 100
+418 "Thane" 89 238 227
+419 "Uul" 100 229 183
+420 "Valda" 60 206 74
+421 "Wilfrida" 77 19 8
+422 "Xandra" 1 30 90
+423 "Ymma" 194 90 171
+424 "Zelda" 252 50 103
+425 "Asgard" 24 17 247
+426 "Bifrost" 130 97 199
+427 "Caledonia" 165 141 65
+428 "Dacia" 234 255 207
+429 "Elysium" 189 35 221
+430 "Fianna" 137 98 213
+431 "Gades" 183 40 34
+432 "Helvetia" 179 223 46
+433 "Iberia" 231 242 100
+434 "Jotunheim" 191 203 47
+435 "Kush" 163 214 250
+436 "Latium" 1 124 46
+437 "Midgard" 65 41 55
+438 "Numidia" 206 71 128
+439 "Ophir" 20 65 115
+440 "Punt" 125 130 122
+441 "Quintus" 116 116 1
+442 "Rhaetia" 99 129 114
+443 "Scythia" 181 21 56
+444 "Thrace" 212 154 189
+445 "Utica" 44 124 108
+446 "Valhalla" 39 35 176
+447 "Wessex" 48 252 243
+448 "Xanthos" 176 113 160
+449 "Yria" 20 236 34
+450 "Zion" 197 216 228
+451 "Aachen" 47 160 79
+452 "Babylon" 187 175 208
+453 "Carthage" 214 111 208
+454 "Dunwich" 232 75 185
+455 "Ephesus" 94 173 248
+456 "Friston" 161 1 246
+457 "Gath" 28 176 30
+458 "Hazor" 58 38 219
+459 "Illyria" 102 205 151
+460 "Jericho" 11 16 189
+461 "Karnak" 146 89 184
+462 "Lycia" 103 20 242
+463 "Memphis" 244 170 215
+464 "Nineveh" 164 135 208
+465 "Olympia" 226 21 73
+466 "Palmyra" 24 191 171
+467 "Quirinal" 177 240 99
+468 "Rhodes" 23 17 218
+469 "Sparta" 182 143 123
+470 "Thebes" 248 211 176
+471 "Ur" 72 72 229
+472 "Viroconium" 16 89 132
+473 "Wroxeter" 186 113 248
+474 "Xanthus" 179 250 172
+475 "Yaroslav" 100 95 9
+476 "Zeugma" 55 10 123
+477 "Agon" 153 102 109
+478 "Bael" 242 222 72
+479 "Cael" 175 221 120
+480 "Durn" 57 205 104
+481 "Eld" 251 25 130
+482 "Forn" 97 43 49
+483 "Gund" 212 111 222
+484 "Hraefn" 191 78 246
+485 "Ior" 142 52 227
+486 "Jarl" 170 139 15
+487 "Krag" 126 190 230
+488 "Leth" 117 55 209
+489 "Murn" 250 98 59
+490 "Nor" 119 168 144
+491 "Oun" 87 117 57
+492 "Pyr" 5 51 161
+493 "Quor" 235 77 52
+494 "Ruhn" 116 46 91
+495 "Skon" 11 63 130
+496 "Torn" 26 237 19
+497 "Uld" 12 161 121
+498 "Vorn" 75 198 30
+499 "Wulf" 67 199 109
+500 "Xun" 94 15 209
+501 "Yrn" 6 8 180
+502 "Zul" 167 29 130
+503 "Aethelgard North" 170 184 164
+504 "Brunwich East" 124 68 133
+505 "Carldor South" 133 44 145
+506 "Dunmere West" 50 219 49
+507 "Evershield March" 236 187 209
+508 "Fenmar Reach" 31 55 219
+509 "Grimshear Vale" 52 185 185
+510 "Hallowvale Ridge" 151 173 215
+511 "Isengard Plains" 179 124 159
+512 "Jorvik Moors" 241 146 124
+513 "Kirkwall Hills" 189 89 216
+514 "Lothering Woods" 129 60 30
+515 "Murnival Fen" 168 165 185
+516 "Noxus Crag" 157 0 20
+517 "Oristano Bay" 202 182 152
+518 "Prydain Coast" 155 51 177
+519 "Quarth Sands" 120 225 202
+520 "Redoran Waste" 206 43 77
+521 "Sadrith Mire" 7 124 164
+522 "Telvanni Isles" 142 61 59
+523 "Ushuaia Peak" 205 219 124
+524 "Abzu" 47 191 209
+525 "Boreas" 30 84 167
+526 "Charybdis" 6 5 102
+527 "Drakon" 81 61 122
+528 "Erebus" 105 102 77
+529 "Fafnir" 186 234 74
+530 "Geryon" 174 54 220
+531 "Hydra" 175 178 110
+532 "Icarus" 41 202 105
+533 "Jormungandr" 133 233 58
+534 "Kharybdis" 47 121 73
+535 "Leviathan" 146 229 3
+536 "Minotaur" 23 151 210
+537 "Nemea" 42 250 32
+538 "Ouroboros" 54 122 88
+539 "Pegasus" 164 128 228
+540 "Quetzalcoatl" 224 119 49
+541 "Roc" 84 202 167
+542 "Scylla" 108 227 178
+543 "Typhon" 145 46 188
+544 "Undine" 46 20 49
+545 "Valkyrie" 174 1 122
+546 "Wendigo" 124 95 3
+547 "Xelhua" 2 153 53
+548 "Ymir" 171 26 125
+549 "Ziz" 225 75 68
+550 "Anhur" 16 153 244
+551 "Bastet" 162 109 250
+552 "Chronos" 2 50 191
+553 "Dionysus" 153 83 174
+554 " Osiris" 212 59 50
+555 "Freya Cult" 29 84 181
+556 "Ganesha" 221 8 163
+557 "Horus" 129 196 101
+558 "Isis" 114 240 102
+559 "Janus" 28 248 18
+560 "Kali" 233 71 210
+561 "Lugh" 67 71 18
+562 "Mithras" 149 99 60
+563 "Njord" 75 5 186
+564 "Odin" 206 152 248
+565 "Perun" 137 136 96
+566 "Quirinus" 232 62 93
+567 "Ra" 83 37 89
+568 "Shiva" 56 168 192
+569 "Thor" 255 49 251
+570 "Ullr" 20 44 117
+571 "Vishnu" 225 2 153
+572 "Wotan" 209 31 211
+573 "Xipe" 79 237 139
+574 "Yarilo" 197 215 46
+575 "Zeus" 158 72 37
+576 "Avalon" 69 169 220
+577 "Camelot" 36 103 189
+578 "ElDorado" 165 235 51
+579 "Hyperborea" 53 160 168
+580 "Lemuria" 61 241 135
+581 "Mu" 40 73 59
+582 "Nysa" 96 18 46
+583 "Olympus" 81 182 203
+584 "Paititi" 100 162 126
+585 "Shambhala" 6 62 175
+586 "Thule" 159 246 203
+587 "Utgard" 156 53 59
+588 "Vinland" 102 101 107
+589 "Ys" 105 241 196
+590 "Zuvendis" 14 67 179
+591 "Atlantis" 193 198 161
+592 "Arda" 236 230 249
+593 "Beleriand" 251 12 38
+594 "Calimshan" 87 163 146
+595 "Darkwood Realm" 107 21 168
+596 "Erebor" 162 207 211
+597 "Fangorn" 103 57 126
+598 "Gondor" 36 192 18
+599 "Harad" 68 205 251
+600 "Isen" 50 203 164
+601 "Jorwood" 88 37 119
+602 "Khand" 33 70 222
+603 "Lothlorien" 248 151 69
+604 "Mirkwood" 71 133 22
+605 "Numenor" 121 121 187
+606 "Orodruin" 248 222 160
+607 "Pelennor" 48 31 48
+608 "Rohan" 139 167 211
+609 "Shire" 115 224 247
+610 "Tulkas" 84 52 4
+611 "Utumno" 152 16 102
+612 "Valinor" 169 220 136
+613 "Waterdeep" 243 4 211
+614 "Xanth" 223 243 180
+615 "Yavanna" 217 19 147
+616 "Zendikar" 76 207 221
+617 "Aethelney" 161 145 252
+618 "Bamburgh" 68 196 90
+619 "Carisbrooke" 160 212 98
+620 "Dunster" 30 42 126
+621 "Eynsford" 42 49 27
+622 "Framlingham" 46 83 161
+623 "Goodrich" 150 253 124
+624 "Hedingham" 202 151 22
+625 "Iskander" 56 142 219
+626 "Jazer" 72 75 52
+627 "Kenilworth" 101 57 140
+628 "Lancaster" 251 195 79
+629 "Middleham" 117 83 231
+630 "Norham" 59 85 189
+631 "Orford" 186 51 62
+632 "Peveril" 92 87 212
+633 "Quatford" 140 44 233
+634 "Rochester" 179 29 232
+635 "Sherborne" 62 149 60
+636 "Tintagel" 151 254 79
+637 "Upnor" 39 194 141
+638 "Vance" 91 77 95
+639 "Warwick" 156 10 48
+640 "Xor" 86 98 108
+641 "Yorkshire" 242 193 124
+642 "Ziguran" 221 145 204
+643 "Aethelgard South" 127 61 198
+644 "Brunwich West" 69 47 212
+645 "Carldor North" 152 210 98
+646 "Dunmere East" 227 146 218
+647 "Evershield Keep" 145 215 167
+648 "Fenmar Swamp" 13 15 51
+649 "Grimshear Hold" 194 161 233
+650 "Hallowvale Glade" 25 251 52
+651 "Isengard Tower" 126 133 127
+652 "Jorvik Skerries" 91 172 51
+653 "Kirkwall Docks" 27 217 188
+654 "Lothering Church" 41 119 133
+655 "Murnival Vault" 239 241 248
+656 "Noxus Gates" 216 177 127
+657 "Oristano Port" 78 35 134
+658 "Prydain Castle" 189 177 119
+659 "Quarth Bazaar" 143 197 189
+660 "Redoran Manor" 47 202 194
+661 "Sadrith Tower" 7 43 241
+662 "Telvanni Grove" 129 83 181
+663 "Ushuaia Camp" 10 172 120
+664 "Verdistis Market" 11 160 165
+665 "Whiterun Keep" 238 155 167
+666 "Ysmir Tomb" 32 8 233
+667 "Zandalar Temple" 9 80 212
+668 "Ashenvale Forest" 22 223 213
+669 "Boreand Tundra" 176 31 85
+670 "Cinderford Mine" 66 122 190
+671 "Dreadfort Dungeon" 56 93 125
+672 "Emberstrike Forge" 251 48 251
+673 "Frostfire Ridge" 246 96 163
+674 "Gloomspire Peak" 149 85 224
+675 "Hellfire Citadel" 65 124 28
+676 "Ironforge Mountain" 101 63 194
+677 "Jolund Islands" 108 9 61
+678 "Kaldorei Ruins" 193 67 247
+679 "Lordaeron Capital" 206 90 92
+680 "Mulgore Plains" 254 183 213
+681 "Netherstorm Wastes" 188 197 206
+682 "Outland Camp" 114 239 176
+683 "Plaguelands East" 139 159 232
+684 "Quelthalas Woods" 114 65 223
+685 "Redridge Canyon" 145 63 0
+686 "Aelfheim" 83 3 181
+687 "Breidablik" 34 248 106
+688 "Cysgod" 106 137 137
+689 "Dinas" 149 33 125
+690 "Emain" 13 42 177
+691 "Falias" 62 14 142
+692 "Gorias" 146 57 128
+693 "Heryn" 115 22 242
+694 "Illtud" 76 14 77
+695 "Juon" 137 141 253
+696 "Koad" 147 253 109
+697 "Llan" 214 200 7
+698 "Murias" 187 91 53
+699 "Nant" 174 30 99
+700 "Oisin" 26 126 251
+701 "Pwyll" 104 227 104
+702 "Rhiannon" 4 186 20
+703 "Sidh" 88 109 107
+704 "Taliesin" 207 103 214
+705 "Uisneach" 212 17 192
+706 "Venta" 209 216 148
+707 "Wyth" 50 37 190
+708 "Xera" 95 99 166
+709 "Yspaddaden" 197 253 185
+710 "Zeth" 206 93 96
+711 "Aber" 229 239 7
+712 "Blaen" 116 29 24
+713 "Caer" 230 81 254
+714 "Dol" 165 246 35
+715 "Eglwys" 29 119 242
+716 "Ffynnon" 184 63 214
+717 "Glan" 224 183 57
+718 "Hafod" 1 76 135
+719 "Ilar" 133 103 41
+720 "Llyn" 214 116 138
+721 "Maes" 96 220 22
+722 "Nant East" 140 11 54
+723 "Pen" 198 107 86
+724 "Rhiw" 121 102 224
+725 "Sarn" 14 105 62
+726 "Tre" 242 220 220
+727 "Ynys" 141 43 36
+728 "Zennor" 75 193 129
+729 "Alba" 151 8 93
+730 "Blasket" 219 107 35
+731 "Clonmacnoise" 131 85 62
+732 "Dingle" 248 47 25
+733 "Emain Macha" 165 102 29
+734 "Fingal" 245 99 182
+735 "Glendalough" 83 145 79
+736 "Howth" 41 91 82
+737 "Inishmore" 226 43 41
+738 "Jerpoint" 232 109 64
+739 "Kells Abbey" 167 139 1
+740 "Lismore" 137 239 214
+741 "Monasterboice" 249 4 44
+742 "Navan" 96 53 107
+743 "Ouessant" 43 237 255
+744 "Puilboreau" 196 149 82
+745 "Quin Friary" 148 154 207
+746 "RockofCashel" 8 101 225
+747 "Skellig" 137 98 243
+748 "Tara" 131 250 110
+749 "Urlaur" 96 153 191
+750 "Valentia" 138 169 78
+751 "Waterford" 108 148 136
+752 "Xenophon" 114 199 215
+753 "Youghal" 5 170 165
+754 "Zun Hold" 144 169 93
+755 "Ancyra" 127 47 105
+756 "Borysthenes" 58 166 54
+757 "Callatis" 47 121 44
+758 "Dioscurias" 198 19 183
+759 "Eupatoria" 107 221 65
+760 "Fanagoria" 136 68 54
+761 "Gorgippia" 136 177 255
+762 "Heraclea" 214 143 8
+763 "Istrus" 220 73 186
+764 "Kerkinitis" 5 73 130
+765 "Limnae" 188 251 201
+766 "Myrmekion" 107 201 249
+767 "Nymphaion" 124 29 127
+768 "Olbia" 92 98 196
+769 "Panticapaeum" 116 3 51
+770 "Phanagoria" 47 107 55
+771 "Sinope" 247 3 58
+772 "Tanais" 56 56 168
+773 "Theodosia" 91 115 234
+774 "Tyras" 205 32 107
+775 "Ush" 246 168 151
+776 "Varna" 67 119 215
+777 "Xor Coast" 29 247 151
+778 "Yevpatoria" 240 146 65
+779 "Zonguldak" 37 181 63
+780 "Apollonia" 40 200 253
+781 "Berezan" 99 55 229
+782 "Chersonesos" 66 109 98
+783 "Dionysopolis" 46 212 222
+784 "Eunapius" 146 215 197
+785 "Flavapolis" 217 225 127
+786 "Gaza" 110 91 122
+787 "Hierapolis" 187 178 30
+788 "Iasus" 43 79 216
+789 "Kallatis" 41 157 16
+790 "Mesembria" 31 7 51
+791 "Odessus" 120 247 170
+792 "Phaselis" 159 217 225
+793 "Sestos" 254 22 66
+794 "Tomis" 0 27 56
+795 "Uluburun" 15 80 45
+796 "Xanthi" 151 33 140
+797 "Yalova" 2 249 192
+798 "Zeleia" 186 65 51
+799 "Agatha Fort" 43 102 80
+800 "Bertha Vale" 191 209 131
+801 "Cuthburga March" 224 238 52
+802 "Doda Reach" 250 38 208
+803 "Ealswith Hold" 118 229 192
+804 "Frideswide Fens" 192 148 112
+805 "Gisela Ridge" 67 160 73
+806 "Hilda Moors" 104 115 184
+807 "Ida Woods" 155 118 38
+808 "Judith Crag" 71 21 254
+809 "Kendra Bay" 213 187 171
+810 "Lioba Coast" 177 210 151
+811 "Mildred Sands" 69 197 45
+812 "Neva Waste" 253 255 216
+813 "Osburh Mire" 65 233 3
+814 "Pega Isles" 127 240 23
+815 "Quenburga Peak" 31 125 128
+816 "Ricula Camp" 140 251 169
+817 "Sexburga Market" 51 213 251
+818 "Thane Tomb" 124 117 227
+819 "Uul Temple" 210 71 202
+820 "Valda Grove" 161 180 27
+821 "Wilfrida Dungeon" 83 41 64
+822 "Xandra Capital" 83 14 165
+823 "Ymma Tower" 10 207 181
+824 "Zelda Vault" 229 215 216
+825 "Asgard Plains" 78 143 124
+826 "Bifrost Bridge" 174 100 9
+827 "Caledonia Hills" 114 191 235
+828 "Dacia Forest" 3 12 141
+829 "Elysium Fields" 205 180 88
+830 "Fianna Keep" 57 34 185
+831 "Gades Port" 180 194 24
+832 "Helvetia Mount" 166 254 226
+833 "Iberia Valley" 124 64 129
+834 "Jotunheim Crags" 159 244 95
+835 "Kush Kingdom" 122 131 231
+836 "Latium Empire" 120 89 131
+837 "Midgard Realm" 4 224 160
+838 "Numidia Desert" 137 131 166
+839 "Ophir Mines" 112 172 1
+840 "Punt Land" 37 199 27
+841 "Quintus Fort" 18 62 96
+842 "Rhaetia Border" 162 122 57
+843 "Scythia Steppes" 64 233 17
+844 "Thrace Kingdom" 86 243 84
+845 "Utica Colony" 79 3 108
+846 "Valhalla Hall" 149 133 194
+847 "Wessex Realm" 148 226 195
+848 "Xanthos City" 182 134 217
+849 "Yria Province" 102 220 110
+850 "Zion Mount" 14 77 237
+851 "Aachen Palace" 24 68 193
+852 "Babylon Tower" 241 45 84
+853 "Carthage Port" 2 114 18
+854 "Dunwich Ruins" 181 125 100
+855 "Ephesus Temple" 119 185 181
+856 "Friston Church" 176 146 113
+857 "Gath City" 205 112 1
+858 "Hazor Fortress" 55 192 209
+859 "Illyria Coast" 89 236 75
+860 "Jericho Walls" 159 94 217
+861 "Karnak Obelisk" 114 130 231
+862 "Lycia Tombs" 61 193 223
+863 "Memphis Palace" 108 135 44
+864 "Nineveh Gates" 104 62 56
+865 "Olympia Sanctuary" 156 81 110
+866 "Palmyra Colonnade" 115 42 57
+867 "Quirinal Hill" 88 53 4
+868 "Rhodes Colossus" 181 219 56
+869 "Sparta Camp" 245 136 65
+870 "Thebes HundredGates" 131 167 138
+871 "Ur Ziggurat" 201 161 125
+872 "Viroconium Baths" 50 225 132
+873 "Wroxeter Forum" 41 211 11
+874 "Xanthus Stele" 24 224 124
+875 "Yaroslav Kremlin" 106 116 66
+876 "Zeugma Mosaics" 137 250 199
+877 "Agon Arena" 225 219 118
+878 "Bael Keep" 220 130 186
+879 "Cael Spire" 228 91 253
+880 "Durn Holdfast" 101 208 170
+881 "Eld Cairn" 201 75 44
+882 "Forn Forest" 122 55 238
+883 "Gund Peak" 227 0 89
+884 "Hraefn Roost" 112 14 218
+885 "Ior Mire" 138 206 218
+886 "Jarl Seat" 157 170 195
+887 "Krag Deep" 18 12 2
+888 "Leth Vale" 85 96 0
+889 "Murn Ridge" 209 15 40
+890 "Nor Wood" 239 133 229
+891 "Oun Bay" 27 44 161
+892 "Pyr Tower" 191 111 199
+893 "Quor Glade" 70 184 194
+894 "Ruhn Ruins" 27 115 252
+895 "Skon Coast" 168 9 225
+896 "Torn Pass" 89 230 218
+897 "Uld Mound" 150 117 83
+898 "Vorn Swamp" 204 31 181
+899 "Wulf Den" 101 79 109
+900 "Xun Vault" 204 113 228
+901 "Yrn Cleft" 107 238 133
+902 "Zul City" 173 50 186
+903 "Almerhold Outer" 252 168 239
+904 "Bregor Marches" 196 185 142
+905 "Calenhad Beacon" 111 208 2
+906 "Durnholde Keep" 103 89 182
+907 "Esteldin Camp" 24 190 19
+908 "Forchel Ice" 236 105 133
+909 "Gondamon Gates" 77 197 118
+910 "Henneth Annun" 167 62 82
+911 "Imladris Valley" 99 60 130
+912 "Jarnurg Mine" 237 44 114
+913 "Kelsin Reach" 176 120 140
+914 "Linhir Haven" 21 138 58
+915 "Minas Tirith" 137 206 232
+916 "Nurn Fields" 116 173 0
+917 "Osgiliath East" 66 147 237
+918 "Pelargir Port" 94 234 25
+919 "Rhosgobel Woods" 50 29 240
+920 "Sarnford Bridge" 42 150 219
+921 "Tarnost Hills" 175 193 69
+922 "Umbar Havens" 44 7 153
+923 "Valimar West" 12 212 67
+924 "Wulfburg Castle" 186 146 171
+925 "Xanadu Palace" 160 172 62
+926 "Yester Vale" 41 141 101
+927 "Zulian Jungle" 191 159 140
+928 "Aethelgard Royal" 206 76 29
+929 "Brunwich Town" 192 0 131
+930 "Carldor Keep" 0 38 40
+931 "Dunmere Lake" 248 39 119
+932 "Evershield Wall" 18 110 219
+933 "Fenmar Garrison" 187 103 190
+934 "Grimshear Camp" 91 124 140
+935 "Hallowvale Shed" 95 23 174
+936 "Isengard Ring" 48 163 143
+937 "Jorvik City" 58 140 155
+938 "Kirkwall Gallows" 231 58 59
+939 "Lothering Village" 161 26 219
+940 "Murnival Court" 211 150 229
+941 "Noxus Prime" 233 24 195
+942 "Oristano Dock" 76 12 225
+943 "Prydain Realm" 103 219 169
+944 "Quarth City" 166 241 134
+945 "Redoran Council" 114 184 226
+946 "Sadrith Mora" 54 155 40
+947 "Telvanni Tower" 93 4 195
+948 "Ushuaia Bay" 82 95 30
+949 "Verdistis Estate" 127 21 162
+950 "Whiterun Plains" 79 146 187
+951 "Ysmir Throne" 45 64 212
+952 "Zandalar Isle" 131 138 87
+953 "Ashenvale Ruins" 188 219 174
+954 "Boreand Ice" 67 157 69
+955 "Cinderford Vale" 130 58 134
+956 "Dreadfort Keep" 227 30 219
+957 "Emberstrike Peak" 211 180 176
+958 "Frostfire Pass" 187 101 112
+959 "Gloomspire Vault" 6 156 132
+960 "Hellfire Rampart" 30 197 87
+961 "Ironforge Hall" 111 74 84
+962 "Jolund Haven" 98 149 230
+963 "Kaldorei Temple" 100 17 120
+964 "Lordaeron Throne" 221 42 115
+965 "Mulgore Camp" 58 72 68
+966 "Netherstorm Eco" 228 216 83
+967 "Outland Shattered" 71 68 13
+968 "Plaguelands West" 204 246 220
+969 "Quelthalas Palace" 223 90 42
+970 "Redridge Bridge" 234 217 98
+971 "Silithus Sands" 89 223 238
+972 "Tanaris Dunes" 149 214 59
+973 "Uldum Oasis" 9 41 177
+974 "Vashjir Sunken" 32 66 188
+975 "Winterspring Grove" 69 141 198
+976 "Xibala Tomb" 226 115 59
+977 "Zangarmarsh Fungi" 98 96 132
+978 "Ahnqiraj Hive" 48 190 13
+979 "Blackrock Spire" 182 248 63
+980 "CaerDarrow Keep" 95 121 135
+981 "Dalaran Crater" 150 171 77
+982 "Ebonhold Fort" 197 248 254
+983 "Felwood Corrupted" 87 204 4
+984 "GrimBatol Gates" 182 146 201
+985 "Hearthglen Manor" 78 179 184
+986 "Icecrown Citadel" 137 154 60
+987 "JinthaAlor Top" 209 179 191
+988 "KulTiras Port" 146 104 173
+989 "LochModan Dam" 54 35 111
+990 "Moonglade Shrine" 39 79 112
+991 "Nagrand Garrison" 209 87 28
+992 "Orgrimmar Hold" 157 166 220
+993 "Pyrewood Village" 247 166 28
+994 "QuelDanas Isle" 74 194 70
+995 "Rethban Quarry" 255 100 196
+996 "Stormwind Keep" 130 248 2
+997 "Theramore Isle" 62 231 106
+998 "Undercity" 156 157 103
+999 "Valormok Camp" 8 132 99
+1000 "Westfall Farm" 236 7 201
+1001 "Xoroth Plains" 180 144 4
+1002 "Yojamba Isle" 200 139 127
+1003 "Zulfarrak Pool" 150 97 163
+1004 "Alterac Valley" 134 126 221
+1005 "Badlands Camp" 3 76 149
+1006 "Crater Rim" 122 54 56
+1007 "Darnassus Tree" 83 167 47
+1008 "Exodar Ship" 249 9 230
+1009 "Feralas Wilds" 216 198 199
+1010 "Gnomeregan City" 90 74 61
+1011 "Hyjal Summit" 234 255 178
+1012 "Ironstrider Base" 241 81 145
+1013 "Kezan Port" 220 168 69
+1014 "Lochton Bridge" 21 113 56
+1015 "Maelstrom Eye" 5 22 213
+1016 "Northrend Ice" 25 1 135
+1017 "Onyxia Lair" 186 157 185
+1018 "Pandaria Vale" 84 85 213
+1019 "Ravenholdt Manor" 80 148 69
+1020 "Shattrath City" 27 196 117
+1021 "Tirisfal Glades" 29 80 206
+1022 "Ulduar Keep" 195 162 189
+1023 "Vrykul Village" 118 38 171
+1024 "Warsong Gulch" 161 69 3
+1025 "Xandros Isle" 175 107 48
+1026 "Yulon Temple" 11 2 156
+1027 "Zangara Marsh" 32 117 178
+1028 "Anvilmar Forge" 87 46 221
+1029 "Brill Graveyard" 28 153 135
+1030 "Crossroads Inn" 217 31 28
+1031 "Darkshire Town" 249 44 5
+1032 "Everlook Bank" 231 42 174
+1033 "Feathermoon Stronghold" 13 132 128
+1034 "Gadgetzan Market" 214 165 232
+1035 "Hammerfall Camp" 172 247 79
+1036 "Ilisidi Manor" 251 228 32
+1037 "Kargath Fort" 45 216 197
+1038 "Lakeshire Bridge" 173 61 170
+1039 "Menethil Harbor" 229 127 57
+1040 "Nighthaven Grove" 63 6 221
+1041 "Ogrim Camp" 40 63 1
+1042 "Plaguewood Church" 9 148 14
+1043 "Ratchet Port" 76 111 112
+1044 "Sentinel Hill" 94 59 146
+1045 "TarrenMill Town" 167 99 221
+1046 "Ursin Den" 148 82 190
+1047 "Valgarde Keep" 142 114 157
+1048 "Wildhammer Keep" 0 46 231
+1049 "Xylem Tower" 86 240 6
+1050 "Yalnu Root" 249 36 100
+1051 "Zabra Camp" 84 51 108
+1052 "Acheron Gate" 211 137 136
+1053 "BaelModan Dig" 223 144 36
+1054 "Centaur Camp" 227 179 171
+1055 "DireMaul Arena" 74 92 134
+1056 "Eversong Woods" 127 247 32
+1057 "Farstrider Enclave" 236 237 229
+1058 "Garadar Camp" 252 170 62
+1059 "Halalaa Town" 26 152 150
+1060 "Isildur Tomb" 176 34 89
+1061 "Jubei Palace" 41 179 241
+1062 "Kiljaeden Throne" 240 180 199
+1063 "Liadrin Sanctum" 111 146 72
+1064 "Malorne Grove" 17 182 222
+1065 "Nefarian Lair" 64 139 243
+1066 "Onu Grove" 104 124 242
+1067 "Perenolde Manor" 243 244 70
+1068 "Ragnaros Core" 75 93 89
+1069 "Sargeras Tomb" 220 34 151
+1070 "Terenas Tomb" 16 173 105
+1071 "Uther Tomb" 81 105 58
+1072 "Velen Sanctum" 10 193 118
+1073 "Wrathion Lair" 167 32 134
+1074 "Xavius Rift" 145 240 214
+1075 "Ysera Grove" 52 156 208
+1076 "Zuljin Stronghold" 249 142 222
+1077 "Archimonde Banishing" 76 50 108
+1078 "Balnazzar Bastion" 152 241 228
+1079 "Chogall Altar" 70 55 177
+1080 "Deathwing Fall" 194 110 61
+1081 "Elune Temple" 118 1 243
+1082 "Freya Enclave" 205 90 62
+1083 "Guldan Cove" 50 229 137
+1084 "Hogger Hill" 15 11 61
+1085 "Illidan Prison" 208 56 198
+1086 "Jaraxxus Summon" 221 214 143
+1087 "Kaelthas Walk" 163 80 2
+1088 "Loken Seat" 140 17 137
+1089 "Malygos Nexus" 3 130 144
+1090 "Nozdormu Cavern" 114 16 129
+1091 "Onyx Mine" 68 36 199
+1092 "Pterrordax Nest" 227 41 204
+1093 "Quilboar Den" 187 138 251
+1094 "Rexxar Camp" 54 178 191
+1095 "Sylvanas Court" 190 11 130
+1096 "Thrall Chamber" 191 0 175
+1097 "Uldaman Vault" 163 251 177
+1098 "Voljin Camp" 212 103 243
+1099 "Wrynn Keep" 190 175 222
+1100 "Xarantaur Library" 202 62 223
+1101 "Ymiron Throne" 101 126 94
+1102 "Zulaman Keep" 247 218 200
+1103 "Acamar System" 236 188 135
+1104 "Bellatrix Star" 176 144 5
+1105 "Canopus Orbit" 171 191 173
+1106 "Deneb Sector" 73 181 234
+1107 "Eraklyon System" 245 220 38
+1108 "Fomalhaut Ring" 26 159 204
+1109 "Gacrux Sector" 33 104 71
+1110 "Hadadar Planet" 118 163 1
+1111 "Izar Moon" 131 185 102
+1112 "Jabbah System" 179 22 223
+1113 "Kornephoros Ring" 113 36 216
+1114 "Lesath System" 39 78 186
+1115 "Marfik Sector" 64 255 242
+1116 "Nunki Orbit" 38 160 233
+1117 "Okda Planet" 69 158 10
+1118 "Polaris Station" 7 98 191
+1119 "Rasalas Sector" 215 87 116
+1120 "Sabik System" 31 232 147
+1121 "Tejat Sector" 73 128 135
+1122 "Unukalhai Orbit" 194 137 187
+1123 "Vega System" 242 109 152
+1124 "Wazn Sector" 70 153 138
+1125 "Zaniah Planet" 39 117 251
+1126 "Alzir System" 1 109 87
+1127 "Botein Orbit" 62 236 7
+1128 "Chara Sector" 72 92 119
+1129 "Dilib System" 138 40 17
+1130 "Edasich Orbit" 112 186 63
+1131 "FumAlSamakah Sector" 99 125 109
+1132 "Gorgonea System" 206 221 5
+1133 "Heze Planet" 29 67 114
+1134 "Iclil Orbit" 185 26 30
+1135 "Jishui System" 13 205 117
+1136 "Kraz Sector" 132 198 224
+1137 "Larawag Orbit" 137 113 202
+1138 "Mankib System" 134 55 158
+1139 "Nashira Sector" 230 132 200
+1140 "Ogma Planet" 20 194 176
+1141 "Piautos Orbit" 122 92 195
+1142 "Ran System" 131 189 106
+1143 "Saclateni Sector" 154 78 17
+1144 "Taiyi Planet" 41 124 34
+1145 "Ukdah Orbit" 154 176 8
+1146 "Veritate System" 90 85 45
+1147 "Wurren Sector" 210 214 252
+1148 "Xuange Planet" 109 158 224
+1149 "Yed Orbit" 149 23 67
+1150 "Zaurak System" 182 171 144
+1151 "Alkes Sector" 57 199 51
+1152 "Banda Planet" 139 211 148
+1153 "Cujam Orbit" 20 59 32
+1154 "Duhr System" 65 106 64
+1155 "Elgafar Sector" 123 202 96
+1156 "Franz Planet" 46 198 234
+1157 "Guniibuu Orbit" 195 200 72
+1158 "Hatysa System" 166 59 230
+1159 "Intercrus Sector" 66 139 46
+1160 "Jeka Planet" 0 33 139
+1161 "Kalausi Orbit" 76 104 103
+1162 "Liesma System" 144 203 45
+1163 "Montuno Sector" 55 180 72
+1164 "Natasha Planet" 172 143 35
+1165 "Pipirima Orbit" 89 197 39
+1166 "Rapeto System" 169 194 192
+1167 "Sika Sector" 7 240 89
+1168 "Tangra Planet" 221 186 92
+1169 "Uruk Orbit" 150 139 51
+1170 "Vytis System" 157 204 74
+1171 "Wandelo Sector" 92 234 11
+1172 "Xolotl Planet" 62 78 224
+1173 "Yvaine Orbit" 173 99 53
+1174 "Zun System" 21 148 117
+1175 "Aethel Sector" 224 76 8
+1176 "Beowulf Planet" 120 245 92
+1177 "Cynewulf Orbit" 73 249 217
+1178 "Dunstan System" 189 197 235
+1179 "Eadric Sector" 62 193 253
+1180 "Frith Planet" 56 89 120
+1181 "Godwin Orbit" 20 248 201
+1182 "Hrothgar System" 62 8 88
+1183 "Icel Sector" 33 244 146
+1184 "Jovian Planet" 38 38 225
+1185 "Knut Orbit" 185 9 175
+1186 "Leofric System" 69 9 103
+1187 "Munderic Sector" 51 143 115
+1188 "Nithard Planet" 239 6 64
+1189 "Odo Orbit" 227 216 54
+1190 "Penda System" 123 114 193
+1191 "Quendreda Sector" 31 60 75
+1192 "Roric Planet" 61 163 64
+1193 "Sigeric Orbit" 61 16 9
+1194 "Tostig System" 139 238 18
+1195 "Uhtred Sector" 145 168 196
+1196 "Vortigern Planet" 186 169 140
+1197 "Wulfric Orbit" 112 90 210
+1198 "Xene System" 31 40 3
+1199 "Yric Sector" 49 124 137
+1200 "Zeb Planet" 17 193 206
+1201 "Agatha Orbit" 40 98 61
+1202 "Bertha System" 227 202 65
+1203 "Cuthburga Sector" 172 99 68
+1204 "Doda Planet" 236 151 178
+1205 "Ealswith Orbit" 16 211 244
+1206 "Frideswide System" 129 127 117
+1207 "Gisela Sector" 171 7 161
+1208 "Hilda Planet" 247 214 225
+1209 "Ida Orbit" 210 86 161
+1210 "Judith System" 164 242 75
+1211 "Kendra Sector" 218 20 73
+1212 "Lioba Planet" 221 39 7
+1213 "Mildred Orbit" 24 151 239
+1214 "Neva System" 246 205 108
+1215 "Osburh Sector" 226 52 232
+1216 "Pega Planet" 71 54 206
+1217 "Quenburga Orbit" 142 64 137
+1218 "Ricula System" 35 186 132
+1219 "Sexburga Sector" 112 17 40
+1220 "Thane Planet" 224 174 226
+1221 "Uul Orbit" 222 252 26
+1222 "Valda System" 212 102 61
+1223 "Wilfrida Sector" 45 87 180
+1224 "Xandra Planet" 84 56 235
+1225 "Ymma Orbit" 178 118 76
+1226 "Zelda System" 180 122 66
+1227 "Asgard Sector" 196 175 55
+1228 "Bifrost Planet" 76 128 150
+1229 "Caledonia Orbit" 182 88 202
+1230 "Dacia System" 111 161 61
+1231 "Elysium Sector" 224 197 90
+1232 "Fianna Planet" 115 49 140
+1233 "Gades Orbit" 149 77 62
+1234 "Helvetia System" 174 133 218
+1235 "Iberia Sector" 43 68 202
+1236 "Jotunheim Planet" 117 244 122
+1237 "Kush Orbit" 247 0 83
+1238 "Latium System" 29 210 194
+1239 "Midgard Sector" 80 213 48
+1240 "Numidia Planet" 251 117 8
+1241 "Ophir Orbit" 138 26 181
+1242 "Punt System" 102 50 161
+1243 "Quintus Sector" 250 36 55
+1244 "Rhaetia Planet" 177 94 226
+1245 "Scythia Orbit" 246 72 12
+1246 "Thrace System" 51 79 33
+1247 "Utica Sector" 211 220 138
+1248 "Valhalla Planet" 65 90 179
+1249 "Wessex Orbit" 231 52 5
+1250 "Xanthos System" 48 212 237
+1251 "Yria Sector" 135 166 212
+1252 "Zion Planet" 86 20 37
+1253 "Aachen Orbit" 8 136 74
+1254 "Babylon System" 7 109 175
+1255 "Carthage Sector" 191 46 190
+1256 "Dunwich Planet" 154 54 226
+1257 "Ephesus Orbit" 2 239 134
+1258 "Friston System" 99 195 19
+1259 "Gath Sector" 39 30 245
+1260 "Hazor Planet" 184 107 151
+1261 "Illyria Orbit" 129 19 98
+1262 "Jericho System" 238 130 194
+1263 "Karnak Sector" 104 34 34
+1264 "Lycia Planet" 91 93 236
+1265 "Memphis Orbit" 48 160 139
+1266 "Nineveh System" 83 83 105
+1267 "Olympia Sector" 47 227 241
+1268 "Palmyra Planet" 45 184 141
+1269 "Quirinal Orbit" 185 63 169
+1270 "Rhodes System" 61 226 176
+1271 "Sparta Sector" 36 12 11
+1272 "Thebes Planet" 217 38 37
+1273 "Ur Orbit" 199 157 106
+1274 "Viroconium System" 87 218 67
+1275 "Wroxeter Sector" 244 72 27
+1276 "Xanthus Planet" 10 82 94
+1277 "Yaroslav Orbit" 3 98 117
+1278 "Zeugma System" 74 228 204
+1279 "Agon Sector" 73 66 205
+1280 "Bael Planet" 107 230 227
+1281 "Cael Orbit" 26 59 120
+1282 "Durn System" 194 172 247
+1283 "Eld Sector" 205 164 203
+1284 "Forn Planet" 165 141 94
+1285 "Gund Orbit" 182 209 28
+1286 "Hraefn System" 106 220 110
+1287 "Ior Sector" 43 25 191
+1288 "Jarl Planet" 101 241 123
+1289 "Krag Orbit" 129 208 11
+1290 "Leth System" 236 32 219
+1291 "Murn Sector" 14 75 85
+1292 "Nor Planet" 83 190 227
+1293 "Oun Orbit" 39 225 241
+1294 "Pyr System" 242 33 233
+1295 "Quor Sector" 32 230 54
+1296 "Ruhn Planet" 28 157 66
+1297 "Skon Orbit" 81 176 120
+1298 "Torn System" 40 138 67
+1299 "Uld Sector" 13 148 14
+1300 "Vorn Planet" 106 59 66
+1301 "Wulf Orbit" 170 232 75
+1302 "Xun System" 56 6 148
+1303 "Yrn Sector" 126 0 135
+1304 "Zul Planet" 231 64 142
+1305 "Almerhold Prime" 221 50 21
+1306 "Bregor Throne" 204 64 134
+1307 "Calenhad Keep" 30 212 76
+1308 "Durnholde Castle" 62 89 209
+1309 "Esteldin Hub" 150 58 128
+1310 "Forchel Town" 144 226 196
+1311 "Gondamon Hall" 153 187 7
+1312 "Henneth Fort" 25 47 180
+1313 "Imladris House" 125 170 54
+1314 "Jarnurg Forge" 46 151 248
+1315 "Kelsin Port" 152 95 99
+1316 "Linhir City" 37 110 228
+1317 "Minas Anor" 63 46 227
+1318 "Nurn Camp" 81 9 205
+1319 "Osgiliath West" 199 108 12
+1320 "Pelargir Wharf" 10 191 10
+1321 "Rhosgobel Tower" 133 111 50
+1322 "Sarnford Camp" 164 228 239
+1323 "Tarnost Fort" 208 139 171
+1324 "Umbar City" 116 206 209
+1325 "Valimar East" 251 24 204
+1326 "Wulfburg Keep" 208 210 6
+1327 "Xanadu Dome" 93 105 235
+1328 "Yester Port" 13 70 228
+1329 "Zulian Temple" 75 212 93
+1330 "Aethelgard Deep" 129 126 191
+1331 "Brunwich Dale" 26 174 119
+1332 "Carldor Sands" 129 208 238
+1333 "Dunmere Hills" 32 78 142
+1334 "Evershield Ridge" 97 146 196
+1335 "Fenmar Plains" 177 7 249
+1336 "Grimshear Woods" 121 24 152
+1337 "Hallowvale Coast" 36 48 12
+1338 "Isengard Orchard" 28 184 191
+1339 "Jorvik Castle" 205 29 29
+1340 "Kirkwall Hightown" 160 200 143
+1341 "Lothering Chantry" 2 37 128
+1342 "Murnival Garden" 91 157 92
+1343 "Noxus Bastion" 24 156 140
+1344 "Oristano Palace" 162 140 124
+1345 "Prydain Throne" 101 215 150
+1346 "Quarth " 202 234 68
+1347 "Redoran Vault" 61 45 242
+1348 "Sadrith Council" 41 12 10
+1349 "Telvanni Library" 247 242 247
+1350 "Ushuaia Forest" 19 73 35
+1351 "Verdistis Guild" 231 124 250
+1352 "Whiterun Stable" 222 246 229
+1353 "Ysmir Hall" 99 32 79
+1354 "Zandalar Throne" 224 103 163
+1355 "Ashenvale Camp" 192 52 77
+1356 "Boreand Port" 110 242 181
+1357 "Cinderford Hold" 84 12 72
+1358 "Dreadfort Hall" 221 236 111
+1359 "Emberstrike Mine" 116 254 150
+1360 "Frostfire Fort" 131 172 39
+1361 "Gloomspire Gate" 117 96 141
+1362 "Hellfire Citadel East" 180 133 50
+1363 "Ironforge Deep" 172 134 129
+1364 "Jolund Castle" 199 206 229
+1365 "Kaldorei Grove" 111 198 200
+1366 "Lordaeron Courtyard" 16 219 149
+1367 "Mulgore Mesa" 20 118 184
+1368 "Netherstorm Spire" 229 3 153
+1369 "Outland Wastes" 239 235 165
+1370 "Plaguelands North" 155 154 69
+1371 "Quelthalas Spire" 85 122 229
+1372 "Redridge Mountain" 136 245 239
+1373 "Silithus Hive" 157 120 205
+1374 "Tanaris Port" 0 107 235
+1375 "Uldum Pyramid" 28 58 179
+1376 "Vashjir Reef" 90 80 144
+1377 "Winterspring Valley" 38 23 236
+1378 "Xibala Ruins" 234 250 50
+1379 "Zangarmarsh Swamp" 18 100 205
+1380 "Ahnqiraj Temple" 7 190 40
+1381 "Blackrock Mountain" 52 117 172
+1382 "CaerDarrow Island" 4 242 197
+1383 "Dalaran City" 226 160 222
+1384 "Ebonhold Castle" 56 234 97
+1385 "Felwood Forest" 113 58 184
+1386 "GrimBatol Fort" 247 252 79
+1387 "Hearthglen Town" 54 154 144
+1388 "Icecrown Glacier" 152 126 229
+1389 "JinthaAlor Cave" 136 19 186
+1390 "KulTiras Island" 111 196 122
+1391 "LochModan Lake" 186 252 141
+1392 "Moonglade Lake" 211 36 97
+1393 "Nagrand Plains" 35 169 94
+1394 "Orgrimmar City" 23 244 240
+1395 "Pyrewood Village North" 24 113 130
+1396 "QuelDanas Sunwell" 146 137 125
+1397 "Rethban Mine" 239 168 78
+1398 "Stormwind City" 153 55 93
+1399 "Theramore Port" 251 163 23
+1400 "Undercity Sewers" 129 86 230
+1401 "Valormok Hold" 148 185 52
+1402 "Westfall Plains" 159 56 108
+1403 "Xoroth Citadel" 13 62 248
+1404 "Yojamba Temple" 73 53 69
+1405 "Zulfarrak City" 190 136 187
+1406 "Alterac Mountains" 213 162 198
+1407 "Badlands Wastes" 250 236 208
+1408 "Crater Jungle" 151 211 69
+1409 "Darnassus City" 23 192 142
+1410 "Exodar City" 229 30 22
+1411 "Feralas Forest" 107 88 73
+1412 "Gnomeregan Subway" 20 216 145
+1413 "Hyjal Mountain" 75 10 87
+1414 "Ironstrider Outpost" 121 87 8
+1415 "Kezan Isle" 11 44 14
+1416 "Lochton Town" 107 241 211
+1417 "Maelstrom Whirl" 3 18 194
+1418 "Northrend Continent" 62 250 70
+1419 "Onyxia Cave" 134 18 201
+1420 "Pandaria Continent" 71 199 183
+1421 "Ravenholdt House" 234 130 121
+1422 "Shattrath Dome" 220 175 122
+1423 "Tirisfal Wood" 133 183 38
+1424 "Ulduar City" 82 6 230
+1425 "Vrykul Fort" 172 5 38
+1426 "Warsong Camp" 254 33 80
+1427 "Xandros Port" 180 196 206
+1428 "Yulon Grove" 55 87 12
+1429 "Zangara Tower" 242 70 116
+1430 "Anvilmar Hall" 81 252 113
+1431 "Brill Town" 189 227 109
+1432 "Crossroads Town" 161 102 211
+1433 "Darkshire Woods" 104 240 14
+1434 "Everlook Town" 125 234 137
+1435 "Feathermoon Camp" 74 193 173
+1436 "Gadgetzan City" 58 221 230
+1437 "Hammerfall Fort" 184 172 159
+1438 "Ilisidi Keep" 46 150 66
+1439 "Kargath Camp" 7 6 57
+1440 "Lakeshire Town" 174 104 240
+1441 "Menethil Town" 141 37 209
+1442 "Nighthaven Town" 15 169 71
+1443 "Ogrim Fort" 158 95 188
+1444 "Plaguewood Town" 166 176 155
+1445 "Ratchet Town" 145 7 79
+1446 "Sentinel Keep" 201 208 66
+1447 "TarrenMill Camp" 186 117 223
+1448 "Ursin Fort" 206 96 145
+1449 "Valgarde Fort" 111 253 195
+1450 "Wildhammer Fort" 9 181 223
+1451 "Xylem Camp" 5 243 79
+1452 "Yalnu Camp" 207 35 127
+1453 "Zabra Fort" 210 175 216
+1454 "Acheron Camp" 119 1 199
+1455 "BaelModan Camp" 42 133 181
+1456 "Centaur Fort" 86 164 13
+1457 "DireMaul Keep" 100 202 58
+1458 "Eversong Camp" 192 97 166
+1459 "Farstrider Camp" 212 212 188
+1460 "Garadar Fort" 12 141 231
+1461 "Halalaa Fort" 208 248 145
+1462 "Isildur Fort" 142 126 38
+1463 "Jubei Camp" 174 139 15
+1464 "Kiljaeden Camp" 155 138 184
+1465 "Liadrin Camp" 193 228 138
+1466 "Malorne Camp" 138 4 242
+1467 "Nefarian Camp" 97 86 89
+1468 "Onu Camp" 176 67 42
+1469 "Perenolde Camp" 226 55 207
+1470 "Ragnaros Camp" 97 157 180
+1471 "Sargeras Camp" 153 222 67
+1472 "Terenas Camp" 244 101 231
+1473 "Uther Camp" 221 158 11
+1474 "Velen Camp" 189 243 24
+1475 "Wrathion Camp" 1 206 122
+1476 "Xavius Camp" 18 154 156
+1477 "Ysera Camp" 92 195 231
+1478 "Zuljin Camp" 72 177 199
+1479 "Archimonde Camp" 67 209 167
+1480 "Balnazzar Camp" 181 141 241
+1481 "Chogall Camp" 11 79 16
+1482 "Deathwing Camp" 174 131 109
+1483 "Elune Camp" 9 146 118
+1484 "Freya Camp" 135 232 146
+1485 "Guldan Camp" 147 239 46
+1486 "Hogger Camp" 152 18 181
+1487 "Illidan Camp" 255 187 144
+1488 "Jaraxxus Camp" 52 86 42
+1489 "Kaelthas Camp" 161 76 239
+1490 "Loken Camp" 177 9 72
+1491 "Malygos Camp" 207 248 160
+1492 "Nozdormu Camp" 101 130 99
+1493 "Onyx Camp" 222 18 250
+1494 "Pterrordax Camp" 164 20 209
+1495 "Quilboar Camp" 35 241 82
+1496 "Rexxar Camp Two" 197 21 232
+1497 "Sylvanas Camp Two" 245 235 253
+1498 "Thrall Camp Two" 29 220 252
+1499 "Uldaman Camp Two" 167 83 80
+1500 "Voljin Camp Two" 0 188 99
+1501 "Wrynn Camp Two" 145 129 161
+1502 "Xarantaur Camp" 196 12 115
+1503 "Ymiron Camp" 5 200 68
+1504 "Zulaman Camp" 191 33 128
+1505 "Acamar Camp" 92 127 144
+1506 "Bellatrix Camp" 70 79 224
+1507 "Canopus Camp" 232 251 218
+1508 "Deneb Camp" 174 237 232
+1509 "Eraklyon Camp Two" 1 145 118
+1510 "Fomalhaut Camp" 76 80 238
+1511 "Gacrux Camp" 251 150 187
+1512 "Hadadar Camp" 119 205 71
+1513 "Izar Camp" 43 96 253
+1514 "Jabbah Camp" 130 185 72
+1515 "Kornephoros Camp" 231 68 147
+1516 "Lesath Camp" 196 106 71
+1517 "Marfik Camp" 132 151 208
+1518 "Nunki Camp" 146 54 153
+1519 "Okda Camp" 88 176 12
+1520 "Polaris Camp" 65 112 147
+1521 "Rasalas Camp" 184 226 154
+1522 "Sabik Camp" 39 111 139
+1523 "Tejat Camp" 249 131 208
+1524 "Unukalhai Camp" 152 137 214
+1525 "Vega Camp" 112 234 5
+1526 "Wazn Camp" 235 17 201
+1527 "Zaniah Camp" 115 106 140
+1528 "Alzir Camp" 116 95 185
+1529 "Botein Camp" 87 90 187
+1530 "Chara Camp" 137 198 253
+1531 "Dilib Camp" 114 15 232
+1532 "Edasich Camp" 127 157 233
+1533 "FumAlSamakah Camp" 25 221 104
+1534 "Gorgonea Camp" 172 57 210
+1535 "Heze Camp" 161 27 145
+1536 "Iclil Camp" 100 239 15
+1537 "Jishui Camp" 96 30 183
+1538 "Kraz Camp" 254 20 244
+1539 "Larawag Camp" 170 59 48
+1540 "Mankib Camp" 206 254 214
+1541 "Nashira Camp" 213 199 81
+1542 "Ogma Camp" 42 2 11
+1543 "Piautos Camp" 55 24 112
+1544 "Ran Camp" 104 117 233
+1545 "Saclateni Camp" 37 131 226
+1546 "Taiyi Camp" 219 173 196
+1547 "Ukdah Camp" 244 94 252
+1548 "Veritate Camp" 219 0 243
+1549 "Wurren Camp" 250 253 19
+1550 "Xuange Camp" 188 193 201
+1551 "Yed Camp" 139 183 126
+1552 "Zaurak Camp" 211 72 157
+1553 "Alkes Camp" 254 223 145
+1554 "Banda Camp" 118 232 196
+1555 "Cujam Camp" 167 205 162
+1556 "Duhr Camp" 251 248 148
+1557 "Elgafar Camp" 220 212 5
+1558 "Franz Camp Two" 182 205 97
+1559 "Guniibuu Camp" 242 75 17
+1560 "Hatysa Camp" 252 187 129
+1561 "Intercrus Camp" 63 135 27
+1562 "Jeka Camp Two" 36 25 73
+1563 "Kalausi Camp" 23 221 119
+1564 "Liesma Camp" 131 60 15
+1565 "Montuno Camp" 209 162 124
+1566 "Natasha Camp" 109 121 40
+1567 "Pipirima Camp" 193 44 127
+1568 "Rapeto Camp" 57 37 234
+1569 "Sika Camp" 62 208 212
+1570 "Tangra Camp" 59 150 168
+1571 "Uruk Camp" 155 227 210
+1572 "Vytis Camp" 201 33 186
+1573 "Wandelo Camp" 47 187 205
+1574 "Xolotl Camp" 56 28 116
+1575 "Yvaine Camp" 78 174 27
+1576 "Zun Camp Two" 221 219 44
+1577 "Aethel Camp" 79 15 18
+1578 "Beowulf Camp" 15 181 55
+1579 "Cynewulf Camp" 134 54 6
+1580 "Dunstan Camp" 33 253 234
+1581 "Eadric Camp" 74 118 77
+1582 "Frith Camp" 106 11 154
+1583 "Godwin Camp" 238 38 61
+1584 "Hrothgar Camp" 63 50 158
+1585 "Icel Camp" 201 155 42
+1586 "Jovian Camp" 246 201 74
+1587 "Knut Camp" 48 41 106
+1588 "Leofric Camp" 226 37 243
+1589 "Munderic Camp" 120 39 82
+1590 "Nithard Camp" 91 155 240
+1591 "Odo Camp" 246 234 56
+1592 "Penda Camp" 180 128 149
+1593 "Quendreda Camp" 0 199 113

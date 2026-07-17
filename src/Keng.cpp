@@ -32,8 +32,7 @@ int main(int, char**){
     OGL_LoadBitmapToObject(*provinceMap, "History/provinces/province_map.png");
     /* Create the object node */
     OGL_ONode* onodeProvinceMap = OGL_CreateNode(provinceMap, "map");
-    TRS::S(*provinceMap, {30.0f * 1.777778f, 30.f, 1.f});
-    TRS::R(*provinceMap, {0.f, 0.f, 180.f});
+    TRS::S(*provinceMap, {50.0f * 1.77777778f, 50.f, 1.f});
 
     KENG::ProvinceRegistry pr;
     pr.ReadProvinceFile();
@@ -76,10 +75,10 @@ int main(int, char**){
         /* Updates */
 
         // FIXME:
-        std::string provName = "nullprov";
-        if ((provName = provCtrl.GetHoveredProvince(pr, *onodeProvinceMap->o).Name()) != "nullprov") {
-            std::cout << provName << "\n";
-        } //
+        std::string provName;
+        provName = provCtrl.GetHoveredProvince(pr, *onodeProvinceMap->o).Name();
+
+        if (provName != "nullprov") std::cout << provName << std::endl;
 
         OGL_SetScreenBackground(0.f, 0.f, 0.f, 1.f);
 

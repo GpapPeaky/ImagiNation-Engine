@@ -10,7 +10,7 @@ typedef unsigned int ui32;
 #include "../OGL.hpp"
 
 namespace KENG::Utils {
-    ui32 PackRGB(ui8 r, ui8 b, ui8 g);
+    ui32 PackRGB(ui8 r, ui8 g, ui8 b);
     std::array<float, 3> UnpackRGB_01(ui32 rgb);
     std::array<ui8, 3> UnpackRGB_0255(ui32 rgb);
 

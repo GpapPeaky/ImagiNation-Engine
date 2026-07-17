@@ -538,6 +538,20 @@
       </div>
     </div>
 
+    <div>
+      <p class="section-label">Direct Scan</p>
+      <label class="dropzone" id="scanDropzone" for="provinceScanInput">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c19a49" stroke-width="1.4"><path d="M4 16.5V6a2 2 0 0 1 2-2h9l5 5v7.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M14 4v5h5"/><circle cx="9" cy="12" r="1.6"/><path d="M20 15l-4.5-4.5L7 19"/></svg>
+        <div class="dz-title">Drop a finished province PNG</div>
+        <div class="dz-sub">skips generation — just reads its colours</div>
+      </label>
+      <input type="file" id="provinceScanInput" accept="image/*">
+      <p class="status-line" id="scanStatusLine">Awaiting a province bitmap.</p>
+      <div class="btn-row" style="margin-top:10px;">
+        <button class="btn-ghost" id="downloadScanRGB" disabled>Download Scan Manifest (.txt)</button>
+      </div>
+    </div>
+
   </aside>
 
   <main>
@@ -565,7 +579,24 @@
         <span class="sub" id="manifestCount">0 entries</span>
       </div>
       <canvas id="paletteStrip"></canvas>
-      <textarea id="rgbOutput" readonly placeholder="SRC: R G B  PROV: R G B&#10;SRC: R G B  PROV: R G B&#10;SRC: R G B  PROV: R G B&#10;…generated colours will be listed here after you run the engine."></textarea>
+      <textarea id="rgbOutput" readonly placeholder="idx   SRC_RGB        PROV_RGB&#10;1     R   G   B      R   G   B&#10;2     R   G   B      R   G   B&#10;…generated colours will be listed here after you run the engine."></textarea>
+    </div>
+
+    <div class="plate" style="grid-column:1 / -1;">
+      <p class="plate-title"><span class="roman">Plate III</span><span>Scanned — Existing Province Map</span></p>
+      <div class="canvas-frame" id="frameScan">
+        <span class="empty-msg" id="msgScan">No province bitmap loaded yet</span>
+        <canvas id="scanCanvas"></canvas>
+      </div>
+    </div>
+
+    <div class="manifest-panel">
+      <div class="manifest-head">
+        <h2>Colour Manifest — Direct Scan</h2>
+        <span class="sub" id="scanManifestCount">0 entries</span>
+      </div>
+      <canvas id="scanPaletteStrip"></canvas>
+      <textarea id="scanRgbOutput" readonly placeholder="idx   SRC_RGB        PROV_RGB&#10;1     R   G   B      R   G   B&#10;2     R   G   B      R   G   B&#10;…colours scanned directly from a province PNG will be listed here. SRC_RGB mirrors PROV_RGB in this mode, since there's no separate nation map to draw a source colour from."></textarea>
     </div>
 
   </main>
@@ -605,9 +636,25 @@ const statSize          = document.getElementById("statSize");
 const statProvinces     = document.getElementById("statProvinces");
 const manifestCount     = document.getElementById("manifestCount");
 
+const provinceScanInput = document.getElementById("provinceScanInput");
+const scanDropzone      = document.getElementById("scanDropzone");
+const scanCanvas        = document.getElementById("scanCanvas");
+const msgScan            = document.getElementById("msgScan");
+const scanStatusLine    = document.getElementById("scanStatusLine");
+const downloadScanRGB   = document.getElementById("downloadScanRGB");
+const scanPaletteStrip  = document.getElementById("scanPaletteStrip");
+const scanRgbOutput     = document.getElementById("scanRgbOutput");
+const scanManifestCount = document.getElementById("scanManifestCount");
+
 const originalCtx  = originalCanvas.getContext("2d");
 const generatedCtx = generatedCanvas.getContext("2d");
 const paletteCtx    = paletteStrip.getContext("2d");
+const scanPaletteCtx = scanPaletteStrip.getContext("2d");
+
+// Colours found by the Direct Scan feature (reading an existing
+// province PNG's own pixels), independent of the nations/provinces
+// generation pipeline above. [[r,g,b], ...] in first-seen order.
+let scanColours = [];
 
 // ------------------------------
 // GLOBAL DATA
@@ -1221,10 +1268,35 @@ function getNeighbours(x, y){
 // CREATE UNIQUE PROVINCE COLOURS
 // ------------------------------
 
+// ------------------------------
+// SHARED MANIFEST TABLE FORMATTING
+// Produces a fixed-width table:
+//   idx   SRC_RGB        PROV_RGB
+//   1     12  34  200    10  20  30
+// Used both by generation (SRC = the source nation colour) and by
+// Direct Scan (SRC = PROV, since there's no separate nation map).
+// ------------------------------
+
+function formatRGBTriplet(rgb){
+  return rgb.map(v => String(v).padStart(3, " ")).join(" ");
+}
+
+function buildManifestText(entries){
+  let lines = "idx".padEnd(6) + "SRC_RGB".padEnd(15) + "PROV_RGB" + "\n";
+
+  entries.forEach((entry, i) => {
+    lines += String(i + 1).padEnd(6) +
+             formatRGBTriplet(entry.src).padEnd(15) +
+             formatRGBTriplet(entry.prov) + "\n";
+  });
+
+  return lines;
+}
+
 function createProvinceColours(){
 
   const used = new Set();
-  let lines = "";
+  const entries = [];
 
   for(const province of provinces){
 
@@ -1243,12 +1315,12 @@ function createProvinceColours(){
     used.add(colour.join(","));
     province.colour = colour;
 
-    const [sr, sg, sb] = province.nationKey.split(",");
+    const [sr, sg, sb] = province.nationKey.split(",").map(Number);
 
-    lines += `SRC: ${sr} ${sg} ${sb}  PROV: ${colour[0]} ${colour[1]} ${colour[2]}\n`;
+    entries.push({ src: [sr, sg, sb], prov: colour });
   }
 
-  rgbOutput.value = lines;
+  rgbOutput.value = buildManifestText(entries);
   drawPaletteStrip();
 }
 
@@ -1330,7 +1402,154 @@ downloadRGB.addEventListener("click", () => {
   link.click();
 });
 
-window.addEventListener("resize", drawPaletteStrip);
+// ------------------------------
+// DIRECT SCAN
+// Reads the unique colours straight out of an already-finished
+// province PNG, with no nation map and no generation step involved.
+// Runs entirely independently of the generation pipeline above.
+// ------------------------------
+
+const scanCtx = scanCanvas.getContext("2d");
+
+scanDropzone.addEventListener("dragover", e => { e.preventDefault(); scanDropzone.classList.add("drag"); });
+scanDropzone.addEventListener("dragleave", () => scanDropzone.classList.remove("drag"));
+scanDropzone.addEventListener("drop", e => {
+  e.preventDefault();
+  scanDropzone.classList.remove("drag");
+  const file = e.dataTransfer.files && e.dataTransfer.files[0];
+  if(file){
+    provinceScanInput.files = e.dataTransfer.files;
+    handleScanFile(file);
+  }
+});
+
+provinceScanInput.addEventListener("change", () => {
+  const file = provinceScanInput.files[0];
+  if(file) handleScanFile(file);
+});
+
+function setScanStatus(msg, kind){
+  scanStatusLine.textContent = msg;
+  scanStatusLine.className = "status-line" + (kind ? " " + kind : "");
+}
+
+function handleScanFile(file){
+
+  const img = new Image();
+
+  img.onload = async function(){
+
+    const w = img.width;
+    const h = img.height;
+
+    scanCanvas.width  = w;
+    scanCanvas.height = h;
+    scanCtx.clearRect(0, 0, w, h);
+    scanCtx.drawImage(img, 0, 0);
+
+    msgScan.style.display = "none";
+
+    scanColours = [];
+    scanRgbOutput.value = "";
+    scanManifestCount.textContent = "0 entries";
+    scanPaletteCtx.clearRect(0, 0, scanPaletteStrip.width, scanPaletteStrip.height);
+    downloadScanRGB.disabled = true;
+
+    setScanStatus("Scanning province colours…");
+
+    await scanProvinceColours(w, h);
+  };
+
+  img.onerror = function(){
+    setScanStatus("Could not read that file as an image.", "warn");
+  };
+
+  img.src = URL.createObjectURL(file);
+}
+
+async function scanProvinceColours(w, h){
+
+  const imageData = scanCtx.getImageData(0, 0, w, h);
+  const data = imageData.data;
+  const totalPixels = w * h;
+  const CHUNK = 20000;
+
+  // Insertion-ordered map keeps first-seen order stable and gives
+  // O(1) de-duplication without re-scanning what's found so far.
+  const seen = new Map();
+
+  for(let i = 0; i < totalPixels; i++){
+
+    const offset = i * 4;
+    const r = data[offset];
+    const g = data[offset + 1];
+    const b = data[offset + 2];
+
+    // black = water, same convention used by the generation pipeline
+    if(r === 0 && g === 0 && b === 0) continue;
+
+    const key = `${r},${g},${b}`;
+    if(!seen.has(key)) seen.set(key, [r, g, b]);
+
+    if(i % CHUNK === 0) await yieldToUI();
+  }
+
+  scanColours = [...seen.values()];
+
+  if(scanColours.length === 0){
+    setScanStatus("No province colours detected — is the whole image black?", "warn");
+    downloadScanRGB.disabled = true;
+    return;
+  }
+
+  // No separate nation map exists in this mode, so SRC_RGB just
+  // mirrors PROV_RGB for each entry rather than being left blank.
+  const entries = scanColours.map(c => ({ src: c, prov: c }));
+
+  scanRgbOutput.value = buildManifestText(entries);
+  scanManifestCount.textContent = `${scanColours.length} ${scanColours.length === 1 ? "entry" : "entries"}`;
+  drawScanPaletteStrip();
+
+  downloadScanRGB.disabled = false;
+  setScanStatus(`Found ${scanColours.length} distinct province colour${scanColours.length === 1 ? "" : "s"}.`, "ok");
+}
+
+function drawScanPaletteStrip(){
+
+  const w = scanPaletteStrip.clientWidth || 600;
+  scanPaletteStrip.width = w;
+  scanPaletteStrip.height = 14;
+
+  if(scanColours.length === 0){
+    scanPaletteCtx.clearRect(0, 0, w, 14);
+    return;
+  }
+
+  const swatchW = w / scanColours.length;
+
+  scanColours.forEach((c, i) => {
+    const [r, g, b] = c;
+    scanPaletteCtx.fillStyle = `rgb(${r},${g},${b})`;
+    scanPaletteCtx.fillRect(Math.floor(i * swatchW), 0, Math.ceil(swatchW) + 1, 14);
+  });
+}
+
+downloadScanRGB.addEventListener("click", () => {
+  if(scanRgbOutput.value.length === 0){
+    setScanStatus("Scan a province map first.", "warn");
+    return;
+  }
+  const blob = new Blob([scanRgbOutput.value], { type: "text/plain" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = "province_colors_scanned.txt";
+  link.click();
+});
+
+window.addEventListener("resize", () => {
+  drawPaletteStrip();
+  drawScanPaletteStrip();
+});
 
 </script>
 </body>
