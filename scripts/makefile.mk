@@ -1,11 +1,14 @@
 # --- Compiler and Flags ---
 CXX      := g++
-CXXFLAGS := -std=c++17 -Wall -Wextra -I. -IBasic-OpenGL -IBasic-OpenGL/src -DSDL_MAIN_HANDLED -D_WIN32_WINNT=0x0601
+CXXFLAGS := -std=c++17 -Wall -Wextra -I. -IBasic-OpenGL -IBasic-OpenGL/src -IBasic-OpenGL/ThirdParty/freetype-2.14.3/include -DSDL_MAIN_HANDLED -D_WIN32_WINNT=0x0601
 
 # --- UPDATED FLAGS ---
 # -L points directly to your SDL2 lib folder containing the .a files
 # We keep -mconsole so MinGW expects a standard console main()
-LDFLAGS  := -LBasic-OpenGL/ThirdParty/SDL2/lib -mconsole -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+LDFLAGS  := -LBasic-OpenGL/ThirdParty/SDL2/lib 				\
+		-LBasic-OpenGL/ThirdParty/freetype-2.14.3/objs 		\
+    	-lfreetype											\
+		-mconsole -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
 
 # --- Directories ---
 SRC_DIR    := src
@@ -14,7 +17,7 @@ BIN_DIR    := bin
 ENGINE_OBJ := Basic-OpenGL/obj
 
 # --- Target ---
-TARGET := $(BIN_DIR)/keng.exe
+TARGET := $(BIN_DIR)/INATE.exe
 
 # --- Source and Object Files ---
 SRCS := $(wildcard *.cpp) $(wildcard $(SRC_DIR)/*.cpp)

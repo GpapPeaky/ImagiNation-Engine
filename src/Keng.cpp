@@ -24,6 +24,10 @@ int main(int, char**){
     OGL_ONode* onodeProvinceMap = OGL_CreateNode(provinceMap, "map");
     TRS::S(*provinceMap, {50.0f * 1.77777778f, 50.f, 1.f});
 
+    /* Text rendering */
+    OGL_Object* provinceHoverInfo = OGL_CreateObject(OGL_GetShader("glyph"));
+    OGL_CreateTextQuad(*provinceHoverInfo->mesh);
+
     /* Registries */
     KENG::ProvinceRegistry pr;
     pr.ReadProvinceFile();
@@ -32,6 +36,12 @@ int main(int, char**){
     rr.ReadRealmFile();
     rr.ReadOwnerFile();
     rr.Print();
+
+    /* Font */
+    unsigned int provinceHoverFont = 32;
+    FT_Library provinceHover_FTLib = OGL_InitFreeType();
+    FT_Face provinceHover_FTFace = OGL_LoadFont(provinceHover_FTLib, "assets/fonts/BodoniXT.ttf", provinceHoverFont);
+    std::map<char, OGL_Character> provinceHover_CharMap = OGL_LoadCharacters(provinceHover_FTFace);
 
     /* Controllers */
     KENG::ProvinceController provCtrl;
@@ -46,6 +56,9 @@ int main(int, char**){
         OGL_GameDt = (now - lastTime) / 1000.0f;            /* Convert to seconds */
         lastTime = now;
 
+        i32 mx, my;
+        SDL_GetMouseState(&mx, &my);
+
         /* Updates to assets / sprites / objects in general */
         SDL2_HandleEvents(OGL_GameQuit, ctrl);      /* Creates a new event to poll per call (Might need to be optimised) */
         
@@ -56,15 +69,15 @@ int main(int, char**){
         /* Need to pass each uniform before drawing */
         
         /* Updates */
-
+        OGL_SetScreenBackground(0.f, 0.f, 0.f, 1.f);
+        
+        OGL_RenderVisitChildren(OGL_Scene);
+        
         std::string provName;
         provName = provCtrl.GetHoveredProvince(pr, *onodeProvinceMap->o).Name();
-
-        if (provName != "nullprov") std::cout << provName << std::endl;
-
-        OGL_SetScreenBackground(0.f, 0.f, 0.f, 1.f);
-
-        OGL_RenderVisitChildren(OGL_Scene);
+        if (provName != "nullprov") {
+            OGL_RenderText(*provinceHoverInfo, provName.c_str(), (float)mx + 5.f, (float)my + (float)(provinceHoverFont / 2), 1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+        }
     
         /* Swap frame buffers */
         SDL_GL_SwapWindow(SDL2_Win);

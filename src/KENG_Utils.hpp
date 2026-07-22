@@ -3,6 +3,7 @@
 typedef long long unsigned int llui;
 typedef unsigned char ui8;
 typedef unsigned int ui32;
+typedef int i32;
 
 #include <iostream> // For args
 #include <fstream>
