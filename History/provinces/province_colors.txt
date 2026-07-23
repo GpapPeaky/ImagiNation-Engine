@@ -155,8 +155,6 @@
 155 "Emberstrike" 231 214 49
 156 "Frostfire" 177 6 97
 
-
-
 157 "Gloomspire" 180 145 187
 
 158 "Hellfire" 89 228 169

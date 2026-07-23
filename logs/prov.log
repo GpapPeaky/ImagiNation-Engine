@@ -1,0 +1,1593 @@
+1 Oakhaven 3379802
+2 Eldoria 683045
+3 Valoria 15693552
+4 Shadowfen 4988196
+5 Glimmerhold 9226798
+6 Ravenspire 1763446
+7 Frostguard 6349417
+8 Ironridge 13181808
+9 Stonehelm 12588279
+10 Stormwatch 11412072
+11 Riverbend 46638
+12 Duskwood 2112435
+13 Highcliff 7871586
+14 Sunspire 7521446
+15 Moonbrook 8101353
+16 Winterfell 16519574
+17 Deepwood 6262040
+18 Blackstone 1145306
+19 Silverrun 8012102
+20 Goldmeadow 479430
+21 Ambervale 2166982
+22 Wildwood 3402927
+23 Thornfield 11095790
+24 Mistshroud 15507948
+25 Redrock 6770964
+26 Greenshield 8832721
+27 Northwatch 11693709
+28 Southreach 5681331
+29 Eastmarker 14547630
+30 Westward 11711720
+31 Dragonclaw 4148173
+32 Wyvernsrest 15673542
+33 Gryphonspeak 2995775
+34 Krakenbay 6512801
+35 Phoenixrise 16552025
+36 Falconscrest 6533840
+37 Wolfpack 143473
+38 Bearsden 4486310
+39 Stagshead 9693659
+40 Foxburrow 6027898
+41 Owlsroost 398062
+42 Vipersnest 16685986
+43 Lionsden 11534335
+44 Eaglesnest 8628849
+45 Hawksperch 14944099
+46 Ravenloft 4030270
+47 Crowsnest 16416366
+48 Dovesdale 8679006
+49 Swallowtail 4700536
+50 Swanlake 11324455
+51 Bridgewater 2035669
+52 Clearwater 782317
+53 Deepwater 14275801
+54 Fairwater 16067333
+55 Freshwater 13197020
+56 Goldwater 12638407
+57 Silverwater 4522545
+58 Stillwater 12798342
+59 Sweetwater 10688047
+60 Whitewater 5297303
+61 Blackwater 3599914
+62 Bluewater 12570193
+63 Greenwater 5693560
+64 Redwater 6655497
+65 Yellowwater 5718639
+66 Muddywater 9856788
+67 Saltwater 9332835
+68 Stormwater 11120839
+69 Rainwater 5351850
+70 Meltwater 15908216
+71 Icewater 16144538
+72 Firewater 13100411
+73 Windwater 13749639
+74 Earthwater 8223783
+75 Ironwater 3693767
+76 Stonewater 7002065
+77 Woodwater 8346287
+78 Leafwater 14896589
+79 Flowerwater 16653717
+80 Rootwater 3945074
+81 Barkwater 588238
+82 Seedwater 13491220
+83 Nutwater 16008879
+84 Berrywater 15310858
+85 Fruitwater 1464206
+86 Grainwater 15127719
+87 Grasswater 12878528
+88 Mosswater 1756227
+89 Fernwater 5446810
+90 Reedwater 14278193
+91 Rushwater 1604722
+92 Sedgewater 8020168
+93 Willowwater 7009693
+94 Alderwater 5416540
+95 Birchwater 10280560
+96 Ashwater 11863875
+97 Oakwater 363328
+98 Elmwater 16373458
+99 Maplewater 16405348
+100 Pinewater 7629663
+101 Almerhold 13732400
+102 Bregor 8067647
+103 Calenhad 14517753
+104 Durnholde 6502600
+105 Esteldin 7772950
+106 Forchel 8461134
+107 Gondamon 15737051
+108 Henneth 2889511
+109 Imladris 10513053
+110 Jarnurg 12027048
+111 Kelsin 14470834
+112 Linhir 7976231
+113 Minas 16360048
+114 Nurn 13041913
+115 Osgiliath 5061163
+116 Pelargir 16169587
+117 Rhosgobel 3009594
+118 Sarnford 6044394
+119 Tarnost 15535856
+120 Umbar 5100469
+121 Valimar 15070372
+122 Wulfburg 2153512
+123 Xanadu 6878379
+124 Yester 2730393
+125 Zulian 13395035
+126 Aethelgard 12489052
+127 Brunwich 6789384
+128 Carldor 3467464
+129 Dunmere 9365512
+130 Evershield 14746418
+131 Fenmar 9873072
+132 Grimshear 1653230
+133 Hallowvale 13969494
+134 Isengard 3399251
+135 Jorvik 10470735
+136 Kirkwall 8603830
+137 Lothering 4903665
+138 Murnival 6278251
+139 Noxus 2925455
+140 Oristano 1884361
+141 Prydain 10129025
+142 Quarth 1079332
+143 Redoran 15329307
+144 Sadrith 9456338
+145 Telvanni 7276723
+146 Ushuaia 15830057
+147 Verdistis 8405406
+148 Whiterun 8950397
+149 Ysmir 7596593
+150 Zandalar 11252260
+151 Ashenvale 10246081
+152 Boreand 11551348
+153 Cinderford 5365669
+154 Dreadfort 15439809
+155 Emberstrike 15193649
+156 Frostfire 11601505
+157 Gloomspire 11833787
+158 Hellfire 5891241
+159 Ironforge 812951
+160 Jolund 3704559
+161 Kaldorei 4631580
+162 Lordaeron 10634120
+163 Mulgore 11974302
+164 Netherstorm 15626441
+165 Outland 11786868
+166 Plaguelands 7364872
+167 Quelthalas 9465585
+168 Redridge 8285338
+169 Silithus 10798701
+170 Tanaris 7202516
+171 Uldum 4405307
+172 Vashjir 9577996
+173 Winterspring 12851889
+174 Xibala 4489110
+175 Zangarmarsh 8110118
+176 Ahnqiraj 14043337
+177 Blackrock 12550381
+178 CaerDarrow 10475002
+179 Dalaran 14921820
+180 Ebonhold 16022910
+181 Felwood 4105673
+182 GrimBatol 2856106
+183 Hearthglen 2470793
+184 Icecrown 9924563
+185 JinthaAlor 15545074
+186 KulTiras 9463120
+187 LochModan 15430744
+188 Moonglade 6933108
+189 Nagrand 7721233
+190 Orgrimmar 8058007
+191 Pyrewood 14786162
+192 QuelDanas 1456140
+193 Rethban 8597457
+194 Stormwind 9694250
+195 Theramore 11655810
+196 Undercity 4678725
+197 Valormok 12645597
+198 Westfall 8910515
+199 Xoroth 381748
+200 Yojamba 11008202
+201 Zulfarrak 14142943
+202 Alterac 16760542
+203 Badlands 9057842
+204 Crater 14851653
+205 Darnassus 7562115
+206 Exodar 10939989
+207 Feralas 15248166
+208 Gnomeregan 10552162
+209 Hyjal 4088434
+210 Ironstrider 2634178
+211 Kezan 13295036
+212 Lochton 9490634
+213 Maelstrom 14906200
+214 Northrend 3027664
+215 Onyxia 14514333
+216 Pandaria 5877545
+217 Ravenholdt 869087
+218 Shattrath 6593578
+219 Tirisfal 13182581
+220 Ulduar 10898729
+221 Vrykul 6715826
+222 Warsong 7608443
+223 Xandros 3838702
+224 Yulon 2314869
+225 Zangara 10142844
+226 Anvilmar 610669
+227 Brill 14378419
+228 Crossroads 8022968
+229 Darkshire 5426407
+230 Everlook 13497259
+231 Feathermoon 5590126
+232 Gadgetzan 5652891
+233 Hammerfall 3816605
+234 Ilisidi 7055839
+235 Kargath 5632459
+236 Lakeshire 6389707
+237 Menethil 16498507
+238 Nighthaven 9313204
+239 Ogrim 8650099
+240 Plaguewood 4641265
+241 Ratchet 4325529
+242 Sentinel 14743254
+243 TarrenMill 9182482
+244 Ursin 11591864
+245 Valgarde 12101939
+246 Wildhammer 845037
+247 Xylem 1768018
+248 Yalnu 4872139
+249 Zabra 485060
+250 Acheron 12423334
+251 BaelModan 14041310
+252 Centaur 12444373
+253 DireMaul 14475254
+254 Eversong 10396587
+255 Farstrider 7182688
+256 Garadar 11872895
+257 Halalaa 14729587
+258 Isildur 5884583
+259 Jubei 9023364
+260 Kiljaeden 14539382
+261 Liadrin 12498664
+262 Malorne 10006339
+263 Nefarian 13905395
+264 Onu 14654819
+265 Perenolde 2189821
+266 Ragnaros 523052
+267 Sargeras 16432985
+268 Terenas 6627058
+269 Uther 11764830
+270 Velen 5200650
+271 Wrathion 10751585
+272 Xavius 1771468
+273 Ysera 2142902
+274 Zuljin 1931403
+275 Archimonde 8242612
+276 Balnazzar 11207836
+277 Chogall 1154735
+278 Deathwing 1769046
+279 Elune 3182845
+280 Freya 12565774
+281 Guldan 3273204
+282 Hogger 15832857
+283 Illidan 6887656
+284 Jaraxxus 253900
+285 Kaelthas 2906159
+286 Loken 5107069
+287 Malygos 13633567
+288 Nozdormu 2167936
+289 Onyx 11238668
+290 Pterrordax 14199596
+291 Quilboar 1182540
+292 Rexxar 12847062
+293 Sylvanas 5900596
+294 Thrall 4029906
+295 Uldaman 14208026
+296 Voljin 9921143
+297 Wrynn 14920019
+298 Xarantaur 2559001
+299 Ymiron 13563188
+300 Zulaman 4444175
+301 Acamar 15730195
+302 Bellatrix 4195244
+303 Canopus 10367557
+304 Deneb 7666760
+305 Eraklyon 3001375
+306 Fomalhaut 3411510
+307 Gacrux 15936503
+308 Hadadar 13995980
+309 Izar 4498722
+310 Jabbah 11327073
+311 Kornephoros 7835125
+312 Lesath 996936
+313 Marfik 14695365
+314 Nunki 5441239
+315 Okda 13959913
+316 Polaris 13540196
+317 Rasalas 11221429
+318 Sabik 13977924
+319 Tejat 12072318
+320 Unukalhai 12412877
+321 Vega 5262235
+322 Wazn 14436947
+323 Zaniah 13291616
+324 Alzir 8800044
+325 Botein 8002082
+326 Chara 1160109
+327 Dilib 11959863
+328 Edasich 13886508
+329 FumAlSamakah 13914613
+330 Gorgonea 2174974
+331 Heze 2615728
+332 Iclil 5302904
+333 Jishui 498879
+334 Kraz 11954671
+335 Larawag 13155701
+336 Mankib 10945466
+337 Nashira 12559401
+338 Ogma 7998253
+339 Piautos 4367408
+340 Ran 8640926
+341 Saclateni 10949856
+342 Taiyi 1622113
+343 Ukdah 4344205
+344 Veritate 9312205
+345 Wurren 6854541
+346 Xuange 3879735
+347 Yed 7361845
+348 Zaurak 7563763
+349 Alkes 11524315
+350 Banda 9244248
+351 Cujam 7960020
+352 Duhr 14514363
+353 Elgafar 2457974
+354 Franz 12254320
+355 Guniibuu 479764
+356 Hatysa 7860174
+357 Intercrus 7683334
+358 Jeka 7055145
+359 Kalausi 12884128
+360 Liesma 15366871
+361 Montuno 4831032
+362 Natasha 4963118
+363 Pipirima 6025507
+364 Rapeto 14860930
+365 Sika 5085622
+366 Tangra 451113
+367 Uruk 7735110
+368 Vytis 684665
+369 Wandelo 2854442
+370 Xolotl 4573126
+371 Yvaine 12748214
+372 Zun 800102
+373 Aethel 9322815
+374 Beowulf 11801518
+375 Cynewulf 15144732
+376 Dunstan 9615092
+377 Eadric 2120865
+378 Frith 16544653
+379 Godwin 9528867
+380 Hrothgar 4759502
+381 Icel 9276153
+382 Jovian 13275149
+383 Knut 6954358
+384 Leofric 14195615
+385 Munderic 8287730
+386 Nithard 13047513
+387 Odo 2025664
+388 Penda 15488273
+389 Quendreda 10406198
+390 Roric 10399387
+391 Sigeric 5664939
+392 Tostig 3241934
+393 Uhtred 10039410
+394 Vortigern 16385535
+395 Wulfric 12411105
+396 Xene 5221507
+397 Yric 1594446
+398 Zeb 8766383
+399 Agatha 16737038
+400 Bertha 15900632
+401 Cuthburga 13099383
+402 Doda 15373653
+403 Ealswith 12920029
+404 Frideswide 12909177
+405 Gisela 5276054
+406 Hilda 13903004
+407 Ida 12275191
+408 Judith 7366673
+409 Kendra 6151766
+410 Lioba 15538991
+411 Mildred 9144583
+412 Neva 10589002
+413 Osburh 10134626
+414 Pega 14755512
+415 Quenburga 14713785
+416 Ricula 141263
+417 Sexburga 11631716
+418 Thane 5893859
+419 Uul 6612407
+420 Valda 3984970
+421 Wilfrida 5051144
+422 Xandra 73306
+423 Ymma 12737195
+424 Zelda 16527975
+425 Asgard 1577463
+426 Bifrost 8544711
+427 Caledonia 10849601
+428 Dacia 15400911
+429 Elysium 12395485
+430 Fianna 9003733
+431 Gades 12003362
+432 Helvetia 11788078
+433 Iberia 15200868
+434 Jotunheim 12569391
+435 Kush 10737402
+436 Latium 97326
+437 Midgard 4270391
+438 Numidia 13518720
+439 Ophir 1327475
+440 Punt 8225402
+441 Quintus 7631873
+442 Rhaetia 6521202
+443 Scythia 11867448
+444 Thrace 13933245
+445 Utica 2915436
+446 Valhalla 2565040
+447 Wessex 3210483
+448 Xanthos 11563424
+449 Yria 1371170
+450 Zion 12966116
+451 Aachen 3121231
+452 Babylon 12300240
+453 Carthage 14053328
+454 Dunwich 15223737
+455 Ephesus 6204920
+456 Friston 10551798
+457 Gath 1880094
+458 Hazor 3811035
+459 Illyria 6737303
+460 Jericho 725181
+461 Karnak 9591224
+462 Lycia 6755570
+463 Memphis 16034519
+464 Nineveh 10782672
+465 Olympia 14816585
+466 Palmyra 1621931
+467 Quirinal 11661411
+468 Rhodes 1511898
+469 Sparta 11964283
+470 Thebes 16307120
+471 Ur 4737253
+472 Viroconium 1071492
+473 Wroxeter 12218872
+474 Xanthus 11795116
+475 Yaroslav 6577929
+476 Zeugma 3607163
+477 Agon 10053229
+478 Bael 15916616
+479 Cael 11525496
+480 Durn 3788136
+481 Eld 16456066
+482 Forn 6368049
+483 Gund 13922270
+484 Hraefn 12537590
+485 Ior 9319651
+486 Jarl 11176719
+487 Krag 8306406
+488 Leth 7682001
+489 Murn 16409147
+490 Nor 7841936
+491 Oun 5731641
+492 Pyr 340897
+493 Quor 15420724
+494 Ruhn 7614043
+495 Skon 737154
+496 Torn 1764627
+497 Uld 827769
+498 Vorn 4965918
+499 Wulf 4441965
+500 Xun 6164433
+501 Yrn 395444
+502 Zul 10952066
+503 Aethelgard North 11188388
+504 Brunwich East 8144005
+505 Carldor South 8727697
+506 Dunmere West 3332913
+507 Evershield March 15514577
+508 Fenmar Reach 2045915
+509 Grimshear Vale 3455417
+510 Hallowvale Ridge 9940439
+511 Isengard Plains 11762847
+512 Jorvik Moors 15831676
+513 Kirkwall Hills 12409304
+514 Lothering Woods 8469534
+515 Murnival Fen 11052473
+516 Noxus Crag 10289172
+517 Oristano Bay 13285016
+518 Prydain Coast 10171313
+519 Quarth Sands 7922122
+520 Redoran Waste 13511501
+521 Sadrith Mire 490660
+522 Telvanni Isles 9321787
+523 Ushuaia Peak 13491068
+524 Abzu 3129297
+525 Boreas 1987751
+526 Charybdis 394598
+527 Drakon 5324154
+528 Erebus 6907469
+529 Fafnir 12249674
+530 Geryon 11417308
+531 Hydra 11514478
+532 Icarus 2738793
+533 Jormungandr 8775994
+534 Kharybdis 3111241
+535 Leviathan 9626883
+536 Minotaur 1546194
+537 Nemea 2816544
+538 Ouroboros 3570264
+539 Pegasus 10780900
+540 Quetzalcoatl 14710577
+541 Roc 5556903
+542 Scylla 7136178
+543 Typhon 9514684
+544 Undine 3019825
+545 Valkyrie 11403642
+546 Wendigo 8150787
+547 Xelhua 170293
+548 Ymir 11213437
+549 Ziz 14764868
+550 Anhur 1087988
+551 Bastet 10644986
+552 Chronos 144063
+553 Dionysus 10048430
+554  Osiris 13908786
+555 Freya Cult 1922229
+556 Ganesha 14485667
+557 Horus 8504421
+558 Isis 7532646
+559 Janus 1898514
+560 Kali 15288274
+561 Lugh 4409106
+562 Mithras 9790268
+563 Njord 4916666
+564 Odin 13539576
+565 Perun 9013344
+566 Quirinus 15220317
+567 Ra 5449049
+568 Shiva 3713216
+569 Thor 16724475
+570 Ullr 1322101
+571 Vishnu 14746265
+572 Wotan 13705171
+573 Xipe 5238155
+574 Yarilo 12965678
+575 Zeus 10373157
+576 Avalon 4565468
+577 Camelot 2385853
+578 ElDorado 10873651
+579 Hyperborea 3514536
+580 Lemuria 4059527
+581 Mu 2640187
+582 Nysa 6296110
+583 Olympus 5355211
+584 Paititi 6595198
+585 Shambhala 409263
+586 Thule 10483403
+587 Utgard 10237243
+588 Vinland 6710635
+589 Ys 6943172
+590 Zuvendis 934835
+591 Atlantis 12699297
+592 Arda 15525625
+593 Beleriand 16452646
+594 Calimshan 5743506
+595 Darkwood Realm 7017896
+596 Erebor 10670035
+597 Fangorn 6764926
+598 Gondor 2408466
+599 Harad 4509179
+600 Isen 3328932
+601 Jorwood 5776759
+602 Khand 2180830
+603 Lothlorien 16291653
+604 Mirkwood 4687126
+605 Numenor 7961019
+606 Orodruin 16309920
+607 Pelennor 3153712
+608 Rohan 9152467
+609 Shire 7594231
+610 Tulkas 5518340
+611 Utumno 9965670
+612 Valinor 11132040
+613 Waterdeep 15926483
+614 Xanth 14676916
+615 Yavanna 14226323
+616 Zendikar 5033949
+617 Aethelney 10588668
+618 Bamburgh 4506714
+619 Carisbrooke 10540130
+620 Dunster 1976958
+621 Eynsford 2765083
+622 Framlingham 3036065
+623 Goodrich 9895292
+624 Hedingham 13276950
+625 Iskander 3706587
+626 Jazer 4737844
+627 Kenilworth 6633868
+628 Lancaster 16499535
+629 Middleham 7689191
+630 Norham 3888573
+631 Orford 12202814
+632 Peveril 6051796
+633 Quatford 9186537
+634 Rochester 11738600
+635 Sherborne 4101436
+636 Tintagel 9961039
+637 Upnor 2605709
+638 Vance 5983583
+639 Warwick 10226224
+640 Xor 5661292
+641 Yorkshire 15909244
+642 Ziguran 14520780
+643 Aethelgard South 8338886
+644 Brunwich West 4534228
+645 Carldor North 10015330
+646 Dunmere East 14914266
+647 Evershield Keep 9557927
+648 Fenmar Swamp 855859
+649 Grimshear Hold 12755433
+650 Hallowvale Glade 1702708
+651 Isengard Tower 8291711
+652 Jorvik Skerries 6007859
+653 Kirkwall Docks 1825212
+654 Lothering Church 2717573
+655 Murnival Vault 15725048
+656 Noxus Gates 14201215
+657 Oristano Port 5120902
+658 Prydain Castle 12431735
+659 Quarth Bazaar 9422269
+660 Redoran Manor 3132098
+661 Sadrith Tower 470001
+662 Telvanni Grove 8475573
+663 Ushuaia Camp 699512
+664 Verdistis Market 762021
+665 Whiterun Keep 15637415
+666 Ysmir Tomb 2099433
+667 Zandalar Temple 610516
+668 Ashenvale Forest 1499093
+669 Boreand Tundra 11542357
+670 Cinderford Mine 4356798
+671 Dreadfort Dungeon 3693949
+672 Emberstrike Forge 16462075
+673 Frostfire Ridge 16146595
+674 Gloomspire Peak 9786848
+675 Hellfire Citadel 4291612
+676 Ironforge Mountain 6635458
+677 Jolund Islands 7080253
+678 Kaldorei Ruins 12665847
+679 Lordaeron Capital 13523548
+680 Mulgore Plains 16693205
+681 Netherstorm Wastes 12371406
+682 Outland Camp 7532464
+683 Plaguelands East 9150440
+684 Quelthalas Woods 7487967
+685 Redridge Canyon 9518848
+686 Aelfheim 5440437
+687 Breidablik 2291818
+688 Cysgod 6982025
+689 Dinas 9773437
+690 Emain 862897
+691 Falias 4066958
+692 Gorias 9582976
+693 Heryn 7542514
+694 Illtud 4984397
+695 Juon 9014781
+696 Koad 9698669
+697 Llan 14075911
+698 Murias 12278581
+699 Nant 11411043
+700 Oisin 1736443
+701 Pwyll 6873960
+702 Rhiannon 309780
+703 Sidh 5795179
+704 Taliesin 13592534
+705 Uisneach 13898176
+706 Venta 13752468
+707 Wyth 3286462
+708 Xera 6251430
+709 Yspaddaden 12975545
+710 Zeth 13524320
+711 Aber 15068935
+712 Blaen 7609624
+713 Caer 15094270
+714 Dol 10876451
+715 Eglwys 1931250
+716 Ffynnon 12074966
+717 Glan 14726969
+718 Hafod 85127
+719 Ilar 8742697
+720 Llyn 14054538
+721 Maes 6347798
+722 Nant East 9177910
+723 Pen 13003606
+724 Rhiw 7956192
+725 Sarn 944446
+726 Tre 15916252
+727 Ynys 9251620
+728 Zennor 4964737
+729 Alba 9898077
+730 Blasket 14379811
+731 Clonmacnoise 8607038
+732 Dingle 16264985
+733 Emain Macha 10839581
+734 Fingal 16081846
+735 Glendalough 5476687
+736 Howth 2710354
+737 Inishmore 14822185
+738 Jerpoint 15232320
+739 Kells Abbey 10980097
+740 Lismore 9039830
+741 Monasterboice 16319532
+742 Navan 6305131
+743 Ouessant 2878975
+744 Puilboreau 12883282
+745 Quin Friary 9738959
+746 RockofCashel 550369
+747 Skellig 9003763
+748 Tara 8649326
+749 Urlaur 6330815
+750 Valentia 9087310
+751 Waterford 7115912
+752 Xenophon 7522263
+753 Youghal 371365
+754 Zun Hold 9480541
+755 Ancyra 8335209
+756 Borysthenes 3843638
+757 Callatis 3111212
+758 Dioscurias 12981175
+759 Eupatoria 7068993
+760 Fanagoria 8930358
+761 Gorgippia 8958463
+762 Heraclea 14061320
+763 Istrus 14436794
+764 Kerkinitis 346498
+765 Limnae 12385225
+766 Myrmekion 7064057
+767 Nymphaion 8134015
+768 Olbia 6054596
+769 Panticapaeum 7602995
+770 Phanagoria 3107639
+771 Sinope 16188218
+772 Tanais 3684520
+773 Theodosia 5993450
+774 Tyras 13443179
+775 Ush 16165015
+776 Varna 4421591
+777 Xor Coast 1963927
+778 Yevpatoria 15766081
+779 Zonguldak 2471231
+780 Apollonia 2672893
+781 Berezan 6502373
+782 Chersonesos 4353378
+783 Dionysopolis 3069150
+784 Eunapius 9623493
+785 Flavapolis 14279039
+786 Gaza 7232378
+787 Hierapolis 12300830
+788 Iasus 2838488
+789 Kallatis 2727184
+790 Mesembria 2033459
+791 Odessus 7927722
+792 Phaselis 10476001
+793 Sestos 16651842
+794 Tomis 6968
+795 Uluburun 1003565
+796 Xanthi 9904524
+797 Yalova 195008
+798 Zeleia 12206387
+799 Agatha Fort 2844240
+800 Bertha Vale 12571011
+801 Cuthburga March 14741044
+802 Doda Reach 16393936
+803 Ealswith Hold 7792064
+804 Frideswide Fens 12620912
+805 Gisela Ridge 4431945
+806 Hilda Moors 6845368
+807 Ida Woods 10188326
+808 Judith Crag 4658686
+809 Kendra Bay 14007211
+810 Lioba Coast 11653783
+811 Mildred Sands 4572461
+812 Neva Waste 16646104
+813 Osburh Mire 4319491
+814 Pega Isles 8384535
+815 Quenburga Peak 2063744
+816 Ricula Camp 9239465
+817 Sexburga Market 3397115
+818 Thane Tomb 8156643
+819 Uul Temple 13780938
+820 Valda Grove 10597403
+821 Wilfrida Dungeon 5450048
+822 Xandra Capital 5443237
+823 Ymma Tower 708533
+824 Zelda Vault 15063000
+825 Asgard Plains 5148540
+826 Bifrost Bridge 11428873
+827 Caledonia Hills 7520235
+828 Dacia Forest 199821
+829 Elysium Fields 13481048
+830 Fianna Keep 3744441
+831 Gades Port 11846168
+832 Helvetia Mount 10944226
+833 Iberia Valley 8142977
+834 Jotunheim Crags 10482783
+835 Kush Kingdom 8029159
+836 Latium Empire 7887235
+837 Midgard Realm 319648
+838 Numidia Desert 9012134
+839 Ophir Mines 7384065
+840 Punt Land 2475803
+841 Quintus Fort 1195616
+842 Rhaetia Border 10648121
+843 Scythia Steppes 4253969
+844 Thrace Kingdom 5698388
+845 Utica Colony 5178220
+846 Valhalla Hall 9799106
+847 Wessex Realm 9757379
+848 Xanthos City 11962073
+849 Yria Province 6741102
+850 Zion Mount 937453
+851 Aachen Palace 1590465
+852 Babylon Tower 15805780
+853 Carthage Port 160274
+854 Dunwich Ruins 11894116
+855 Ephesus Temple 7846325
+856 Friston Church 11571825
+857 Gath City 13463553
+858 Hazor Fortress 3653841
+859 Illyria Coast 5893195
+860 Jericho Walls 10444505
+861 Karnak Obelisk 7504615
+862 Lycia Tombs 4047327
+863 Memphis Palace 7112492
+864 Nineveh Gates 6831672
+865 Olympia Sanctuary 10244462
+866 Palmyra Colonnade 7547449
+867 Quirinal Hill 5780740
+868 Rhodes Colossus 11918136
+869 Sparta Camp 16091201
+870 Thebes HundredGates 8628106
+871 Ur Ziggurat 13214077
+872 Viroconium Baths 3334532
+873 Wroxeter Forum 2741003
+874 Xanthus Stele 1630332
+875 Yaroslav Kremlin 6976578
+876 Zeugma Mosaics 9042631
+877 Agon Arena 14801782
+878 Bael Keep 14451386
+879 Cael Spire 14965757
+880 Durn Holdfast 6672554
+881 Eld Cairn 13191980
+882 Forn Forest 8009710
+883 Gund Peak 14876761
+884 Hraefn Roost 7343834
+885 Ior Mire 9096922
+886 Jarl Seat 10332867
+887 Krag Deep 1182722
+888 Leth Vale 5595136
+889 Murn Ridge 13700904
+890 Nor Wood 15697381
+891 Oun Bay 1780897
+892 Pyr Tower 12545991
+893 Quor Glade 4634818
+894 Ruhn Ruins 1799164
+895 Skon Coast 11012577
+896 Torn Pass 5891802
+897 Uld Mound 9860435
+898 Vorn Swamp 13377461
+899 Wulf Den 6639469
+900 Xun Vault 13398500
+901 Yrn Cleft 7073413
+902 Zul City 11350714
+903 Almerhold Outer 16558319
+904 Bregor Marches 12892558
+905 Calenhad Beacon 7327746
+906 Durnholde Keep 6773174
+907 Esteldin Camp 1621523
+908 Forchel Ice 15493509
+909 Gondamon Gates 5096822
+910 Henneth Annun 10960466
+911 Imladris Valley 6503554
+912 Jarnurg Mine 15543410
+913 Kelsin Reach 11565196
+914 Linhir Haven 1411642
+915 Minas Tirith 9031400
+916 Nurn Fields 7646464
+917 Osgiliath East 4363245
+918 Pelargir Port 6220313
+919 Rhosgobel Woods 3284464
+920 Sarnford Bridge 2791131
+921 Tarnost Hills 11518277
+922 Umbar Havens 2885529
+923 Valimar West 840771
+924 Wulfburg Castle 12227243
+925 Xanadu Palace 10529854
+926 Yester Vale 2723173
+927 Zulian Jungle 12558220
+928 Aethelgard Royal 13519901
+929 Brunwich Town 12583043
+930 Carldor Keep 9768
+931 Dunmere Lake 16263031
+932 Evershield Wall 1208027
+933 Fenmar Garrison 12281790
+934 Grimshear Camp 5995660
+935 Hallowvale Shed 6231982
+936 Isengard Ring 3187599
+937 Jorvik City 3837083
+938 Kirkwall Gallows 15153723
+939 Lothering Village 10558171
+940 Murnival Court 13866725
+941 Noxus Prime 15276227
+942 Oristano Dock 4984033
+943 Prydain Realm 6806441
+944 Quarth City 10940806
+945 Redoran Council 7518434
+946 Sadrith Mora 3578664
+947 Telvanni Tower 6096067
+948 Ushuaia Bay 5398302
+949 Verdistis Estate 8328610
+950 Whiterun Plains 5214907
+951 Ysmir Throne 2965716
+952 Zandalar Isle 8620631
+953 Ashenvale Ruins 12377006
+954 Boreand Ice 4431173
+955 Cinderford Vale 8534662
+956 Dreadfort Keep 14884571
+957 Emberstrike Peak 13874352
+958 Frostfire Pass 12281200
+959 Gloomspire Vault 433284
+960 Hellfire Rampart 2016599
+961 Ironforge Hall 7293524
+962 Jolund Haven 6460902
+963 Kaldorei Temple 6558072
+964 Lordaeron Throne 14494323
+965 Mulgore Camp 3819588
+966 Netherstorm Eco 14997587
+967 Outland Shattered 4670477
+968 Plaguelands West 13432540
+969 Quelthalas Palace 14637610
+970 Redridge Bridge 15391074
+971 Silithus Sands 5890030
+972 Tanaris Dunes 9819707
+973 Uldum Oasis 600497
+974 Vashjir Sunken 2114236
+975 Winterspring Grove 4558278
+976 Xibala Tomb 14840635
+977 Zangarmarsh Fungi 6447236
+978 Ahnqiraj Hive 3194381
+979 Blackrock Spire 11991103
+980 CaerDarrow Keep 6257031
+981 Dalaran Crater 9874253
+982 Ebonhold Fort 12974334
+983 Felwood Corrupted 5753860
+984 GrimBatol Gates 11965129
+985 Hearthglen Manor 5157816
+986 Icecrown Citadel 9017916
+987 JinthaAlor Top 13743039
+988 KulTiras Port 9595053
+989 LochModan Dam 3548015
+990 Moonglade Shrine 2576240
+991 Nagrand Garrison 13719324
+992 Orgrimmar Hold 10331868
+993 Pyrewood Village 16229916
+994 QuelDanas Isle 4899398
+995 Rethban Quarry 16737476
+996 Stormwind Keep 8583170
+997 Theramore Isle 4122474
+998 Undercity 10263911
+999 Valormok Camp 558179
+1000 Westfall Farm 15468489
+1001 Xoroth Plains 11833348
+1002 Yojamba Isle 13142911
+1003 Zulfarrak Pool 9855395
+1004 Alterac Valley 8814301
+1005 Badlands Camp 216213
+1006 Crater Rim 8009272
+1007 Darnassus Tree 5482287
+1008 Exodar Ship 16320998
+1009 Feralas Wilds 14206663
+1010 Gnomeregan City 5917245
+1011 Hyjal Summit 15400882
+1012 Ironstrider Base 15815057
+1013 Kezan Port 14460997
+1014 Lochton Bridge 1405240
+1015 Maelstrom Eye 333525
+1016 Northrend Ice 1638791
+1017 Onyxia Lair 12230073
+1018 Pandaria Vale 5526997
+1019 Ravenholdt Manor 5280837
+1020 Shattrath City 1819765
+1021 Tirisfal Glades 1921230
+1022 Ulduar Keep 12821181
+1023 Vrykul Village 7743147
+1024 Warsong Gulch 10568963
+1025 Xandros Isle 11496240
+1026 Yulon Temple 721564
+1027 Zangara Marsh 2127282
+1028 Anvilmar Forge 5713629
+1029 Brill Graveyard 1874311
+1030 Crossroads Inn 14229276
+1031 Darkshire Town 16329733
+1032 Everlook Bank 15149742
+1033 Feathermoon Stronghold 885888
+1034 Gadgetzan Market 14067176
+1035 Hammerfall Camp 11335503
+1036 Ilisidi Manor 16507936
+1037 Kargath Fort 3004613
+1038 Lakeshire Bridge 11353514
+1039 Menethil Harbor 15040313
+1040 Nighthaven Grove 4130525
+1041 Ogrim Camp 2637569
+1042 Plaguewood Church 627726
+1043 Ratchet Port 5009264
+1044 Sentinel Hill 6175634
+1045 TarrenMill Town 10970077
+1046 Ursin Den 9720510
+1047 Valgarde Keep 9335453
+1048 Wildhammer Keep 12007
+1049 Xylem Tower 5697542
+1050 Yalnu Root 16327780
+1051 Zabra Camp 5518188
+1052 Acheron Gate 13863304
+1053 BaelModan Dig 14651428
+1054 Centaur Camp 14922667
+1055 DireMaul Arena 4873350
+1056 Eversong Woods 8386336
+1057 Farstrider Enclave 15527397
+1058 Garadar Camp 16558654
+1059 Halalaa Town 1742998
+1060 Isildur Tomb 11543129
+1061 Jubei Palace 2733041
+1062 Kiljaeden Throne 15774919
+1063 Liadrin Sanctum 7311944
+1064 Malorne Grove 1160926
+1065 Nefarian Lair 4230131
+1066 Onu Grove 6847730
+1067 Perenolde Manor 15987782
+1068 Ragnaros Core 4939097
+1069 Sargeras Tomb 14426775
+1070 Terenas Tomb 1092969
+1071 Uther Tomb 5335354
+1072 Velen Sanctum 704886
+1073 Wrathion Lair 10952838
+1074 Xavius Rift 9564374
+1075 Ysera Grove 3448016
+1076 Zuljin Stronghold 16355038
+1077 Archimonde Banishing 4993644
+1078 Balnazzar Bastion 10023396
+1079 Chogall Altar 4601777
+1080 Deathwing Fall 12742205
+1081 Elune Temple 7733747
+1082 Freya Enclave 13457982
+1083 Guldan Cove 3335561
+1084 Hogger Hill 985917
+1085 Illidan Prison 13646022
+1086 Jaraxxus Summon 14538383
+1087 Kaelthas Walk 10702850
+1088 Loken Seat 9179529
+1089 Malygos Nexus 230032
+1090 Nozdormu Cavern 7475329
+1091 Onyx Mine 4465863
+1092 Pterrordax Nest 14887372
+1093 Quilboar Den 12290811
+1094 Rexxar Camp 3584703
+1095 Sylvanas Court 12454786
+1096 Thrall Chamber 12517551
+1097 Uldaman Vault 10746801
+1098 Voljin Camp 13920243
+1099 Wrynn Keep 12496862
+1100 Xarantaur Library 13254367
+1101 Ymiron Throne 6651486
+1102 Zulaman Keep 16243400
+1103 Acamar System 15514759
+1104 Bellatrix Star 11571205
+1105 Canopus Orbit 11255725
+1106 Deneb Sector 4830698
+1107 Eraklyon System 16112678
+1108 Fomalhaut Ring 1744844
+1109 Gacrux Sector 2189383
+1110 Hadadar Planet 7774977
+1111 Izar Moon 8632678
+1112 Jabbah System 11736799
+1113 Kornephoros Ring 7415000
+1114 Lesath System 2576058
+1115 Marfik Sector 4259826
+1116 Nunki Orbit 2531561
+1117 Okda Planet 4562442
+1118 Polaris Station 484031
+1119 Rasalas Sector 14112628
+1120 Sabik System 2091155
+1121 Tejat Sector 4817031
+1122 Unukalhai Orbit 12749243
+1123 Vega System 15887768
+1124 Wazn Sector 4626826
+1125 Zaniah Planet 2586107
+1126 Alzir System 93527
+1127 Botein Orbit 4123655
+1128 Chara Sector 4742263
+1129 Dilib System 9054225
+1130 Edasich Orbit 7387711
+1131 FumAlSamakah Sector 6520173
+1132 Gorgonea System 13556997
+1133 Heze Planet 1917810
+1134 Iclil Orbit 12130846
+1135 Jishui System 904565
+1136 Kraz Sector 8701664
+1137 Larawag Orbit 9007562
+1138 Mankib System 8796062
+1139 Nashira Sector 15107272
+1140 Ogma Planet 1360560
+1141 Piautos Orbit 8019139
+1142 Ran System 8633706
+1143 Saclateni Sector 10112529
+1144 Taiyi Planet 2718754
+1145 Ukdah Orbit 10137608
+1146 Veritate System 5920045
+1147 Wurren Sector 13817596
+1148 Xuange Planet 7184096
+1149 Yed Orbit 9770819
+1150 Zaurak System 11971472
+1151 Alkes Sector 3786547
+1152 Banda Planet 9163668
+1153 Cujam Orbit 1325856
+1154 Duhr System 4287040
+1155 Elgafar Sector 8112736
+1156 Franz Planet 3065578
+1157 Guniibuu Orbit 12830792
+1158 Hatysa System 10894310
+1159 Intercrus Sector 4361006
+1160 Jeka Planet 8587
+1161 Kalausi Orbit 5007463
+1162 Liesma System 9489197
+1163 Montuno Sector 3650632
+1164 Natasha Planet 11308835
+1165 Pipirima Orbit 5883175
+1166 Rapeto System 11125440
+1167 Sika Sector 520281
+1168 Tangra Planet 14531164
+1169 Uruk Orbit 9866035
+1170 Vytis System 10341450
+1171 Wandelo Sector 6089227
+1172 Xolotl Planet 4083424
+1173 Yvaine Orbit 11363125
+1174 Zun System 1414261
+1175 Aethel Sector 14699528
+1176 Beowulf Planet 7927132
+1177 Cynewulf Orbit 4848089
+1178 Dunstan System 12436971
+1179 Eadric Sector 4112893
+1180 Frith Planet 3692920
+1181 Godwin Orbit 1374409
+1182 Hrothgar System 4065368
+1183 Icel Sector 2225298
+1184 Jovian Planet 2500321
+1185 Knut Orbit 12126639
+1186 Leofric System 4524391
+1187 Munderic Sector 3379059
+1188 Nithard Planet 15664704
+1189 Odo Orbit 14932022
+1190 Penda System 8090305
+1191 Quendreda Sector 2047051
+1192 Roric Planet 4039488
+1193 Sigeric Orbit 4001801
+1194 Tostig System 9170450
+1195 Uhtred Sector 9545924
+1196 Vortigern Planet 12233100
+1197 Wulfric Orbit 7363282
+1198 Xene System 2041859
+1199 Yric Sector 3243145
+1200 Zeb Planet 1163726
+1201 Agatha Orbit 2646589
+1202 Bertha System 14928449
+1203 Cuthburga Sector 11297604
+1204 Doda Planet 15505330
+1205 Ealswith Orbit 1102836
+1206 Frideswide System 8486773
+1207 Gisela Sector 11208609
+1208 Hilda Planet 16242401
+1209 Ida Orbit 13784737
+1210 Judith System 10809931
+1211 Kendra Sector 14292041
+1212 Lioba Planet 14493447
+1213 Mildred Orbit 1611759
+1214 Neva System 16174444
+1215 Osburh Sector 14824680
+1216 Pega Planet 4667086
+1217 Quenburga Orbit 9322633
+1218 Ricula System 2341508
+1219 Sexburga Sector 7344424
+1220 Thane Planet 14724834
+1221 Uul Orbit 14613530
+1222 Valda System 13919805
+1223 Wilfrida Sector 2971572
+1224 Xandra Planet 5519595
+1225 Ymma Orbit 11695692
+1226 Zelda System 11827778
+1227 Asgard Sector 12889911
+1228 Bifrost Planet 5013654
+1229 Caledonia Orbit 11950282
+1230 Dacia System 7315773
+1231 Elysium Sector 14730586
+1232 Fianna Planet 7549324
+1233 Gades Orbit 9784638
+1234 Helvetia System 11437530
+1235 Iberia Sector 2835658
+1236 Jotunheim Planet 7730298
+1237 Kush Orbit 16187475
+1238 Latium System 1954498
+1239 Midgard Sector 5297456
+1240 Numidia Planet 16479496
+1241 Ophir Orbit 9050805
+1242 Punt System 6697633
+1243 Quintus Sector 16393271
+1244 Rhaetia Planet 11624162
+1245 Scythia Orbit 16140300
+1246 Thrace System 3362593
+1247 Utica Sector 13884554
+1248 Valhalla Planet 4283059
+1249 Wessex Orbit 15152133
+1250 Xanthos System 3200237
+1251 Yria Sector 8890068
+1252 Zion Planet 5641253
+1253 Aachen Orbit 559178
+1254 Babylon System 486831
+1255 Carthage Sector 12529342
+1256 Dunwich Planet 10106594
+1257 Ephesus Orbit 192390
+1258 Friston System 6538003
+1259 Gath Sector 2563829
+1260 Hazor Planet 12086167
+1261 Illyria Orbit 8459106
+1262 Jericho System 15631042
+1263 Karnak Sector 6824482
+1264 Lycia Planet 5987820
+1265 Memphis Orbit 3186827
+1266 Nineveh System 5460841
+1267 Olympia Sector 3138545
+1268 Palmyra Planet 2996365
+1269 Quirinal Orbit 12140457
+1270 Rhodes System 4055728
+1271 Sparta Sector 2362379
+1272 Thebes Planet 14231077
+1273 Ur Orbit 13081962
+1274 Viroconium System 5757507
+1275 Wroxeter Sector 16009243
+1276 Xanthus Planet 676446
+1277 Yaroslav Orbit 221813
+1278 Zeugma System 4908236
+1279 Agon Sector 4801229
+1280 Bael Planet 7071459
+1281 Cael Orbit 1719160
+1282 Durn System 12758263
+1283 Eld Sector 13477067
+1284 Forn Planet 10849630
+1285 Gund Orbit 11981084
+1286 Hraefn System 7003246
+1287 Ior Sector 2824639
+1288 Jarl Planet 6680955
+1289 Krag Orbit 8507403
+1290 Leth System 15474907
+1291 Murn Sector 936789
+1292 Nor Planet 5488355
+1293 Oun Orbit 2613745
+1294 Pyr System 15868393
+1295 Quor Sector 2156086
+1296 Ruhn Planet 1875266
+1297 Skon Orbit 5353592
+1298 Torn System 2656835
+1299 Uld Sector 889870
+1300 Vorn Planet 6961986
+1301 Wulf Orbit 11200587
+1302 Xun System 3671700
+1303 Yrn Sector 8257671
+1304 Zul Planet 15155342
+1305 Almerhold Prime 14496277
+1306 Bregor Throne 13385862
+1307 Calenhad Keep 2020428
+1308 Durnholde Castle 4086225
+1309 Esteldin Hub 9845376
+1310 Forchel Town 9495236
+1311 Gondamon Hall 10074887
+1312 Henneth Fort 1650612
+1313 Imladris House 8235574
+1314 Jarnurg Forge 3053560
+1315 Kelsin Port 9985891
+1316 Linhir City 2453220
+1317 Minas Anor 4140771
+1318 Nurn Camp 5310925
+1319 Osgiliath West 13069324
+1320 Pelargir Wharf 704266
+1321 Rhosgobel Tower 8744754
+1322 Sarnford Camp 10806511
+1323 Tarnost Fort 13667243
+1324 Umbar City 7655121
+1325 Valimar East 16455884
+1326 Wulfburg Keep 13685254
+1327 Xanadu Dome 6121963
+1328 Yester Port 870116
+1329 Zulian Temple 4969565
+1330 Aethelgard Deep 8486591
+1331 Brunwich Dale 1748599
+1332 Carldor Sands 8507630
+1333 Dunmere Hills 2117262
+1334 Evershield Ridge 6394564
+1335 Fenmar Plains 11601913
+1336 Grimshear Woods 7936152
+1337 Hallowvale Coast 2371596
+1338 Isengard Orchard 1882303
+1339 Jorvik Castle 13442333
+1340 Kirkwall Hightown 10537103
+1341 Lothering Chantry 140672
+1342 Murnival Garden 6004060
+1343 Noxus Bastion 1612940
+1344 Oristano Palace 10652796
+1345 Prydain Throne 6674326
+1346 Quarth  13298244
+1347 Redoran Vault 4009458
+1348 Sadrith Council 2690058
+1349 Telvanni Library 16249591
+1350 Ushuaia Forest 1263907
+1351 Verdistis Guild 15170810
+1352 Whiterun Stable 14612197
+1353 Ysmir Hall 6496335
+1354 Zandalar Throne 14706595
+1355 Ashenvale Camp 12596301
+1356 Boreand Port 7271093
+1357 Cinderford Hold 5508168
+1358 Dreadfort Hall 14543983
+1359 Emberstrike Mine 7667350
+1360 Frostfire Fort 8629287
+1361 Gloomspire Gate 7692429
+1362 Hellfire Citadel East 11830578
+1363 Ironforge Deep 11306625
+1364 Jolund Castle 13094629
+1365 Kaldorei Grove 7325384
+1366 Lordaeron Courtyard 1104789
+1367 Mulgore Mesa 1341112
+1368 Netherstorm Spire 15008665
+1369 Outland Wastes 15723429
+1370 Plaguelands North 10197573
+1371 Quelthalas Spire 5602021
+1372 Redridge Mountain 8975855
+1373 Silithus Hive 10320077
+1374 Tanaris Port 27627
+1375 Uldum Pyramid 1850035
+1376 Vashjir Reef 5918864
+1377 Winterspring Valley 2496492
+1378 Xibala Ruins 15399474
+1379 Zangarmarsh Swamp 1205453
+1380 Ahnqiraj Temple 507432
+1381 Blackrock Mountain 3437996
+1382 CaerDarrow Island 324293
+1383 Dalaran City 14852318
+1384 Ebonhold Castle 3730017
+1385 Felwood Forest 7420600
+1386 GrimBatol Fort 16251983
+1387 Hearthglen Town 3578512
+1388 Icecrown Glacier 9993957
+1389 JinthaAlor Cave 8917946
+1390 KulTiras Island 7324794
+1391 LochModan Lake 12254349
+1392 Moonglade Lake 13837409
+1393 Nagrand Plains 2337118
+1394 Orgrimmar City 1570032
+1395 Pyrewood Village North 1601922
+1396 QuelDanas Sunwell 9603453
+1397 Rethban Mine 15706190
+1398 Stormwind City 10041181
+1399 Theramore Port 16491287
+1400 Undercity Sewers 8476390
+1401 Valormok Hold 9746740
+1402 Westfall Plains 10434668
+1403 Xoroth Citadel 868088
+1404 Yojamba Temple 4797765
+1405 Zulfarrak City 12486843
+1406 Alterac Mountains 14000838
+1407 Badlands Wastes 16444624
+1408 Crater Jungle 9950021
+1409 Darnassus City 1556622
+1410 Exodar City 15015446
+1411 Feralas Forest 7034953
+1412 Gnomeregan Subway 1366161
+1413 Hyjal Mountain 4917847
+1414 Ironstrider Outpost 7952136
+1415 Kezan Isle 732174
+1416 Lochton Town 7074259
+1417 Maelstrom Whirl 201410
+1418 Northrend Continent 4127302
+1419 Onyxia Cave 8786633
+1420 Pandaria Continent 4704183
+1421 Ravenholdt House 15368825
+1422 Shattrath Dome 14462842
+1423 Tirisfal Wood 8763174
+1424 Ulduar City 5375718
+1425 Vrykul Fort 11273510
+1426 Warsong Camp 16654672
+1427 Xandros Port 11846862
+1428 Yulon Grove 3626764
+1429 Zangara Tower 15877748
+1430 Anvilmar Hall 5373041
+1431 Brill Town 12444525
+1432 Crossroads Town 10577619
+1433 Darkshire Woods 6877198
+1434 Everlook Town 8252041
+1435 Feathermoon Camp 4899245
+1436 Gadgetzan City 3857894
+1437 Hammerfall Fort 12102815
+1438 Ilisidi Keep 3053122
+1439 Kargath Camp 460345
+1440 Lakeshire Town 11430128
+1441 Menethil Town 9250257
+1442 Nighthaven Town 1026375
+1443 Ogrim Fort 10379196
+1444 Plaguewood Town 10924187
+1445 Ratchet Town 9504591
+1446 Sentinel Keep 13226050
+1447 TarrenMill Camp 12219871
+1448 Ursin Fort 13525137
+1449 Valgarde Fort 7339459
+1450 Wildhammer Fort 636383
+1451 Xylem Camp 389967
+1452 Yalnu Camp 13575039
+1453 Zabra Fort 13807576
+1454 Acheron Camp 7799239
+1455 BaelModan Camp 2786741
+1456 Centaur Fort 5678093
+1457 DireMaul Keep 6605370
+1458 Eversong Camp 12607910
+1459 Farstrider Camp 13948092
+1460 Garadar Fort 822759
+1461 Halalaa Fort 13695121
+1462 Isildur Fort 9338406
+1463 Jubei Camp 11438863
+1464 Kiljaeden Camp 10193592
+1465 Liadrin Camp 12706954
+1466 Malorne Camp 9045234
+1467 Nefarian Camp 6379097
+1468 Onu Camp 11551530
+1469 Perenolde Camp 14825423
+1470 Ragnaros Camp 6397364
+1471 Sargeras Camp 10083907
+1472 Terenas Camp 16016871
+1473 Uther Camp 14523915
+1474 Velen Camp 12448536
+1475 Wrathion Camp 118394
+1476 Xavius Camp 1219228
+1477 Ysera Camp 6079463
+1478 Zuljin Camp 4764103
+1479 Archimonde Camp 4444583
+1480 Balnazzar Camp 11898353
+1481 Chogall Camp 741136
+1482 Deathwing Camp 11436909
+1483 Elune Camp 627318
+1484 Freya Camp 8906898
+1485 Guldan Camp 9695022
+1486 Hogger Camp 9966261
+1487 Illidan Camp 16759696
+1488 Jaraxxus Camp 3429930
+1489 Kaelthas Camp 10570991
+1490 Loken Camp 11602248
+1491 Malygos Camp 13629600
+1492 Nozdormu Camp 6652515
+1493 Onyx Camp 14553850
+1494 Pterrordax Camp 10753233
+1495 Quilboar Camp 2355538
+1496 Rexxar Camp Two 12916200
+1497 Sylvanas Camp Two 16116733
+1498 Thrall Camp Two 1957116
+1499 Uldaman Camp Two 10965840
+1500 Voljin Camp Two 48227
+1501 Wrynn Camp Two 9535905
+1502 Xarantaur Camp 12848243
+1503 Ymiron Camp 378948
+1504 Zulaman Camp 12525952
+1505 Acamar Camp 6061968
+1506 Bellatrix Camp 4607968
+1507 Canopus Camp 15268826
+1508 Deneb Camp 11464168
+1509 Eraklyon Camp Two 102774
+1510 Fomalhaut Camp 5001454
+1511 Gacrux Camp 16488123
+1512 Hadadar Camp 7851335
+1513 Izar Camp 2842877
+1514 Jabbah Camp 8567112
+1515 Kornephoros Camp 15156371
+1516 Lesath Camp 12872263
+1517 Marfik Camp 8689616
+1518 Nunki Camp 9582233
+1519 Okda Camp 5812236
+1520 Polaris Camp 4288659
+1521 Rasalas Camp 12116634
+1522 Sabik Camp 2584459
+1523 Tejat Camp 16352208
+1524 Unukalhai Camp 9996758
+1525 Vega Camp 7399941
+1526 Wazn Camp 15405513
+1527 Zaniah Camp 7563916
+1528 Alzir Camp 7626681
+1529 Botein Camp 5724859
+1530 Chara Camp 9029373
+1531 Dilib Camp 7475176
+1532 Edasich Camp 8363497
+1533 FumAlSamakah Camp 1695080
+1534 Gorgonea Camp 11286994
+1535 Heze Camp 10558353
+1536 Iclil Camp 6614799
+1537 Jishui Camp 6299319
+1538 Kraz Camp 16651508
+1539 Larawag Camp 11156272
+1540 Mankib Camp 13565654
+1541 Nashira Camp 14010193
+1542 Ogma Camp 2753035
+1543 Piautos Camp 3610736
+1544 Ran Camp 6845929
+1545 Saclateni Camp 2458594
+1546 Taiyi Camp 14396868
+1547 Ukdah Camp 16015100
+1548 Veritate Camp 14352627
+1549 Wurren Camp 16448787
+1550 Xuange Camp 12370377
+1551 Yed Camp 9156478
+1552 Zaurak Camp 13846685
+1553 Alkes Camp 16703377
+1554 Banda Camp 7792836
+1555 Cujam Camp 10997154
+1556 Duhr Camp 16513172
+1557 Elgafar Camp 14472197
+1558 Franz Camp Two 11980129
+1559 Guniibuu Camp 15878929
+1560 Hatysa Camp 16563073
+1561 Intercrus Camp 4163355
+1562 Jeka Camp Two 2365769
+1563 Kalausi Camp 1564023
+1564 Liesma Camp 8600591
+1565 Montuno Camp 13738620
+1566 Natasha Camp 7174440
+1567 Pipirima Camp 12659839
+1568 Rapeto Camp 3745258
+1569 Sika Camp 4116692
+1570 Tangra Camp 3905192
+1571 Uruk Camp 10216402
+1572 Vytis Camp 13181370
+1573 Wandelo Camp 3128269
+1574 Xolotl Camp 3677300
+1575 Yvaine Camp 5156379
+1576 Zun Camp Two 14539564
+1577 Aethel Camp 5181202
+1578 Beowulf Camp 1029431
+1579 Cynewulf Camp 8795654
+1580 Dunstan Camp 2227690
+1581 Eadric Camp 4879949
+1582 Frith Camp 6949786
+1583 Godwin Camp 15607357
+1584 Hrothgar Camp 4141726
+1585 Icel Camp 13212458
+1586 Jovian Camp 16173386
+1587 Knut Camp 3156330
+1588 Leofric Camp 14820851
+1589 Munderic Camp 7874386
+1590 Nithard Camp 6003696
+1591 Odo Camp 16181816
+1592 Penda Camp 11829397
+1593 Quendreda Camp 51057

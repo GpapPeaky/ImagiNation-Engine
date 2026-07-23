@@ -109,38 +109,42 @@
 84 39 21    duchy                   "Catte"
 181 96 70   duchy                   "Sudherzogtum"
 
+#comp
 44 120 137  merchant_republic       "Porto Marina"
 52 140 158  bishopry                "Santa Marina"
-
 234 230 121 papacy                  "Papal State"
+#comp
+
 234 205 93  bishopry                "Saint Riviera"
+
+#comp
 234 205 121 bishopry                "Saint Markkus"
+#comp
+
 219 207 41  monastic_order          "Saint Erique"
 234 226 0   holy_order              "Saint Anna"
 255 242 0   holy_order              "Saint Germain"
 
 96 62 92    tribe                   "Boion"
 
+#comp
 109 100 117 tribe                   "Enetezi"
+#comp
 
 99 63 114   tribe                   "Glamore"
 
 163 89 117  tribe                   "Glamor"
 
+#comp
 109 147 117 tribe                   "O'Hara"
-
 173 193 255 holy_order              "Blue Cross"
-
 198 213 255 federation              "Jan Mallen"
-
 99 6 0      peasant_republic        "Kolmark Union"
-
 188 198 197 republic                "Kolmark"
-
 179 101 191 federation              "Old Counties"
-
 81 81 81    free_city               "North Herakleion"
 112 112 112 free_city               "South Herakleion"
+#comp
 
 99 27 27    peasant_republic        "Pateles"
 

@@ -18,6 +18,8 @@ namespace KENG {
             if (line.empty())
                 continue;
     
+            if (line[0] == '#') continue; // Comment
+
             std::stringstream ss(line);
             //
             int r, g, b;
