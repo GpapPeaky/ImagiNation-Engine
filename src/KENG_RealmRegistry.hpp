@@ -18,5 +18,8 @@ namespace KENG {
             void Print(ProvinceRegistry& pr); // Prints the generated entries, debug only.
 
             std::vector<Realm>& Realms(void);
+
+            Realm& GetRealm(llui id);
+            Realm& GetRealm(std::array<ui8, 3> color);
     }; // Registry
 }

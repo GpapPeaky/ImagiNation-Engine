@@ -90,25 +90,28 @@ int main(int, char**){
         KENG::GPU::Render(realmMap, rmm); /* Actual coloured realm map rendering */
         
         std::string provName;
+        std::string rlmName;
         provName = provCtrl.GetHoveredProvince(preg, *provinceMap).Name();
-        if (provName != "nullprov") {
+        rlmName = provCtrl.GetHoveredRealm(rreg, *realmMap).Name();
+        if (provName != "nullprov" && rlmName != "nullrlm") {
             OGL_RenderText(*provinceHoverInfo, provName.c_str(), (float)mx + (float)provinceHoverFontHeight, (float)my + (float)(provinceHoverFontHeight / 2), 1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+            OGL_RenderText(*provinceHoverInfo, rlmName.c_str(), (float)mx + (float)provinceHoverFontHeight, (float)my + (float)(provinceHoverFontHeight), 1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
         }
 
         /* TEST */
-        static bool addedOther = false;
-        if (!addedOther) {
-            KENG::Realm& rlm = rreg.Realms().at(1);
+        // static bool addedOther = false;
+        // if (!addedOther) {
+        //     KENG::Realm& rlm = rreg.Realms().at(1);
 
-            // Added new provs, update realm map mask palette texture
-            // rlm.AddProvince(0); // -> ADDS THE SEA, AVOID
-            rlm.AddProvince(1);
-            KENG::GPU::UpdatePaletteEntry(rmm.palTex, 1, KENG::Utils::UnpackRGB_01(rlm.Color()));
-            rlm.AddProvince(2);
-            KENG::GPU::UpdatePaletteEntry(rmm.palTex, 2, KENG::Utils::UnpackRGB_01(rlm.Color()));
-            rlm.AddProvince(3);
-            KENG::GPU::UpdatePaletteEntry(rmm.palTex, 3, KENG::Utils::UnpackRGB_01(rlm.Color()));
-        }
+        //     // Added new provs, update realm map mask palette texture
+        //     // rlm.AddProvince(0); // -> ADDS THE SEA, AVOID
+        //     rlm.AddProvince(1);
+        //     KENG::GPU::UpdatePaletteEntry(rmm.palTex, 1, KENG::Utils::UnpackRGB_01(rlm.Color()));
+        //     rlm.AddProvince(2);
+        //     KENG::GPU::UpdatePaletteEntry(rmm.palTex, 2, KENG::Utils::UnpackRGB_01(rlm.Color()));
+        //     rlm.AddProvince(3);
+        //     KENG::GPU::UpdatePaletteEntry(rmm.palTex, 3, KENG::Utils::UnpackRGB_01(rlm.Color()));
+        // }
 
         /* Swap frame buffers */
         SDL_GL_SwapWindow(SDL2_Win);

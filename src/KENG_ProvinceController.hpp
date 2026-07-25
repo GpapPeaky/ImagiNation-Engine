@@ -2,6 +2,7 @@
 
 #include "KENG_Utils.hpp"
 #include "KENG_ProvinceRegistry.hpp"
+#include "KENG_RealmRegistry.hpp"
 
 namespace KENG {
     class ProvinceController {
@@ -14,5 +15,7 @@ namespace KENG {
             ~ProvinceController(void);
 
             Province& GetHoveredProvince(ProvinceRegistry& pr, OGL_Object& provMap);
+
+            Realm& GetHoveredRealm(RealmRegistry& rr, OGL_Object& realmMaskMap);
     };
 }

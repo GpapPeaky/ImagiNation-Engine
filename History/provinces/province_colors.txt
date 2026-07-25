@@ -1448,18 +1448,18 @@
 1276 "Xanthus Planet" 10 82 94
 1277 "Yaroslav Orbit" 3 98 117
 
-1278 "Zeugma System" 74 228 204
-1279 "Agon Sector" 73 66 205
-1280 "Bael Planet" 107 230 227
-1281 "Cael Orbit" 26 59 120
-1282 "Durn System" 194 172 247
-1283 "Eld Sector" 205 164 203
-1284 "Forn Planet" 165 141 94
-1285 "Gund Orbit" 182 209 28
-1286 "Hraefn System" 106 220 110
-1287 "Ior Sector" 43 25 191
-1288 "Jarl Planet" 101 241 123
-1289 "Krag Orbit" 129 208 11
+1278 "Oldburough" 74 228 204
+1279 "Aegis Island" 73 66 205
+1280 "Bael" 107 230 227
+1281 "Central Auckland" 26 59 120
+1282 "Durnham" 194 172 247
+1283 "Eld Island" 205 164 203
+1284 "Forn Island" 165 141 94
+1285 "Maeyin" 182 209 28
+1286 "Hraefyn Island" 106 220 110
+1287 "Iorum-Dungham" 43 25 191
+1288 "Jarlham" 101 241 123
+1289 "Gascone-Pligh" 129 208 11
 1290 "Leth System" 236 32 219
 
 1291 "Murn Sector" 14 75 85
@@ -1632,7 +1632,7 @@
 1414 "Ironstrider Outpost" 121 87 8
 1415 "Kezan Isle" 11 44 14
 
-1416 "Lochton Town" 107 241 211
+1416 "Lochton" 107 241 211
 
 1417 "Maelstrom Whirl" 3 18 194
 
@@ -1900,3 +1900,15 @@
 1592 "Penda Camp" 180 128 149
 
 1593 "Quendreda Camp" 0 199 113
+
+1594 "Dockland"  178 21 230
+1595 "Owlham"    178 151 230
+1596 "South Auckland" 178 151 101
+1597 "Mothran"        119 0 25
+1598 "Twin Rivers"    119 52 67
+1599 "Koegg"          0 89 0
+1600 "Ballask"        86 6 45
+1601 "The Praire"     74 42 86
+1602 "Titia"          74 163 86
+1603 "Cravan"         226 59 210   
+1604 "Blightrough"    226 75 72

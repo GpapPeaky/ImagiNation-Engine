@@ -72,7 +72,7 @@ namespace KENG {
             Utils::LOG_RLM << realm.Id() << " " << realm.Name() << " " << realm.Color() << " " << " " << std::endl;
             for (llui provID : realm.Provinces()) {
 
-                Province& prov = pr.GetProvince(provID);
+                Province& prov = pr.GetProvince(provID - 1);
                 Utils::LOG_RLM << "\t" << provID << " " << prov.Name() << " " << prov.Color() << std::endl;
             }
         }
@@ -80,5 +80,23 @@ namespace KENG {
 
     std::vector<Realm>& RealmRegistry::Realms(void) {
         return realms;
+    }
+
+    Realm& RealmRegistry::GetRealm(llui id) {
+        return realms[id];
+    }
+
+    Realm& RealmRegistry::GetRealm(std::array<ui8, 3> color) {
+        ui32 packedRGB = Utils::PackRGB(color[0], color[1], color[2]);
+
+        auto it = colorToId.find(packedRGB); // Just need to find a number, not an entire array!
+
+        if (it != colorToId.end()) {
+            return realms[it->second];
+        }
+
+        const llui KENG_NULLRLM_ID = 0xffffffff;
+        static Realm nullRealm{KENG_NULLRLM_ID, "nullrlm", 0xffffff}; // This is some sort of discoverable province getter func
+        return nullRealm;
     }
 }

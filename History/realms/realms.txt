@@ -5,9 +5,12 @@
 168 45 8    duchy                   "Zules"
 234 109 93  merchant_republic       "Doggough"
 
+
 63 26 35    kingdom                 "Porfyrria"
 137 57 77   duchy                   "Pijon"
 84 35 47    duchy                   "Avon"
+
+#comp
 
 99 198 180  merchant_republic       "Anetto"
 86 173 157  merchant_republic       "Pierie"
