@@ -1,7 +1,7 @@
 #include "KENG_GPU.hpp"
 
 namespace KENG::GPU {
-    void Render(OGL_Object* object, RealmMaskMaterial& rmm) {
+    void RenderRealmMask(OGL_Object* object, RealmMaskMaterial& rmm) {
         OGL_Render(object, true);
 
         if(rmm.idxTex != 0){
@@ -100,5 +100,100 @@ namespace KENG::GPU {
         glBindTexture(GL_TEXTURE_2D, paletteTex);
         glTexSubImage2D(GL_TEXTURE_2D, 0, (GLint)provinceId, 0, 1, 1, GL_RGB, GL_FLOAT, rgb.data());
         glBindTexture(GL_TEXTURE_2D, 0);
+    }
+
+
+    /* ----------------------------------------------------------------------------------------------------------- */
+
+    std::vector<glm::vec3> BuildProvinceOutlineVertices(const char* bitmapPath, int& outW, int& outH){
+        std::vector<glm::vec3> vertices;
+
+        stbi_set_flip_vertically_on_load(true);
+
+        int w, h, channels;
+        unsigned char* data = stbi_load(bitmapPath, &w, &h, &channels, 0);
+
+        if(!data){
+            std::cerr << ("[Error] Failed loading province map\n");
+            outW = outH = 0;
+            return vertices;
+        }
+
+        auto getColorID = [&](int x, int y) {
+            int index = (y * w + x) * channels;
+            unsigned char r = data[index + 0];
+            unsigned char g = data[index + 1];
+            unsigned char b = data[index + 2];
+            return (r << 16) | (g << 8) | b;
+        };
+
+        auto normX = [&](int x){ return ((float)x / (float)w) * 2.0f - 1.0f; };
+        auto normY = [&](int y){ return ((float)y / (float)h) * 2.0f - 1.0f; };
+
+        for(int y = 0; y < h; y++){
+            for(int x = 0; x < w; x++){
+
+                int id = getColorID(x, y);
+
+                // Vertical edge: boundary is at x+1, spans y..y+1
+                if(x < w - 1){
+                    int right = getColorID(x + 1, y);
+                    if(id != right){
+                        float px = normX(x + 1);
+
+                        vertices.push_back({ px, normY(y),     0.0f });
+                        vertices.push_back({ px, normY(y + 1), 0.0f });
+                    }
+                }
+
+                // Horizontal edge: boundary is at y+1, spans x..x+1
+                if(y < h - 1){
+                    int down = getColorID(x, y + 1);
+                    if(id != down){
+                        float py = normY(y + 1);
+
+                        vertices.push_back({ normX(x),     py, 0.0f });
+                        vertices.push_back({ normX(x + 1), py, 0.0f });
+                    }
+                }
+            }
+        }
+
+        stbi_image_free(data);
+
+        outW = w;
+        outH = h;
+
+        std::cout << "[Info] Generated " << vertices.size() << " outline vertices\n";
+
+        return vertices;
+    }
+    void RenderProvinceOutlines(OGL_Object* object, glm::vec3 color) {
+        OGL_Render(object, true);
+
+        glUniform3f(
+            glGetUniformLocation(
+                object->mat.shader,
+                "uColor"
+            ),
+            color.x,
+            color.y,
+            color.z
+        );
+
+
+        glBindVertexArray(
+            object->mesh->VAO
+        );
+
+
+        glDrawArrays(
+            GL_LINES,
+            0,
+            object->mesh->verticesCount
+        );
+
+
+        glBindVertexArray(0);
     }
 }

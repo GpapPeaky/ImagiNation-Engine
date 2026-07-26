@@ -6,6 +6,7 @@ int main(int, char**){
     OGL_InitContext(SDL2_Win);
     OGL_InitShaderRegistry();
     OGL_CreateShaderProgram("realmmask", OGLS_TRS_MVP_TextureV, INATE_SHADER_RealmMaskF); /* Pushed into the registry */
+    OGL_CreateShaderProgram("provinceoutline", OGLS_TRS_MVP_ColorV, INATE_SHADER_ProvOutlineMaskF); /* No texture, we render geometry */
 
     OGL_Controller* ctrl = OGL_CreateController(5.0f, 0.1f);
     OGL_Camera* cam = OGL_CreateCamera({0.0f, 0.0f, 50.0f}, {0, 1, 0}, 0.0f, 0.0f);
@@ -38,7 +39,7 @@ int main(int, char**){
 
     OGL_Object* realmMap = OGL_CreateObject(OGL_GetShader("realmmask"));
     OGL_CreateTextureQuad(*realmMap->mesh);
-    TRS::S(*realmMap, {50.0f * 1.777777778f, 50.f, 1.f}); // 2. Match scale
+    TRS::S(*realmMap, {50.0f * 1.777777778f, 50.f, 1.f});
 
     /* Realm mask rendering, shader auxilliaries */
     int provMapW, provMapH;
@@ -53,6 +54,13 @@ int main(int, char**){
     rmm.palTex = realmPaletteTex;
     rmm.provinceCount = (float)(preg.Count() + 1);
 
+    /* Outlines */
+
+    OGL_Object* provinceOutlines = OGL_CreateObject(OGL_GetShader("provinceoutline"));
+    std::vector<glm::vec3> outlineVertices = KENG::GPU::BuildProvinceOutlineVertices("History/provinces/province_map.png", provMapW, provMapH);
+    OGL_CreateLineMesh(*provinceOutlines->mesh, outlineVertices);
+    TRS::S(*provinceOutlines, {50.0f * 1.777777778f, 50.f, 1.f}); // Match scale
+
     /* Font */
     unsigned int provinceHoverFontHeight = 18;
     FT_Library provinceHover_FTLib = OGL_InitFreeType();
@@ -63,7 +71,7 @@ int main(int, char**){
     KENG::HoverController hoverCtrl;
 
     /* Hierarchy */
-    // OGL_AttachChild(OGL_Scene, onodeRealmMap);           // Rendere manually, to avoid some problems
+    // OGL_AttachChild(OGL_Scene, onodeRealmMap);           // Render manually, to avoid some problems
 
     Uint32 lastTime = SDL_GetTicks();
     bool OGL_GameQuit = false;
@@ -88,7 +96,8 @@ int main(int, char**){
         
         OGL_RenderVisitChildren(OGL_Scene); // Normal render visit for other objects
 
-        KENG::GPU::Render(realmMap, rmm); /* Actual coloured realm map rendering */
+        KENG::GPU::RenderProvinceOutlines(provinceOutlines, {1.0f, 1.0f, 1.0f}); /* Outlines, on top of the realm masks */
+        KENG::GPU::RenderRealmMask(realmMap, rmm); /* Actual coloured realm map rendering */
         
         llui hoveredProvinceID = hoverCtrl.HoverProv().Id();
         llui hoveredRealmID = hoverCtrl.HoverRealm().Id();

@@ -14,7 +14,7 @@ namespace KENG::GPU {
     } RealmMaskMaterial;
 
     // Custom render function that passes idxTex, palTex and province count as uniforms
-    void Render(OGL_Object* object, RealmMaskMaterial& rmm);
+    void RenderRealmMask(OGL_Object* object, RealmMaskMaterial& rmm);
 
     // Build the index texture, called once
     GLuint BuildProvinceIndexTexture(const char* bitmapPath, KENG::ProvinceRegistry& preg, int& outW, int& outH);
@@ -28,4 +28,10 @@ namespace KENG::GPU {
     // Palette texture data update, GPU-side, make sure it is called after a change in ownership
     // meaning the provCount * 1 px texture needs to update one of its' pixels
     void UpdatePaletteEntry(GLuint paletteTex, llui provinceId, std::array<float, 3> rgb);
+
+    /* ----------------------------------------------------------------------------------------------------------- */
+
+    std::vector<glm::vec3> BuildProvinceOutlineVertices(const char* bitmapPath, int& outW, int& out);
+
+    void RenderProvinceOutlines(OGL_Object* object, glm::vec3 color);
 }
