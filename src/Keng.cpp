@@ -74,7 +74,7 @@ int main(int, char**){
         SDL_GetMouseState(&mx, &my);
 
         /* Updates to assets / sprites / objects in general */
-        SDL2_HandleEvents(OGL_GameQuit, ctrl);      /* Creates a new event to poll per call (Might need to be optimised) */
+        KENG::SDL2::HandleEvents(OGL_GameQuit, ctrl);      /* Creates a new event to poll per call (Might need to be optimised) */
         
         const Uint8* keys = SDL_GetKeyboardState(NULL);
         OGL_HandleControllerKeyboard(ctrl, keys, OGL_GameDt);

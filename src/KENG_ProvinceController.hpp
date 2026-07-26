@@ -9,7 +9,6 @@ namespace KENG {
     class ProvinceController {
         private:
             llui selectedProvinceId = 0;
-            ui32 hoveredColor = 0xffffff;
 
         public:
             ProvinceController(void);
