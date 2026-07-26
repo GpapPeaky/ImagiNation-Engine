@@ -33,6 +33,8 @@ int main(int, char**){
     /* Text rendering */
     OGL_Object* provinceHoverInfo = OGL_CreateObject(OGL_GetShader("glyph"));
     OGL_CreateTextQuad(*provinceHoverInfo->mesh);
+    OGL_Object* provinceClickedInfo = OGL_CreateObject(OGL_GetShader("glyph"));
+    OGL_CreateTextQuad(*provinceClickedInfo->mesh);
 
     OGL_Object* realmMap = OGL_CreateObject(OGL_GetShader("realmmask"));
     OGL_CreateTextureQuad(*realmMap->mesh);
@@ -58,7 +60,7 @@ int main(int, char**){
     std::map<char, OGL_Character> provinceHover_CharMap = OGL_LoadCharacters(provinceHover_FTFace);
 
     /* Controllers */
-    KENG::ProvinceController provCtrl;
+    KENG::HoverController hoverCtrl;
 
     /* Hierarchy */
     // OGL_AttachChild(OGL_Scene, onodeRealmMap);           // Rendere manually, to avoid some problems
@@ -70,11 +72,10 @@ int main(int, char**){
         OGL_GameDt = (now - lastTime) / 1000.0f;            /* Convert to seconds */
         lastTime = now;
 
-        i32 mx, my;
-        SDL_GetMouseState(&mx, &my);
+        SDL_GetMouseState(&ctrl->lastX, &ctrl->lastY);
 
         /* Updates to assets / sprites / objects in general */
-        KENG::SDL2::HandleEvents(OGL_GameQuit, ctrl);      /* Creates a new event to poll per call (Might need to be optimised) */
+        KENG::SDL2::HandleEvents(OGL_GameQuit, ctrl, hoverCtrl, preg, rreg, provinceMap);      /* Creates a new event to poll per call (Might need to be optimised) */
         
         const Uint8* keys = SDL_GetKeyboardState(NULL);
         OGL_HandleControllerKeyboard(ctrl, keys, OGL_GameDt);
@@ -89,14 +90,24 @@ int main(int, char**){
 
         KENG::GPU::Render(realmMap, rmm); /* Actual coloured realm map rendering */
         
-        KENG::Province& hoveredProvince = provCtrl.GetHoveredProvince(preg, *provinceMap);
-        KENG::Realm& hoveredRealm = provCtrl.GetHoveredRealm(rreg, hoveredProvince);
-        std::string hoveredProvinceName = hoveredProvince.Name();
-        std::string hoveredRealmName = hoveredRealm.Name();
+        llui hoveredProvinceID = hoverCtrl.HoverProv().Id();
+        llui hoveredRealmID = hoverCtrl.HoverRealm().Id();
+        llui clickedProvinceID = hoverCtrl.ClickedProvince().Id();
 
-        if (hoveredProvinceName != "nullprov" && hoveredRealmName != "nullrlm") {
-            OGL_RenderText(*provinceHoverInfo, hoveredProvinceName.c_str(), (float)mx + (float)provinceHoverFontHeight, (float)my + (float)(provinceHoverFontHeight / 2), 1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
-            OGL_RenderText(*provinceHoverInfo, hoveredRealmName.c_str(), (float)mx + (float)provinceHoverFontHeight, (float)my + (float)(provinceHoverFontHeight * 2), 1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+        if (hoveredProvinceID != KENG::PROV::NULL_PROV_ID && hoveredRealmID != KENG::RLM::NULL_RLM_ID) {
+            OGL_RenderText(*provinceHoverInfo, hoverCtrl.HoverProv().Name().c_str(), \
+            (float)ctrl->lastX + (float)provinceHoverFontHeight, (float)ctrl->lastY + (float)(provinceHoverFontHeight / 2), \
+            1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+
+            OGL_RenderText(*provinceHoverInfo, hoverCtrl.HoverRealm().Name().c_str(), \
+            (float)ctrl->lastX + (float)provinceHoverFontHeight, (float)ctrl->lastY + (float)(provinceHoverFontHeight * 2), \
+            1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+        }
+
+        if (clickedProvinceID != KENG::PROV::NULL_PROV_ID) {
+            OGL_RenderText(*provinceClickedInfo, hoverCtrl.ClickedProvince().Name().c_str(), \
+            0.0f, provinceHoverFontHeight, \
+            1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
         }
 
         /* TEST */

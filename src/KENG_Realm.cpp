@@ -98,4 +98,8 @@ namespace KENG {
     std::vector<llui>& Realm::Provinces(void) {
         return provinces;
     }
+
+    namespace RLM {
+        llui NULL_RLM_ID = 0xffffffff;
+    }
 }

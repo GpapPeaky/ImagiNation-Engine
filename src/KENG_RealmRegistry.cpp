@@ -95,8 +95,7 @@ namespace KENG {
             return realms[it->second];
         }
 
-        const llui KENG_NULLRLM_ID = 0xffffffff;
-        static Realm nullRealm{KENG_NULLRLM_ID, "nullrlm", 0xffffff}; // This is some sort of discoverable province getter func
+        static Realm nullRealm{RLM::NULL_RLM_ID, "nullrlm", 0xffffff}; // This is some sort of discoverable province getter func
         return nullRealm;
     }
 
@@ -108,8 +107,7 @@ namespace KENG {
         }
 
         /* Fallback */
-        const llui KENG_NULLRLM_ID = 0xffffffff;
-        static Realm nullRealm{KENG_NULLRLM_ID, "nullrlm", 0xffffff}; // This is some sort of discoverable province getter func
+        static Realm nullRealm{RLM::NULL_RLM_ID, "nullrlm", 0xffffff}; // This is some sort of discoverable province getter func
         return nullRealm;
     }
 }

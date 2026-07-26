@@ -14,8 +14,7 @@ namespace KENG {
             return provinces[it->second - 1];
         }
 
-        const llui KENG_NULLPROV_ID = 0xffffffff;
-        static Province nullProvince{KENG_NULLPROV_ID, "nullprov", 0xffffff}; // This is some sort of discoverable province getter func
+        static Province nullProvince{PROV::NULL_PROV_ID, "nullprov", 0xffffff}; // This is some sort of discoverable province getter func
         return nullProvince;
     }
 

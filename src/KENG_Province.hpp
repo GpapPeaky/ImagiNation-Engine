@@ -24,5 +24,8 @@ namespace KENG {
 
             ui32 Color(void) const ;
     }; // Province class
-    
+
+    namespace PROV {
+        extern llui NULL_PROV_ID;
+    }
 } // Kallergis engine namespace

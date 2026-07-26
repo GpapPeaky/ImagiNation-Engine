@@ -20,4 +20,8 @@ namespace KENG {
     ui32 Province::Color(void) const {
         return color;
     }
+
+    namespace PROV {
+        llui NULL_PROV_ID = 0xffffffff;
+    }
 }

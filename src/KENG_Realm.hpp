@@ -39,4 +39,8 @@ namespace KENG {
 
             std::vector<llui>& Provinces(void);
     };
+
+    namespace RLM {
+        extern llui NULL_RLM_ID;
+    }
 }
