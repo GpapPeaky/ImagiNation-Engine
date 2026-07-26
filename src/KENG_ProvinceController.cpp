@@ -13,11 +13,11 @@ namespace KENG {
         return pr.GetProvince(color);
     }
 
-    Realm& ProvinceController::GetHoveredRealm(RealmRegistry& rr, OGL_Object& realmMaskMap) {
-        std::array<ui8, 3> color = OGL_GetHoveredColourFromTexture(realmMaskMap.mat.texture, OGL_GetModel(realmMaskMap), OGL_RenderView);
+    Realm& ProvinceController::GetHoveredRealm(RealmRegistry& rr, Province& hoveredProv) {
+        llui provId = hoveredProv.Id();
 
-        hoveredColor = Utils::PackRGB(color[0], color[1], color[2]);
+        
 
-        return rr.GetRealm(hoveredColor);
+        return rr.GetOwnerOfProvince(provId);
     }
 }

@@ -89,13 +89,14 @@ int main(int, char**){
 
         KENG::GPU::Render(realmMap, rmm); /* Actual coloured realm map rendering */
         
-        std::string provName;
-        std::string rlmName;
-        provName = provCtrl.GetHoveredProvince(preg, *provinceMap).Name();
-        rlmName = provCtrl.GetHoveredRealm(rreg, *realmMap).Name();
-        if (provName != "nullprov" && rlmName != "nullrlm") {
-            OGL_RenderText(*provinceHoverInfo, provName.c_str(), (float)mx + (float)provinceHoverFontHeight, (float)my + (float)(provinceHoverFontHeight / 2), 1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
-            OGL_RenderText(*provinceHoverInfo, rlmName.c_str(), (float)mx + (float)provinceHoverFontHeight, (float)my + (float)(provinceHoverFontHeight), 1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+        KENG::Province& hoveredProvince = provCtrl.GetHoveredProvince(preg, *provinceMap);
+        KENG::Realm& hoveredRealm = provCtrl.GetHoveredRealm(rreg, hoveredProvince);
+        std::string hoveredProvinceName = hoveredProvince.Name();
+        std::string hoveredRealmName = hoveredRealm.Name();
+
+        if (hoveredProvinceName != "nullprov" && hoveredRealmName != "nullrlm") {
+            OGL_RenderText(*provinceHoverInfo, hoveredProvinceName.c_str(), (float)mx + (float)provinceHoverFontHeight, (float)my + (float)(provinceHoverFontHeight / 2), 1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+            OGL_RenderText(*provinceHoverInfo, hoveredRealmName.c_str(), (float)mx + (float)provinceHoverFontHeight, (float)my + (float)(provinceHoverFontHeight * 2), 1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
         }
 
         /* TEST */

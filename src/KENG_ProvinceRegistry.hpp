@@ -27,6 +27,6 @@ namespace KENG {
 
             void Print(void); // Prints the generated entries, debug only.
 
-            llui Count(void); 
+            llui Count(void);
     };
 }

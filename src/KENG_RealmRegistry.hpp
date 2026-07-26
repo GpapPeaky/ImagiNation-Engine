@@ -21,5 +21,7 @@ namespace KENG {
 
             Realm& GetRealm(llui id);
             Realm& GetRealm(std::array<ui8, 3> color);
+
+            Realm& GetOwnerOfProvince(llui provId);
     }; // Registry
 }

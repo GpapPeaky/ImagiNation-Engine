@@ -99,4 +99,17 @@ namespace KENG {
         static Realm nullRealm{KENG_NULLRLM_ID, "nullrlm", 0xffffff}; // This is some sort of discoverable province getter func
         return nullRealm;
     }
+
+    Realm& RealmRegistry::GetOwnerOfProvince(llui provId) {
+        for (Realm& rlm : realms) {
+            for (llui id : rlm.Provinces()) {
+                if (id == provId) return rlm;
+            }
+        }
+
+        /* Fallback */
+        const llui KENG_NULLRLM_ID = 0xffffffff;
+        static Realm nullRealm{KENG_NULLRLM_ID, "nullrlm", 0xffffff}; // This is some sort of discoverable province getter func
+        return nullRealm;
+    }
 }
