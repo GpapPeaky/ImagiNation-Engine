@@ -96,7 +96,7 @@ int main(int, char**){
         
         OGL_RenderVisitChildren(OGL_Scene); // Normal render visit for other objects
 
-        KENG::GPU::RenderProvinceOutlines(provinceOutlines, {1.0f, 1.0f, 1.0f}); /* Outlines, on top of the realm masks */
+        KENG::GPU::RenderProvinceOutlines(provinceOutlines, {0.0f, 0.0f, 0.0f}); /* Outlines, on top of the realm masks */
         KENG::GPU::RenderRealmMask(realmMap, rmm); /* Actual coloured realm map rendering */
         
         llui hoveredProvinceID = hoverCtrl.HoverProv().Id();

@@ -10,20 +10,21 @@
 137 57 77   duchy                   "Pijon"
 84 35 47    duchy                   "Avon"
 
-#comp
-
 99 198 180  merchant_republic       "Anetto"
 86 173 157  merchant_republic       "Pierie"
+
 
 12 17 63    kingdom                 "Merobaudes"
 45 63 226   duchy                   "Gudule"
 15 22 79    duchy                   "Bloix"
-12 30 109   duchy                   "Rosselieu"
+21 30 109   duchy                   "Rosselieu"
 39 54 196   march                   "Volaire"
 71 80 185   bishopry                "Les Paroisses Unies"
 60 68 140   march                   "Oreamure"
 28 39 142   duchy                   "Genoghie-Arenaria"
 22 32 114   duchy                   "Laval"
+
+#comp
 
 206 158 0   kingdom                 "Melijollid"
 255 168 0   colony                  "San Jorge Guerrero"
@@ -234,7 +235,9 @@
 216 178 41  celestial_kingdom       "Guanxhi"
 224 193 44  celestial_kingdom       "Vitala"
 
+#comp
 76 69 34    horde                   "Khagaria"
+#comp
 
 76 69 85    horde                   "Janaria"
 

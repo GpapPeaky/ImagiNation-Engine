@@ -184,7 +184,7 @@
 179 "Dalaran" 227 176 92
 180 "Ebonhold" 244 125 126
 181 "Felwood" 62 165 201
-182 "GrimBatol" 43 148 170
+182 "Batol" 43 148 170
 183 "Hearthglen" 37 179 137
 184 "Icecrown" 151 111 211
 185 "JinthaAlor" 237 50 242
@@ -1389,23 +1389,23 @@
 
 1229 "Caledonia Orbit" 182 88 202
 
-1230 "Dacia System" 111 161 61
-1231 "Elysium Sector" 224 197 90
-1232 "Fianna Planet" 115 49 140
-1233 "Gades Orbit" 149 77 62
-1234 "Helvetia System" 174 133 218
-1235 "Iberia Sector" 43 68 202
-1236 "Jotunheim Planet" 117 244 122
-1237 "Kush Orbit" 247 0 83
-1238 "Latium System" 29 210 194
+1230 "Aparallaux" 111 161 61
+1231 "Main" 224 197 90
+1232 "Courns" 115 49 140
+1233 "Gadais" 149 77 62
+1234 "Azou" 174 133 218
+1235 "Liberal" 43 68 202
+1236 "Jotune" 117 244 122
+1237 "Avi" 247 0 83
+1238 "Ile-De-Riviera" 29 210 194
 
 1239 "Midgard Sector" 80 213 48
 
 1240 "Numidia Planet" 251 117 8
 1241 "Ophir Orbit" 138 26 181
 
-1242 "Punt System" 102 50 161
-1243 "Quintus Sector" 250 36 55
+1242 "Les Marches" 102 50 161
+1243 "Bloix" 250 36 55
 
 1244 "Rhaetia Planet" 177 94 226
 1245 "Scythia Orbit" 246 72 12
@@ -1414,9 +1414,9 @@
 1248 "Valhalla Planet" 65 90 179
 1249 "Wessex Orbit" 231 52 5
 
-1250 "Xanthos System" 48 212 237
-1251 "Yria Sector" 135 166 212
-1252 "Zion Planet" 86 20 37
+1250 "Xanthia" 48 212 237
+1251 "Yrilais" 135 166 212
+1252 "Aparias-Feloria" 86 20 37
 
 1253 "Aachen Orbit" 8 136 74
 
@@ -1441,9 +1441,9 @@
 1271 "Sparta Sector" 36 12 11
 1272 "Thebes Planet" 217 38 37
 
-1273 "Ur Orbit" 199 157 106
-1274 "Viroconium System" 87 218 67
-1275 "Wroxeter Sector" 244 72 27
+1273 "Mauditerres" 199 157 106
+1274 "Vironicia" 87 218 67
+1275 "Waughtaux" 244 72 27
 
 1276 "Xanthus Planet" 10 82 94
 1277 "Yaroslav Orbit" 3 98 117
@@ -1460,7 +1460,7 @@
 1287 "Iorum-Dungham" 43 25 191
 1288 "Jarlham" 101 241 123
 1289 "Gascone-Pligh" 129 208 11
-1290 "Leth System" 236 32 219
+1290 "Leith-Grigia" 236 32 219
 
 1291 "Murn Sector" 14 75 85
 1292 "Nor Planet" 83 190 227
@@ -1594,8 +1594,8 @@
 1387 "Hearthglen Town" 54 154 144
 1388 "Icecrown Glacier" 152 126 229
 
-1389 "JinthaAlor Cave" 136 19 186
-1390 "KulTiras Island" 111 196 122
+1389 "Les Sudeterra" 136 19 186
+1390 "Volaire" 111 196 122
 
 1391 "LochModan Lake" 186 252 141
 1392 "Moonglade Lake" 211 36 97
@@ -1634,7 +1634,7 @@
 
 1416 "Lochton" 107 241 211
 
-1417 "Maelstrom Whirl" 3 18 194
+1417 "Draux" 3 18 194
 
 1418 "Northrend Continent" 62 250 70
 1419 "Onyxia Cave" 134 18 201
@@ -1645,8 +1645,8 @@
 1423 "Tirisfal Wood" 133 183 38
 1424 "Ulduar City" 82 6 230
 
-1425 "Vrykul Fort" 172 5 38
-1426 "Warsong Camp" 254 33 80
+1425 "Genoghie" 172 5 38
+1426 "Arenaria" 254 33 80
 
 1427 "Xandros Port" 180 196 206
 
@@ -1656,7 +1656,7 @@
 
 1430 "Anvilmar Hall" 81 252 113
 
-1431 "Brill Town" 189 227 109
+1431 "Laval" 189 227 109
 
 1432 "Crossroads Town" 161 102 211
 1433 "Darkshire Woods" 104 240 14
@@ -1666,7 +1666,7 @@
 
 1436 "Gadgetzan City" 58 221 230
 
-1437 "Hammerfall Fort" 184 172 159
+1437 "Oreamure" 184 172 159
 
 1438 "Ilisidi Keep" 46 150 66
 1439 "Kargath Camp" 7 6 57
@@ -1839,9 +1839,9 @@
 1554 "Banda Camp" 118 232 196
 1555 "Cujam Camp" 167 205 162
 
-1556 "Duhr Camp" 251 248 148
+1556 "Duhr" 251 248 148
 
-1557 "Elgafar Camp" 220 212 5
+1557 "Elgafar" 220 212 5
 
 1558 "Franz Camp Two" 182 205 97
 1559 "Guniibuu Camp" 242 75 17
@@ -1912,3 +1912,21 @@
 1602 "Titia"          74 163 86
 1603 "Cravan"         226 59 210   
 1604 "Blightrough"    226 75 72
+
+1605 "Manchais" 55 31 31
+1606 "Mereria" 18 0 53
+1607 "Piralles" 18 74 53
+1608 "Louben" 18 132 53
+1609 "Orlovia" 163 132 53
+1610 "Tours" 163 132 174
+1611 "Gongolia" 174 178 218
+1612 "Foissais" 99 101 216  
+1613 "Obignale" 99 170 216  
+1614 "Aviale" 99 170 128  
+1615 "Siviz" 168 0 78  
+1616 "Sirinie" 168 170 78
+1617 "Titeria" 165 67 111
+1618 "Claude" 168 93 78
+
+1619 "Gudulais" 84 47 79
+1620 "Pipinais" 84 151 79
