@@ -24,18 +24,20 @@
 28 39 142   duchy                   "Genoghie-Arenaria"
 22 32 114   duchy                   "Laval"
 
-#comp
 
 206 158 0   kingdom                 "Melijollid"
-255 168 0   colony                  "San Jorge Guerrero"
 204 177 89  duchy                   "Kalabrahal"
 137 82 0    march                   "Lor"
+
 
 139 255 135 empire                  "Quarazh"
 106 255 86  march                   "Limeria"
 22 135 8    bishopry                "Kani"
 
+
 165 188 164 empire                  "N'ghahan"
+
+#comp
 
 181 63 0    elective_empire         "Kaiserhof"
 153 74 43   colony                  "Nordostkolonie"

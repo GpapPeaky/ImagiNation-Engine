@@ -928,10 +928,10 @@
 860 "Jericho Walls" 159 94 217
 861 "Karnak Obelisk" 114 130 231
 
-862 "Lycia Tombs" 61 193 223
-863 "Memphis Palace" 108 135 44
-864 "Nineveh Gates" 104 62 56
-865 "Olympia Sanctuary" 156 81 110
+862 "San Jorge" 61 193 223
+863 "Mendello" 108 135 44
+864 "Fuentes" 104 62 56
+865 "Lumeria" 156 81 110
 
 866 "Palmyra Colonnade" 115 42 57
 
@@ -1546,8 +1546,8 @@
 1354 "Zandalar Throne" 224 103 163
 1355 "Ashenvale Camp" 192 52 77
 1356 "Boreand Port" 110 242 181
-1357 "Cinderford Hold" 84 12 72
 1358 "Dreadfort Hall" 221 236 111
+1357 "Cinderford Hold" 84 12 72
 
 1359 "Emberstrike Mine" 116 254 150
 1360 "Frostfire Fort" 131 172 39
@@ -1668,7 +1668,7 @@
 
 1437 "Oreamure" 184 172 159
 
-1438 "Ilisidi Keep" 46 150 66
+1438 "Ilisidi" 46 150 66
 1439 "Kargath Camp" 7 6 57
 1440 "Lakeshire Town" 174 104 240
 1441 "Menethil Town" 141 37 209
@@ -1770,7 +1770,7 @@
 
 1509 "Eraklyon Camp Two" 1 145 118
 
-1510 "Fomalhaut Camp" 76 80 238
+1510 "Lor" 76 80 238
 
 1511 "Gacrux Camp" 251 150 187
 
@@ -1847,7 +1847,7 @@
 1559 "Guniibuu Camp" 242 75 17
 1560 "Hatysa Camp" 252 187 129
 
-1561 "Intercrus Camp" 63 135 27
+1561 "Limerie" 63 135 27
 
 1562 "Jeka Camp Two" 36 25 73
 1563 "Kalausi Camp" 23 221 119
