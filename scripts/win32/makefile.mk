@@ -18,7 +18,7 @@ BIN_DIR    := bin
 ENGINE_OBJ := Basic-OpenGL/obj
 
 # --- Target ---
-TARGET := $(BIN_DIR)/INATE.exe
+TARGET := $(BIN_DIR)/img.exe
 
 # --- Source and Object Files ---
 SRCS := $(wildcard *.cpp) $(wildcard $(SRC_DIR)/*.cpp) $(wildcard $(SHADER_DIR)/*.cpp)
