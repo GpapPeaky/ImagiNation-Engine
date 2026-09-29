@@ -1,6 +1,8 @@
 #include "SHADER_RealmMask.hpp"
 
 std::string INATE_SHADER_RealmMaskF = R"(
+#version 330 core
+
 uniform sampler2D uIndexTex;
 // the baked ID map
 //
