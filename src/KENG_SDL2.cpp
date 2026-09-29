@@ -13,8 +13,19 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
             quit = true;
         }
 
+        /* ESCAPE */
         if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_ESCAPE ))) {
             provCtrl.ResetClickedProvince(); // RESET
+        }
+
+        /* - */
+        if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_MINUS ))) {
+            OGL_RenderView->pos.z += 0.5f;
+        }
+
+        /* + */
+        if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_EQUALS ))) {
+            OGL_RenderView->pos.z -= 0.5f;
         }
             
         /* Mouse movement */
