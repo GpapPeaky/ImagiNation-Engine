@@ -3,6 +3,7 @@
 #include "KENG_Utils.hpp"
 #include "KENG_ProvinceRegistry.hpp"
 #include "KENG_RealmType.hpp"
+#include "KENG_Culture.hpp"
 
 #include <string>
 #include <vector>
@@ -15,8 +16,8 @@ namespace KENG {
             std::vector<llui> provinces; // Province id's further data is taken from the registry
             ui32 color       = 0xffffff; // Realm color
             std::string name = "REALM"; 
-            RealmType type;
-            // TODO: type
+            RealmType type;              // Realm type
+            Culture primaryCulture;      // Primary culture
         public:
             Realm(llui id, std::string name, ui32 color);
 
@@ -37,7 +38,11 @@ namespace KENG {
             void RemoveProvince(llui provID); // Remove province of specific id
             void RemoveProvince(ProvinceRegistry& pr, ui32 color); // Remove province of specific color
 
-            void InitProvinces(void); // Assign province ids, read from file realms/ownership/realmName.txt
+            void InitProvinces(void);   // Assign province ids, read from file realms/ownership/realmName.txt
+
+            Culture& RealmCulture(void) const ; // Get realm primary culture
+            
+            RealmType& GovernmentType(void) const ; // Get realm type
 
             std::vector<llui>& Provinces(void);
     };

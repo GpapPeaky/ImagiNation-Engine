@@ -68,9 +68,12 @@ namespace KENG {
 
         /* CONVERSION */
         CULTURAL_CONVERSION_COST_PER,
+        CULTURAL_ACCEPTANCE_COST_PER,
         RELIGIOUS_CONVERSION_COST_PER,
         
         /* STABILITY */
         STABILITY_INCREASE_COST_PER,
     } EffectParserKeys ; // Effect Parser Keyword class
+
+    std::unordered_map<EffectParserKeys, std::string> EffectParserKeywords; // Keywords for effect parser
 } // KENG

@@ -1,6 +1,7 @@
 #pragma once
 
 #include <unordered_map>
+#include "KENG_Culture.hpp"
 
 namespace KENG { 
     typedef enum class RealmType {
@@ -68,6 +69,16 @@ namespace KENG {
         CORPORATE_ADMINISTRATION,
     } RealmType;
 
-    std::unordered_map<RealmType::>
+    /* Map for realm type name on display per culture */
+    std::unordered_map<
+        Culture,
+        std::unordered_map<RealmType, std::string>
+    > CulturalRealmTypeNames;
+
+    /* Map for realm type title of leader on display per culture */
+    std::unordered_map<
+        Culture,
+        std::unordered_map<RealmType, std::string>
+    > CulturalRealmLeaderTitleNames;
 
 } // KENG
