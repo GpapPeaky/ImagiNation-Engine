@@ -1,496 +1,496 @@
-119 32 5    grand_republic          "Auckland"
-183 49 9    bishopry                "Vista"
-211 57 10   duchy                   "Oldham"
-165 45 8    republic                "Wallow"
-168 45 8    duchy                   "Zules"
-234 109 93  merchant_republic       "Doggough"
+119 32 5    GRAND_REPUBLIC          "Auckland"
+183 49 9    BISHOPRY                "Vista"
+211 57 10   DUCHY                   "Oldham"
+165 45 8    REPUBLIC                "Wallow"
+168 45 8    DUCHY                   "Zules"
+234 109 93  MERCHANT_REPUBLIC       "Doggough"
 
 
-63 26 35    kingdom                 "Porfyrria"
-137 57 77   duchy                   "Pijon"
-84 35 47    duchy                   "Avon"
+63 26 35    KINGDOM                 "Porfyrria"
+137 57 77   DUCHY                   "Pijon"
+84 35 47    DUCHY                   "Avon"
 
-99 198 180  merchant_republic       "Anetto"
-86 173 157  merchant_republic       "Pierie"
-
-
-12 17 63    kingdom                 "Merobaudes"
-45 63 226   duchy                   "Gudule"
-15 22 79    duchy                   "Bloix"
-21 30 109   duchy                   "Rosselieu"
-39 54 196   march                   "Volaire"
-71 80 185   bishopry                "Les Paroisses Unies"
-60 68 140   march                   "Oreamure"
-28 39 142   duchy                   "Genoghie-Arenaria"
-22 32 114   duchy                   "Laval"
+99 198 180  MERCHANT_REPUBLIC       "Anetto"
+86 173 157  MERCHANT_REPUBLIC       "Pierie"
 
 
-206 158 0   kingdom                 "Melijollid"
-204 177 89  duchy                   "Kalabrahal"
-137 82 0    march                   "Lor"
+12 17 63    KINGDOM                 "Merobaudes"
+45 63 226   DUCHY                   "Gudule"
+15 22 79    DUCHY                   "Bloix"
+21 30 109   DUCHY                   "Rosselieu"
+39 54 196   MARCH                   "Volaire"
+71 80 185   BISHOPRY                "Les Paroisses Unies"
+60 68 140   MARCH                   "Oreamure"
+28 39 142   DUCHY                   "Genoghie-Arenaria"
+22 32 114   DUCHY                   "Laval"
 
 
-139 255 135 empire                  "Quarazh"
-106 255 86  march                   "Limeria"
-22 135 8    bishopry                "Kani"
+206 158 0   KINGDOM                 "Melijollid"
+204 177 89  DUCHY                   "Kalabrahal"
+137 82 0    MARCH                   "Lor"
 
 
-165 188 164 empire                  "N'ghahan"
+139 255 135 EMPIRE                  "Quarazh"
+106 255 86  MARCH                   "Limeria"
+22 135 8    BISHOPRY                "Kani"
 
-#comp
 
-181 63 0    elective_empire         "Kaiserhof"
-153 74 43   colony                  "Nordostkolonie"
-160 56 0    kingdom                 "Lotharingen"
-181 64 25   kingdom                 "Nordreich"
-206 75 1    kingdom                 "Hamm"
-175 67 0    duchy                   "Galore"
-204 93 34   duchy                   "Papen"
-204 97 40   duchy                   "Flussen"
-168 58 0    duchy                   "Neu-Flussen"
-178 62 0    duchy                   "Banke"
-204 119 91  kingdom                 "Rigelstadt"
-204 91 30   duchy                   "Stauffenberg"
-181 104 81  duchy                   "Petesberg"
-204 125 108 duchy                   "Upper Lienau"
-188 133 81  duchy                   "Halle"
-198 105 47  duchy                   "Dirke"
-178 84 49   kingdom                 "Volkstadt"
-178 103 62  kingdom                 "Riemanniche"
-242 185 142 elector                 "Rebrandt-Ostersee"
-204 146 102 duchy                   "Briggenau"
-206 99 64   duchy                   "Montaine"
-188 133 103 elector                 "Eick"
-153 53 0    county                  "Arhus"
-216 101 62  county                  "Vaud"
-226 142 77  duchy                   "Rugel"
-183 131 47  kingdom                 "Osterstadt"
-137 48 0    kingdom                 "Gosse"
-153 56 45   republic                "Rennes"
-175 43 0    county                  "Mittelbraun"
-206 51 0    county                  "Ostbraun"
-188 62 20   county                  "Norbraun"
-216 54 0    county                  "Flussenbraun"
-204 145 114 free_city               "Kriegheim"
-204 171 155 free_city               "Fluwerpen"
-158 124 105 free_city               "Merlin"
-158 109 83  free_city               "Lichtstadt"
-204 141 108 free_city               "Dolin"
-150 140 135 free_city               "Amsee"
-183 204 194 free_city               "Margiela"
-145 114 97  free_city               "Neustadt"
-151 168 160 free_city               "Landhuz"
-119 94 80   free_city               "Kiepler"
-104 90 83   free_city               "Dirac"
-196 163 139 free_city               "Epp"
-63 55 41    free_city               "Soldatstadt"
-183 171 152 free_city               "Unerheblichostersee"
-117 130 124 free_city               "Kronne"
-242 211 157 free_city               "Neu Epp"
-201 74 43   march                   "Fioren"
-183 144 80  march                   "Barattie"
-153 88 61   duchy                   "Seelore"
-155 116 69  duchy                   "Oberostsee"
-137 107 59  march                   "Webber"
-137 96 35   march                   "Machtstadt"
-165 130 70  colony                  "Neuen"
-86 61 47    colony                  "Oberneuen"
-153 116 65  colony                  "Nordstadt"
-165 117 58  colony                  "Mittelkolonie"
-181 111 61  march                   "Bogdt"
-204 116 69  march                   "Zulifer"
-178 126 62  colony                  "Kerman"
-198 117 103 duchy                   "Gottheim"
-132 96 51   duchy                   "Einz"
-137 113 100 duchy                   "Telau"
-204 168 148 duchy                   "Um"
-255 135 71  elector                 "Ohm"
-153 103 85  elector                 "Oberohm"
-137 109 37  duchy                   "Peletz"
-137 114 56  duchy                   "Yule"
-119 87 68   elector                 "Hohenstadt"
-198 144 111 kingdom                 "Weissblume"
-119 56 29   kingdom                 "Orh"
-112 79 61   duchy                   "Jerme"
-84 39 21    duchy                   "Catte"
-181 96 70   duchy                   "Sudherzogtum"
+165 188 164 EMPIRE                  "N'ghahan"
 
 #comp
-44 120 137  merchant_republic       "Porto Marina"
-52 140 158  bishopry                "Santa Marina"
-234 230 121 papacy                  "Papal State"
 
-234 205 93  bishopry                "Saint Riviera"
-
-234 205 121 bishopry                "Saint Markkus"
-
-219 207 41  monastic_order          "Saint Erique"
-234 226 0   holy_order              "Saint Anna"
-255 242 0   holy_order              "Saint Germain"
-
-96 62 92    tribe                   "Boion"
-
-109 100 117 tribe                   "Enetezi"
-#comp
-
-99 63 114   tribe                   "Glamore"
-
-163 89 117  tribe                   "Glamor"
-
-#comp
-109 147 117 tribe                   "O'Hara"
-173 193 255 holy_order              "Blue Cross"
-198 213 255 federation              "Jan Mallen"
-99 6 0      peasant_republic        "Kolmark Union"
-188 198 197 republic                "Kolmark"
-179 101 191 federation              "Old Counties"
-81 81 81    free_city               "North Herakleion"
-112 112 112 free_city               "South Herakleion"
-#comp
-
-99 27 27    peasant_republic        "Pateles"
-
-47 47 99    merchant_republic       "Verilium"
-
-99 160 69   republic                "Mountain Republic"
-
-219 181 94  republic                "Great Mizithras"
-
-176 178 119 republican_dictatorship "Valery"
-
-175 0 82    republic                "Pognolia"
-
-150 146 118 duchy                   "Orniah"
-
-47 151 99   duchy                   "Denarium"
-
-52 65 176   duchy                   "Haalan"
-
-175 92 80   duchy                   "Dalmarium"
-
-97 146 118  duchy                   "Arismari"
-
-23 104 44   tribe                   "Kukanuu"
-16 76 32    tribe                   "Bobototonga"
-
-128 62 145  tribe                   "Hammanah"
-
-31 62 145   tribe                   "Sommer"
-
-93 130 75   tribe                   "Baba Nagal"
-
-7 176 255   kingdom                 "Theodorium"
-
-48 106 150  kingdom                 "Armorium"
-
-180 183 0   pirate_republic         "Marnonga"
-204 204 16  pirate_republic         "Baragan"
-
-116 140 122 pirate_republic         "Gillis"
-
-204 140 122 merchant_republic       "Vindor"
-
-165 65 56   duchy                   "Affion"
-
-53 92 168   duchy                   "Pruzze"
-
-101 101 101 republican_dictatorship "Kanone"
-
-179 101 101 republic                "Dual Commonwealth"
-
-78 65 56    republic                "Olvile"
-
-74 170 135  republic                "Lokkad"
-
-72 39 150   republic                "Ashkad"
-
-149 170 135 kingdom                 "Gneisenau"
-
-47 48 0     kingdom                 "Croeler"
-110 113 0   duchy                   "Liberland"
-72 73 0     duchy                   "Northen Duchy"
-
-96 17 58    kingdom                 "Pierisia"
-
-58 74 66    kingdom                 "Iol"
-
-158 74 66   kingdom                 "Assur"
-
-167 136 135 republic                "Gavala"
-
-73 42 66    grand_republic          "Waterhill"
-
-137 81 150  republic                "Pecos"
-
-137 178 150 republic                "Vazhai"
-
-151 120 137 republic                "Totale"
-
-158 109 75  kingdom                 "Lake Cities"
-
-176 161 196 celestial_empire        "Shinghizhian"
-197 182 219 celestial_kingdom       "Jinghuan"
-215 198 239 celestial_kingdom       "Nanai"
-206 190 229 celestial_kingdom       "Kirigai"
-
-193 159 36  celestial_empire        "Heavenly Kingdom"
-216 178 41  celestial_kingdom       "Guanxhi"
-224 193 44  celestial_kingdom       "Vitala"
+181 63 0    ELECTIVE_EMPIRE         "Kaiserhof"
+153 74 43   COLONIAL_ADMINISTRATION                  "Nordostkolonie"
+160 56 0    KINGDOM                 "Lotharingen"
+181 64 25   KINGDOM                 "Nordreich"
+206 75 1    KINGDOM                 "Hamm"
+175 67 0    DUCHY                   "Galore"
+204 93 34   DUCHY                   "Papen"
+204 97 40   DUCHY                   "Flussen"
+168 58 0    DUCHY                   "Neu-Flussen"
+178 62 0    DUCHY                   "Banke"
+204 119 91  KINGDOM                 "Rigelstadt"
+204 91 30   DUCHY                   "Stauffenberg"
+181 104 81  DUCHY                   "Petesberg"
+204 125 108 DUCHY                   "Upper Lienau"
+188 133 81  DUCHY                   "Halle"
+198 105 47  DUCHY                   "Dirke"
+178 84 49   KINGDOM                 "Volkstadt"
+178 103 62  KINGDOM                 "Riemanniche"
+242 185 142 ELECTORATE                 "Rebrandt-Ostersee"
+204 146 102 DUCHY                   "Briggenau"
+206 99 64   DUCHY                   "Montaine"
+188 133 103 ELECTORATE                 "Eick"
+153 53 0    COUNTY                  "Arhus"
+216 101 62  COUNTY                  "Vaud"
+226 142 77  DUCHY                   "Rugel"
+183 131 47  KINGDOM                 "Osterstadt"
+137 48 0    KINGDOM                 "Gosse"
+153 56 45   REPUBLIC                "Rennes"
+175 43 0    COUNTY                  "Mittelbraun"
+206 51 0    COUNTY                  "Ostbraun"
+188 62 20   COUNTY                  "Norbraun"
+216 54 0    COUNTY                  "Flussenbraun"
+204 145 114 FREE_IMPERIAL_CITY               "Kriegheim"
+204 171 155 FREE_IMPERIAL_CITY               "Fluwerpen"
+158 124 105 FREE_IMPERIAL_CITY               "Merlin"
+158 109 83  FREE_IMPERIAL_CITY               "Lichtstadt"
+204 141 108 FREE_IMPERIAL_CITY               "Dolin"
+150 140 135 FREE_IMPERIAL_CITY               "Amsee"
+183 204 194 FREE_IMPERIAL_CITY               "Margiela"
+145 114 97  FREE_IMPERIAL_CITY               "Neustadt"
+151 168 160 FREE_IMPERIAL_CITY               "Landhuz"
+119 94 80   FREE_IMPERIAL_CITY               "Kiepler"
+104 90 83   FREE_IMPERIAL_CITY               "Dirac"
+196 163 139 FREE_IMPERIAL_CITY               "Epp"
+63 55 41    FREE_IMPERIAL_CITY               "Soldatstadt"
+183 171 152 FREE_IMPERIAL_CITY               "Unerheblichostersee"
+117 130 124 FREE_IMPERIAL_CITY               "Kronne"
+242 211 157 FREE_IMPERIAL_CITY               "Neu Epp"
+201 74 43   MARCH                   "Fioren"
+183 144 80  MARCH                   "Barattie"
+153 88 61   DUCHY                   "Seelore"
+155 116 69  DUCHY                   "Oberostsee"
+137 107 59  MARCH                   "Webber"
+137 96 35   MARCH                   "Machtstadt"
+165 130 70  COLONIAL_ADMINISTRATION                  "Neuen"
+86 61 47    COLONIAL_ADMINISTRATION                  "Oberneuen"
+153 116 65  COLONIAL_ADMINISTRATION                  "Nordstadt"
+165 117 58  COLONIAL_ADMINISTRATION                  "Mittelkolonie"
+181 111 61  MARCH                   "Bogdt"
+204 116 69  MARCH                   "Zulifer"
+178 126 62  COLONIAL_ADMINISTRATION                  "Kerman"
+198 117 103 DUCHY                   "Gottheim"
+132 96 51   DUCHY                   "Einz"
+137 113 100 DUCHY                   "Telau"
+204 168 148 DUCHY                   "Um"
+255 135 71  ELECTORATE                 "Ohm"
+153 103 85  ELECTORATE                 "Oberohm"
+137 109 37  DUCHY                   "Peletz"
+137 114 56  DUCHY                   "Yule"
+119 87 68   ELECTORATE                 "Hohenstadt"
+198 144 111 KINGDOM                 "Weissblume"
+119 56 29   KINGDOM                 "Orh"
+112 79 61   DUCHY                   "Jerme"
+84 39 21    DUCHY                   "Catte"
+181 96 70   DUCHY                   "Sudherzogtum"
 
 #comp
-76 69 34    horde                   "Khagaria"
+44 120 137  MERCHANT_REPUBLIC       "Porto Marina"
+52 140 158  BISHOPRY                "Santa Marina"
+234 230 121 PAPACY                  "Papal State"
+
+234 205 93  BISHOPRY                "Saint Riviera"
+
+234 205 121 BISHOPRY                "Saint Markkus"
+
+219 207 41  MONASTIC_ORDER          "Saint Erique"
+234 226 0   HOLY_ORDER              "Saint Anna"
+255 242 0   HOLY_ORDER              "Saint Germain"
+
+96 62 92    TRIBE                   "Boion"
+
+109 100 117 TRIBE                   "Enetezi"
 #comp
 
-76 69 85    horde                   "Janaria"
+99 63 114   TRIBE                   "Glamore"
 
-59 70 99    kingdom                 "Pii"
+163 89 117  TRIBE                   "Glamor"
 
-130 134 255 kingdom                 "Poolo"
+#comp
+109 147 117 TRIBE                   "O'Hara"
+173 193 255 HOLY_ORDER              "Blue Cross"
+198 213 255 FEDERATION              "Jan Mallen"
+99 6 0      PEASANT_REPUBLIC        "Kolmark Union"
+188 198 197 REPUBLIC                "Kolmark"
+179 101 191 FEDERATION              "Old Counties"
+81 81 81    FREE_IMPERIAL_CITY               "North Herakleion"
+112 112 112 FREE_IMPERIAL_CITY               "South Herakleion"
+#comp
 
-41 99 140   kingdom                 "Kiipi"
+99 27 27    PEASANT_REPUBLIC        "Pateles"
 
-176 178 255 tribe                   "Eqie"
+47 47 99    MERCHANT_REPUBLIC       "Verilium"
 
-85 87 135   tribe                   "Loo"
+99 160 69   REPUBLIC                "Mountain Republic"
 
-255 133 170 tribe                   "Uule"
+219 181 94  REPUBLIC                "Great Mizithras"
 
-137 176 255 tribe                   "Isnia"
+176 178 119 REPUBLICAN_DICTATORSHIP "Valery"
 
-69 103 142  tribe                   "Axxa"
+175 0 82    REPUBLIC                "Pognolia"
 
-48 142 142  tribe                   "Natt"
+150 146 118 DUCHY                   "Orniah"
 
-175 155 255 tribe                   "Ool"
+47 151 99   DUCHY                   "Denarium"
 
-155 147 168 tribe                   "Suo"
+52 65 176   DUCHY                   "Haalan"
 
-155 167 168 kingdom                 "Embarga"
+175 92 80   DUCHY                   "Dalmarium"
 
-155 255 168 tribe                   "Alois"
+97 146 118  DUCHY                   "Arismari"
 
-155 120 168 tribe                   "Bala"
+23 104 44   TRIBE                   "Kukanuu"
+16 76 32    TRIBE                   "Bobototonga"
 
-62 167 168  tribe                   "Col"
+128 62 145  TRIBE                   "Hammanah"
 
-219 204 201 tribe                   "Vanghuazi"
+31 62 145   TRIBE                   "Sommer"
 
-130 119 145 tribe                   "Fuanxi"
+93 130 75   TRIBE                   "Baba Nagal"
 
-198 47 67   duchy                   "Erhuangzhi"
-239 57 81   duchy                   "Xeria"
+7 176 255   KINGDOM                 "Theodorium"
 
-100 196 109 duchy                   "Julia-Magrada"
+48 106 150  KINGDOM                 "Armorium"
 
-79 137 89   republic                "Goodman"
+180 183 0   PIRATE_REPUBLIC         "Marnonga"
+204 204 16  PIRATE_REPUBLIC         "Baragan"
 
-110 78 105  empire                  "Thalia"
+116 140 122 PIRATE_REPUBLIC         "Gillis"
 
-97 64 99    duchy                   "Maria"
+204 140 122 MERCHANT_REPUBLIC       "Vindor"
 
-35 78 105   county                  "Blanca Mana"
+165 65 56   DUCHY                   "Affion"
 
-32 96 64    county                  "Clarke"
+53 92 168   DUCHY                   "Pruzze"
 
-101 78 55   empire                  "Livirium"
+101 101 101 REPUBLICAN_DICTATORSHIP "Kanone"
 
-67 99 77    kingdom                 "Lomar"
+179 101 101 REPUBLIC                "Dual Commonwealth"
 
-58 112 0    duchy                   "Zenevie"
+78 65 56    REPUBLIC                "Olvile"
 
-34 64 99    county                  "Yianna"
+74 170 135  REPUBLIC                "Lokkad"
 
-15 43 96    county                  "Biiria-Avram"
+72 39 150   REPUBLIC                "Ashkad"
 
-37 56 84    grand_republic          "United Commonwealths of Westhall"
-51 78 114   colony                  "New Landing"
+149 170 135 KINGDOM                 "Gneisenau"
 
-69 158 158  merchant_republic       "Suhkara"
+47 48 0     KINGDOM                 "Croeler"
+110 113 0   DUCHY                   "Liberland"
+72 73 0     DUCHY                   "Northen DUCHY"
 
-109 0 5     eye_isle_republic       "Kanade"
-183 0 5     eye_isle_republic       "Shinji"
-234 0 11    eye_isle_republic       "Mihishima"
+96 17 58    KINGDOM                 "Pierisia"
 
-69 82 93    kingdom                 "Disire"
+58 74 66    KINGDOM                 "Iol"
 
-109 122 57  kingdom                 "Osa"
+158 74 66   KINGDOM                 "Assur"
 
-105 158 0   duchy                   "United Duchies"
-80 122 57   duchy                   "Rimera"
-128 155 73  duchy                   "Concord"
-90 122 73   duchy                   "Jevril"
-135 155 96  duchy                   "Ogg'dtberg"
-113 153 91  duchy                   "Veneri"
+167 136 135 REPUBLIC                "Gavala"
 
-96 94 92    duchy                   "Groener"
+73 42 66    GRAND_REPUBLIC          "Waterhill"
 
-68 63 140   kingdom                 "Noske"
+137 81 150  REPUBLIC                "Pecos"
 
-255 142 245 republican_dictatorship "Freikorp"
+137 178 150 REPUBLIC                "Vazhai"
 
-255 142 93  republic                "Batltitia"
+151 120 137 REPUBLIC                "Totale"
 
-62 142 93   duchy                   "Welmar"
+158 109 75  KINGDOM                 "Lake Cities"
 
-61 108 140  duchy                   "Tyriel"
+176 161 196 CELESTIAL_EMPIRE        "Shinghizhian"
+197 182 219 CELESTIAL_KINGDOM       "Jinghuan"
+215 198 239 CELESTIAL_KINGDOM       "Nanai"
+206 190 229 CELESTIAL_KINGDOM       "Kirigai"
 
-93 99 140   duchy                   "Ostyriel"
+193 159 36  CELESTIAL_EMPIRE        "Heavenly Kingdom"
+216 178 41  CELESTIAL_KINGDOM       "Guanxhi"
+224 193 44  CELESTIAL_KINGDOM       "Vitala"
 
-33 33 33    duchy                   "Antiriel"
+#comp
+76 69 34    HORDE                   "Khagaria"
+#comp
 
-79 104 137  kingdom                 "Velvelot"
-55 90 137   kingdom                 "Wottier"
+76 69 85    HORDE                   "Janaria"
 
-55 62 137   duchy                   "Prunel"
+59 70 99    KINGDOM                 "Pii"
 
-183 93 14   duchy                   "Engels"
+130 134 255 KINGDOM                 "Poolo"
 
-183 93 105  county                  "Njol"
+41 99 140   KINGDOM                 "Kiipi"
 
-36 44 130   republican_dictatorship "Ludeland State"
-175 164 119 kingdom                 "Ludeland"
+176 178 255 TRIBE                   "Eqie"
 
-109 39 165  grand_republic          "The Governorate"
+85 87 135   TRIBE                   "Loo"
 
-97 125 163  republic                "Falatzen"
+255 133 170 TRIBE                   "Uule"
 
-66 67 110   republic                "Franconie"
+137 176 255 TRIBE                   "Isnia"
 
-105 132 165 kingdom                 "Siera-Perideaux"
+69 103 142  TRIBE                   "Axxa"
 
-105 159 175 duchy                   "Lothair-Saint Erz"
+48 142 142  TRIBE                   "Natt"
 
-78 164 119  duchy                   "Abbote"
+175 155 255 TRIBE                   "Ool"
 
-78 78 119   republic                "Conclavia"
+155 147 168 TRIBE                   "Suo"
 
-117 113 85  republic                "Penelope"
+155 167 168 KINGDOM                 "Embarga"
 
-147 78 119  republic                "Herztog"
+155 255 168 TRIBE                   "Alois"
 
-117 178 85  duchy                   "Pointe"
+155 120 168 TRIBE                   "Bala"
 
-116 74 105  tribe                   "Bolle"
+62 167 168  TRIBE                   "Col"
 
-101 204 204 tribe                   "Author"
+219 204 201 TRIBE                   "Vanghuazi"
 
-104 54 49   tribe                   "Girible"
+130 119 145 TRIBE                   "Fuanxi"
 
-105 78 114  kingdom                 "Oppala"
+198 47 67   DUCHY                   "Erhuangzhi"
+239 57 81   DUCHY                   "Xeria"
 
-62 151 105  tribe                   "Lupara"
+100 196 109 DUCHY                   "Julia-Magrada"
 
-224 151 105 tribe                   "Uxiana"
+79 137 89   REPUBLIC                "Goodman"
 
-101 78 204  tribe                   "Illiana"
+110 78 105  EMPIRE                  "Thalia"
 
-120 78 114  tribe                   "Eleana"
+97 64 99    DUCHY                   "Maria"
 
-79 119 116  tribe                   "Pelagia"
+35 78 105   COUNTY                  "Blanca Mana"
 
-66 183 93   horde                   "Peleti"
+32 96 64    COUNTY                  "Clarke"
 
-45 69 102   horde                   "Piridieti"
+101 78 55   EMPIRE                  "Livirium"
 
-138 183 93  tribe                   "Romangha"
+67 99 77    KINGDOM                 "Lomar"
 
-155 51 46   kingdom                 "Erretanuia"
-181 58 54   kingdom                 "Lupen"
-193 62 58   duchy                   "Upper Duchy"
-201 65 60   duchy                   "Middle Duchy"
-214 69 64   duchy                   "Lower Duchy"
-224 72 67   republic                "Duxe Province"
-168 54 50   republic                "Akkrada Province"
-224 72 105  colony                  "New Lupen"
+58 112 0    DUCHY                   "Zenevie"
 
-85 85 193   grand_republic          "United Provinces Of Southern Westhall"
-68 68 153   republic                "New Port"
+34 64 99    COUNTY                  "Yianna"
 
-142 154 158 republican_dictatorship "United Provinces Of Southern Austoria"
-85 170 193  grand_republic          "United Provinces Of Austoria"
+15 43 96    COUNTY                  "Biiria-Avram"
 
-89 155 120  peasant_republic        "Progoda"
+37 56 84    GRAND_REPUBLIC          "United Commonwealths of Westhall"
+51 78 114   COLONIAL_ADMINISTRATION                  "New Landing"
 
-86 191 154  republic                "Qiridiyah"
+69 158 158  MERCHANT_REPUBLIC       "Suhkara"
 
-182 147 109 republican_dictatorship "Nananite Qiridia"
+109 0 5     EYE_ISLE_REPUBLIC       "Kanade"
+183 0 5     EYE_ISLE_REPUBLIC       "Shinji"
+234 0 11    EYE_ISLE_REPUBLIC       "Mihishima"
 
-97 78 70    kingdom                 "Migitia"
+69 82 93    KINGDOM                 "Disire"
 
-97 124 70   duchy                   "Fiol"
+109 122 57  KINGDOM                 "Osa"
 
-201 197 195 holy_order              "Teurotia"
+105 158 0   DUCHY                   "United Duchies"
+80 122 57   DUCHY                   "Rimera"
+128 155 73  DUCHY                   "Concord"
+90 122 73   DUCHY                   "Jevril"
+135 155 96  DUCHY                   "Ogg'dtberg"
+113 153 91  DUCHY                   "Veneri"
 
-97 211 97   kingdom                 "South Qrana"
-86 188 86   kingdom                 "Qrana"
-72 158 72   kingdom                 "North Qrana"
+96 94 92    DUCHY                   "Groener"
 
-201 128 195 holy_order              "Violenz"
+68 63 140   KINGDOM                 "Noske"
 
-93 128 195  kingdom                 "Rineria"
+255 142 245 REPUBLICAN_DICTATORSHIP "Freikorp"
 
-74 85 211   kingdom                 "Middle Westhall"
+255 142 93  REPUBLIC                "Batltitia"
 
-93 128 105  holy_order              "Qiriyadaziz"
+62 142 93   DUCHY                   "Welmar"
 
-97 105 158  duchy                   "Taullens"
+61 108 140  DUCHY                   "Tyriel"
 
-97 151 105  holy_order              "Qini-Qadar"
+93 99 140   DUCHY                   "Ostyriel"
 
-178 128 105 grand_republic          "Moskov"
+33 33 33    DUCHY                   "Antiriel"
 
-93 74 105   republic                "Novhall"
+79 104 137  KINGDOM                 "Velvelot"
+55 90 137   KINGDOM                 "Wottier"
 
-70 74 181   bishopry                "Westhall Archbishopry"
+55 62 137   DUCHY                   "Prunel"
 
-70 74 39    tribe                   "Barbaria"
+183 93 14   DUCHY                   "Engels"
 
-62 62 73    holy_order              "Saint Halle"
+183 93 105  COUNTY                  "Njol"
 
-136 62 73   kingdom                 "Sunderland"
+36 44 130   REPUBLICAN_DICTATORSHIP "Ludeland State"
+175 164 119 KINGDOM                 "Ludeland"
 
-136 105 73  kingdom                 "Greater Greenhill"
+109 39 165  GRAND_REPUBLIC          "The Governorate"
 
-135 135 105 kingdom                 "Old Greenhill"
+97 125 163  REPUBLIC                "Falatzen"
 
-191 72 72   peasant_republic        "Redhill"
+66 67 110   REPUBLIC                "Franconie"
 
-15 115 191  republic                "The Westhall Admiralty"
+105 132 165 KINGDOM                 "Siera-Perideaux"
 
-58 39 62    kingdom                 "Goll-Gastogne"
+105 159 175 DUCHY                   "Lothair-Saint Erz"
 
-135 78 105  duchy                   "Prianda"
+78 164 119  DUCHY                   "Abbote"
 
-58 87 62    duchy                   "Lovelhaus"
-58 97 62    duchy                   "Dawnbreak"
+78 78 119   REPUBLIC                "Conclavia"
 
-0 0 120     republic                "Occelot"
+117 113 85  REPUBLIC                "Penelope"
 
-58 87 119   republic                "Krama"
+147 78 119  REPUBLIC                "Herztog"
 
-79 142 96   kingdom                 "Polymeria"
+117 178 85  DUCHY                   "Pointe"
 
-255 125 56  duchy                   "Monomeria"
+116 74 105  TRIBE                   "Bolle"
 
-255 178 0   duchy                   "Grandhall"
+101 204 204 TRIBE                   "Author"
 
-99 196 43   duchy                   "Libernia"
+104 54 49   TRIBE                   "Girible"
 
-86 58 58    duchy                   "Angelberg"
-168 114 114 duchy                   "Dole"
-206 140 140 duchy                   "Monkhe"
-145 98 98   duchy                   "Honstadt"
-247 168 168 duchy                   "Sudetana"
-219 149 149 county                  "Mertz"
+105 78 114  KINGDOM                 "Oppala"
 
-85 98 98    republic                "Lower Mertz"
+62 151 105  TRIBE                   "Lupara"
 
-64 96 47    republic                "New Mountain"
+224 151 105 TRIBE                   "Uxiana"
 
-96 60 81    republic                "Riva"
+101 78 204  TRIBE                   "Illiana"
 
-74 186 211  kingdom                 "Derby-Pool"
+120 78 114  TRIBE                   "Eleana"
 
-93 73 104   kingdom                 "Pollong"
+79 119 116  TRIBE                   "Pelagia"
 
-182 174 190 duchy                   "Ends"
+66 183 93   HORDE                   "Peleti"
+
+45 69 102   HORDE                   "Piridieti"
+
+138 183 93  TRIBE                   "Romangha"
+
+155 51 46   KINGDOM                 "Erretanuia"
+181 58 54   KINGDOM                 "Lupen"
+193 62 58   DUCHY                   "Upper DUCHY"
+201 65 60   DUCHY                   "Middle DUCHY"
+214 69 64   DUCHY                   "Lower DUCHY"
+224 72 67   REPUBLIC                "Duxe Province"
+168 54 50   REPUBLIC                "Akkrada Province"
+224 72 105  COLONIAL_ADMINISTRATION                  "New Lupen"
+
+85 85 193   GRAND_REPUBLIC          "United Provinces Of Southern Westhall"
+68 68 153   REPUBLIC                "New Port"
+
+142 154 158 REPUBLICAN_DICTATORSHIP "United Provinces Of Southern Austoria"
+85 170 193  GRAND_REPUBLIC          "United Provinces Of Austoria"
+
+89 155 120  PEASANT_REPUBLIC        "Progoda"
+
+86 191 154  REPUBLIC                "Qiridiyah"
+
+182 147 109 REPUBLICAN_DICTATORSHIP "Nananite Qiridia"
+
+97 78 70    KINGDOM                 "Migitia"
+
+97 124 70   DUCHY                   "Fiol"
+
+201 197 195 HOLY_ORDER              "Teurotia"
+
+97 211 97   KINGDOM                 "South Qrana"
+86 188 86   KINGDOM                 "Qrana"
+72 158 72   KINGDOM                 "North Qrana"
+
+201 128 195 HOLY_ORDER              "Violenz"
+
+93 128 195  KINGDOM                 "Rineria"
+
+74 85 211   KINGDOM                 "Middle Westhall"
+
+93 128 105  HOLY_ORDER              "Qiriyadaziz"
+
+97 105 158  DUCHY                   "Taullens"
+
+97 151 105  HOLY_ORDER              "Qini-Qadar"
+
+178 128 105 GRAND_REPUBLIC          "Moskov"
+
+93 74 105   REPUBLIC                "Novhall"
+
+70 74 181   BISHOPRY                "Westhall ArchBISHOPRY"
+
+70 74 39    TRIBE                   "Barbaria"
+
+62 62 73    HOLY_ORDER              "Saint Halle"
+
+136 62 73   KINGDOM                 "Sunderland"
+
+136 105 73  KINGDOM                 "Greater Greenhill"
+
+135 135 105 KINGDOM                 "Old Greenhill"
+
+191 72 72   PEASANT_REPUBLIC        "Redhill"
+
+15 115 191  REPUBLIC                "The Westhall Admiralty"
+
+58 39 62    KINGDOM                 "Goll-Gastogne"
+
+135 78 105  DUCHY                   "Prianda"
+
+58 87 62    DUCHY                   "Lovelhaus"
+58 97 62    DUCHY                   "Dawnbreak"
+
+0 0 120     REPUBLIC                "Occelot"
+
+58 87 119   REPUBLIC                "Krama"
+
+79 142 96   KINGDOM                 "Polymeria"
+
+255 125 56  DUCHY                   "Monomeria"
+
+255 178 0   DUCHY                   "Grandhall"
+
+99 196 43   DUCHY                   "Libernia"
+
+86 58 58    DUCHY                   "Angelberg"
+168 114 114 DUCHY                   "Dole"
+206 140 140 DUCHY                   "Monkhe"
+145 98 98   DUCHY                   "Honstadt"
+247 168 168 DUCHY                   "Sudetana"
+219 149 149 COUNTY                  "Mertz"
+
+85 98 98    REPUBLIC                "Lower Mertz"
+
+64 96 47    REPUBLIC                "New Mountain"
+
+96 60 81    REPUBLIC                "Riva"
+
+74 186 211  KINGDOM                 "Derby-Pool"
+
+93 73 104   KINGDOM                 "Pollong"
+
+182 174 190 DUCHY                   "Ends"

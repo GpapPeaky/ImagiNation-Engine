@@ -5,6 +5,7 @@
 
 namespace KENG { 
     typedef enum class RealmType {
+        UNKOWN_REALM_TYPE = -1,
         GRAND_REPUBLIC,
         REPUBLIC,
         MERCHANT_REPUBLIC,
@@ -69,9 +70,9 @@ namespace KENG {
         CORPORATE_ADMINISTRATION,
     } RealmType;
 
-    /* Map for base realm type names on display for accurate info, 
-        if no cultural name is found we default here */
-    std::unordered_map<RealmType, std::string> ReadBaseRealmTypeNameFile(void); 
+    RealmType GetRealmTypeFromString(std::string typeName);
+
+    std::unordered_map<RealmType, std::string> ReadBaseReamTypeNameFile(void);
 
     /* Map for realm type name on display per culture */
     extern std::unordered_map<
