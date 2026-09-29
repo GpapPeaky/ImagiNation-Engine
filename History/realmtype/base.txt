@@ -1,0 +1,46 @@
+GRAND_REPUBLIC              = "Grand Republic"
+REPUBLIC                    = "Republic"
+MERCHANT_REPUBLIC           = "Merchant Republic"
+PEASANT_REPUBLIC            = "Peasant Republic"
+REPUBLICAN_DICTATORSHIP     = "Republican Dictatorship"
+PIRATE_REPUBLIC             = "Pirate Republic"
+EYE_ISLE_REPUBLIC           = "Meiyo Aru Kyowakoku"
+EMPIRE                      = "Empire"
+KINGDOM                     = "Kingdom"
+ARCHDUCHY                   = "Archduchy"
+DUCHY                       = "Duchy"
+MARCH                       = "March"
+COUNTY                      = "County"
+ARCHBISHOPRY                = "Archbishopry"
+BISHOPRY                    = "Bishopry"
+HOLY_ORDER                  = "Holy Order"
+MONASTIC_ORDER              = "Monastic Order"
+MILITARY_ORDER              = "Military Order"
+
+ELECTIVE_EMPIRE             = "Elective Empire"
+ELECTORATE                  = "Electorate"
+FREE_IMPERIAL_CITY          = "Free City"
+
+PAPACY                      = "Papal State"
+
+TRIBAL_KINGDOM              = "Tribal Kingdom"
+
+TRIBE                       = "Unorganised Tribe"
+
+COLONIAL_ADMINISTRATION     = "Colonial Administration"
+
+GRAND_FEDERATION            = "Grand Federation"
+
+FEDERATION                  = "Federation"
+
+CELESTIAL_EMPIRE            = "Celestial Empire" 
+CELESTIAL_KINGDOM           = "Celestial Kingdom"
+
+HORDE                       = "Horde"
+
+TRADE_CITY                  = "Trade City"
+
+CORPORATE_ADMINISTRATION    = "Corporate Administration"
+
+
+

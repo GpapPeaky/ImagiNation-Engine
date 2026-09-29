@@ -69,14 +69,18 @@ namespace KENG {
         CORPORATE_ADMINISTRATION,
     } RealmType;
 
+    /* Map for base realm type names on display for accurate info, 
+        if no cultural name is found we default here */
+    std::unordered_map<RealmType, std::string> ReadBaseRealmTypeNameFile(void); 
+
     /* Map for realm type name on display per culture */
-    std::unordered_map<
+    extern std::unordered_map<
         Culture,
         std::unordered_map<RealmType, std::string>
     > CulturalRealmTypeNames;
 
     /* Map for realm type title of leader on display per culture */
-    std::unordered_map<
+    extern std::unordered_map<
         Culture,
         std::unordered_map<RealmType, std::string>
     > CulturalRealmLeaderTitleNames;
