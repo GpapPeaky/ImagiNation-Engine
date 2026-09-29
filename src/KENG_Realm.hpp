@@ -2,6 +2,7 @@
 
 #include "KENG_Utils.hpp"
 #include "KENG_ProvinceRegistry.hpp"
+#include "KENG_RealmType.hpp"
 
 #include <string>
 #include <vector>
@@ -14,6 +15,7 @@ namespace KENG {
             std::vector<llui> provinces; // Province id's further data is taken from the registry
             ui32 color       = 0xffffff; // Realm color
             std::string name = "REALM"; 
+            RealmType type;
             // TODO: type
         public:
             Realm(llui id, std::string name, ui32 color);
