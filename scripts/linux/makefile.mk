@@ -13,7 +13,7 @@ ENGINE_DIR := Basic-OpenGL
 TP         := $(ENGINE_DIR)/ThirdParty
 DEPS       := $(TP)/dependencies/linux
 
-TARGET := $(BIN_DIR)/img
+TARGET := $(BIN_DIR)/ine
 
 # Each root contains include/ and lib/
 SDL_ROOT  := $(DEPS)/linux_SDL2/SDL2
