@@ -396,9 +396,9 @@
 
 155 51 46   KINGDOM                 "Erretanuia"
 181 58 54   KINGDOM                 "Lupen"
-193 62 58   DUCHY                   "Upper DUCHY"
-201 65 60   DUCHY                   "Middle DUCHY"
-214 69 64   DUCHY                   "Lower DUCHY"
+193 62 58   DUCHY                   "Upper Duchy"
+201 65 60   DUCHY                   "Middle Duchy"
+214 69 64   DUCHY                   "Lower Duchy"
 224 72 67   REPUBLIC                "Duxe Province"
 168 54 50   REPUBLIC                "Akkrada Province"
 224 72 105  COLONIAL_ADMINISTRATION                  "New Lupen"

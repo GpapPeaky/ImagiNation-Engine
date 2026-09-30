@@ -108,7 +108,7 @@
 [Warning] No ownership file for the realm Gneisenau
 [Warning] No ownership file for the realm Croeler
 [Warning] No ownership file for the realm Liberland
-[Warning] No ownership file for the realm Northen Duchy
+[Warning] No ownership file for the realm Northen DUCHY
 [Warning] No ownership file for the realm Pierisia
 [Warning] No ownership file for the realm Iol
 [Warning] No ownership file for the realm Assur
@@ -209,9 +209,9 @@
 [Warning] No ownership file for the realm Romangha
 [Warning] No ownership file for the realm Erretanuia
 [Warning] No ownership file for the realm Lupen
-[Warning] No ownership file for the realm Upper Duchy
-[Warning] No ownership file for the realm Middle Duchy
-[Warning] No ownership file for the realm Lower Duchy
+[Warning] No ownership file for the realm Upper DUCHY
+[Warning] No ownership file for the realm Middle DUCHY
+[Warning] No ownership file for the realm Lower DUCHY
 [Warning] No ownership file for the realm Duxe Province
 [Warning] No ownership file for the realm Akkrada Province
 [Warning] No ownership file for the realm New Lupen
@@ -236,7 +236,7 @@
 [Warning] No ownership file for the realm Qini-Qadar
 [Warning] No ownership file for the realm Moskov
 [Warning] No ownership file for the realm Novhall
-[Warning] No ownership file for the realm Westhall Archbishopry
+[Warning] No ownership file for the realm Westhall ArchBISHOPRY
 [Warning] No ownership file for the realm Barbaria
 [Warning] No ownership file for the realm Saint Halle
 [Warning] No ownership file for the realm Sunderland
@@ -715,7 +715,7 @@
 151 Gneisenau 9808519  
 152 Croeler 3092480  
 153 Liberland 7237888  
-154 Northen Duchy 4737280  
+154 Northen DUCHY 4737280  
 155 Pierisia 6295866  
 156 Iol 3820098  
 157 Assur 10373698  
@@ -903,9 +903,9 @@
 253 Romangha 9090909  
 254 Erretanuia 10171182  
 255 Lupen 11876918  
-256 Upper Duchy 12664378  
-257 Middle Duchy 13189436  
-258 Lower Duchy 14042432  
+256 Upper DUCHY 12664378  
+257 Middle DUCHY 13189436  
+258 Lower DUCHY 14042432  
 259 Duxe Province 14698563  
 260 Akkrada Province 11023922  
 261 New Lupen 14698601  
@@ -930,7 +930,7 @@
 280 Qini-Qadar 6395753  
 281 Moskov 11698281  
 282 Novhall 6113897  
-283 Westhall Archbishopry 4606645  
+283 Westhall ArchBISHOPRY 4606645  
 284 Barbaria 4606503  
 285 Saint Halle 4079177  
 286 Sunderland 8928841  
