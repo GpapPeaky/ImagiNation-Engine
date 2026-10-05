@@ -23,7 +23,7 @@ int main(int, char**){
     rreg.Print(preg);
 
     /* Generate effect parser keys */
-    std::unordered_map<KENG::EffectParserKeys, std::string> epKeys = KENG::CreateEffectParserKeys();
+    KENG::EffectParser effParser;
 
     /* Lightweight root object */
     OGL_Object* rootObj = OGL_CreateObject(OGL_GetShader("rootobj"));

@@ -86,5 +86,18 @@ namespace KENG {
         STABILITY_INCREASE_COST_PER,
     } EffectParserKeys ; // Effect Parser Keyword class
 
-    std::unordered_map<EffectParserKeys, std::string> CreateEffectParserKeys(void); // Keywords for effect parser
+    class EffectParser {
+        private:
+            std::unordered_map<EffectParserKeys, std::string> keys;
+            
+        public:
+            EffectParser();
+            ~EffectParser();
+
+            // Return the keys
+            std::unordered_map<EffectParserKeys, std::string> Keys(void) const ;
+            
+            // Check if key
+            bool IsKey(std::string key) const ;
+    }; // Effect parser object
 } // KENG
