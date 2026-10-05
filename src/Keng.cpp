@@ -24,6 +24,7 @@ int main(int, char**){
 
     /* Generate effect parser keys */
     KENG::EffectParser effParser;
+    // KENG::EffectRegistry effReg; // TODO: 
 
     /* Lightweight root object */
     OGL_Object* rootObj = OGL_CreateObject(OGL_GetShader("rootobj"));
