@@ -22,6 +22,9 @@ int main(int, char**){
     rreg.ReadRealmFile();
     rreg.Print(preg);
 
+    /* Generate effect parser keys */
+    std::unordered_map<KENG::EffectParserKeys, std::string> epKeys = KENG::CreateEffectParserKeys();
+
     /* Lightweight root object */
     OGL_Object* rootObj = OGL_CreateObject(OGL_GetShader("rootobj"));
     OGL_Scene = OGL_CreateNode(rootObj, "root");

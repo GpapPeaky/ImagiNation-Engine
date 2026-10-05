@@ -1,5 +1,3 @@
-#pragma once
-
 #include "KENG_EffectParser.hpp"
 
 namespace KENG { // TODO: Call ts
