@@ -11,13 +11,23 @@ namespace KENG {
         /* ECONOMIC */
         TAX_PER,
         TAX_FLAT,
-        BUILDING_COST_PER,
+        GOODS_GAIN_PER,
+        GOODS_GAIN_FLAT,
 
+        BUILDING_COST_PER,
+        DEV_COST_PER,
+
+        TAX_GAIN_PER_TAX_DEV_FLAT,
+        TAX_GAIN_PER_TAX_DEV_PER,
+        GOODS_GAIN_PER_PROD_DEV_FLAT,
+        GOODS_GAIN_PER_PROD_DEV_PER,
+        
         /* MILITARY */
         MANPOWER_PER,
         MANPOWER_FLAT,
         MANPOWER_REINFORMENT_PER,
         RECRUIT_COST_PER,
+        RECRUIT_TIME_PER,
 
         /* MILITARY LEADERS */
         LEADER_LIGHT_ATTACK_FLAT,
@@ -67,7 +77,8 @@ namespace KENG {
         AUX_UNIT_HEAVY_DEFENSE_FLAT,
 
         /* CONVERSION */
-        CULTURAL_CONVERSION_COST_PER,
+        ACCEPTED_CULTURAL_CONVERSION_COST_PER,
+        NON_ACCEPTED_CULTURAL_CONVERSION_COST_PER,
         CULTURAL_ACCEPTANCE_COST_PER,
         RELIGIOUS_CONVERSION_COST_PER,
         
@@ -75,5 +86,5 @@ namespace KENG {
         STABILITY_INCREASE_COST_PER,
     } EffectParserKeys ; // Effect Parser Keyword class
 
-    std::unordered_map<EffectParserKeys, std::string> EffectParserKeywords; // Keywords for effect parser
+    std::unordered_map<EffectParserKeys, std::string> CreateEffectParserKeys(void); // Keywords for effect parser
 } // KENG
