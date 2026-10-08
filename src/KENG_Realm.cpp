@@ -80,7 +80,7 @@ namespace KENG {
         std::ifstream f(path);
 
         if (!f.is_open()) {
-            Utils::LOG_RLM << "[Warning] No ownership file for the realm " << name << std::endl;
+            Utils::LOG_RLM << "[Warning] No ownership file for the realm " << name << "\n";
             return;
         }
 

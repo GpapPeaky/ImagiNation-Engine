@@ -69,11 +69,11 @@ namespace KENG {
 
     void RealmRegistry::Print(ProvinceRegistry& pr) {
         for (Realm realm : realms) {
-            Utils::LOG_RLM << realm.Id() << " " << realm.Name() << " " << realm.Color() << " " << " " << std::endl;
+            Utils::LOG_RLM << realm.Id() << " " << realm.Name() << " " << realm.Color() << " " << " \n";
             for (llui provID : realm.Provinces()) {
 
                 Province& prov = pr.GetProvince(provID - 1);
-                Utils::LOG_RLM << "\t" << provID << " " << prov.Name() << " " << prov.Color() << std::endl;
+                Utils::LOG_RLM << "\t" << provID << " " << prov.Name() << " " << prov.Color() << "\n";
             }
         }
     }

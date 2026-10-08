@@ -78,7 +78,7 @@ namespace KENG {
 
     void ProvinceRegistry::Print(void) {
         for (auto prov : provinces) {
-            Utils::LOG_PROV << prov.Id() << " " << prov.Name() << " " << prov.Color() << std::endl;
+            Utils::LOG_PROV << prov.Id() << " " << prov.Name() << " " << prov.Color() << "\n";
         }
     }
 
