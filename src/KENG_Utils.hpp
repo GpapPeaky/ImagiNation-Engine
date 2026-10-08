@@ -1,9 +1,11 @@
 #pragma once
 
 typedef long long unsigned int llui;
+typedef long unsigned int lui;
 typedef unsigned char ui8;
 typedef unsigned int ui32;
 typedef int i32;
+typedef float f32;
 
 #include <iostream> // For args
 #include <fstream>

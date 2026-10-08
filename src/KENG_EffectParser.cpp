@@ -1,6 +1,6 @@
 #include "KENG_EffectParser.hpp"
 
-namespace KENG { // TODO: Call ts
+namespace KENG {
     EffectParser::EffectParser(void) {
         keys = {
             {EffectParserKeys::CONTROL_PER, "CTRL%"},

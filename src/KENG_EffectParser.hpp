@@ -3,7 +3,7 @@
 #include "KENG_Utils.hpp"
 
 namespace KENG {
-    typedef enum class EffectParserKeys { /* Effect parser keywords */
+    typedef enum class EffectParserKeys : std::size_t { /* Effect parser keywords */
         /* CONTROL */
         CONTROL_PER,
         CONTROL_FLAT,
@@ -84,6 +84,8 @@ namespace KENG {
         
         /* STABILITY */
         STABILITY_INCREASE_COST_PER,
+
+        EFFECT_KEY_COUNT
     } EffectParserKeys ; // Effect Parser Keyword class
 
     class EffectParser {
