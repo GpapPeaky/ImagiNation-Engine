@@ -1,7 +1,7 @@
 #pragma once
 
 #include "KENG_Utils.hpp"
-#include "KENG_EffectParser.hpp"
+#include "KENG_EffectParserKeys.hpp"
 
 namespace KENG {
     class Effect {
