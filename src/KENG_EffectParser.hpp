@@ -1,6 +1,7 @@
 #pragma once
 
 #include "KENG_Utils.hpp"
+#include "KENG_Effect.hpp"
 
 namespace KENG {
     typedef enum class EffectParserKeys : std::size_t { /* Effect parser keywords */

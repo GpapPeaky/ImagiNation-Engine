@@ -6,9 +6,8 @@
 namespace KENG {
     class Effect {
         private:
-            
             ui32 id;                     // Effect id
-
+            ui32 durationInMonths;       // Duration in months
             // Access via EffectParserKeys as indeces to the vector
             std::array<f32, static_cast<std::size_t>(EffectParserKeys::EFFECT_KEY_COUNT)> vals = 
                     { 0.0f }; // Actual effect values postive -> adds, negative -> removes

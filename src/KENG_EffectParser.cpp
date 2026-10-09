@@ -89,4 +89,7 @@ namespace KENG {
 
         return false;
     }
+
+    // Read an effect file, and return it as a vector of effects
+    // std::vector<Effect> ReadEffectFile(std::string fname);
 } // KENG
