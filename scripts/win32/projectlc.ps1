@@ -1,2 +1,2 @@
-./scripts/lc.ps1 src/
-./scripts/lc.ps1 Basic-OpenGL/src/
+./scripts/win32/lc.ps1 src/
+./scripts/win32/lc.ps1 Basic-OpenGL/src/
