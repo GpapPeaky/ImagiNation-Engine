@@ -11,6 +11,9 @@ namespace KENG {
                 std::vector<Effect>,
                 static_cast<std::size_t>(EffectType::EFFECT_TYPES)
             > effects;
+
+            // Append effects to registry
+            void AppendEffects(EffectType type, std::vector<Effect> effects);
         public:
             EffectRegistry(void);
             

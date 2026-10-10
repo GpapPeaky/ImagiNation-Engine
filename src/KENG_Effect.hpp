@@ -2,6 +2,7 @@
 
 #include "KENG_Utils.hpp"
 #include "KENG_EffectParserKeys.hpp"
+#include "KENG_EffectType.hpp"
 
 namespace KENG {
     class Effect {

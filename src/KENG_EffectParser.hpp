@@ -17,5 +17,8 @@ namespace KENG {
             
             // Check if key
             bool IsKey(std::string key) const ;
+
+            // Read an effect block
+            std::vector<Effect> ReadEffectBlock(std::string fname);
     }; // Effect parser object
 } // KENG
