@@ -19,6 +19,6 @@ namespace KENG {
             bool IsKey(std::string key) const ;
 
             // Read an effect block
-            std::vector<Effect> ReadEffectBlock(std::string fname);
+            std::vector<Effect> ReadEffectBlock(std::string fname); // TODO:
     }; // Effect parser object
 } // KENG

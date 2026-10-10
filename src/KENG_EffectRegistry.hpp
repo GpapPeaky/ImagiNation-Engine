@@ -13,7 +13,7 @@ namespace KENG {
             > effects;
 
             // Append effects to registry
-            void AppendEffects(EffectType type, std::vector<Effect> effects);
+            void AppendEffects(EffectType type, std::vector<Effect> effects); // TODO:
         public:
             EffectRegistry(void);
             
