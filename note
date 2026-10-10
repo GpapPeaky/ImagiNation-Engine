@@ -1,5 +1,0 @@
-Update realm type name issue -> no realm type names based on cultures
-Clamp zooming
-.eff files will work in parallel with history files, .eff hold effect data and in history will hold basically display data
-cultures.eff file and history/cultures.txt file will work in a 1-1 relation, first effect infile
-corresponds to first culture infile <history/cultures.txt> (same with religion and ideas /.eff and history/ files)
