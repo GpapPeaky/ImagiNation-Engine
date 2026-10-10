@@ -1,0 +1,20 @@
+# Historical context file
+
+# 0
+{
+    # Color RGB
+    125 125 55
+
+    # Name
+    Anetto
+    # Adjective
+    Anetti
+}
+
+# 1
+{
+    255 125 0
+
+    Eyeland
+    Eylander
+}

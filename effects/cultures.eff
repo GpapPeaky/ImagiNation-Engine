@@ -1,0 +1,20 @@
+# IDs start at 0
+
+# 0
+{
+    # + 5% tax global
+    TAX% = +5
+
+    # this is attached to the cultures.txt file inside the History folder
+    # automatically. It's a 1-1 relation 
+    # Passive effect with id 0 attached to culture with id 0
+    # Passive effect with id 1 attached to culture with id 1
+}
+
+# 1
+{
+    # + 10% manpower gain global
+    MNPOWER% = +10
+    # + 15% at country leader's light attack (unit generals)
+    LEADER_LATT% = +15
+}

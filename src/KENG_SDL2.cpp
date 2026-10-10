@@ -20,13 +20,13 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
 
         /* - */
         if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_MINUS ))) {
-            OGL_RenderView->pos.z += 0.5f / (OGL_RenderView->pos.z + 1.0f);
+            OGL_RenderView->pos.z += + 50.0f / (OGL_RenderView->pos.z + 1.0f);
             std::cout << OGL_RenderView->pos.z << '\n';
         }
 
         /* + */
         if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_EQUALS ))) {
-            OGL_RenderView->pos.z -= 0.5f / (OGL_RenderView->pos.z + 1.0f);
+            OGL_RenderView->pos.z -= + 50.0f / (OGL_RenderView->pos.z + 1.0f);
             std::cout << OGL_RenderView->pos.z << '\n';
         }
             
@@ -42,11 +42,11 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
         if(e.type == SDL_MOUSEWHEEL){
             if(ctrl->mouseZoom){
                 if(e.wheel.y > 0.0f){
-                    OGL_RenderView->pos.z -= 0.5f / (OGL_RenderView->pos.z + 1.0f);
+                    OGL_RenderView->pos.z -= + 50.0f / (OGL_RenderView->pos.z + 1.0f);
                     std::cout << OGL_RenderView->pos.z << '\n';
                 }else if(e.wheel.y < 0.0f){
                     // zoom out
-                    OGL_RenderView->pos.z += 0.5f / (OGL_RenderView->pos.z + 1.0f);
+                    OGL_RenderView->pos.z += + 50.0f / (OGL_RenderView->pos.z + 1.0f);
                     std::cout << OGL_RenderView->pos.z << '\n';
                 }
             }

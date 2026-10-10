@@ -73,17 +73,4 @@ namespace KENG {
     RealmType GetRealmTypeFromString(std::string typeName);
 
     std::unordered_map<RealmType, std::string> ReadBaseReamTypeNameFile(void);
-
-    /* Map for realm type name on display per culture */
-    extern std::unordered_map<
-        Culture,
-        std::unordered_map<RealmType, std::string>
-    > CulturalRealmTypeNames;
-
-    /* Map for realm type title of leader on display per culture */
-    extern std::unordered_map<
-        Culture,
-        std::unordered_map<RealmType, std::string>
-    > CulturalRealmLeaderTitleNames;
-
 } // KENG

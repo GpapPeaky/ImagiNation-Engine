@@ -1,0 +1,12 @@
+# IDs start at 0
+
+# 0
+{
+    # + 2.5% Control growth
+    CTRL% = +2.5
+
+    # this is attached to the religions.txt file inside the History folder
+    # automatically. It's a 1-1 relation 
+    # Passive effect with id 0 attached to religion with id 0
+    # Passive effect with id 1 attached to religion with id 1
+}

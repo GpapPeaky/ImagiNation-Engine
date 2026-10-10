@@ -1,0 +1,16 @@
+# TODO:
+# EXAMPLE
+#
+# 0
+# {
+#     # IDEA NAME    
+#     Citizen Militia
+#     # IDEA DESC
+#     "The realm requires its citizen to conscript to preserve national security"
+#     # ICON
+#     assets/ideas/icons/i_citizen_militia.png
+# }
+# this is attached to the ideas.txt file inside the History folder
+# automatically. It's a 1-1 relation 
+# Passive effect with id 0 attached to idea with id 0
+# Passive effect with id 1 attached to idea with id 1

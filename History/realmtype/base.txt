@@ -1,3 +1,5 @@
+# Realm type names
+
 GRAND_REPUBLIC              = "Grand Republic"
 REPUBLIC                    = "Republic"
 MERCHANT_REPUBLIC           = "Merchant Republic"

@@ -1,0 +1,14 @@
+# Historical context file
+
+# Ids start at 0, same logic as in the cultures
+
+# 0
+{
+    # Color RGB
+    255 255 255
+
+    # Name
+    Yuman
+    # Adjective
+    Yumani
+}
