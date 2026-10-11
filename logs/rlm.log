@@ -1,35 +1,4 @@
-[Warning] No ownership file for the realm Kaiserhof
-[Warning] No ownership file for the realm Nordostkolonie
-[Warning] No ownership file for the realm Lotharingen
-[Warning] No ownership file for the realm Nordreich
-[Warning] No ownership file for the realm Hamm
-[Warning] No ownership file for the realm Galore
-[Warning] No ownership file for the realm Papen
-[Warning] No ownership file for the realm Flussen
-[Warning] No ownership file for the realm Neu-Flussen
-[Warning] No ownership file for the realm Banke
-[Warning] No ownership file for the realm Rigelstadt
-[Warning] No ownership file for the realm Stauffenberg
-[Warning] No ownership file for the realm Petesberg
-[Warning] No ownership file for the realm Upper Lienau
-[Warning] No ownership file for the realm Halle
-[Warning] No ownership file for the realm Dirke
 [Warning] No ownership file for the realm Volkstadt
-[Warning] No ownership file for the realm Riemanniche
-[Warning] No ownership file for the realm Rebrandt-Ostersee
-[Warning] No ownership file for the realm Briggenau
-[Warning] No ownership file for the realm Montaine
-[Warning] No ownership file for the realm Eick
-[Warning] No ownership file for the realm Arhus
-[Warning] No ownership file for the realm Vaud
-[Warning] No ownership file for the realm Rugel
-[Warning] No ownership file for the realm Osterstadt
-[Warning] No ownership file for the realm Gosse
-[Warning] No ownership file for the realm Rennes
-[Warning] No ownership file for the realm Mittelbraun
-[Warning] No ownership file for the realm Ostbraun
-[Warning] No ownership file for the realm Norbraun
-[Warning] No ownership file for the realm Flussenbraun
 [Warning] No ownership file for the realm Kriegheim
 [Warning] No ownership file for the realm Fluwerpen
 [Warning] No ownership file for the realm Merlin
@@ -73,9 +42,6 @@
 [Warning] No ownership file for the realm Jerme
 [Warning] No ownership file for the realm Catte
 [Warning] No ownership file for the realm Sudherzogtum
-[Warning] No ownership file for the realm Glamore
-[Warning] No ownership file for the realm Glamor
-[Warning] No ownership file for the realm O'Hara
 [Warning] No ownership file for the realm Pateles
 [Warning] No ownership file for the realm Verilium
 [Warning] No ownership file for the realm Mountain Republic
@@ -101,7 +67,6 @@
 [Warning] No ownership file for the realm Affion
 [Warning] No ownership file for the realm Pruzze
 [Warning] No ownership file for the realm Kanone
-[Warning] No ownership file for the realm Dual Commonwealth
 [Warning] No ownership file for the realm Olvile
 [Warning] No ownership file for the realm Lokkad
 [Warning] No ownership file for the realm Ashkad
@@ -118,11 +83,9 @@
 [Warning] No ownership file for the realm Vazhai
 [Warning] No ownership file for the realm Totale
 [Warning] No ownership file for the realm Lake Cities
-[Warning] No ownership file for the realm Shinghizhian
 [Warning] No ownership file for the realm Jinghuan
 [Warning] No ownership file for the realm Nanai
 [Warning] No ownership file for the realm Kirigai
-[Warning] No ownership file for the realm Heavenly Kingdom
 [Warning] No ownership file for the realm Guanxhi
 [Warning] No ownership file for the realm Vitala
 [Warning] No ownership file for the realm Janaria
@@ -156,7 +119,6 @@
 [Warning] No ownership file for the realm Zenevie
 [Warning] No ownership file for the realm Yianna
 [Warning] No ownership file for the realm Biiria-Avram
-[Warning] No ownership file for the realm United Commonwealths of Westhall
 [Warning] No ownership file for the realm New Landing
 [Warning] No ownership file for the realm Suhkara
 [Warning] No ownership file for the realm Kanade
@@ -236,7 +198,7 @@
 [Warning] No ownership file for the realm Qini-Qadar
 [Warning] No ownership file for the realm Moskov
 [Warning] No ownership file for the realm Novhall
-[Warning] No ownership file for the realm Westhall ArchBISHOPRY
+[Warning] No ownership file for the realm Westhall Bishopry
 [Warning] No ownership file for the realm Barbaria
 [Warning] No ownership file for the realm Saint Halle
 [Warning] No ownership file for the realm Sunderland
@@ -442,37 +404,166 @@
 	1519 Okda Camp 5812236
 	1520 Polaris Camp 4288659
 27 Kaiserhof 11878144  
+	1470 Ragnaros Camp 6397364
+	1471 Sargeras Camp 10083907
+	1472 Terenas Camp 16016871
+	1473 Uther Camp 14523915
 28 Nordostkolonie 10045995  
+	1083 Guldan Cove 3335561
+	1084 Hogger Hill 985917
+	1085 Illidan Prison 13646022
+	1086 Jaraxxus Summon 14538383
+	1087 Kaelthas Walk 10702850
+	1088 Loken Seat 9179529
+	1089 Malygos Nexus 230032
+	1090 Nozdormu Cavern 7475329
+	1091 Onyx Mine 4465863
+	1092 Pterrordax Nest 14887372
+	1093 Quilboar Den 12290811
+	1094 Rexxar Camp 3584703
+	1095 Sylvanas Court 12454786
+	1096 Thrall Chamber 12517551
+	1097 Uldaman Vault 10746801
+	1098 Voljin Camp 13920243
+	1099 Wrynn Keep 12496862
+	1100 Xarantaur Library 13254367
+	1101 Ymiron Throne 6651486
+	1102 Zulaman Keep 16243400
+	1103 Acamar System 15514759
+	1104 Bellatrix Star 11571205
+	1105 Canopus Orbit 11255725
+	1106 Deneb Sector 4830698
+	1107 Eraklyon System 16112678
+	1108 Fomalhaut Ring 1744844
+	1109 Gacrux Sector 2189383
 29 Lotharingen 10500096  
+	1118 Polaris Station 484031
+	1119 Rasalas Sector 14112628
+	1120 Sabik System 2091155
+	1121 Tejat Sector 4817031
+	1122 Unukalhai Orbit 12749243
 30 Nordreich 11878425  
+	1359 Emberstrike Mine 7667350
+	1360 Frostfire Fort 8629287
+	1361 Gloomspire Gate 7692429
 31 Hamm 13519617  
+	1157 Guniibuu Orbit 12830792
+	1158 Hatysa System 10894310
+	1159 Intercrus Sector 4361006
+	1160 Jeka Planet 8587
+	1161 Kalausi Orbit 5007463
+	1162 Liesma System 9489197
+	1163 Montuno Sector 3650632
+	1164 Natasha Planet 11308835
+	1165 Pipirima Orbit 5883175
+	1166 Rapeto System 11125440
 32 Galore 11485952  
+	1490 Loken Camp 11602248
+	1491 Malygos Camp 13629600
 33 Papen 13393186  
+	1478 Zuljin Camp 4764103
+	1479 Archimonde Camp 4444583
 34 Flussen 13394216  
+	1483 Elune Camp 627318
 35 Neu-Flussen 11024896  
+	1513 Izar Camp 2842877
+	1514 Jabbah Camp 8567112
 36 Banke 11681280  
+	1530 Chara Camp 9029373
 37 Rigelstadt 13399899  
+	1214 Neva System 16174444
+	1215 Osburh Sector 14824680
+	1216 Pega Planet 4667086
+	1217 Quenburga Orbit 9322633
+	1218 Ricula System 2341508
+	1219 Sexburga Sector 7344424
 38 Stauffenberg 13392670  
+	1543 Piautos Camp 3610736
 39 Petesberg 11888721  
+	1508 Deneb Camp 11464168
 40 Upper Lienau 13401452  
+	1488 Jaraxxus Camp 3429930
 41 Halle 12354897  
+	1244 Rhaetia Planet 11624162
+	1245 Scythia Orbit 16140300
+	1246 Thrace System 3362593
+	1247 Utica Sector 13884554
+	1248 Valhalla Planet 4283059
+	1249 Wessex Orbit 15152133
 42 Dirke 13003055  
+	1484 Freya Camp 8906898
+	1485 Guldan Camp 9695022
 43 Volkstadt 11686961  
 44 Riemanniche 11691838  
+	1457 DireMaul Keep 6605370
 45 Rebrandt-Ostersee 15907214  
+	1124 Wazn Sector 4626826
+	1125 Zaniah Planet 2586107
+	1126 Alzir System 93527
+	1127 Botein Orbit 4123655
+	1128 Chara Sector 4742263
+	1129 Dilib System 9054225
+	1130 Edasich Orbit 7387711
+	1131 FumAlSamakah Sector 6520173
+	1132 Gorgonea System 13556997
+	1133 Heze Planet 1917810
+	1134 Iclil Orbit 12130846
 46 Briggenau 13406822  
+	1404 Yojamba Temple 4797765
+	1405 Zulfarrak City 12486843
+	1406 Alterac Mountains 14000838
 47 Montaine 13525824  
+	1436 Gadgetzan City 3857894
 48 Eick 12354919  
+	1244 Rhaetia Planet 11624162
+	1245 Scythia Orbit 16140300
+	1246 Thrace System 3362593
+	1247 Utica Sector 13884554
+	1248 Valhalla Planet 4283059
+	1249 Wessex Orbit 15152133
 49 Arhus 10040576  
+	1465 Liadrin Camp 12706954
 50 Vaud 14181694  
+	1466 Malorne Camp 9045234
 51 Rugel 14847565  
+	1432 Crossroads Town 10577619
+	1433 Darkshire Woods 6877198
+	1434 Everlook Town 8252041
 52 Osterstadt 12026671  
+	1481 Chogall Camp 741136
+	1482 Deathwing Camp 11436909
 53 Gosse 8990720  
+	1173 Yvaine Orbit 11363125
+	1174 Zun System 1414261
+	1175 Aethel Sector 14699528
+	1176 Beowulf Planet 7927132
+	1177 Cynewulf Orbit 4848089
+	1178 Dunstan System 12436971
+	1179 Eadric Sector 4112893
+	1180 Frith Planet 3692920
+	1181 Godwin Orbit 1374409
+	1182 Hrothgar System 4065368
+	1183 Icel Sector 2225298
+	1184 Jovian Planet 2500321
+	1185 Knut Orbit 12126639
+	1186 Leofric System 4524391
+	1187 Munderic Sector 3379059
+	1188 Nithard Planet 15664704
 54 Rennes 10041389  
+	1305 Almerhold Prime 14496277
+	1306 Bregor Throne 13385862
+	1307 Calenhad Keep 2020428
+	1308 Durnholde Castle 4086225
 55 Mittelbraun 11479808  
+	1427 Xandros Port 11846862
 56 Ostbraun 13513472  
+	1435 Feathermoon Camp 4899245
 57 Norbraun 12336660  
+	1414 Ironstrider Outpost 7952136
+	1415 Kezan Isle 732174
 58 Flussenbraun 14169600  
+	1423 Tirisfal Wood 8763174
+	1424 Ulduar City 5375718
 59 Kriegheim 13406578  
 60 Fluwerpen 13413275  
 61 Merlin 10386537  
@@ -552,8 +643,11 @@
 111 Enetezi 7169141  
 	1416 Lochton 7074259
 112 Glamore 6504306  
+	1428 Yulon Grove 3626764
 113 Glamor 10705269  
+	1430 Anvilmar Hall 5373041
 114 O'Hara 7181173  
+	1429 Zangara Tower 15877748
 115 Blue Cross 11387391  
 	1139 Nashira Sector 15107272
 116 Jan Mallen 13030911  
@@ -709,6 +803,8 @@
 145 Pruzze 3497128  
 146 Kanone 6645093  
 147 Dual Commonwealth 11756901  
+	1527 Zaniah Camp 7563916
+	1528 Alzir Camp 7626681
 148 Olvile 5128504  
 149 Lokkad 4893319  
 150 Ashkad 4728726  
@@ -726,10 +822,171 @@
 162 Totale 9926793  
 163 Lake Cities 10382667  
 164 Shinghizhian 11575748  
+	613 Waterdeep 15926483
+	614 Xanth 14676916
+	615 Yavanna 14226323
+	616 Zendikar 5033949
+	617 Aethelney 10588668
+	618 Bamburgh 4506714
+	619 Carisbrooke 10540130
+	620 Dunster 1976958
+	621 Eynsford 2765083
+	622 Framlingham 3036065
+	623 Goodrich 9895292
+	624 Hedingham 13276950
+	625 Iskander 3706587
+	626 Jazer 4737844
+	627 Kenilworth 6633868
+	628 Lancaster 16499535
+	629 Middleham 7689191
+	630 Norham 3888573
+	631 Orford 12202814
+	632 Peveril 6051796
+	633 Quatford 9186537
+	634 Rochester 11738600
+	635 Sherborne 4101436
+	636 Tintagel 9961039
+	637 Upnor 2605709
+	638 Vance 5983583
+	639 Warwick 10226224
+	640 Xor 5661292
+	641 Yorkshire 15909244
+	642 Ziguran 14520780
+	643 Aethelgard South 8338886
+	644 Brunwich West 4534228
+	645 Carldor North 10015330
+	646 Dunmere East 14914266
+	647 Evershield Keep 9557927
+	648 Fenmar Swamp 855859
+	649 Grimshear Hold 12755433
+	650 Hallowvale Glade 1702708
+	651 Isengard Tower 8291711
+	652 Jorvik Skerries 6007859
+	653 Kirkwall Docks 1825212
+	654 Lothering Church 2717573
+	655 Murnival Vault 15725048
+	656 Noxus Gates 14201215
+	657 Oristano Port 5120902
+	658 Prydain Castle 12431735
+	659 Quarth Bazaar 9422269
+	660 Redoran Manor 3132098
+	661 Sadrith Tower 470001
+	662 Telvanni Grove 8475573
+	663 Ushuaia Camp 699512
+	664 Verdistis Market 762021
+	665 Whiterun Keep 15637415
+	666 Ysmir Tomb 2099433
+	667 Zandalar Temple 610516
+	668 Ashenvale Forest 1499093
+	669 Boreand Tundra 11542357
+	670 Cinderford Mine 4356798
+	671 Dreadfort Dungeon 3693949
+	672 Emberstrike Forge 16462075
+	673 Frostfire Ridge 16146595
+	674 Gloomspire Peak 9786848
+	675 Hellfire Citadel 4291612
+	676 Ironforge Mountain 6635458
+	677 Jolund Islands 7080253
+	678 Kaldorei Ruins 12665847
+	679 Lordaeron Capital 13523548
+	680 Mulgore Plains 16693205
+	681 Netherstorm Wastes 12371406
+	682 Outland Camp 7532464
+	683 Plaguelands East 9150440
+	684 Quelthalas Woods 7487967
+	685 Redridge Canyon 9518848
 165 Jinghuan 12957403  
 166 Nanai 14141167  
 167 Kirigai 13549285  
 168 Heavenly Kingdom 12689188  
+	436 Latium 97326
+	437 Midgard 4270391
+	438 Numidia 13518720
+	439 Ophir 1327475
+	440 Punt 8225402
+	441 Quintus 7631873
+	442 Rhaetia 6521202
+	443 Scythia 11867448
+	444 Thrace 13933245
+	445 Utica 2915436
+	446 Valhalla 2565040
+	447 Wessex 3210483
+	448 Xanthos 11563424
+	449 Yria 1371170
+	450 Zion 12966116
+	451 Aachen 3121231
+	452 Babylon 12300240
+	453 Carthage 14053328
+	454 Dunwich 15223737
+	455 Ephesus 6204920
+	456 Friston 10551798
+	457 Gath 1880094
+	458 Hazor 3811035
+	459 Illyria 6737303
+	460 Jericho 725181
+	461 Karnak 9591224
+	462 Lycia 6755570
+	463 Memphis 16034519
+	464 Nineveh 10782672
+	465 Olympia 14816585
+	466 Palmyra 1621931
+	467 Quirinal 11661411
+	468 Rhodes 1511898
+	469 Sparta 11964283
+	470 Thebes 16307120
+	471 Ur 4737253
+	472 Viroconium 1071492
+	473 Wroxeter 12218872
+	474 Xanthus 11795116
+	475 Yaroslav 6577929
+	476 Zeugma 3607163
+	477 Agon 10053229
+	478 Bael 15916616
+	479 Cael 11525496
+	480 Durn 3788136
+	481 Eld 16456066
+	482 Forn 6368049
+	483 Gund 13922270
+	484 Hraefn 12537590
+	485 Ior 9319651
+	486 Jarl 11176719
+	487 Krag 8306406
+	488 Leth 7682001
+	489 Murn 16409147
+	490 Nor 7841936
+	491 Oun 5731641
+	492 Pyr 340897
+	493 Quor 15420724
+	494 Ruhn 7614043
+	495 Skon 737154
+	496 Torn 1764627
+	497 Uld 827769
+	498 Vorn 4965918
+	499 Wulf 4441965
+	500 Xun 6164433
+	501 Yrn 395444
+	502 Zul 10952066
+	503 Aethelgard North 11188388
+	504 Brunwich East 8144005
+	505 Carldor South 8727697
+	506 Dunmere West 3332913
+	507 Evershield March 15514577
+	508 Fenmar Reach 2045915
+	509 Grimshear Vale 3455417
+	510 Hallowvale Ridge 9940439
+	511 Isengard Plains 11762847
+	512 Jorvik Moors 15831676
+	513 Kirkwall Hills 12409304
+	514 Lothering Woods 8469534
+	515 Murnival Fen 11052473
+	516 Noxus Crag 10289172
+	517 Oristano Bay 13285016
+	518 Prydain Coast 10171313
+	519 Quarth Sands 7922122
+	520 Redoran Waste 13511501
+	521 Sadrith Mire 490660
+	522 Telvanni Isles 9321787
+	523 Ushuaia Peak 13491068
 169 Guanxhi 14201385  
 170 Vitala 14729516  
 171 Khagaria 4998434  
@@ -851,6 +1108,38 @@
 201 Yianna 2244707  
 202 Biiria-Avram 994144  
 203 United Commonwealths of Westhall 2439252  
+	560 Kali 15288274
+	561 Lugh 4409106
+	562 Mithras 9790268
+	563 Njord 4916666
+	564 Odin 13539576
+	565 Perun 9013344
+	566 Quirinus 15220317
+	567 Ra 5449049
+	568 Shiva 3713216
+	569 Thor 16724475
+	570 Ullr 1322101
+	571 Vishnu 14746265
+	572 Wotan 13705171
+	573 Xipe 5238155
+	574 Yarilo 12965678
+	575 Zeus 10373157
+	576 Avalon 4565468
+	577 Camelot 2385853
+	578 ElDorado 10873651
+	579 Hyperborea 3514536
+	580 Lemuria 4059527
+	581 Mu 2640187
+	582 Nysa 6296110
+	583 Olympus 5355211
+	584 Paititi 6595198
+	585 Shambhala 409263
+	586 Thule 10483403
+	587 Utgard 10237243
+	588 Vinland 6710635
+	589 Ys 6943172
+	590 Zuvendis 934835
+	591 Atlantis 12699297
 204 New Landing 3362418  
 205 Suhkara 4562590  
 206 Kanade 7143429  
@@ -930,7 +1219,7 @@
 280 Qini-Qadar 6395753  
 281 Moskov 11698281  
 282 Novhall 6113897  
-283 Westhall ArchBISHOPRY 4606645  
+283 Westhall Bishopry 4606645  
 284 Barbaria 4606503  
 285 Saint Halle 4079177  
 286 Sunderland 8928841  

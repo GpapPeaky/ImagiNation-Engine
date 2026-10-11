@@ -37,8 +37,6 @@
 
 165 188 164 EMPIRE                  "N'ghahan"
 
-#comp
-
 181 63 0    ELECTIVE_EMPIRE         "Kaiserhof"
 153 74 43   COLONIAL_ADMINISTRATION                  "Nordostkolonie"
 160 56 0    KINGDOM                 "Lotharingen"
@@ -55,7 +53,9 @@
 204 125 108 DUCHY                   "Upper Lienau"
 188 133 81  DUCHY                   "Halle"
 198 105 47  DUCHY                   "Dirke"
+#comp
 178 84 49   KINGDOM                 "Volkstadt"
+#comp
 178 103 62  KINGDOM                 "Riemanniche"
 242 185 142 ELECTORATE                 "Rebrandt-Ostersee"
 204 146 102 DUCHY                   "Briggenau"
@@ -71,6 +71,7 @@
 206 51 0    COUNTY                  "Ostbraun"
 188 62 20   COUNTY                  "Norbraun"
 216 54 0    COUNTY                  "Flussenbraun"
+#comp
 204 145 114 FREE_IMPERIAL_CITY               "Kriegheim"
 204 171 155 FREE_IMPERIAL_CITY               "Fluwerpen"
 158 124 105 FREE_IMPERIAL_CITY               "Merlin"
@@ -131,13 +132,11 @@
 96 62 92    TRIBE                   "Boion"
 
 109 100 117 TRIBE                   "Enetezi"
-#comp
 
 99 63 114   TRIBE                   "Glamore"
 
 163 89 117  TRIBE                   "Glamor"
 
-#comp
 109 147 117 TRIBE                   "O'Hara"
 173 193 255 HOLY_ORDER              "Blue Cross"
 198 213 255 FEDERATION              "Jan Mallen"
@@ -228,12 +227,16 @@
 
 158 109 75  KINGDOM                 "Lake Cities"
 
+#comp
 176 161 196 CELESTIAL_EMPIRE        "Shinghizhian"
+#comp
 197 182 219 CELESTIAL_KINGDOM       "Jinghuan"
 215 198 239 CELESTIAL_KINGDOM       "Nanai"
 206 190 229 CELESTIAL_KINGDOM       "Kirigai"
 
+#comp
 193 159 36  CELESTIAL_EMPIRE        "Heavenly Kingdom"
+#comp
 216 178 41  CELESTIAL_KINGDOM       "Guanxhi"
 224 193 44  CELESTIAL_KINGDOM       "Vitala"
 
@@ -302,7 +305,9 @@
 
 15 43 96    COUNTY                  "Biiria-Avram"
 
+#comp
 37 56 84    GRAND_REPUBLIC          "United Commonwealths of Westhall"
+#comp
 51 78 114   COLONIAL_ADMINISTRATION                  "New Landing"
 
 69 158 158  MERCHANT_REPUBLIC       "Suhkara"
@@ -441,7 +446,7 @@
 
 93 74 105   REPUBLIC                "Novhall"
 
-70 74 181   BISHOPRY                "Westhall ArchBISHOPRY"
+70 74 181   BISHOPRY                "Westhall Bishopry"
 
 70 74 39    TRIBE                   "Barbaria"
 
