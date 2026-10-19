@@ -62,7 +62,9 @@ namespace KENG::GPU {
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RG8, w, h, 0, GL_RG, GL_UNSIGNED_BYTE, idBuffer.data());
         glBindTexture(GL_TEXTURE_2D, 0);
 
-        outW = w; outH = h;
+        outW = w;
+        outH = h;
+        
         return tex;
     }
 
