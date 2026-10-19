@@ -66,7 +66,7 @@ int main(int, char**){
     TRS::S(*provinceOutlines, {50.0f * 1.777777778f, 50.f, 1.f}); // Match scale
 
     /* Font */
-    unsigned int provinceHoverFontHeight = 18;
+    ui32 provinceHoverFontHeight = 18;
     FT_Library provinceHover_FTLib = OGL_InitFreeType();
     FT_Face provinceHover_FTFace = OGL_LoadFont(provinceHover_FTLib, "assets/fonts/BodoniXT.ttf", provinceHoverFontHeight);
     std::map<char, OGL_Character> provinceHover_CharMap = OGL_LoadCharacters(provinceHover_FTFace);
@@ -89,7 +89,7 @@ int main(int, char**){
         /* Updates to assets / sprites / objects in general */
         KENG::SDL2::HandleEvents(OGL_GameQuit, ctrl, hoverCtrl, preg, rreg, provinceMap);      /* Creates a new event to poll per call (Might need to be optimised) */
         
-        const Uint8* keys = SDL_GetKeyboardState(NULL);
+        const ui8* keys = SDL_GetKeyboardState(NULL);
         OGL_HandleControllerKeyboard(ctrl, keys, OGL_GameDt);
         
         /* Rendering order matters */

@@ -1,20 +1,5 @@
 [Warning] No ownership file for the realm Volkstadt
-[Warning] No ownership file for the realm Kriegheim
-[Warning] No ownership file for the realm Fluwerpen
-[Warning] No ownership file for the realm Merlin
-[Warning] No ownership file for the realm Lichtstadt
-[Warning] No ownership file for the realm Dolin
-[Warning] No ownership file for the realm Amsee
-[Warning] No ownership file for the realm Margiela
-[Warning] No ownership file for the realm Neustadt
-[Warning] No ownership file for the realm Landhuz
 [Warning] No ownership file for the realm Kiepler
-[Warning] No ownership file for the realm Dirac
-[Warning] No ownership file for the realm Epp
-[Warning] No ownership file for the realm Soldatstadt
-[Warning] No ownership file for the realm Unerheblichostersee
-[Warning] No ownership file for the realm Kronne
-[Warning] No ownership file for the realm Neu Epp
 [Warning] No ownership file for the realm Fioren
 [Warning] No ownership file for the realm Barattie
 [Warning] No ownership file for the realm Seelore
@@ -119,7 +104,6 @@
 [Warning] No ownership file for the realm Zenevie
 [Warning] No ownership file for the realm Yianna
 [Warning] No ownership file for the realm Biiria-Avram
-[Warning] No ownership file for the realm New Landing
 [Warning] No ownership file for the realm Suhkara
 [Warning] No ownership file for the realm Kanade
 [Warning] No ownership file for the realm Shinji
@@ -565,21 +549,39 @@
 	1423 Tirisfal Wood 8763174
 	1424 Ulduar City 5375718
 59 Kriegheim 13406578  
+	1463 Jubei Camp 11438863
+	1464 Kiljaeden Camp 10193592
 60 Fluwerpen 13413275  
+	1475 Wrathion Camp 118394
 61 Merlin 10386537  
+	1474 Velen Camp 12448536
 62 Lichtstadt 10382675  
+	812 Neva Waste 16646104
+	813 Osburh Mire 4319491
+	814 Pega Isles 8384535
 63 Dolin 13405548  
+	1523 Tejat Camp 16352208
 64 Amsee 9866375  
+	1541 Nashira Camp 14010193
 65 Margiela 12045506  
+	1529 Botein Camp 5724859
 66 Neustadt 9532001  
+	1377 Winterspring Valley 2496492
 67 Landhuz 9939104  
+	1328 Yester Port 870116
 68 Kiepler 7822928  
 69 Dirac 6838867  
+	1123 Vega System 15887768
 70 Epp 12886923  
+	1213 Mildred Orbit 1611759
 71 Soldatstadt 4142889  
+	1320 Pelargir Wharf 704266
 72 Unerheblichostersee 12037016  
+	1480 Balnazzar Camp 11898353
 73 Kronne 7701116  
+	1380 Ahnqiraj Temple 507432
 74 Neu Epp 15913885  
+	1403 Xoroth Citadel 868088
 75 Fioren 13191723  
 76 Barattie 12030032  
 77 Seelore 10049597  
@@ -773,10 +775,10 @@
 	1553 Alkes Camp 16703377
 	1554 Banda Camp 7792836
 	1555 Cujam Camp 10997154
-120 North Herakleion 5329233  
-	1571 Uruk Camp 10216402
-121 South Herakleion 7368816  
+120 South Herakleion 5329233  
 	1570 Tangra Camp 3905192
+121 North Herakleion 7368816  
+	1571 Uruk Camp 10216402
 122 Pateles 6495003  
 123 Verilium 3092323  
 124 Mountain Republic 6529093  
@@ -1141,6 +1143,8 @@
 	590 Zuvendis 934835
 	591 Atlantis 12699297
 204 New Landing 3362418  
+	537 Nemea 2816544
+	538 Ouroboros 3570264
 205 Suhkara 4562590  
 206 Kanade 7143429  
 207 Shinji 11993093  

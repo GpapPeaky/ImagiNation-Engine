@@ -71,7 +71,6 @@
 206 51 0    COUNTY                  "Ostbraun"
 188 62 20   COUNTY                  "Norbraun"
 216 54 0    COUNTY                  "Flussenbraun"
-#comp
 204 145 114 FREE_IMPERIAL_CITY               "Kriegheim"
 204 171 155 FREE_IMPERIAL_CITY               "Fluwerpen"
 158 124 105 FREE_IMPERIAL_CITY               "Merlin"
@@ -88,6 +87,7 @@
 183 171 152 FREE_IMPERIAL_CITY               "Unerheblichostersee"
 117 130 124 FREE_IMPERIAL_CITY               "Kronne"
 242 211 157 FREE_IMPERIAL_CITY               "Neu Epp"
+#comp
 201 74 43   MARCH                   "Fioren"
 183 144 80  MARCH                   "Barattie"
 153 88 61   DUCHY                   "Seelore"
@@ -143,8 +143,8 @@
 99 6 0      PEASANT_REPUBLIC        "Kolmark Union"
 188 198 197 REPUBLIC                "Kolmark"
 179 101 191 FEDERATION              "Old Counties"
-81 81 81    FREE_IMPERIAL_CITY               "North Herakleion"
-112 112 112 FREE_IMPERIAL_CITY               "South Herakleion"
+81 81 81    COUNTY                  "South Herakleion"
+112 112 112 COUNTY                  "North Herakleion"
 #comp
 
 99 27 27    PEASANT_REPUBLIC        "Pateles"
@@ -307,8 +307,8 @@
 
 #comp
 37 56 84    GRAND_REPUBLIC          "United Commonwealths of Westhall"
-#comp
 51 78 114   COLONIAL_ADMINISTRATION                  "New Landing"
+#comp
 
 69 158 158  MERCHANT_REPUBLIC       "Suhkara"
 
