@@ -1,6 +1,6 @@
 #include "auxf/includes.aux"
 
-int main(int, char**){
+i32 main(i32, ui8**){
     /* Initialise SDL2 and OpenGL */
     SDL2_InitWin();
     OGL_InitContext(SDL2_Win);
@@ -46,7 +46,7 @@ int main(int, char**){
     TRS::S(*realmMap, {50.0f * 1.777777778f, 50.f, 1.f});
 
     /* Realm mask rendering, shader auxilliaries */
-    int provMapW, provMapH;
+    i32 provMapW, provMapH;
     GLuint provinceIndexTex = KENG::GPU::BuildProvinceIndexTexture("History/provinces/province_map.png", preg, provMapW, provMapH);
     
     std::vector<std::array<float,3>> paletteCPU = KENG::GPU::BuildPaletteCPU(rreg, preg.Count());
@@ -77,10 +77,10 @@ int main(int, char**){
     /* Hierarchy */
     // OGL_AttachChild(OGL_Scene, onodeRealmMap);           // Render manually, to avoid some problems
 
-    Uint32 lastTime = SDL_GetTicks();
+    ui32 lastTime = SDL_GetTicks();
     bool OGL_GameQuit = false;
     while(!OGL_GameQuit){
-        Uint32 now = SDL_GetTicks();
+        ui32 now = SDL_GetTicks();
         OGL_GameDt = (now - lastTime) / 1000.0f;            /* Convert to seconds */
         lastTime = now;
 
@@ -109,11 +109,11 @@ int main(int, char**){
 
         if (hoveredProvinceID != KENG::PROV::NULL_PROV_ID && hoveredRealmID != KENG::RLM::NULL_RLM_ID) {
             OGL_RenderText(*provinceHoverInfo, hoverCtrl.HoverProv().Name().c_str(), \
-            (float)ctrl->lastX + (float)provinceHoverFontHeight, (float)ctrl->lastY + (float)(provinceHoverFontHeight / 2), \
+            (f32)ctrl->lastX + (f32)provinceHoverFontHeight, (f32)ctrl->lastY + (f32)(provinceHoverFontHeight / 2), \
             1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
 
             OGL_RenderText(*provinceHoverInfo, hoverCtrl.HoverRealm().Name().c_str(), \
-            (float)ctrl->lastX + (float)provinceHoverFontHeight, (float)ctrl->lastY + (float)(provinceHoverFontHeight * 2), \
+            (f32)ctrl->lastX + (f32)provinceHoverFontHeight, (f32)ctrl->lastY + (f32)(provinceHoverFontHeight * 2), \
             1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
         }
 
@@ -144,7 +144,7 @@ int main(int, char**){
         /* Accumulate time */
         OGL_GameTime += OGL_GameDt;
         /* Frame limiter to OGL_FrameLimit FPS */
-        Uint32 frameTime = SDL_GetTicks() - now;
+        ui32 frameTime = SDL_GetTicks() - now;
         if(frameTime < 1000 / OGL_FrameLimit){
             SDL_Delay(1000 / OGL_FrameLimit - frameTime);
         }
