@@ -1,5 +1,20 @@
 #include "KENG_SDL2.hpp"
 
+void KENG::SDL2::Zoom(float direction) {
+    float z = OGL_RenderView->pos.z;
+
+    // Distance-based zoom speed
+    float zoomSpeed = z * 0.1f;
+
+    z += direction * zoomSpeed;
+
+    // Clamp zoom range
+    if (z < MIN_ZOOM) z = MIN_ZOOM;
+    if (z > MAX_ZOOM) z = MAX_ZOOM;
+
+    OGL_RenderView->pos.z = z;
+}
+
 void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController& provCtrl, ProvinceRegistry& preg, RealmRegistry& rreg, OGL_Object* provMap) {
     /* Update hover */
     
@@ -20,16 +35,25 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
 
         /* - */
         if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_MINUS ))) {
-            OGL_RenderView->pos.z += + 50.0f / (OGL_RenderView->pos.z + 1.0f);
-            std::cout << OGL_RenderView->pos.z << '\n';
+            Zoom(+1.0f);
         }
 
         /* + */
         if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_EQUALS ))) {
-            OGL_RenderView->pos.z -= + 50.0f / (OGL_RenderView->pos.z + 1.0f);
-            std::cout << OGL_RenderView->pos.z << '\n';
+            Zoom(-1.0f);
         }
-            
+
+        /* Basic mouse zoom in/out */
+        if (e.type == SDL_MOUSEWHEEL) {
+            if (ctrl->mouseZoom) {
+                if (e.wheel.y > 0.0f) {
+                    Zoom(-1.0f);
+                } else if (e.wheel.y < 0.0f) {
+                    Zoom(+1.0f);
+                }
+            }
+        }
+
         /* Mouse movement */
         if(e.type == SDL_MOUSEMOTION){
             float xRel = e.motion.xrel;
@@ -38,20 +62,7 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
             OGL_HandleControllerMouse(ctrl, xRel, yRel);
         }
 
-        /* Basic mouse zoom in/out */
-        if(e.type == SDL_MOUSEWHEEL){
-            if(ctrl->mouseZoom){
-                if(e.wheel.y > 0.0f){
-                    OGL_RenderView->pos.z -= + 50.0f / (OGL_RenderView->pos.z + 1.0f);
-                    std::cout << OGL_RenderView->pos.z << '\n';
-                }else if(e.wheel.y < 0.0f){
-                    // zoom out
-                    OGL_RenderView->pos.z += + 50.0f / (OGL_RenderView->pos.z + 1.0f);
-                    std::cout << OGL_RenderView->pos.z << '\n';
-                }
-            }
-        }
-
+        /* Mouse buttons */
         if(e.type == SDL_MOUSEBUTTONDOWN){
             if(e.button.button == SDL_BUTTON_LEFT){
                 provCtrl.SetHoveredProvinceAsClicked();
@@ -59,8 +70,8 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
                 std::cout << provCtrl.ClickedProvince().Name() << "\n";
             }
             
-            if(e.button.button == SDL_BUTTON_RIGHT){
-
+            if(e.button.button == SDL_BUTTON_RIGHT) {
+                // Display realm info
             }
         }
     }
