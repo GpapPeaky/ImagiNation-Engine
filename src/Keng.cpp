@@ -115,6 +115,12 @@ i32 main(i32, ui8**){
             OGL_RenderText(*provinceHoverInfo, hoverCtrl.HoverRealm().Name().c_str(), \
             (f32)ctrl->lastX + (f32)provinceHoverFontHeight, (f32)ctrl->lastY + (f32)(provinceHoverFontHeight * 2), \
             1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+
+            #if defined(INE_DEBUG)
+            OGL_RenderText(*provinceHoverInfo, std::to_string(hoveredProvinceID).c_str(), \
+            (f32)ctrl->lastX + (f32)provinceHoverFontHeight, (f32)ctrl->lastY + (f32)(provinceHoverFontHeight * 3), \
+            1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+            #endif
         }
 
         if (clickedProvinceID != KENG::PROV::NULL_PROV_ID) {

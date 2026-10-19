@@ -50,6 +50,11 @@ ENGINE_CPP := $(filter-out $(ENGINE_DIR)/src/main.cpp, \
 ENGINE_OBJS := $(patsubst $(ENGINE_DIR)/%.cpp,$(ENGINE_OBJ_DIR)/%.o,$(ENGINE_CPP)) \
                $(ENGINE_OBJ_DIR)/ThirdParty/GLAD/src/glad.o
 
+# --- Editor ---
+EDITOR_TARGET := $(BIN_DIR)/ine_editor
+EDITOR_OBJ    := $(OBJ_DIR)/editor/KengEditor.o
+GAME_LIB_OBJS := $(filter-out $(OBJ_DIR)/Keng.o,$(OBJS))
+
 .PHONY: all clean run
 
 all: $(TARGET)
@@ -84,6 +89,10 @@ $(ENGINE_OBJ_DIR)/%.o: $(ENGINE_DIR)/%.c
 	@echo "Compiling engine $<..."
 	$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@
 
+editor: $(EDITOR_OBJ) $(GAME_LIB_OBJS) $(ENGINE_OBJS)
+	@mkdir -p $(BIN_DIR)
+	$(CXX) $^ $(LDFLAGS) $(LDLIBS) -o $(EDITOR_TARGET)
+
 run: all
 	./$(TARGET)
 
@@ -91,4 +100,4 @@ clean:
 	@echo "Cleaning up..."
 	@rm -rf $(OBJ_DIR) $(BIN_DIR)
 
--include $(OBJS:.o=.d) $(ENGINE_OBJS:.o=.d)
+-include $(OBJS:.o=.d) $(ENGINE_OBJS:.o=.d) $(EDITOR_OBJ:.o=.d)

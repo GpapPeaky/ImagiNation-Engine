@@ -672,7 +672,7 @@
 637 "Upnor" 39 194 141
 638 "Vance" 91 77 95
 639 "Warwick" 156 10 48
-640 "Xor" 86 98 108
+640 "Zhou'our" 86 98 108
 641 "Yorkshire" 242 193 124
 642 "Ziguran" 221 145 204
 643 "Aethelgard South" 127 61 198
@@ -686,13 +686,13 @@
 651 "Isengard Tower" 126 133 127
 652 "Jorvik Skerries" 91 172 51
 653 "Kirkwall Docks" 27 217 188
-654 "Lothering Church" 41 119 133
+654 "Zhinggungg" 41 119 133
 655 "Murnival Vault" 239 241 248
 656 "Noxus Gates" 216 177 127
 657 "Oristano Port" 78 35 134
 658 "Prydain Castle" 189 177 119
 659 "Quarth Bazaar" 143 197 189
-660 "Redoran Manor" 47 202 194
+660 "An'han" 47 202 194
 661 "Sadrith Tower" 7 43 241
 662 "Telvanni Grove" 129 83 181
 663 "Ushuaia Camp" 10 172 120
@@ -707,7 +707,7 @@
 672 "Emberstrike Forge" 251 48 251
 673 "Frostfire Ridge" 246 96 163
 674 "Gloomspire Peak" 149 85 224
-675 "Hellfire Citadel" 65 124 28
+675 "Shikanzen" 65 124 28
 676 "Ironforge Mountain" 101 63 194
 677 "Jolund Islands" 108 9 61
 678 "Kaldorei Ruins" 193 67 247
