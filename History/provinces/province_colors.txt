@@ -562,7 +562,7 @@
 536 "Minotaur" 23 151 210
 
 537 "Nea Chora" 42 250 32
-538 "Ouroboros" 54 122 88
+538 "Neo Loutraki" 54 122 88
 
 539 "Pegasus" 164 128 228
 540 "Quetzalcoatl" 224 119 49
