@@ -561,7 +561,7 @@
 535 "Leviathan" 146 229 3
 536 "Minotaur" 23 151 210
 
-537 "Nemea" 42 250 32
+537 "Nea Chora" 42 250 32
 538 "Ouroboros" 54 122 88
 
 539 "Pegasus" 164 128 228
@@ -586,38 +586,38 @@
 558 "Isis" 114 240 102
 559 "Janus" 28 248 18
 
-560 "Kali" 233 71 210
-561 "Lugh" 67 71 18
-562 "Mithras" 149 99 60
-563 "Njord" 75 5 186
-564 "Odin" 206 152 248
-565 "Perun" 137 136 96
-566 "Quirinus" 232 62 93
-567 "Ra" 83 37 89
-568 "Shiva" 56 168 192
-569 "Thor" 255 49 251
-570 "Ullr" 20 44 117
-571 "Vishnu" 225 2 153
-572 "Wotan" 209 31 211
-573 "Xipe" 79 237 139
-574 "Yarilo" 197 215 46
-575 "Zeus" 158 72 37
-576 "Avalon" 69 169 220
-577 "Camelot" 36 103 189
-578 "ElDorado" 165 235 51
-579 "Hyperborea" 53 160 168
-580 "Lemuria" 61 241 135
-581 "Mu" 40 73 59
-582 "Nysa" 96 18 46
-583 "Olympus" 81 182 203
-584 "Paititi" 100 162 126
-585 "Shambhala" 6 62 175
-586 "Thule" 159 246 203
-587 "Utgard" 156 53 59
-588 "Vinland" 102 101 107
-589 "Ys" 105 241 196
-590 "Zuvendis" 14 67 179
-591 "Atlantis" 193 198 161
+560 "Anatolike Akte" 233 71 210
+561 "Dytike Akte" 67 71 18
+562 "Mizithras" 149 99 60
+563 "Krite" 75 5 186
+564 "Pagopoles" 206 152 248
+565 "Peripole-Dori" 137 136 96
+566 "Knossos" 232 62 93
+567 "Agios Vlassis" 83 37 89
+568 "Patelles" 56 168 192
+569 "Vories Aktes" 255 49 251
+570 "Korakovoune" 20 44 117
+571 "Megalo Kastro" 225 2 153
+572 "Kallithea" 209 31 211
+573 "Katsampas" 79 237 139
+574 "Vasilies" 197 215 46
+575 "Therissos" 158 72 37
+576 "Livadeia" 69 169 220
+577 "Mastampas" 36 103 189
+578 "Kaminia" 165 235 51
+579 "Timpaki" 53 160 168
+580 "Agios Sylas" 61 241 135
+581 "Gazi" 40 73 59
+582 "Artapoles" 96 18 46
+583 "Pekino" 81 182 203
+584 "Perpatite" 100 162 126
+585 "Neos Kosmos" 6 62 175
+586 "Nysos toy Kelifous" 159 246 203
+587 "Nysos tou Arta" 156 53 59
+588 "Kampala" 102 101 107
+589 "Paximadi" 105 241 196
+590 "Deilina" 14 67 179
+591 "Mavronysos" 193 198 161
 
 592 "Arda" 236 230 249
 
@@ -965,7 +965,7 @@
 
 889 "Murn Ridge" 209 15 40
 
-890 "Nor Wood" 239 133 229
+890 "Saint Germain" 239 133 229
 
 891 "Oun Bay" 27 44 161
 892 "Pyr Tower" 191 111 199
@@ -984,12 +984,12 @@
 
 904 "Bregor Marches" 196 185 142
 
-905 "Calenhad Beacon" 111 208 2
-906 "Durnholde Keep" 103 89 182
-907 "Esteldin Camp" 24 190 19
-908 "Forchel Ice" 236 105 133
-909 "Gondamon Gates" 77 197 118
-910 "Henneth Annun" 167 62 82
+905 "Valourian" 111 208 2
+906 "Saint Anna" 103 89 182
+907 "Ezzio Villa" 24 190 19
+908 "Saint Theon" 236 105 133
+909 "Axos" 77 197 118
+910 "Annuni" 167 62 82
 
 911 "Imladris Valley" 99 60 130
 912 "Jarnurg Mine" 237 44 114
@@ -1000,8 +1000,8 @@
 
 916 "Nurn Fields" 116 173 0
 
-917 "Osgiliath East" 66 147 237
-918 "Pelargir Port" 94 234 25
+917 "Enriccio" 66 147 237
+918 "Pelargi" 94 234 25
 
 919 "Rhosgobel Woods" 50 29 240
 920 "Sarnford Bridge" 42 150 219
@@ -1157,10 +1157,10 @@
 
 1046 "Ursin Den" 148 82 190
 
-1047 "Valgarde Keep" 142 114 157
-1048 "Wildhammer Keep" 0 46 231
-1049 "Xylem Tower" 86 240 6
-1050 "Yalnu Root" 249 36 100
+1047 "Valgarde" 142 114 157
+1048 "Lorrian" 0 46 231
+1049 "Luccio" 86 240 6
+1050 "Pirenze" 249 36 100
 1051 "Jeremiah" 84 51 108
 
 1052 "Acheron Gate" 211 137 136
@@ -1173,9 +1173,9 @@
 1058 "Garadar Camp" 252 170 62
 1059 "Halalaa Town" 26 152 150
 
-1060 "Isildur Tomb" 176 34 89
-1061 "Jubei Palace" 41 179 241
-1062 "Kiljaeden Throne" 240 180 199
+1060 "Isildur" 176 34 89
+1061 "Jubei" 41 179 241
+1062 "Saint Riviera" 240 180 199
 
 1063 "Liadrin Sanctum" 111 146 72
 1064 "Malorne Grove" 17 182 222
@@ -1238,7 +1238,7 @@
 1113 "Kornephoros Ring" 113 36 216
 1114 "Lesath System" 39 78 186
 
-1115 "Marfik Sector" 64 255 242
+1115 "Saint Markkus" 64 255 242
 
 1116 "Nunki Orbit" 38 160 233
 
@@ -1351,9 +1351,9 @@
 1201 "Agatha Orbit" 40 98 61
 
 1202 "Anneto" 227 202 65
-1203 "Cuthburga Sector" 172 99 68
+1203 "Cuomo" 172 99 68
 1204 "Vinetto" 236 151 178
-1205 "Ealswith Orbit" 16 211 244
+1205 "Cornaro" 16 211 244
 
 1206 "Frideswide System" 129 127 117
 
@@ -1520,33 +1520,33 @@
 
 1330 "Pijon" 129 126 191
 
-1331 "Brunwich Dale" 26 174 119
+1331 "Uttica" 26 174 119
 1332 "Qarydor" 129 208 238
 1333 "Qaliqut" 32 78 142
 1334 "Evernya" 97 146 196
 1335 "Fenmajar" 177 7 249
-1336 "Grimshear Woods" 121 24 152
+1336 "Mosuli" 121 24 152
 1337 "Hail" 36 48 12
 1338 "Qiriya" 28 184 191
 1339 "Yoriqi" 205 29 29
 1340 "Qirq" 160 200 143
 1341 "Flylo" 2 37 128
-1342 "Murnival Garden" 91 157 92
+1342 "Babili" 91 157 92
 1343 "Noqirus" 24 156 140
-1344 "Oristano Palace" 162 140 124
+1344 "Vasora" 162 140 124
 1345 "Pydaina" 101 215 150
 1346 "Quarth " 202 234 68
-1347 "Redoran Vault" 61 45 242
+1347 "Mossaiqi" 61 45 242
 1348 "Sadrith" 41 12 10
-1349 "Telvanni Library" 247 242 247
-1350 "Ushuaia Forest" 19 73 35
+1349 "Telvanah" 247 242 247
+1350 "Ushuaia" 19 73 35
 1351 "Vedidisti" 231 124 250
 1352 "Hiwet'ruq" 222 246 229
 1353 "Yismir" 99 32 79
-1354 "Zandalar Throne" 224 103 163
+1354 "Zandalar" 224 103 163
 1355 "Asse" 192 52 77
-1356 "Boreand Port" 110 242 181
-1358 "Dreadfort Hall" 221 236 111
+1356 "Boretera" 110 242 181
+1358 "Diril" 221 236 111
 1357 "Cinderford Hold" 84 12 72
 
 1359 "Kapital-du-nord" 116 254 150
@@ -1761,10 +1761,10 @@
 
 1503 "Ymiron Camp" 5 200 68
 
-1504 "Zulaman Camp" 191 33 128
-1505 "Acamar Camp" 92 127 144
-1506 "Bellatrix Camp" 70 79 224
-1507 "Canopus Camp" 232 251 218
+1504 "Zulan Island" 191 33 128
+1505 "Acamar" 92 127 144
+1506 "Komu Island" 70 79 224
+1507 "Kuts Island" 232 251 218
 
 1508 "Deneb Camp" 174 237 232
 
@@ -1782,7 +1782,7 @@
 1515 "Kornephoros Camp" 231 68 147
 
 1516 "Lesath" 196 106 71
-1517 "Margate" 132 151 208
+1517 "Magda" 132 151 208
 1518 "Asgabad Island" 146 54 153
 1519 "Agadir Island" 88 176 12
 1520 "Polaris Camp" 65 112 147

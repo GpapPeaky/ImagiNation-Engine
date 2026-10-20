@@ -306,8 +306,8 @@
 15 43 96    COUNTY                  "Biiria-Avram"
 
 #comp
-37 56 84    GRAND_REPUBLIC          "United Commonwealths of Westhall"
-51 78 114   COLONIAL_ADMINISTRATION                  "New Landing"
+37 56 84    GRAND_REPUBLIC                           "Argostolou"
+51 78 114   COLONIAL_ADMINISTRATION                  "Georgia"
 #comp
 
 69 158 158  MERCHANT_REPUBLIC       "Suhkara"

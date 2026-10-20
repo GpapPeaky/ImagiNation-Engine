@@ -261,9 +261,9 @@
 	1378 Avon 15399474
 9 Anetto 6538932  
 	1202 Anneto 14928449
-	1203 Cuthburga Sector 11297604
+	1203 Cuomo 11297604
 	1204 Vinetto 15505330
-	1205 Ealswith Orbit 1102836
+	1205 Cornaro 1102836
 10 Pierie 5680541  
 	1324 Umbrais 7655121
 11 Merobaudes 790847  
@@ -346,44 +346,44 @@
 22 Lor 8999424  
 	1510 Lor 5001454
 23 Quarazh 9174919  
-	1331 Brunwich Dale 1748599
+	1331 Uttica 1748599
 	1332 Qarydor 8507630
 	1333 Qaliqut 2117262
 	1334 Evernya 6394564
 	1335 Fenmajar 11601913
-	1336 Grimshear Woods 7936152
+	1336 Mosuli 7936152
 	1337 Hail 2371596
 	1338 Qiriya 1882303
 	1339 Yoriqi 13442333
 	1340 Qirq 10537103
 	1341 Flylo 140672
-	1342 Murnival Garden 6004060
+	1342 Babili 6004060
 	1343 Noqirus 1612940
-	1344 Oristano Palace 10652796
+	1344 Vasora 10652796
 	1345 Pydaina 6674326
 	1346 Quarth  13298244
-	1347 Redoran Vault 4009458
+	1347 Mossaiqi 4009458
 	1348 Sadrith 2690058
-	1349 Telvanni Library 16249591
-	1350 Ushuaia Forest 1263907
+	1349 Telvanah 16249591
+	1350 Ushuaia 1263907
 	1351 Vedidisti 15170810
 	1352 Hiwet'ruq 14612197
 	1353 Yismir 6496335
-	1354 Zandalar Throne 14706595
+	1354 Zandalar 14706595
 	1355 Asse 12596301
-	1356 Boreand Port 7271093
+	1356 Boretera 7271093
 	1358 Cinderford Hold 5508168
-	1357 Dreadfort Hall 14543983
+	1357 Diril 14543983
 24 Limeria 7012182  
 	1561 Limerie 4163355
 25 Kani 1476360  
-	1504 Zulaman Camp 12525952
-	1505 Acamar Camp 6061968
-	1506 Bellatrix Camp 4607968
-	1507 Canopus Camp 15268826
+	1504 Zulan Island 12525952
+	1505 Acamar 6061968
+	1506 Komu Island 4607968
+	1507 Kuts Island 15268826
 26 N'ghahan 10861732  
 	1516 Lesath 12872263
-	1517 Margate 8689616
+	1517 Magda 8689616
 	1518 Asgabad Island 9582233
 	1519 Agadir Island 5812236
 	1520 Polaris Camp 4288659
@@ -617,29 +617,29 @@
 	1458 Avidas 12607910
 	1459 Santa Marina 13948092
 104 Papal State 15394425  
-	1047 Valgarde Keep 9335453
-	1048 Wildhammer Keep 12007
-	1049 Xylem Tower 5697542
-	1050 Yalnu Root 16327780
+	1047 Valgarde 9335453
+	1048 Lorrian 12007
+	1049 Luccio 5697542
+	1050 Pirenze 16327780
 	1051 Jeremiah 5518188
 105 Saint Riviera 15387997  
-	1060 Isildur Tomb 11543129
-	1061 Jubei Palace 2733041
-	1062 Kiljaeden Throne 15774919
+	1060 Isildur 11543129
+	1061 Jubei 2733041
+	1062 Saint Riviera 15774919
 106 Saint Markkus 15388025  
-	1115 Marfik Sector 4259826
+	1115 Saint Markkus 4259826
 107 Saint Erique 14405417  
-	917 Osgiliath East 4363245
-	918 Pelargir Port 6220313
+	917 Enriccio 4363245
+	918 Pelargi 6220313
 108 Saint Anna 15393280  
-	905 Calenhad Beacon 7327746
-	906 Durnholde Keep 6773174
-	907 Esteldin Camp 1621523
-	908 Forchel Ice 15493509
-	909 Gondamon Gates 5096822
-	910 Henneth Annun 10960466
+	905 Valourian 7327746
+	906 Saint Anna 6773174
+	907 Ezzio Villa 1621523
+	908 Saint Theon 15493509
+	909 Axos 5096822
+	910 Annuni 10960466
 109 Saint Germain 16773632  
-	890 Nor Wood 15697381
+	890 Saint Germain 15697381
 110 Boion 6307420  
 	1321 Boion 8744754
 111 Enetezi 7169141  
@@ -776,9 +776,9 @@
 	1554 Banda Camp 7792836
 	1555 Cujam Camp 10997154
 120 South Herakleion 5329233  
-	1570 North Herakleion 3905192
-121 North Herakleion 7368816  
 	1571 South Herakleion 10216402
+121 North Herakleion 7368816  
+	1570 North Herakleion 3905192
 122 Pateles 6495003  
 123 Verilium 3092323  
 124 Mountain Republic 6529093  
@@ -1109,41 +1109,41 @@
 200 Zenevie 3829760  
 201 Yianna 2244707  
 202 Biiria-Avram 994144  
-203 United Commonwealths of Westhall 2439252  
-	560 Kali 15288274
-	561 Lugh 4409106
-	562 Mithras 9790268
-	563 Njord 4916666
-	564 Odin 13539576
-	565 Perun 9013344
-	566 Quirinus 15220317
-	567 Ra 5449049
-	568 Shiva 3713216
-	569 Thor 16724475
-	570 Ullr 1322101
-	571 Vishnu 14746265
-	572 Wotan 13705171
-	573 Xipe 5238155
-	574 Yarilo 12965678
-	575 Zeus 10373157
-	576 Avalon 4565468
-	577 Camelot 2385853
-	578 ElDorado 10873651
-	579 Hyperborea 3514536
-	580 Lemuria 4059527
-	581 Mu 2640187
-	582 Nysa 6296110
-	583 Olympus 5355211
-	584 Paititi 6595198
-	585 Shambhala 409263
-	586 Thule 10483403
-	587 Utgard 10237243
-	588 Vinland 6710635
-	589 Ys 6943172
-	590 Zuvendis 934835
-	591 Atlantis 12699297
-204 New Landing 3362418  
-	537 Nemea 2816544
+203 Argostolou 2439252  
+	560 Anatolike Akte 15288274
+	561 Dytike Akte 4409106
+	562 Mizithras 9790268
+	563 Krite 4916666
+	564 Pagopoles 13539576
+	565 Peripole-Dori 9013344
+	566 Knossos 15220317
+	567 Agios Vlassis 5449049
+	568 Patelles 3713216
+	569 Vories Aktes 16724475
+	570 Korakovoune 1322101
+	571 Megalo Kastro 14746265
+	572 Kallithea 13705171
+	573 Katsampas 5238155
+	574 Vasilies 12965678
+	575 Therissos 10373157
+	576 Livadeia 4565468
+	577 Mastampas 2385853
+	578 Kaminia 10873651
+	579 Timpaki 3514536
+	580 Agios Sylas 4059527
+	581 Gazi 2640187
+	582 Artapoles 6296110
+	583 Pekino 5355211
+	584 Perpatite 6595198
+	585 Neos Kosmos 409263
+	586 Nysos toy Kelifous 10483403
+	587 Nysos tou Arta 10237243
+	588 Kampala 6710635
+	589 Paximadi 6943172
+	590 Deilina 934835
+	591 Mavronysos 12699297
+204 Georgia 3362418  
+	537 Nea Chora 2816544
 	538 Ouroboros 3570264
 205 Suhkara 4562590  
 206 Kanade 7143429  
