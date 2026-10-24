@@ -145,7 +145,6 @@
 179 101 191 FEDERATION              "Old Counties"
 81 81 81    COUNTY                  "South Herakleion"
 112 112 112 COUNTY                  "North Herakleion"
-#comp
 
 99 27 27    PEASANT_REPUBLIC        "Pateles"
 
@@ -171,6 +170,8 @@
 
 23 104 44   TRIBE                   "Kukanuu"
 16 76 32    TRIBE                   "Bobototonga"
+
+#comp
 
 128 62 145  TRIBE                   "Hammanah"
 
@@ -229,26 +230,22 @@
 
 #comp
 176 161 196 CELESTIAL_EMPIRE        "Shinghizhian"
-#comp
 197 182 219 CELESTIAL_KINGDOM       "Jinghuan"
 215 198 239 CELESTIAL_KINGDOM       "Nanai"
 206 190 229 CELESTIAL_KINGDOM       "Kirigai"
 
-#comp
 193 159 36  CELESTIAL_EMPIRE        "Heavenly Kingdom"
-#comp
 216 178 41  CELESTIAL_KINGDOM       "Guanxhi"
-224 193 44  CELESTIAL_KINGDOM       "Vitala"
+234 193 44  CELESTIAL_KINGDOM       "Vitala"
 
-#comp
 76 69 34    HORDE                   "Khagaria"
-#comp
 
 76 69 85    HORDE                   "Janaria"
 
 59 70 99    KINGDOM                 "Pii"
 
 130 134 255 KINGDOM                 "Poolo"
+#comp
 
 41 99 140   KINGDOM                 "Kiipi"
 
@@ -308,13 +305,13 @@
 #comp
 37 56 84    GRAND_REPUBLIC                           "Argostolou"
 51 78 114   COLONIAL_ADMINISTRATION                  "Georgia"
-#comp
 
 69 158 158  MERCHANT_REPUBLIC       "Suhkara"
 
 109 0 5     EYE_ISLE_REPUBLIC       "Kanade"
 183 0 5     EYE_ISLE_REPUBLIC       "Shinji"
-234 0 11    EYE_ISLE_REPUBLIC       "Mihishima"
+224 0 11    EYE_ISLE_REPUBLIC       "Mihishima"
+#comp
 
 69 82 93    KINGDOM                 "Disire"
 
@@ -408,11 +405,13 @@
 168 54 50   REPUBLIC                "Akkrada Province"
 224 72 105  COLONIAL_ADMINISTRATION                  "New Lupen"
 
+#comp
 85 85 193   GRAND_REPUBLIC          "United Provinces Of Southern Westhall"
 68 68 153   REPUBLIC                "New Port"
 
 142 154 158 REPUBLICAN_DICTATORSHIP "United Provinces Of Southern Austoria"
 85 170 193  GRAND_REPUBLIC          "United Provinces Of Austoria"
+#comp
 
 89 155 120  PEASANT_REPUBLIC        "Progoda"
 
@@ -498,4 +497,6 @@
 
 93 73 104   KINGDOM                 "Pollong"
 
+#comp
 182 174 190 DUCHY                   "Ends"
+#comp
