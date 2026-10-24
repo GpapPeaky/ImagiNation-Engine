@@ -37,4 +37,17 @@ namespace KENG {
     Province& HoverController::ClickedProvince(void) {
         return clickedProvince;
     }
+
+    void HoverController::SetHoveredRealmAsClicked(void) {
+        clickedRealm = hoveredRealm;
+    }
+
+    void HoverController::ResetClickedRealm(void) {
+        static Realm nullRealm(RLM::NULL_RLM_ID, "nullrlm", 0xffffff);
+        clickedRealm = nullRealm;
+    }
+
+    Realm& HoverController::ClickedRealm(void) {
+        return clickedRealm;
+    }
 }

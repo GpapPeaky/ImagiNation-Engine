@@ -11,6 +11,7 @@ namespace KENG {
             Province clickedProvince{PROV::NULL_PROV_ID, "nullprov", 0xffffff};
             Province hoveredProvince{PROV::NULL_PROV_ID, "nullprov", 0xffffff};
             Realm hoveredRealm{RLM::NULL_RLM_ID, "nullrlm", 0xffffff};
+            Realm clickedRealm{RLM::NULL_RLM_ID, "nullrlm", 0xffffff};
         public:
             HoverController(void);
             ~HoverController(void);
@@ -27,5 +28,11 @@ namespace KENG {
             void ResetClickedProvince(void);
 
             Province& ClickedProvince(void);
+
+            void SetHoveredRealmAsClicked(void);
+
+            void ResetClickedRealm(void);
+
+            Realm& ClickedRealm(void);
     };
 }

@@ -8,6 +8,7 @@ i32 main(i32, ui8**){
     OGL_CreateShaderProgram("realmmask", OGLS_TRS_MVP_TextureV, INATE_SHADER_RealmMaskF); /* Pushed into the registry */
     OGL_CreateShaderProgram("provinceoutline", OGLS_TRS_MVP_ColorV, INATE_SHADER_ProvOutlineMaskF); /* No texture, we render geometry */
 
+    /* Main controller, camera and bindings */
     OGL_Controller* ctrl = OGL_CreateController(5.0f, 0.1f);
     OGL_Camera* cam = OGL_CreateCamera({0.0f, 0.0f, 50.0f}, {0, 1, 0}, 0.0f, 0.0f);
     OGL_BindCameraToController(ctrl, cam);
@@ -41,11 +42,16 @@ i32 main(i32, ui8**){
     OGL_Object* provinceClickedInfo = OGL_CreateObject(OGL_GetShader("glyph"));
     OGL_CreateTextQuad(*provinceClickedInfo->mesh);
 
+    OGL_Object* realmHoverInfo = OGL_CreateObject(OGL_GetShader("glyph"));
+    OGL_CreateTextQuad(*realmHoverInfo->mesh);
+    OGL_Object* RealmClickedInfo = OGL_CreateObject(OGL_GetShader("glyph"));
+    OGL_CreateTextQuad(*RealmClickedInfo->mesh);
+
+    /* Realm mask rendering, shader auxilliaries */
     OGL_Object* realmMap = OGL_CreateObject(OGL_GetShader("realmmask"));
     OGL_CreateTextureQuad(*realmMap->mesh);
     TRS::S(*realmMap, {50.0f * 1.777777778f, 50.f, 1.f});
-
-    /* Realm mask rendering, shader auxilliaries */
+    
     i32 provMapW, provMapH;
     GLuint provinceIndexTex = KENG::GPU::BuildProvinceIndexTexture("History/provinces/province_map.png", preg, provMapW, provMapH);
     
@@ -59,17 +65,16 @@ i32 main(i32, ui8**){
     rmm.provinceCount = (float)(preg.Count() + 1);
 
     /* Outlines */
-
     OGL_Object* provinceOutlines = OGL_CreateObject(OGL_GetShader("provinceoutline"));
     std::vector<glm::vec3> outlineVertices = KENG::GPU::BuildProvinceOutlineVertices("History/provinces/province_map.png", provMapW, provMapH);
     OGL_CreateLineMesh(*provinceOutlines->mesh, outlineVertices);
     TRS::S(*provinceOutlines, {50.0f * 1.777777778f, 50.f, 1.f}); // Match scale
 
     /* Font */
-    ui32 provinceHoverFontHeight = 18;
+    ui32 hoverFontHeight = 18;
     FT_Library provinceHover_FTLib = OGL_InitFreeType();
-    FT_Face provinceHover_FTFace = OGL_LoadFont(provinceHover_FTLib, "assets/fonts/BodoniXT.ttf", provinceHoverFontHeight);
-    std::map<char, OGL_Character> provinceHover_CharMap = OGL_LoadCharacters(provinceHover_FTFace);
+    FT_Face provinceHover_FTFace = OGL_LoadFont(provinceHover_FTLib, "assets/fonts/BodoniXT.ttf", hoverFontHeight);
+    std::map<char, OGL_Character> hover_CharMap = OGL_LoadCharacters(provinceHover_FTFace);
 
     /* Controllers */
     KENG::HoverController hoverCtrl;
@@ -85,10 +90,7 @@ i32 main(i32, ui8**){
         lastTime = now;
 
         SDL_GetMouseState(&ctrl->lastX, &ctrl->lastY);
-
-        /* Updates to assets / sprites / objects in general */
         KENG::SDL2::HandleEvents(OGL_GameQuit, ctrl, hoverCtrl, preg, rreg, provinceMap);      /* Creates a new event to poll per call (Might need to be optimised) */
-        
         const ui8* keys = SDL_GetKeyboardState(NULL);
         OGL_HandleControllerKeyboard(ctrl, keys, OGL_GameDt);
         
@@ -97,7 +99,6 @@ i32 main(i32, ui8**){
         
         /* Updates */
         OGL_SetScreenBackground(0.f, 0.f, 0.f, 1.f);
-        
         OGL_RenderVisitChildren(OGL_Scene); // Normal render visit for other objects
 
         KENG::GPU::RenderProvinceOutlines(provinceOutlines, {0.0f, 0.0f, 0.0f}); /* Outlines, on top of the realm masks */
@@ -105,43 +106,51 @@ i32 main(i32, ui8**){
         
         llui hoveredProvinceID = hoverCtrl.HoverProv().Id();
         llui hoveredRealmID = hoverCtrl.HoverRealm().Id();
-        llui clickedProvinceID = hoverCtrl.ClickedProvince().Id();
+        llui leftClickedProvinceID = hoverCtrl.ClickedProvince().Id();
+        llui rightClickedRealmID = hoverCtrl.ClickedRealm().Id();
 
+        // Hovering
         if (hoveredProvinceID != KENG::PROV::NULL_PROV_ID && hoveredRealmID != KENG::RLM::NULL_RLM_ID) {
-            OGL_RenderText(*provinceHoverInfo, hoverCtrl.HoverProv().Name().c_str(), \
-            (f32)ctrl->lastX + (f32)provinceHoverFontHeight, (f32)ctrl->lastY + (f32)(provinceHoverFontHeight / 2), \
-            1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
-
-            OGL_RenderText(*provinceHoverInfo, hoverCtrl.HoverRealm().Name().c_str(), \
-            (f32)ctrl->lastX + (f32)provinceHoverFontHeight, (f32)ctrl->lastY + (f32)(provinceHoverFontHeight * 2), \
-            1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
-
             #if defined(INE_DEBUG)
-            OGL_RenderText(*provinceHoverInfo, std::to_string(hoveredProvinceID).c_str(), \
-            (f32)ctrl->lastX + (f32)provinceHoverFontHeight, (f32)ctrl->lastY + (f32)(provinceHoverFontHeight * 3), \
-            1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+                OGL_RenderText(*provinceHoverInfo, hoverCtrl.HoverProv().Name().c_str(), \
+                (f32)ctrl->lastX + (f32)hoverFontHeight, (f32)ctrl->lastY + (f32)(hoverFontHeight / 2), \
+                1.0f, {1.0f, 1.0f, 1.0f}, hover_CharMap);
+
+                OGL_RenderText(*realmHoverInfo, hoverCtrl.HoverRealm().Name().c_str(), \
+                (f32)ctrl->lastX + (f32)hoverFontHeight, (f32)ctrl->lastY + (f32)(hoverFontHeight * 2), \
+                1.0f, {1.0f, 1.0f, 1.0f}, hover_CharMap);
+
+                OGL_RenderText(*provinceHoverInfo, std::to_string(hoveredProvinceID).c_str(), \
+                (f32)ctrl->lastX + (f32)hoverFontHeight, (f32)ctrl->lastY + (f32)(hoverFontHeight * 3), \
+                1.0f, {1.0f, 1.0f, 1.0f}, hover_CharMap);
             #endif
         }
 
-        if (clickedProvinceID != KENG::PROV::NULL_PROV_ID) {
+        // Clicked
+        if (leftClickedProvinceID != KENG::PROV::NULL_PROV_ID) {
             OGL_RenderText(*provinceClickedInfo, hoverCtrl.ClickedProvince().Name().c_str(), \
-            0.0f, provinceHoverFontHeight, \
-            1.0f, {1.0f, 1.0f, 1.0f}, provinceHover_CharMap);
+            0.0f, hoverFontHeight, \
+            1.0f, {1.0f, 1.0f, 1.0f}, hover_CharMap);
+        }
+
+        if (rightClickedRealmID != KENG::RLM::NULL_RLM_ID) {
+            OGL_RenderText(*realmHoverInfo, hoverCtrl.ClickedRealm().Name().c_str(), \
+            0.0f, hoverFontHeight * 2, \
+            1.0f, {1.0f, 1.0f, 1.0f}, hover_CharMap);
         }
 
         /* TEST */
         // static bool addedOther = false;
         // if (!addedOther) {
-        //     KENG::Realm& rlm = rreg.Realms().at(1);
-
-        //     // Added new provs, update realm map mask palette texture
-        //     // rlm.AddProvince(0); // -> ADDS THE SEA, AVOID
-        //     rlm.AddProvince(1);
-        //     KENG::GPU::UpdatePaletteEntry(rmm.palTex, 1, KENG::Utils::UnpackRGB_01(rlm.Color()));
-        //     rlm.AddProvince(2);
-        //     KENG::GPU::UpdatePaletteEntry(rmm.palTex, 2, KENG::Utils::UnpackRGB_01(rlm.Color()));
-        //     rlm.AddProvince(3);
-        //     KENG::GPU::UpdatePaletteEntry(rmm.palTex, 3, KENG::Utils::UnpackRGB_01(rlm.Color()));
+            // KENG::Realm& rlm = rreg.Realms().at(1);
+            // // Added new provs, update realm map mask palette texture
+            // rlm.AddProvince(0); // -> ADDS THE SEA, AVOID
+            // rlm.AddProvince(1);
+            // KENG::GPU::UpdatePaletteEntry(rmm.palTex, 1, KENG::Utils::UnpackRGB_01(rlm.Color()));
+            // rlm.AddProvince(2);
+            // KENG::GPU::UpdatePaletteEntry(rmm.palTex, 2, KENG::Utils::UnpackRGB_01(rlm.Color()));
+            // rlm.AddProvince(3);
+            // KENG::GPU::UpdatePaletteEntry(rmm.palTex, 3, KENG::Utils::UnpackRGB_01(rlm.Color()));
         // }
 
         /* Swap frame buffers */

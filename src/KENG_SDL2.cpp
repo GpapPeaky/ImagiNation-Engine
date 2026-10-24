@@ -31,6 +31,7 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
         /* ESCAPE */
         if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_ESCAPE ))) {
             provCtrl.ResetClickedProvince(); // RESET
+            provCtrl.ResetClickedRealm();
         }
 
         /* - */
@@ -64,14 +65,15 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
 
         /* Mouse buttons */
         if(e.type == SDL_MOUSEBUTTONDOWN){
-            if(e.button.button == SDL_BUTTON_LEFT){
+            if (e.button.button == SDL_BUTTON_LEFT){
                 provCtrl.SetHoveredProvinceAsClicked();
 
                 std::cout << provCtrl.ClickedProvince().Name() << "\n";
-            }
-            
-            if(e.button.button == SDL_BUTTON_RIGHT) {
-                // Display realm info
+            } 
+
+            else if (e.button.button == SDL_BUTTON_RIGHT) {
+                provCtrl.SetHoveredRealmAsClicked();
+                std::cout << provCtrl.ClickedRealm().Name() << "\n";
             }
         }
     }
