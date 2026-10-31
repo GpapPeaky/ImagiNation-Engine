@@ -558,8 +558,8 @@
 533 "Jormungandr" 133 233 58
 534 "Kharybdis" 47 121 73
 
-535 "Elviatha" 146 229 3
-536 "Minto'Otaur" 23 151 210
+535 "Janar" 146 229 3
+536 "Ogdu" 23 151 210
 
 537 "Nea Chora" 42 250 32
 538 "Neo Loutraki" 54 122 88
@@ -899,7 +899,7 @@
 837 "Midgard Realm" 4 224 160
 838 "Numidia Desert" 137 131 166
 
-839 "Ophi" 112 172 1
+839 "O'xi" 112 172 1
 840 "Pupung" 37 199 27
 841 "Bangon" 18 62 96
 842 "Tilling" 162 122 57
@@ -953,12 +953,12 @@
 
 880 "Durn Holdfast" 101 208 170
 
-881 "Eld Cairn" 201 75 44
-882 "Forn Forest" 122 55 238
-883 "Gund Peak" 227 0 89
-884 "Hraefn Roost" 112 14 218
-885 "Ior Mire" 138 206 218
-886 "Jarl Seat" 157 170 195
+881 "Manchester" 201 75 44
+882 "Forn-on-ryne" 122 55 238
+883 "Gundon" 227 0 89
+884 "Adderpool" 112 14 218
+885 "Iormire" 138 206 218
+886 "Calimno" 157 170 195
 
 887 "Kraigzhan" 18 12 2
 888 "Leth Vale" 85 96 0
@@ -967,18 +967,18 @@
 
 890 "Saint Germain" 239 133 229
 
-891 "Oun Bay" 27 44 161
-892 "Pyr Tower" 191 111 199
-893 "Quor Glade" 70 184 194
-894 "Ruhn Ruins" 27 115 252
-895 "Skon Coast" 168 9 225
-896 "Torn Pass" 89 230 218
-897 "Uld Mound" 150 117 83
-898 "Vorn Swamp" 204 31 181
-899 "Wulf Den" 101 79 109
-900 "Xun Vault" 204 113 228
-901 "Yrn Cleft" 107 238 133
-902 "Zul City" 173 50 186
+891 "Jefferson" 27 44 161
+892 "Scone Hill" 191 111 199
+893 "Cliffort" 70 184 194
+894 "Rundale" 27 115 252
+895 "Bradford-on-ryne" 168 9 225
+896 "Bernard" 89 230 218
+897 "Benedict City" 150 117 83
+898 "Swampy Creek" 204 31 181
+899 "Hull" 101 79 109
+900 "Winston" 204 113 228
+901 "Great Plain" 107 238 133
+902 "Earl" 173 50 186
 
 903 "Almerhold Outer" 252 168 239
 
@@ -1139,21 +1139,21 @@
 1029 "Pyreli" 28 153 135
 1030 "Pi'ili" 217 31 28
 
-1031 "Darkshire Town" 249 44 5
-1032 "Everlook Bank" 231 42 174
-1033 "Feathermoon Stronghold" 13 132 128
-1034 "Gadgetzan Market" 214 165 232
-1035 "Hammerfall Camp" 172 247 79
-1036 "Ilisidi Manor" 251 228 32
-1037 "Kargath Fort" 45 216 197
-1038 "Lakeshire Bridge" 173 61 170
-1039 "Menethil Harbor" 229 127 57
+1031 "Leastshire" 249 44 5
+1032 "Evergreen" 231 42 174
+1033 "Flint" 13 132 128
+1034 "Jumbo" 214 165 232
+1035 "John Polit City" 172 247 79
+1036 "Owl Island" 251 228 32
+1037 "East" 45 216 197
+1038 "Wind Island" 173 61 170
+1039 "Lord Asquith Island" 229 127 57
 1040 "Nighthaven Grove" 63 6 221
-1041 "Ogrim Camp" 40 63 1
-1042 "Plaguewood Church" 9 148 14
-1043 "Ratchet Port" 76 111 112
-1044 "Sentinel Hill" 94 59 146
-1045 "TarrenMill Town" 167 99 221
+1041 "Reverie Island" 40 63 1
+1042 "Blackwood Island" 9 148 14
+1043 "Rachel Port" 76 111 112
+1044 "Sentinel Island" 94 59 146
+1045 "Mills" 167 99 221
 
 1046 "New Port" 148 82 190
 
@@ -1436,7 +1436,7 @@
 1267 "Olympia Sector" 47 227 241
 
 1268 "Palmyra Planet" 45 184 141
-1269 "Quirinal Orbit" 185 63 169
+1269 "Shinjiku" 185 63 169
 1270 "Rhodes System" 61 226 176
 1271 "Sparta Sector" 36 12 11
 1272 "Thebes Planet" 217 38 37
@@ -1469,7 +1469,7 @@
 1295 "Quor Sector" 32 230 54
 1296 "Ruhn Planet" 28 157 66
 1297 "Skon Orbit" 81 176 120
-1298 "Torn System" 40 138 67
+1298 "Edohama" 40 138 67
 1299 "Uld Sector" 13 148 14
 1300 "Vorn Planet" 106 59 66
 1301 "Wulf Orbit" 170 232 75
@@ -1558,7 +1558,7 @@
 1363 "Ironforge Deep" 172 134 129
 
 1364 "Jolund Castle" 199 206 229
-1365 "Kaldorei Grove" 111 198 200
+1365 "Rukyo" 111 198 200
 1366 "Lordaeron Courtyard" 16 219 149
 1367 "Mulgore Mesa" 20 118 184
 1368 "Netherstorm Spire" 229 3 153
