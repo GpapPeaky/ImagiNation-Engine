@@ -1303,8 +1303,8 @@
 1161 "Kalaus" 76 104 103
 1162 "Liesma" 144 203 45
 1163 "Montuno" 55 180 72
-1164 "Natasha Planet" 172 143 35
-1165 "Pipirima Orbit" 89 197 39
+1164 "Natasha" 172 143 35
+1165 "Pierogt" 89 197 39
 1166 "Rapstadt" 169 194 192
 
 1167 "Sika Sector" 7 240 89
@@ -1329,8 +1329,8 @@
 1183 "Innsbruck" 33 244 146
 1184 "Jesse" 38 38 225
 1185 "Knuto" 185 9 175
-1186 "Leofric System" 69 9 103
-1187 "Munderic Sector" 51 143 115
+1186 "Uppleck" 69 9 103
+1187 "Mundern" 51 143 115
 1188 "Niels" 239 6 64
 
 1189 "Odo Orbit" 227 216 54
@@ -1401,8 +1401,8 @@
 
 1239 "Midgard Sector" 80 213 48
 
-1240 "Numidia Planet" 251 117 8
-1241 "Ophir Orbit" 138 26 181
+1240 "Numman" 251 117 8
+1241 "Fioren" 138 26 181
 
 1242 "Les Marches" 102 50 161
 1243 "Bloix" 250 36 55
@@ -1414,7 +1414,7 @@
 1248 "Mittelhalle" 65 90 179
 1249 "Halle" 231 52 5
 
-1250 "Xanthia" 48 212 237
+1250 "Jadour" 48 212 237
 1251 "Yrilais" 135 166 212
 1252 "Aparias-Feloria" 86 20 37
 
@@ -1422,7 +1422,7 @@
 
 1254 "Gourgone" 7 109 175
 1255 "Affion" 191 46 190
-1256 "Dunwich Planet" 154 54 226
+1256 "Allours" 154 54 226
 1257 "Porfyrria" 2 239 134
 1258 "Anwerp" 99 195 19
 1259 "Gath Sector" 39 30 245
@@ -1587,12 +1587,12 @@
 1383 "Dalaran City" 226 160 222
 1384 "Ebonhold Castle" 56 234 97
 
-1385 "Felwood Forest" 113 58 184
+1385 "Pigz" 113 58 184
 
 1386 "Zules" 247 252 79
 
-1387 "Hearthglen Town" 54 154 144
-1388 "Icecrown Glacier" 152 126 229
+1387 "Glennlore" 54 154 144
+1388 "Seelore" 152 126 229
 
 1389 "Les Sudeterra" 136 19 186
 1390 "Volaire" 111 196 122
@@ -1659,7 +1659,7 @@
 1431 "Laval" 189 227 109
 
 1432 "Rugel" 161 102 211
-1433 "Darkshire Woods" 104 240 14
+1433 "Nytz" 104 240 14
 1434 "Revrandt" 125 234 137
 
 1435 "Ostbraun" 74 193 173
@@ -1693,7 +1693,7 @@
 1458 "Avidas" 192 97 166
 1459 "Santa Marina" 212 212 188
 
-1460 "Garadar Fort" 12 141 231
+1460 "Garadee" 12 141 231
 
 1461 "Halalaa Fort" 208 248 145
 1462 "Isildur Fort" 142 126 38
@@ -1731,13 +1731,13 @@
 
 1483 "Elune Camp" 9 146 118
 
-1484 "Freya Camp" 135 232 146
-1485 "Guldan Camp" 147 239 46
+1484 "Dirke" 135 232 146
+1485 "Hellmanz" 147 239 46
 
 1486 "Hogger Camp" 152 18 181
 1487 "Illidan Camp" 255 187 144
 
-1488 "Jaraxxus Camp" 52 86 42
+1488 "Vologt" 52 86 42
 
 1489 "Kaelthas Camp" 161 76 239
 

@@ -133,7 +133,8 @@ i32 main(i32, ui8**) {
 
     KENG::GPU::RealmMaskMaterial rmm;
     rmm.mat.shader = OGL_GetShader("realmmask");
-    rmm.idxTex = provinceIndexTex;
+    rmm.provIdxTex = provinceIndexTex;
+    rmm.rlmIdxTex = KENG::GPU::BuildRealmIndexTexture(preg, rreg);
     rmm.palTex = realmPaletteTex;
     rmm.provinceCount = (float)(preg.Count() + 1);
 
@@ -203,6 +204,7 @@ i32 main(i32, ui8**) {
                         editing = false;
                         SDL_StopTextInput();
                         hoverCtrl.ResetClickedProvince();
+                        hoverCtrl.ResetClickedRealm();
                     } else if (k == SDLK_BACKSPACE) {
                         if (!nameBuffer.empty()) nameBuffer.pop_back();
                     } else if (k == SDLK_RETURN || k == SDLK_KP_ENTER) {
@@ -235,7 +237,10 @@ i32 main(i32, ui8**) {
                 if (e.type == SDL_KEYDOWN) {
                     SDL_Keycode k = e.key.keysym.sym;
 
-                    if (k == SDLK_ESCAPE) hoverCtrl.ResetClickedProvince();
+                    if (k == SDLK_ESCAPE) {
+                        hoverCtrl.ResetClickedProvince();
+                        hoverCtrl.ResetClickedRealm();
+                    }
                     if (k == SDLK_MINUS)  KENG::SDL2::Zoom(+1.0f);
                     if (k == SDLK_EQUALS) KENG::SDL2::Zoom(-1.0f);
 
@@ -249,6 +254,12 @@ i32 main(i32, ui8**) {
 
                 if (e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_LEFT) {
                     hoverCtrl.SetHoveredProvinceAsClicked();
+                }
+
+                if (e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_RIGHT) {
+                    hoverCtrl.SetHoveredRealmAsClicked();
+                    rmm.selectedRealmID = hoverCtrl.ClickedRealm().Id(); 
+
                 }
             }
         }
