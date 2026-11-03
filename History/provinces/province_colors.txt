@@ -1482,7 +1482,7 @@
 1307 "Calenhadt" 30 212 76
 1308 "Dunholdt" 62 89 209
 
-1309 "Esteldin Hub" 150 58 128
+1309 "Machtstadt" 150 58 128
 
 1310 "Forchel Town" 144 226 196
 1311 "Gondamon Hall" 153 187 7
@@ -1555,7 +1555,7 @@
 
 1362 "Hellfire Citadel East" 180 133 50
 
-1363 "Ironforge Deep" 172 134 129
+1363 "Webber" 172 134 129
 
 1364 "Jolund Castle" 199 206 229
 1365 "Rukyo" 111 198 200
@@ -1619,7 +1619,7 @@
 
 1404 "Dyksburg" 73 53 69
 1405 "Briggeau" 190 136 187
-1406 "Alterac Mountains" 213 162 198
+1406 "Alternac" 213 162 198
 
 1407 "Llorona" 250 236 208
 1408 "Calmera" 151 211 69
@@ -1729,7 +1729,7 @@
 1481 "Pankhorst" 11 79 16
 1482 "Osterfurt" 174 131 109
 
-1483 "Elune Camp" 9 146 118
+1483 "Elune" 9 146 118
 
 1484 "Dirke" 135 232 146
 1485 "Hellmanz" 147 239 46
@@ -1766,7 +1766,7 @@
 1506 "Komu Island" 70 79 224
 1507 "Kuts Island" 232 251 218
 
-1508 "Deneb Camp" 174 237 232
+1508 "Denebstadt" 174 237 232
 
 1509 "Eraklyon Camp Two" 1 145 118
 
@@ -1879,7 +1879,7 @@
 
 1580 "Dunstan Camp" 33 253 234
 
-1581 "Eadric Camp" 74 118 77
+1581 "Raumo" 74 118 77
 
 1582 "Varsamo" 106 11 154
 

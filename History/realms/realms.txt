@@ -90,10 +90,10 @@
 201 74 43   MARCH                   "Fioren"
 183 144 80  MARCH                   "Barattie"
 153 88 61   DUCHY                   "Seelore"
-#comp
 155 116 69  DUCHY                   "Oberostsee"
 137 107 59  MARCH                   "Webber"
 137 96 35   MARCH                   "Machtstadt"
+#comp
 165 130 70  COLONIAL_ADMINISTRATION                  "Neuen"
 86 61 47    COLONIAL_ADMINISTRATION                  "Oberneuen"
 153 116 65  COLONIAL_ADMINISTRATION                  "Nordstadt"
