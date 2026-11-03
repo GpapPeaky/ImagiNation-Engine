@@ -87,10 +87,10 @@
 183 171 152 FREE_IMPERIAL_CITY               "Unerheblichostersee"
 117 130 124 FREE_IMPERIAL_CITY               "Kronne"
 242 211 157 FREE_IMPERIAL_CITY               "Neu Epp"
-#comp
 201 74 43   MARCH                   "Fioren"
 183 144 80  MARCH                   "Barattie"
 153 88 61   DUCHY                   "Seelore"
+#comp
 155 116 69  DUCHY                   "Oberostsee"
 137 107 59  MARCH                   "Webber"
 137 96 35   MARCH                   "Machtstadt"

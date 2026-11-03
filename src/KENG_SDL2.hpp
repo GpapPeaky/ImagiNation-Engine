@@ -9,5 +9,6 @@ namespace KENG::SDL2 {
 
     void Zoom(float direction);
 
-    void HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController& provCtrl, ProvinceRegistry& preg, RealmRegistry& rreg, OGL_Object* provMap); // Custom event handling function
+    void HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController& provCtrl, ProvinceRegistry& preg, \
+                      RealmRegistry& rreg, OGL_Object* provMap, KENG::GPU::RealmMaskMaterial& rmm); // Custom event handling function
 }

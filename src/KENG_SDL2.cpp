@@ -15,11 +15,12 @@ void KENG::SDL2::Zoom(float direction) {
     OGL_RenderView->pos.z = z;
 }
 
-void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController& provCtrl, ProvinceRegistry& preg, RealmRegistry& rreg, OGL_Object* provMap) {
+void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController& hoverCtrl, ProvinceRegistry& preg, \
+                              RealmRegistry& rreg, OGL_Object* provMap, KENG::GPU::RealmMaskMaterial& rmm) {
     /* Update hover */
     
-    provCtrl.GetHoveredProvince(preg, *provMap);
-    provCtrl.GetHoveredRealm(rreg, provCtrl.HoverProv());
+    hoverCtrl.GetHoveredProvince(preg, *provMap);
+    hoverCtrl.GetHoveredRealm(rreg, hoverCtrl.HoverProv());
     
     SDL_Event e;
 
@@ -30,8 +31,10 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
 
         /* ESCAPE */
         if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_ESCAPE ))) {
-            provCtrl.ResetClickedProvince(); // RESET
-            provCtrl.ResetClickedRealm();
+            hoverCtrl.ResetClickedProvince(); // RESET
+            hoverCtrl.ResetClickedRealm();
+
+            rmm.selectedRealmID = -1; // Reset
         }
 
         /* - */
@@ -66,14 +69,14 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
         /* Mouse buttons */
         if(e.type == SDL_MOUSEBUTTONDOWN){
             if (e.button.button == SDL_BUTTON_LEFT){
-                provCtrl.SetHoveredProvinceAsClicked();
-
-                std::cout << provCtrl.ClickedProvince().Name() << "\n";
+                hoverCtrl.SetHoveredProvinceAsClicked();
+                // std::cout << hoverCtrl.ClickedProvince().Name() << "\n";
             } 
 
             else if (e.button.button == SDL_BUTTON_RIGHT) {
-                provCtrl.SetHoveredRealmAsClicked();
-                std::cout << provCtrl.ClickedRealm().Name() << "\n";
+                hoverCtrl.SetHoveredRealmAsClicked();
+                rmm.selectedRealmID = hoverCtrl.ClickedRealm().Id();
+                // std::cout << hoverCtrl.ClickedRealm().Name() << "\n";
             }
         }
     }

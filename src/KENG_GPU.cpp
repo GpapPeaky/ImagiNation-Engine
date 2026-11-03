@@ -4,10 +4,15 @@ namespace KENG::GPU {
     void RenderRealmMask(OGL_Object* object, RealmMaskMaterial& rmm) {
         OGL_Render(object, true);
 
-        if(rmm.idxTex != 0){
+        if(rmm.provIdxTex != 0){
             glActiveTexture(GL_TEXTURE1);
-            glBindTexture(GL_TEXTURE_2D, rmm.idxTex);
-            glUniform1i(glGetUniformLocation(object->mat.shader, "uIndexTex"), 1);
+            glBindTexture(GL_TEXTURE_2D, rmm.provIdxTex);
+            glUniform1i(glGetUniformLocation(object->mat.shader, "uProvinceIndexTex"), 1);
+        }
+        if(rmm.rlmIdxTex != 0){
+            glActiveTexture(GL_TEXTURE3);
+            glBindTexture(GL_TEXTURE_2D, rmm.rlmIdxTex);
+            glUniform1i(glGetUniformLocation(object->mat.shader, "uRealmIndexTex"), 3);
         }
         if(rmm.palTex != 0){
             glActiveTexture(GL_TEXTURE2);
@@ -15,6 +20,9 @@ namespace KENG::GPU {
             glUniform1i(glGetUniformLocation(object->mat.shader, "uPaletteTex"), 2);
             glUniform1f(glGetUniformLocation(object->mat.shader, "uProvinceCount"), rmm.provinceCount);
         }
+
+        // Check value inside the shader, not here, we use -1 as a value to render eveything
+        glUniform1i(glGetUniformLocation(object->mat.shader, "uSelectedRealmID"), rmm.selectedRealmID);
 
         OGL_Draw(object->mesh); // We had missing uniforms, we added them, now we need to call the Draw function ourselves
 
@@ -66,6 +74,82 @@ namespace KENG::GPU {
         outH = h;
         
         return tex;
+    }
+
+    GLuint BuildRealmIndexTexture(KENG::ProvinceRegistry& preg, KENG::RealmRegistry& rreg) {
+        const int textureWidth = preg.Count() + 1;
+    
+        std::vector<unsigned char> idBuffer(textureWidth * 2, 0);
+    
+        for (int i = 0; i < preg.Count(); i++) {
+            KENG::Province& prov = preg.GetProvince(i);
+    
+            const int provinceID = prov.Id();
+    
+            if (provinceID < 1 || provinceID >= textureWidth)
+                continue;
+    
+            KENG::Realm& realm = rreg.GetOwnerOfProvince(provinceID);
+    
+            llui realmID = 0;
+    
+            if (realm.Id() != KENG::RLM::NULL_RLM_ID)
+                realmID = realm.Id();
+    
+            idBuffer[provinceID * 2] =
+                (unsigned char)(realmID & 0xFF);
+    
+            idBuffer[provinceID * 2 + 1] =
+                (unsigned char)((realmID >> 8) & 0xFF);
+        }
+    
+        GLuint tex;
+        glGenTextures(1, &tex);
+        glBindTexture(GL_TEXTURE_2D, tex);
+    
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+    
+        glTexImage2D(
+            GL_TEXTURE_2D,
+            0,
+            GL_RG8,
+            textureWidth,
+            1,
+            0,
+            GL_RG,
+            GL_UNSIGNED_BYTE,
+            idBuffer.data()
+        );
+    
+        glBindTexture(GL_TEXTURE_2D, 0);
+    
+        return tex;
+    }
+
+    void UpdateRealmIndexTexture(GLuint realmIndexTexture, int provinceID, int newRealmID) {
+        unsigned char data[2] = {
+            (unsigned char)(newRealmID & 0xFF),
+            (unsigned char)((newRealmID >> 8) & 0xFF)
+        };
+
+        glBindTexture(GL_TEXTURE_2D, realmIndexTexture);
+
+        glTexSubImage2D(
+            GL_TEXTURE_2D,
+            0,
+            provinceID,
+            0,
+            1,
+            1,
+            GL_RG,
+            GL_UNSIGNED_BYTE,
+            data
+        );
+
+        glBindTexture(GL_TEXTURE_2D, 0);
     }
 
     std::vector<std::array<float,3>> BuildPaletteCPU(KENG::RealmRegistry& rreg, size_t provinceCount){

@@ -60,7 +60,8 @@ i32 main(i32, ui8**){
 
     KENG::GPU::RealmMaskMaterial rmm;
     rmm.mat.shader = OGL_GetShader("realmmask");
-    rmm.idxTex = provinceIndexTex;
+    rmm.provIdxTex = provinceIndexTex;
+    rmm.rlmIdxTex  = KENG::GPU::BuildRealmIndexTexture(preg, rreg);
     rmm.palTex = realmPaletteTex;
     rmm.provinceCount = (float)(preg.Count() + 1);
 
@@ -90,7 +91,7 @@ i32 main(i32, ui8**){
         lastTime = now;
 
         SDL_GetMouseState(&ctrl->lastX, &ctrl->lastY);
-        KENG::SDL2::HandleEvents(OGL_GameQuit, ctrl, hoverCtrl, preg, rreg, provinceMap);      /* Creates a new event to poll per call (Might need to be optimised) */
+        KENG::SDL2::HandleEvents(OGL_GameQuit, ctrl, hoverCtrl, preg, rreg, provinceMap, rmm);      /* Creates a new event to poll per call (Might need to be optimised) */
         const ui8* keys = SDL_GetKeyboardState(NULL);
         OGL_HandleControllerKeyboard(ctrl, keys, OGL_GameDt);
         
@@ -137,7 +138,7 @@ i32 main(i32, ui8**){
             OGL_RenderText(*realmHoverInfo, hoverCtrl.ClickedRealm().Name().c_str(), \
             0.0f, hoverFontHeight * 2, \
             1.0f, {1.0f, 1.0f, 1.0f}, hover_CharMap);
-        }
+        } 
 
         /* TEST */
         // static bool addedOther = false;
