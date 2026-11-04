@@ -1325,7 +1325,7 @@
 1179 "Eldi" 62 193 253
 1180 "Frith" 56 89 120
 1181 "Gottha" 20 248 201
-1182 "Hrothgar System" 62 8 88
+1182 "Hrothgar" 62 8 88
 1183 "Innsbruck" 33 244 146
 1184 "Jesse" 38 38 225
 1185 "Knuto" 185 9 175
