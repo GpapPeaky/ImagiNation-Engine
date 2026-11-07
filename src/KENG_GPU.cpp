@@ -224,11 +224,10 @@ namespace KENG::GPU {
             
             float t = (p.Dev().Total() - lo) / range;         // 0 = lowest, 1 = highest
             
-            auto c = Utils::HSV2RGB(t / 3.0f, 0.85f, 0.9f);
-            
+            auto c = Utils::HSV2RGB(t * 120.0f, 0.85f, 0.9f);
             pal[p.Id()] = { c[0] / 255.0f, c[1] / 255.0f, c[2] / 255.0f };
         }
-        
+
         return pal;
     }
 
@@ -236,7 +235,7 @@ namespace KENG::GPU {
         return BuildRealmPaletteTexture(BuildDevPaletteCPU(preg, provinceCount));
     }
 
-    void RefreshDevPaletteTexture(GLuint& devPalTex, KENG::ProvinceRegistry& preg, size_t provinceCount) {
+    void UpdateDevPaletteTexture(GLuint& devPalTex, KENG::ProvinceRegistry& preg, size_t provinceCount) {
         if (devPalTex) glDeleteTextures(1, &devPalTex);
         devPalTex = BuildDevPaletteTexture(preg, provinceCount);
     }
