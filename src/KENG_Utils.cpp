@@ -25,4 +25,5 @@ namespace KENG::Utils{
 
     std::ofstream LOG_PROV = std::ofstream("logs/prov.log");
     std::ofstream LOG_RLM = std::ofstream("logs/rlm.log");
+    std::ofstream LOG_DEV = std::ofstream("logs/dev.log");
 }

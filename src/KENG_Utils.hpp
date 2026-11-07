@@ -18,5 +18,6 @@ namespace KENG::Utils {
     std::array<ui8, 3> UnpackRGB_0255(ui32 rgb);
 
     extern std::ofstream LOG_RLM;  // Realm logging file
-    extern std::ofstream LOG_PROV; // Proving logging file
+    extern std::ofstream LOG_PROV; // Province logging file
+    extern std::ofstream LOG_DEV;  // Dev logging file
 } // Keng/Utils

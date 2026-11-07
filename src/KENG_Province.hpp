@@ -1,6 +1,7 @@
 #pragma once
 
 #include "KENG_Utils.hpp"
+#include "KENG_Dev.hpp"
 
 #include <string>
 #include <array>
@@ -11,8 +12,8 @@ namespace KENG {
             llui id                               = 0;
             std::string name                      = "PROV";
             ui32 color                            = 0xffffff;
+            Development dev                       = { 1, 1, 1 }; // Read from History/dev.txt
             // TODO: Terrain type               // Read from Map/terrain.txt
-            // TODO: Development                // Read from History/dev.txt
             // TODO: Buildings                  // Read from History/buildings.txt
         public:
             Province(llui id, std::string name, ui32 color);
@@ -23,6 +24,9 @@ namespace KENG {
             llui Id(void) const ;
 
             ui32 Color(void) const ;
+
+            Development& Dev(void);
+            const Development& Dev(void) const;
     }; // Province class
 
     namespace PROV {

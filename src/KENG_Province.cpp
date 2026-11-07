@@ -5,6 +5,7 @@ namespace KENG {
         this->id = id;
         this->name = name;
         this->color = color;
+        this->dev = {1, 1, 1};
     }
 
     Province::~Province(void) {}
@@ -20,6 +21,9 @@ namespace KENG {
     ui32 Province::Color(void) const {
         return color;
     }
+    
+    Development& Province::Dev(void) { return dev; }
+    const Development& Province::Dev(void) const { return dev; }
 
     namespace PROV {
         llui NULL_PROV_ID = 0xffffffff;

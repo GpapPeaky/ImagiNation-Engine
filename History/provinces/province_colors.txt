@@ -863,9 +863,9 @@
 
 811 "Mildred Sands" 69 197 45
 
-812 "Neuva" 253 255 216
+812 "Bariikhaghana" 253 255 216
 813 "Osbruck" 65 233 3
-814 "Lichstadt" 127 240 23
+814 "Ostagha" 127 240 23
 
 815 "Quenburga Peak" 31 125 128
 
@@ -1169,9 +1169,9 @@
 1055 "DireMaul Arena" 74 92 134
 1056 "Eversong Woods" 127 247 32
 
-1057 "Farstrider Enclave" 236 237 229
-1058 "Garadar Camp" 252 170 62
-1059 "Halalaa Town" 26 152 150
+1057 "Stridder" 236 237 229
+1058 "Weiss" 252 170 62
+1059 "Dresslin" 26 152 150
 
 1060 "Isildur" 176 34 89
 1061 "Jubei" 41 179 241
@@ -1211,7 +1211,7 @@
 1087 "Hosnau" 163 80 2
 1088 "Lochberg" 140 17 137
 1089 "Malygnosse" 3 130 144
-1090 "Nozdormu Cavern" 114 16 129
+1090 "Plinko" 114 16 129
 1091 "Pressburg" 68 36 199
 1092 "Dianco" 227 41 204
 1093 "Quilboar Den" 187 138 251
@@ -1294,7 +1294,7 @@
 
 1155 "Ends" 123 202 96
 
-1156 "Franz Planet" 46 198 234
+1156 "Kiepler" 46 198 234
 
 1157 "Guntherberg" 195 200 72
 1158 "Hadde" 166 59 230
@@ -1344,9 +1344,9 @@
 1197 "Wulfric Orbit" 112 90 210
 1198 "Xene System" 31 40 3
 
-1199 "Yric Sector" 49 124 137
+1199 "Obercaled" 49 124 137
 
-1200 "Zeb Planet" 17 193 206
+1200 "Yuli" 17 193 206
 
 1201 "Agatha Orbit" 40 98 61
 
@@ -1357,11 +1357,11 @@
 
 1206 "Frideswide System" 129 127 117
 
-1207 "Gisela Sector" 171 7 161
+1207 "Pelet" 171 7 161
 
-1208 "Hilda Planet" 247 214 225
-1209 "Ida Orbit" 210 86 161
-1210 "Judith System" 164 242 75
+1208 "Hilda" 247 214 225
+1209 "Idda" 210 86 161
+1210 "Volkstadt" 164 242 75
 
 1211 "Kendra Sector" 218 20 73
 
@@ -1387,7 +1387,7 @@
 1227 "Asgard Sector" 196 175 55
 1228 "Bifrost Planet" 76 128 150
 
-1229 "Caledonia Orbit" 182 88 202
+1229 "Caled" 182 88 202
 
 1230 "Aparallaux" 111 161 61
 1231 "Main" 224 197 90
@@ -1418,7 +1418,7 @@
 1251 "Yrilais" 135 166 212
 1252 "Aparias-Feloria" 86 20 37
 
-1253 "Aachen Orbit" 8 136 74
+1253 "Nordstadt" 8 136 74
 
 1254 "Gourgone" 7 109 175
 1255 "Affion" 191 46 190
@@ -1492,12 +1492,12 @@
 1314 "Jarnurg Forge" 46 151 248
 1315 "Kelsin Port" 152 95 99
 
-1316 "Linhir City" 37 110 228
-1317 "Minas Anor" 63 46 227
+1316 "Linhir" 37 110 228
+1317 "Minas" 63 46 227
 
-1318 "Nurn Camp" 81 9 205
+1318 "Bogdt" 81 9 205
 
-1319 "Osgiliath West" 199 108 12
+1319 "Ohm" 199 108 12
 
 1320 "Soldatstadt" 10 191 10
 
@@ -1508,9 +1508,9 @@
 
 1324 "Umbrais" 116 206 209
 
-1325 "Valimar East" 251 24 204
+1325 "Um" 251 24 204
 
-1326 "Wulfburg Keep" 208 210 6
+1326 "Orh" 208 210 6
 
 1327 "Xanadu Dome" 93 105 235
 
@@ -1569,19 +1569,19 @@
 1373 "Silithus Hive" 157 120 205
 1374 "Tanaris Port" 0 107 235
 
-1375 "Uldum Pyramid" 28 58 179
+1375 "Kermann" 28 58 179
 
-1376 "Vashjir Reef" 90 80 144
+1376 "Jemma" 90 80 144
 
 1377 "Neustadt" 38 23 236
 
 1378 "Avon" 234 250 50
 
-1379 "Zangarmarsh Swamp" 18 100 205
+1379 "Catte" 18 100 205
 
 1380 "Kronne" 7 190 40
 
-1381 "Blackrock Mountain" 52 117 172
+1381 "Telau-Brignitz" 52 117 172
 
 1382 "CaerDarrow Island" 4 242 197
 1383 "Dalaran City" 226 160 222
@@ -1718,8 +1718,8 @@
 
 1475 "Fluwerpen" 1 206 122
 
-1476 "Xavius Camp" 18 154 156
-1477 "Ysera Camp" 92 195 231
+1476 "Elba" 18 154 156
+1477 "Ysera-Eick" 92 195 231
 
 1478 "Papen" 72 177 199
 1479 "Archimonde" 67 209 167
@@ -1768,7 +1768,7 @@
 
 1508 "Denebstadt" 174 237 232
 
-1509 "Eraklyon Camp Two" 1 145 118
+1509 "Lichtstadt" 1 145 118
 
 1510 "Lor" 76 80 238
 
@@ -1843,9 +1843,9 @@
 
 1557 "Elgafar" 220 212 5
 
-1558 "Franz Camp Two" 182 205 97
-1559 "Guniibuu Camp" 242 75 17
-1560 "Hatysa Camp" 252 187 129
+1558 "Armorica" 182 205 97
+1559 "Medionalum" 242 75 17
+1560 "Alba" 252 187 129
 
 1561 "Limerie" 63 135 27
 
@@ -1854,8 +1854,8 @@
 1564 "Liesma" 131 60 15
 1565 "Valvow" 209 162 124
 
-1566 "Natasha Camp" 109 121 40
-1567 "Pipirima Camp" 193 44 127
+1566 "Theodorium" 109 121 40
+1567 "Albigum" 193 44 127
 
 1568 "Rapeto Camp" 57 37 234
 

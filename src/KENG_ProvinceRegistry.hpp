@@ -21,6 +21,8 @@ namespace KENG {
 
             void ReadProvinceFile(void); // One specific file History/provinces.kengdat -> Id is set inside the file, to get the index -> id - 1
 
+            void ReadDevelopmentFile(void); // One specific file History/dev.txt -> id and dev
+
             Province& GetProvince(std::array<ui8, 3> color);
             
             Province& GetProvince(llui id);

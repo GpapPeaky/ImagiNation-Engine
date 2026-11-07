@@ -53,9 +53,7 @@
 204 125 108 DUCHY                   "Upper Lienau"
 188 133 81  DUCHY                   "Halle"
 198 105 47  DUCHY                   "Dirke"
-#comp
 178 84 49   KINGDOM                 "Volkstadt"
-#comp
 178 103 62  KINGDOM                 "Riemanniche"
 242 185 142 ELECTORATE                 "Rebrandt-Ostersee"
 204 146 102 DUCHY                   "Briggenau"
@@ -93,7 +91,6 @@
 155 116 69  DUCHY                   "Oberostsee"
 137 107 59  MARCH                   "Webber"
 137 96 35   MARCH                   "Machtstadt"
-#comp
 165 130 70  COLONIAL_ADMINISTRATION                  "Neuen"
 86 61 47    COLONIAL_ADMINISTRATION                  "Oberneuen"
 153 116 65  COLONIAL_ADMINISTRATION                  "Nordstadt"
@@ -116,7 +113,6 @@
 84 39 21    DUCHY                   "Catte"
 181 96 70   DUCHY                   "Sudherzogtum"
 
-#comp
 44 120 137  MERCHANT_REPUBLIC       "Porto Marina"
 52 140 158  BISHOPRY                "Santa Marina"
 234 230 121 PAPACY                  "Papal State"
@@ -171,17 +167,19 @@
 23 104 44   TRIBE                   "Kukanuu"
 16 76 32    TRIBE                   "Bobototonga"
 
-#comp
 
 128 62 145  TRIBE                   "Hammanah"
 
 31 62 145   TRIBE                   "Sommer"
 
+#comp
 93 130 75   TRIBE                   "Baba Nagal"
+#comp
 
 7 176 255   KINGDOM                 "Theodorium"
 
 48 106 150  KINGDOM                 "Armorium"
+#comp
 
 180 183 0   PIRATE_REPUBLIC         "Marnonga"
 204 204 16  PIRATE_REPUBLIC         "Baragan"
@@ -226,9 +224,10 @@
 
 151 120 137 REPUBLIC                "Totale"
 
+#comp
+
 158 109 75  KINGDOM                 "Lake Cities"
 
-#comp
 176 161 196 CELESTIAL_EMPIRE        "Shinghizhian"
 197 182 219 CELESTIAL_KINGDOM       "Jinghuan"
 215 198 239 CELESTIAL_KINGDOM       "Nanai"

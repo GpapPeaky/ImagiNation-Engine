@@ -18,6 +18,7 @@ i32 main(i32, ui8**){
     /* Registries */
     KENG::ProvinceRegistry preg;
     preg.ReadProvinceFile();
+    preg.ReadDevelopmentFile();
     preg.Print();
     KENG::RealmRegistry rreg;
     rreg.ReadRealmFile();

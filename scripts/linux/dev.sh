@@ -1,0 +1,1 @@
+{ echo -e "# format\n#\n# id adm prd mil\n#\n# 1  3   1   4\n"; seq 1 1593 | awk '{print $1, 1, 1, 1}'; } > data.txt
