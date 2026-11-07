@@ -16,7 +16,7 @@ void KENG::SDL2::Zoom(float direction) {
 }
 
 void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController& hoverCtrl, ProvinceRegistry& preg, \
-                              RealmRegistry& rreg, OGL_Object* provMap, KENG::GPU::RealmMaskMaterial& rmm) {
+                              RealmRegistry& rreg, OGL_Object* provMap, KENG::GPU::MapMaskMaterial& mmm) {
     /* Update hover */
     
     hoverCtrl.GetHoveredProvince(preg, *provMap);
@@ -29,12 +29,18 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
             quit = true;
         }
 
+        if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_0 ))) {
+            mmm.mm = GPU::OWNERSHIP;
+        } else if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_1 ))) {
+            mmm.mm = GPU::DEV;
+        }
+
         /* ESCAPE */
         if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_ESCAPE ))) {
             hoverCtrl.ResetClickedProvince(); // RESET
             hoverCtrl.ResetClickedRealm();
 
-            rmm.selectedRealmID = -1; // Reset
+            mmm.selectedRealmID = -1; // Reset
         }
 
         /* - */
@@ -75,7 +81,7 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
 
             else if (e.button.button == SDL_BUTTON_RIGHT) {
                 hoverCtrl.SetHoveredRealmAsClicked();
-                rmm.selectedRealmID = hoverCtrl.ClickedRealm().Id();
+                mmm.selectedRealmID = hoverCtrl.ClickedRealm().Id();
                 // std::cout << hoverCtrl.ClickedRealm().Name() << "\n";
             }
         }

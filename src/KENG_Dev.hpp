@@ -11,5 +11,7 @@ namespace KENG {
 
         Development(ui32 adm, ui32 prd, ui32 mil);
         ~Development(void);
+
+        ui32 Total(void) const ;
     }; // Province development class
 } // KENG

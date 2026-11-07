@@ -1,30 +1,48 @@
 #include "KENG_GPU.hpp"
 
 namespace KENG::GPU {
-    void RenderRealmMask(OGL_Object* object, RealmMaskMaterial& rmm) {
+    void RenderMapMask(OGL_Object* object, MapMaskMaterial& mmm) {
         OGL_Render(object, true);
 
-        if(rmm.provIdxTex != 0){
+        // Per-mode choices: which palette to sample, and whether realm highlighting applies
+        GLuint activePal    = mmm.realmPalTex;
+        int    selectedID   = mmm.selectedRealmID;
+
+        switch (mmm.mm) {
+            case OWNERSHIP:
+                activePal  = mmm.realmPalTex;
+                selectedID = mmm.selectedRealmID;
+                break;
+
+            case DEV:
+                // Fall back to ownership if the dev palette hasn't been built yet
+                activePal  = (mmm.devPalTex != 0) ? mmm.devPalTex : mmm.realmPalTex;
+                selectedID = -1;    // realm highlight is meaningless here, render everything
+                break;
+        }
+
+        GLuint shader = object->mat.shader;
+
+        if (mmm.provIdxTex != 0) {
             glActiveTexture(GL_TEXTURE1);
-            glBindTexture(GL_TEXTURE_2D, rmm.provIdxTex);
-            glUniform1i(glGetUniformLocation(object->mat.shader, "uProvinceIndexTex"), 1);
+            glBindTexture(GL_TEXTURE_2D, mmm.provIdxTex);
+            glUniform1i(glGetUniformLocation(shader, "uProvinceIndexTex"), 1);
         }
-        if(rmm.rlmIdxTex != 0){
+        if (mmm.rlmIdxTex != 0) {
             glActiveTexture(GL_TEXTURE3);
-            glBindTexture(GL_TEXTURE_2D, rmm.rlmIdxTex);
-            glUniform1i(glGetUniformLocation(object->mat.shader, "uRealmIndexTex"), 3);
+            glBindTexture(GL_TEXTURE_2D, mmm.rlmIdxTex);
+            glUniform1i(glGetUniformLocation(shader, "uRealmIndexTex"), 3);
         }
-        if(rmm.palTex != 0){
+        if (activePal != 0) {
             glActiveTexture(GL_TEXTURE2);
-            glBindTexture(GL_TEXTURE_2D, rmm.palTex);
-            glUniform1i(glGetUniformLocation(object->mat.shader, "uPaletteTex"), 2);
-            glUniform1f(glGetUniformLocation(object->mat.shader, "uProvinceCount"), rmm.provinceCount);
+            glBindTexture(GL_TEXTURE_2D, activePal);
+            glUniform1i(glGetUniformLocation(shader, "uPaletteTex"), 2);
+            glUniform1f(glGetUniformLocation(shader, "uProvinceCount"), mmm.provinceCount);
         }
 
-        // Check value inside the shader, not here, we use -1 as a value to render eveything
-        glUniform1i(glGetUniformLocation(object->mat.shader, "uSelectedRealmID"), rmm.selectedRealmID);
+        glUniform1i(glGetUniformLocation(shader, "uSelectedRealmID"), selectedID);
 
-        OGL_Draw(object->mesh); // We had missing uniforms, we added them, now we need to call the Draw function ourselves
+        OGL_Draw(object->mesh);
 
         glActiveTexture(GL_TEXTURE0);
     }
@@ -152,7 +170,7 @@ namespace KENG::GPU {
         glBindTexture(GL_TEXTURE_2D, 0);
     }
 
-    std::vector<std::array<float,3>> BuildPaletteCPU(KENG::RealmRegistry& rreg, size_t provinceCount){
+    std::vector<std::array<float,3>> BuildRealmPaletteCPU(KENG::RealmRegistry& rreg, size_t provinceCount){
         /* Index 0 reserved for "no owner" pixels (ocean / unmatched) */
         std::vector<std::array<float,3>> palette(provinceCount + 1, {0.0f, 0.0f, 0.0f});
 
@@ -168,7 +186,7 @@ namespace KENG::GPU {
         return palette;
     }
 
-    GLuint CreatePaletteTexture(const std::vector<std::array<float,3>>& paletteCPU){
+    GLuint BuildRealmPaletteTexture(const std::vector<std::array<float,3>>& paletteCPU){
         GLuint tex;
         glGenTextures(1, &tex);
         glBindTexture(GL_TEXTURE_2D, tex);
@@ -182,12 +200,46 @@ namespace KENG::GPU {
     }
 
     /* Call this after any AddProvince/RemoveProvince changes ownership */
-    void UpdatePaletteEntry(GLuint paletteTex, llui provinceId, std::array<float, 3> rgb){
+    void UpdateRealmPaletteEntry(GLuint paletteTex, llui provinceId, std::array<float, 3> rgb){
         glBindTexture(GL_TEXTURE_2D, paletteTex);
         glTexSubImage2D(GL_TEXTURE_2D, 0, (GLint)provinceId, 0, 1, 1, GL_RGB, GL_FLOAT, rgb.data());
         glBindTexture(GL_TEXTURE_2D, 0);
     }
 
+    std::vector<std::array<float,3>> BuildDevPaletteCPU(KENG::ProvinceRegistry& preg, size_t provinceCount) {
+        std::vector<std::array<float,3>> pal(provinceCount + 1, {0.35f, 0.35f, 0.35f}); // grey for unknown/null ids
+
+        int lo = INT_MAX, hi = INT_MIN;
+        for (auto& p : preg.Provinces()) {
+            if (p.Id() == KENG::PROV::NULL_PROV_ID) continue;
+            int t = p.Dev().Total();
+            lo = std::min(lo, t);
+            hi = std::max(hi, t);
+        }
+        if (lo > hi) return pal;                                // no provinces
+        float range = (hi > lo) ? float(hi - lo) : 1.f;         // all equal -> avoid divide by zero
+
+        for (auto& p : preg.Provinces()) {
+            if (p.Id() == KENG::PROV::NULL_PROV_ID || p.Id() > provinceCount) continue;
+            
+            float t = (p.Dev().Total() - lo) / range;         // 0 = lowest, 1 = highest
+            
+            auto c = Utils::HSV2RGB(t / 3.0f, 0.85f, 0.9f);
+            
+            pal[p.Id()] = { c[0] / 255.0f, c[1] / 255.0f, c[2] / 255.0f };
+        }
+        
+        return pal;
+    }
+
+    GLuint BuildDevPaletteTexture(KENG::ProvinceRegistry& preg, size_t provinceCount) {
+        return BuildRealmPaletteTexture(BuildDevPaletteCPU(preg, provinceCount));
+    }
+
+    void RefreshDevPaletteTexture(GLuint& devPalTex, KENG::ProvinceRegistry& preg, size_t provinceCount) {
+        if (devPalTex) glDeleteTextures(1, &devPalTex);
+        devPalTex = BuildDevPaletteTexture(preg, provinceCount);
+    }
 
     /* ----------------------------------------------------------------------------------------------------------- */
 

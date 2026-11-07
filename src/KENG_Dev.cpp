@@ -9,4 +9,8 @@ namespace KENG {
 
     Development::~Development(void) {}
             
+    ui32 Development::Total(void) const {
+        return adm + prd + mil;
+    }
+
 } // KENG

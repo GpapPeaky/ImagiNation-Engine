@@ -141,6 +141,10 @@ namespace KENG {
         return provinces[id];
     }
 
+    const std::vector<Province>& ProvinceRegistry::Provinces(void) const {
+        return provinces;
+    }
+
     void ProvinceRegistry::Print(void) {
         for (auto prov : provinces) {
             Utils::LOG_PROV << prov.Id() << " " << prov.Name() << " " << prov.Color() << "\n";

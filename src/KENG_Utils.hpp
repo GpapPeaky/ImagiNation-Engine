@@ -16,6 +16,7 @@ namespace KENG::Utils {
     ui32 PackRGB(ui8 r, ui8 g, ui8 b);
     std::array<float, 3> UnpackRGB_01(ui32 rgb);
     std::array<ui8, 3> UnpackRGB_0255(ui32 rgb);
+    std::array<ui8, 3> HSV2RGB(f32 h, f32 s, f32 v);
 
     extern std::ofstream LOG_RLM;  // Realm logging file
     extern std::ofstream LOG_PROV; // Province logging file

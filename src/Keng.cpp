@@ -5,7 +5,7 @@ i32 main(i32, ui8**){
     SDL2_InitWin();
     OGL_InitContext(SDL2_Win);
     OGL_InitShaderRegistry();
-    OGL_CreateShaderProgram("realmmask", OGLS_TRS_MVP_TextureV, INATE_SHADER_RealmMaskF); /* Pushed into the registry */
+    OGL_CreateShaderProgram("mapmask", OGLS_TRS_MVP_TextureV, INATE_SHADER_RealmMaskF); /* Pushed into the registry */
     OGL_CreateShaderProgram("provinceoutline", OGLS_TRS_MVP_ColorV, INATE_SHADER_ProvOutlineMaskF); /* No texture, we render geometry */
 
     /* Main controller, camera and bindings */
@@ -49,22 +49,26 @@ i32 main(i32, ui8**){
     OGL_CreateTextQuad(*RealmClickedInfo->mesh);
 
     /* Realm mask rendering, shader auxilliaries */
-    OGL_Object* realmMap = OGL_CreateObject(OGL_GetShader("realmmask"));
+    OGL_Object* realmMap = OGL_CreateObject(OGL_GetShader("mapmask"));
     OGL_CreateTextureQuad(*realmMap->mesh);
     TRS::S(*realmMap, {50.0f * 1.777777778f, 50.f, 1.f});
     
     i32 provMapW, provMapH;
     GLuint provinceIndexTex = KENG::GPU::BuildProvinceIndexTexture("History/provinces/province_map.png", preg, provMapW, provMapH);
     
-    std::vector<std::array<float,3>> paletteCPU = KENG::GPU::BuildPaletteCPU(rreg, preg.Count());
-    GLuint realmPaletteTex = KENG::GPU::CreatePaletteTexture(paletteCPU);
+    std::vector<std::array<float,3>> paletteCPU = KENG::GPU::BuildRealmPaletteCPU(rreg, preg.Count());
+    GLuint realmPaletteTex = KENG::GPU::BuildRealmPaletteTexture(paletteCPU);
 
-    KENG::GPU::RealmMaskMaterial rmm;
-    rmm.mat.shader = OGL_GetShader("realmmask");
-    rmm.provIdxTex = provinceIndexTex;
-    rmm.rlmIdxTex  = KENG::GPU::BuildRealmIndexTexture(preg, rreg);
-    rmm.palTex = realmPaletteTex;
-    rmm.provinceCount = (float)(preg.Count() + 1);
+    KENG::GPU::MapMaskMaterial mmm;
+    mmm.mat.shader = OGL_GetShader("mapmask");
+    mmm.provIdxTex = provinceIndexTex;
+    mmm.rlmIdxTex  = KENG::GPU::BuildRealmIndexTexture(preg, rreg);
+    mmm.realmPalTex = realmPaletteTex;
+    mmm.provinceCount = (float)(preg.Count() + 1);
+    mmm.devPalTex = KENG::GPU::BuildDevPaletteTexture(preg, mmm.provinceCount);
+
+    // whenever any province's development changes
+    // KENG::GPU::RefreshDevPaletteTexture(mmm.devPalTex, preg, provinceCount);
 
     /* Outlines */
     OGL_Object* provinceOutlines = OGL_CreateObject(OGL_GetShader("provinceoutline"));
@@ -92,7 +96,7 @@ i32 main(i32, ui8**){
         lastTime = now;
 
         SDL_GetMouseState(&ctrl->lastX, &ctrl->lastY);
-        KENG::SDL2::HandleEvents(OGL_GameQuit, ctrl, hoverCtrl, preg, rreg, provinceMap, rmm);      /* Creates a new event to poll per call (Might need to be optimised) */
+        KENG::SDL2::HandleEvents(OGL_GameQuit, ctrl, hoverCtrl, preg, rreg, provinceMap, mmm);      /* Creates a new event to poll per call (Might need to be optimised) */
         const ui8* keys = SDL_GetKeyboardState(NULL);
         OGL_HandleControllerKeyboard(ctrl, keys, OGL_GameDt);
         
@@ -104,7 +108,7 @@ i32 main(i32, ui8**){
         OGL_RenderVisitChildren(OGL_Scene); // Normal render visit for other objects
 
         KENG::GPU::RenderProvinceOutlines(provinceOutlines, {0.0f, 0.0f, 0.0f}); /* Outlines, on top of the realm masks */
-        KENG::GPU::RenderRealmMask(realmMap, rmm); /* Actual coloured realm map rendering */
+        KENG::GPU::RenderMapMask(realmMap, mmm); /* Actual coloured realm map rendering */
         
         llui hoveredProvinceID = hoverCtrl.HoverProv().Id();
         llui hoveredRealmID = hoverCtrl.HoverRealm().Id();
@@ -148,11 +152,11 @@ i32 main(i32, ui8**){
             // // Added new provs, update realm map mask palette texture
             // rlm.AddProvince(0); // -> ADDS THE SEA, AVOID
             // rlm.AddProvince(1);
-            // KENG::GPU::UpdatePaletteEntry(rmm.palTex, 1, KENG::Utils::UnpackRGB_01(rlm.Color()));
+            // KENG::GPU::UpdateRealmPaletteEntry(mmm.palTex, 1, KENG::Utils::UnpackRGB_01(rlm.Color()));
             // rlm.AddProvince(2);
-            // KENG::GPU::UpdatePaletteEntry(rmm.palTex, 2, KENG::Utils::UnpackRGB_01(rlm.Color()));
+            // KENG::GPU::UpdateRealmPaletteEntry(mmm.palTex, 2, KENG::Utils::UnpackRGB_01(rlm.Color()));
             // rlm.AddProvince(3);
-            // KENG::GPU::UpdatePaletteEntry(rmm.palTex, 3, KENG::Utils::UnpackRGB_01(rlm.Color()));
+            // KENG::GPU::UpdateRealmPaletteEntry(mmm.palTex, 3, KENG::Utils::UnpackRGB_01(rlm.Color()));
         // }
 
         /* Swap frame buffers */

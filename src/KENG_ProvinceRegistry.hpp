@@ -27,6 +27,8 @@ namespace KENG {
             
             Province& GetProvince(llui id);
 
+            const std::vector<Province>& Provinces(void) const ;
+
             void Print(void); // Prints the generated entries, debug only.
 
             llui Count(void);
