@@ -474,7 +474,7 @@
 451 "Aachen" 47 160 79
 452 "Xilin" 187 175 208
 453 "Ioloai" 214 111 208
-454 "Dunwich" 232 75 185
+454 "Dinqhin" 232 75 185
 455 "Ephesus" 94 173 248
 456 "Friston" 161 1 246
 457 "Gath" 28 176 30
@@ -498,21 +498,21 @@
 475 "Yaroslav" 100 95 9
 476 "Zeugma" 55 10 123
 477 "Agon" 153 102 109
-478 "Bael" 242 222 72
+478 "Konking" 242 222 72
 479 "Cael" 175 221 120
 480 "Durn" 57 205 104
 481 "Eld" 251 25 130
 482 "Forn" 97 43 49
-483 "Gund" 212 111 222
-484 "Hraefn" 191 78 246
+483 "Gundir" 212 111 222
+484 "Ciriqhai" 191 78 246
 485 "Ior" 142 52 227
 486 "Jarl" 170 139 15
-487 "Krag" 126 190 230
+487 "Qrai" 126 190 230
 488 "Leth" 117 55 209
 489 "Murn" 250 98 59
 490 "Nor" 119 168 144
 491 "Wun" 87 117 57
-492 "Pyr" 5 51 161
+492 "Ening" 5 51 161
 493 "Quor" 235 77 52
 494 "Ruhn" 116 46 91
 495 "Skon" 11 63 130
@@ -1435,11 +1435,11 @@
 1266 "Nineveh System" 83 83 105
 1267 "Olympia Sector" 47 227 241
 
-1268 "Palmyra Planet" 45 184 141
+1268 "Chuko" 45 184 141
 1269 "Shinjiku" 185 63 169
 1270 "Rhodes System" 61 226 176
-1271 "Sparta Sector" 36 12 11
-1272 "Thebes Planet" 217 38 37
+1271 "Kobe" 36 12 11
+1272 "Ajiku" 217 38 37
 
 1273 "Mauditerres" 199 157 106
 1274 "Vironicia" 87 218 67
@@ -1547,7 +1547,7 @@
 1355 "Asse" 192 52 77
 1356 "Boretera" 110 242 181
 1358 "Diril" 221 236 111
-1357 "Cinderford Hold" 84 12 72
+1357 "Ciriqhu" 84 12 72
 
 1359 "Kapital-du-nord" 116 254 150
 1360 "Apefurt" 131 172 39

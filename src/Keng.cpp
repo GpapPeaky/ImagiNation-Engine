@@ -65,7 +65,7 @@ i32 main(i32, ui8**){
     mmm.rlmIdxTex  = KENG::GPU::BuildRealmIndexTexture(preg, rreg);
     mmm.realmPalTex = realmPaletteTex;
     mmm.provinceCount = (float)(preg.Count() + 1);
-    mmm.devPalTex = KENG::GPU::BuildDevPaletteTexture(preg, mmm.provinceCount);
+    mmm.devPalTex = KENG::GPU::BuildDevPaletteTexture(preg, preg.Count());
 
     // whenever any province's development changes
     // KENG::GPU::RefreshDevPaletteTexture(mmm.devPalTex, preg, provinceCount);
