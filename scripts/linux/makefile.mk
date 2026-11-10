@@ -51,7 +51,7 @@ ENGINE_OBJS := $(patsubst $(ENGINE_DIR)/%.cpp,$(ENGINE_OBJ_DIR)/%.o,$(ENGINE_CPP
                $(ENGINE_OBJ_DIR)/ThirdParty/GLAD/src/glad.o
 
 # --- Editor ---
-EDITOR_TARGET := $(BIN_DIR)/ine_editor
+EDITOR_TARGET := $(BIN_DIR)/editor
 EDITOR_OBJ    := $(OBJ_DIR)/editor/KengEditor.o
 GAME_LIB_OBJS := $(filter-out $(OBJ_DIR)/Keng.o,$(OBJS))
 

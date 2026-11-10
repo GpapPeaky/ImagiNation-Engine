@@ -434,7 +434,8 @@ i32 main(i32, ui8**) {
         /* Selected province info + input box */
         llui clickedID = hoverCtrl.ClickedProvince().Id();
         if (clickedID != KENG::PROV::NULL_PROV_ID) {
-            std::string header = "Selected: " + std::to_string(clickedID) + " " + hoverCtrl.ClickedProvince().Name();
+            std::string header = "Selected: " + std::to_string(clickedID) + " " + hoverCtrl.ClickedProvince().Name() + ' ' +
+                                 std::to_string(hoverCtrl.ClickedProvince().Dev().adm) + ' ' + std::to_string(hoverCtrl.ClickedProvince().Dev().prd) + ' ' + std::to_string(hoverCtrl.ClickedProvince().Dev().mil);
 
             if (editing && editKind == EditKind::Name) {
                 DrawBox(8, 8, 560, 92, 0.08f, 0.08f, 0.12f);
@@ -479,19 +480,22 @@ i32 main(i32, ui8**) {
 
             std::string realmName = (hr.Id() != KENG::RLM::NULL_RLM_ID) ? hr.Name() : "None";
 
-            std::string lines[3] = {
+            std::string lines[4] = {
                 "Realm Name: "    + realmName,
                 "Province Name: " + hp.Name(),
-                "Province ID: "   + std::to_string(hp.Id())
+                "Province ID: "   + std::to_string(hp.Id()),
+                "Province Dev: " + std::to_string(hp.Dev().adm) + ' '
+                                 + std::to_string(hp.Dev().prd) + ' '
+                                 + std::to_string(hp.Dev().mil)
             };
 
             int   boxX   = ctrl->lastX + 20;
             int   boxTop = ctrl->lastY + 16;
             float lineH  = (f32)fontHeight * 1.5f;
 
-            DrawBox(boxX - 6, boxTop, 300, (int)(lineH * 3.0f) + 8, 0.08f, 0.08f, 0.12f);
+            DrawBox(boxX - 6, boxTop, 300, (int)(lineH * 4.0f) + 8, 0.08f, 0.08f, 0.12f);
 
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 4; i++) {
                 OGL_RenderText(*textObj, lines[i].c_str(),
                                (f32)boxX, (f32)boxTop + 4.0f + (f32)fontHeight + lineH * (f32)i,
                                1.0f, {1.0f, 1.0f, 1.0f}, charMap);
