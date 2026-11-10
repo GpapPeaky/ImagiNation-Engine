@@ -179,10 +179,10 @@
 7 176 255   KINGDOM                 "Theodorium"
 
 48 106 150  KINGDOM                 "Armorium"
-#comp
 
 180 183 0   PIRATE_REPUBLIC         "Marnonga"
 204 204 16  PIRATE_REPUBLIC         "Baragan"
+#comp
 
 116 140 122 PIRATE_REPUBLIC         "Gillis"
 
@@ -206,7 +206,7 @@
 
 47 48 0     KINGDOM                 "Croeler"
 110 113 0   DUCHY                   "Liberland"
-72 73 0     DUCHY                   "Northen DUCHY"
+72 73 0     DUCHY                   "Northen Duchy"
 
 96 17 58    KINGDOM                 "Pierisia"
 
@@ -310,7 +310,6 @@
 109 0 5     EYE_ISLE_REPUBLIC       "Kanade"
 183 0 5     EYE_ISLE_REPUBLIC       "Shinji"
 224 0 11    EYE_ISLE_REPUBLIC       "Mihishima"
-#comp
 
 69 82 93    KINGDOM                 "Disire"
 
@@ -341,6 +340,7 @@
 
 79 104 137  KINGDOM                 "Velvelot"
 55 90 137   KINGDOM                 "Wottier"
+#comp
 
 55 62 137   DUCHY                   "Prunel"
 
@@ -494,8 +494,8 @@
 
 74 186 211  KINGDOM                 "Derby-Pool"
 
+#comp
 93 73 104   KINGDOM                 "Pollong"
 
-#comp
 182 174 190 DUCHY                   "Ends"
 #comp

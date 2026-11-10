@@ -440,7 +440,7 @@
 418 "Thane" 89 238 227
 419 "Uul" 100 229 183
 420 "Valda" 60 206 74
-421 "Wilfrida" 77 19 8
+421 "Pollow" 77 19 8
 422 "Xandra" 1 30 90
 423 "Ymma" 194 90 171
 424 "Zelda" 252 50 103
@@ -998,7 +998,7 @@
 914 "Linhir Haven" 21 138 58
 915 "Minas Tirith" 137 206 232
 
-916 "Nurn Fields" 116 173 0
+916 "Tyriel" 116 173 0
 
 917 "Enriccio" 66 147 237
 918 "Pelargi" 94 234 25
@@ -1016,7 +1016,7 @@
 926 "Yester Vale" 41 141 101
 927 "Zulian Jungle" 191 159 140
 
-928 "Aethelgard Royal" 206 76 29
+928 "Noskegrad" 206 76 29
 
 929 "Brunwich Town" 192 0 131
 930 "Carldor Keep" 0 38 40
@@ -1057,7 +1057,7 @@
 963 "Kaldorei Temple" 100 17 120
 964 "Lordaeron Throne" 221 42 115
 
-965 "Mulgore Camp" 58 72 68
+965 "Maria" 58 72 68
 
 966 "Netherstorm Eco" 228 216 83
 967 "Outland Shattered" 71 68 13
@@ -1092,16 +1092,16 @@
 996 "Stormwind Keep" 130 248 2
 997 "Theramore Isle" 62 231 106
 
-998 "Undercity" 156 157 103
+998 "Welmar" 156 157 103
 
-999 "Valormok Camp" 8 132 99
-1000 "Westfall Farm" 236 7 201
-1001 "Xoroth Plains" 180 144 4
-1002 "Yojamba Isle" 200 139 127
-1003 "Zulfarrak Pool" 150 97 163
-1004 "Alterac Valley" 134 126 221
-1005 "Badlands Camp" 3 76 149
-1006 "Crater Rim" 122 54 56
+999 "Lock" 8 132 99
+1000 "Kene" 236 7 201
+1001 "Avram" 180 144 4
+1002 "Isaic" 200 139 127
+1003 "Zawrevo" 150 97 163
+1004 "Nefto" 134 126 221
+1005 "Dori" 3 76 149
+1006 "Amdal" 122 54 56
 
 1007 "Popo" 83 167 47
 1008 "Atoi" 249 9 230
@@ -1115,24 +1115,24 @@
 1014 "Lochton Bridge" 21 113 56
 1015 "Maelstrom Eye" 5 22 213
 
-1016 "Northrend Ice" 25 1 135
-1017 "Onyxia Lair" 186 157 185
-1018 "Pandaria Vale" 84 85 213
+1016 "Goose" 25 1 135
+1017 "Lair" 186 157 185
+1018 "Toople" 84 85 213
 
 1019 "Suhkara" 80 148 69
 1020 "Shattrah" 27 196 117
 
-1021 "Tirisfal Glades" 29 80 206
-1022 "Ulduar Keep" 195 162 189
+1021 "Glaide" 29 80 206
+1022 "Groener Mines" 195 162 189
 
-1023 "Vrykul Village" 118 38 171
+1023 "Monte Avaro" 118 38 171
 
 1024 "Warsong Gulch" 161 69 3
 1025 "Xandros Isle" 175 107 48
 
-1026 "Yulon Temple" 11 2 156
+1026 "Disire" 11 2 156
 
-1027 "Zangara Marsh" 32 117 178
+1027 "Ferei" 32 117 178
 
 1028 "Anvilmar Forge" 87 46 221
 
@@ -1177,10 +1177,10 @@
 1061 "Jubei" 41 179 241
 1062 "Saint Riviera" 240 180 199
 
-1063 "Liadrin Sanctum" 111 146 72
+1063 "Wottier" 111 146 72
 1064 "Malorne Grove" 17 182 222
 
-1065 "Nefarian Lair" 64 139 243
+1065 "Oggdo" 64 139 243
 
 1066 "Onu Grove" 104 124 242
 1067 "Perenolde Manor" 243 244 70
@@ -1194,11 +1194,11 @@
 
 1074 "Xavius Rift" 145 240 214
 
-1075 "Ysera Grove" 52 156 208
-1076 "Zuljin Stronghold" 249 142 222
-1077 "Archimonde Banishing" 76 50 108
-1078 "Balnazzar Bastion" 152 241 228
-1079 "Chogall Altar" 70 55 177
+1075 "Pader" 52 156 208
+1076 "Velve" 249 142 222
+1077 "Bashton" 76 50 108
+1078 "Corkie" 152 241 228
+1079 "Ruin" 70 55 177
 
 1080 "Deathwing Fall" 194 110 61
 1081 "Elune Temple" 118 1 243
@@ -1240,7 +1240,7 @@
 
 1115 "Saint Markkus" 64 255 242
 
-1116 "Nunki Orbit" 38 160 233
+1116 "Consworth" 38 160 233
 
 1117 "Okda Planet" 69 158 10
 
@@ -1268,7 +1268,7 @@
 1136 "Kraz Sector" 132 198 224
 1137 "Larawag Orbit" 137 113 202
 
-1138 "Mankib System" 134 55 158
+1138 "Jervil" 134 55 158
 
 1139 "Blue Cross City" 230 132 200
 
@@ -1287,10 +1287,10 @@
 
 1151 "Alkes Sector" 57 199 51
 
-1152 "Banda Planet" 139 211 148
-1153 "Cujam Orbit" 20 59 32
+1152 "Phames" 139 211 148
+1153 "Lorey" 20 59 32
 
-1154 "Duhr System" 65 106 64
+1154 "Veneri" 65 106 64
 
 1155 "Ends" 123 202 96
 
@@ -1348,7 +1348,7 @@
 
 1200 "Yuli" 17 193 206
 
-1201 "Agatha Orbit" 40 98 61
+1201 "Costa" 40 98 61
 
 1202 "Anneto" 227 202 65
 1203 "Cuomo" 172 99 68
