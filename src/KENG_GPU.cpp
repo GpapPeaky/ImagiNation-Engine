@@ -17,7 +17,7 @@ namespace KENG::GPU {
             case DEV:
                 // Fall back to ownership if the dev palette hasn't been built yet
                 activePal  = (mmm.devPalTex != 0) ? mmm.devPalTex : mmm.realmPalTex;
-                selectedID = -1;    // realm highlight is meaningless here, render everything
+                // selectedID = -1;    // realm highlight is meaningless here, render everything
                 break;
         }
 
@@ -68,7 +68,7 @@ namespace KENG::GPU {
             KENG::Province& prov = preg.GetProvince({r, g, b});
 
             llui id = 0; /* 0 = unowned / unmatched pixel (e.g. ocean) */
-            if(prov.Name() != "nullprov"){
+            if(prov.Id() != PROV::NULL_PROV_ID){
                 id = prov.Id();
             }
 

@@ -29,9 +29,9 @@ void KENG::SDL2::HandleEvents(bool& quit, OGL_Controller* ctrl, HoverController&
             quit = true;
         }
 
-        if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_0 ))) {
+        if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_q ))) {
             mmm.mm = GPU::OWNERSHIP;
-        } else if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_1 ))) {
+        } else if ((e.type == SDL_KEYDOWN && (e.key.keysym.sym == SDLK_e ))) {
             mmm.mm = GPU::DEV;
         }
 

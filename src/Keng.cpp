@@ -9,7 +9,7 @@ i32 main(i32, ui8**){
     OGL_CreateShaderProgram("provinceoutline", OGLS_TRS_MVP_ColorV, INATE_SHADER_ProvOutlineMaskF); /* No texture, we render geometry */
 
     /* Main controller, camera and bindings */
-    OGL_Controller* ctrl = OGL_CreateController(5.0f, 0.1f);
+    OGL_Controller* ctrl = OGL_CreateController(15.0f, 0.1f);
     OGL_Camera* cam = OGL_CreateCamera({0.0f, 0.0f, 50.0f}, {0, 1, 0}, 0.0f, 0.0f);
     OGL_BindCameraToController(ctrl, cam);
     OGL_BindCameraToRenderView(cam);
@@ -49,9 +49,15 @@ i32 main(i32, ui8**){
     OGL_CreateTextQuad(*RealmClickedInfo->mesh);
 
     /* Realm mask rendering, shader auxilliaries */
-    OGL_Object* realmMap = OGL_CreateObject(OGL_GetShader("mapmask"));
-    OGL_CreateTextureQuad(*realmMap->mesh);
-    TRS::S(*realmMap, {50.0f * 1.777777778f, 50.f, 1.f});
+    OGL_Object* maskedMap = OGL_CreateObject(OGL_GetShader("mapmask"));
+    OGL_CreateTextureQuad(*maskedMap->mesh);
+    TRS::S(*maskedMap, {50.0f * 1.777777778f, 50.f, 1.f});
+
+    /* Background */
+    OGL_Object* bgObject = OGL_CreateObject(OGL_GetShader("tex"));
+    OGL_CreateTextQuad(*bgObject->mesh);
+    OGL_LoadBitmapToObject(*bgObject, "assets/img/bg.png");
+    TRS::S(*bgObject, {50.0f * 1.777777778f, 50.f, 1.f});
     
     i32 provMapW, provMapH;
     GLuint provinceIndexTex = KENG::GPU::BuildProvinceIndexTexture("History/provinces/province_map.png", preg, provMapW, provMapH);
@@ -106,9 +112,10 @@ i32 main(i32, ui8**){
         /* Updates */
         OGL_SetScreenBackground(0.f, 0.f, 0.f, 1.f);
         OGL_RenderVisitChildren(OGL_Scene); // Normal render visit for other objects
-
+        
         KENG::GPU::RenderProvinceOutlines(provinceOutlines, {0.0f, 0.0f, 0.0f}); /* Outlines, on top of the realm masks */
-        KENG::GPU::RenderMapMask(realmMap, mmm); /* Actual coloured realm map rendering */
+        KENG::GPU::RenderMapMask(maskedMap, mmm); /* Actual coloured realm map rendering */
+        OGL_Render(bgObject); // Manually render, figure this out
         
         llui hoveredProvinceID = hoverCtrl.HoverProv().Id();
         llui hoveredRealmID = hoverCtrl.HoverRealm().Id();
