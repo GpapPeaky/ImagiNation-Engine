@@ -1365,7 +1365,7 @@
 
 1211 "Kendra Sector" 218 20 73
 
-1212 "Lioba Planet" 221 39 7
+1212 "Hohenstadt" 221 39 7
 
 1213 "Epp" 24 151 239
 
@@ -1376,7 +1376,7 @@
 1218 "Rigestadt" 35 186 132
 1219 "Sichtburg" 112 17 40
 
-1220 "Thane Planet" 224 174 226
+1220 "Oberohm" 224 174 226
 
 1221 "Uul Orbit" 222 252 26
 1222 "Valda System" 212 102 61
@@ -1553,7 +1553,7 @@
 1360 "Apefurt" 131 172 39
 1361 "Glomar" 117 96 141
 
-1362 "Hellfire Citadel East" 180 133 50
+1362 "Julifer" 180 133 50
 
 1363 "Webber" 172 134 129
 
@@ -1611,7 +1611,7 @@
 1399 "Theramore Port" 251 163 23
 1400 "Undercity Sewers" 129 86 230
 
-1401 "Valormok Hold" 148 185 52
+1401 "Einz" 148 185 52
 
 1402 "Westfall Plains" 159 56 108
 
