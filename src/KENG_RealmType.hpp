@@ -68,6 +68,9 @@ namespace KENG {
         TRADE_CITY,
         /* COLONIAL ESTABLISHED BY PIRATE REPUBLICS/MERCHANT REPUBLICS */
         CORPORATE_ADMINISTRATION,
+
+        /* Uncolonised */
+        UNCOLONISED,
     } RealmType;
 
     RealmType GetRealmTypeFromString(std::string typeName);

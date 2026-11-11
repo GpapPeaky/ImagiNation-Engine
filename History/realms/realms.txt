@@ -498,4 +498,6 @@
 93 73 104   KINGDOM                 "Pollong"
 
 182 174 190 DUCHY                   "Ends"
+
+255 255 255 UNCOLONISED             "Uncolonised"
 #comp
