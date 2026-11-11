@@ -1459,8 +1459,8 @@
 1286 "Hraefyn Island" 106 220 110
 1287 "Iorum-Dungham" 43 25 191
 1288 "Jarlham" 101 241 123
-1289 "Gascone-Pligh" 129 208 11
-1290 "Leith-Grigia" 236 32 219
+1289 "Gascone" 129 208 11
+1290 "Leith" 236 32 219
 
 1291 "Apple Island" 14 75 85
 1292 "Vista" 83 190 227
@@ -1932,3 +1932,41 @@
 1620 "Pipinais" 84 151 79
 
 1621 "Angzhou" 52 220 233
+
+1622 "Morello" 197 132 177
+1623 "Avion"   204 158 190
+1624 "Arlon"   144 117 136
+1625 "Cavaliera" 166 55 131
+1626 "Foi"      156 187 134
+1627 "Stolou"   105 128 90
+
+1628 "Stolakas" 42 70 182
+1629 "Saint George" 49 63 119
+1630 "Saint Johanna" 88 47 109
+1631 "Saint Garcia"  88 74 96
+
+1632 "Dijou" 13 214 125
+1633 "Affoix" 84 162 69
+1634 "Champagne" 169 75 55
+1635 "Carta" 157 113 104
+1636 "Montenegro" 49 119 88
+1637 "Palais" 3 227 238
+1638 "Orlean" 66 179 67
+1639 "Coralinais" 98 109 26
+1640 "Soijou" 118 183 192 
+1641 "Poi" 169 3 238 
+1642 "Silcaux" 147 38 41
+1643 "Oraux" 60 88 106 
+1644 "Nouveau" 85 143 180 
+1645 "Santa Monica" 14 61 91
+1646 "Karelais" 111 134 149
+1647 "Godais" 161 95 160 
+1648 "Popais" 88 26 87
+
+1649 "Acre" 142 118 20
+
+1650 "Colon" 159 145 88
+
+1651 "Grigia" 67 106 128
+1652 "Pligh" 11 207 151
+1653 "Saint Edward" 78 166 85
