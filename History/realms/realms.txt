@@ -357,9 +357,9 @@
 66 67 110   REPUBLIC                "Franconie"
 
 105 132 165 KINGDOM                 "Siera-Perideaux"
-#comp
 
 105 159 175 DUCHY                   "Lothair-Saint Erz"
+#comp
 
 78 164 119  DUCHY                   "Abbote"
 

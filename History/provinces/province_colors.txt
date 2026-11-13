@@ -988,7 +988,7 @@
 906 "Saint Anna" 103 89 182
 907 "Ezzio Villa" 24 190 19
 908 "Saint Theon" 236 105 133
-909 "Axos" 77 197 118
+909 "Saint Tyriel" 77 197 118
 910 "Annuni" 167 62 82
 
 911 "Imladris Valley" 99 60 130
@@ -1051,11 +1051,11 @@
 958 "Frostfire Pass" 187 101 112
 959 "Gloomspire Vault" 6 156 132
 
-960 "Hellfire Rampart" 30 197 87
-961 "Ironforge Hall" 111 74 84
-962 "Jolund Haven" 98 149 230
-963 "Kaldorei Temple" 100 17 120
-964 "Lordaeron Throne" 221 42 115
+960 "Lothair" 30 197 87
+961 "Saint Erz" 111 74 84
+962 "Lothar" 98 149 230
+963 "Agapisha" 100 17 120
+964 "Ironforge" 221 42 115
 
 965 "Maria" 58 72 68
 
@@ -1970,3 +1970,5 @@
 1651 "Grigia" 67 106 128
 1652 "Pligh" 11 207 151
 1653 "Saint Edward" 78 166 85
+
+1654 "Honigsmann" 94 94 94
