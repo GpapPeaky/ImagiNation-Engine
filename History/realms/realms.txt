@@ -340,7 +340,6 @@
 
 79 104 137  KINGDOM                 "Velvelot"
 55 90 137   KINGDOM                 "Wottier"
-#comp
 
 55 62 137   DUCHY                   "Prunel"
 
@@ -358,6 +357,7 @@
 66 67 110   REPUBLIC                "Franconie"
 
 105 132 165 KINGDOM                 "Siera-Perideaux"
+#comp
 
 105 159 175 DUCHY                   "Lothair-Saint Erz"
 

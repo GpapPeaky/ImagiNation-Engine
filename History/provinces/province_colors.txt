@@ -126,7 +126,7 @@
 126 "Aethelgard" 190 145 92
 127 "Brunwich" 103 153 8
 128 "Carldor" 52 232 200
-129 "Dunmere" 142 232 8
+129 "Dumerie" 142 232 8
 130 "Evershield" 225 3 50
 131 "Fenmar" 150 166 176
 132 "Grimshear" 25 57 238
@@ -460,14 +460,14 @@
 437 "Siquya" 65 41 55
 438 "Niriqu" 206 71 128
 439 "Pongzhou" 20 65 115
-440 "Punt" 125 130 122
-441 "Quintus" 116 116 1
+440 "Tai'i" 125 130 122
+441 "Idy" 116 116 1
 442 "Rangun" 99 129 114
 443 "Cai" 181 21 56
 444 "Ma" 212 154 189
 445 "Tenzin" 44 124 108
-446 "Valhalla" 39 35 176
-447 "Wessex" 48 252 243
+446 "Boo'i" 39 35 176
+447 "Wu Tai" 48 252 243
 448 "Kiing" 176 113 160
 449 "Yijun" 20 236 34
 450 "Min" 197 216 228
@@ -476,69 +476,69 @@
 453 "Ioloai" 214 111 208
 454 "Dinqhin" 232 75 185
 455 "Xinya" 94 173 248
-456 "Friston" 161 1 246
+456 "Xi Ma" 161 1 246
 457 "Gath" 28 176 30
-458 "Hazor" 58 38 219
+458 "Peqzhou" 58 38 219
 459 "Yuan" 102 205 151
 460 "Zhenghuo" 11 16 189
 461 "Karnak" 146 89 184
-462 "Lycia" 103 20 242
+462 "Gurzhou" 103 20 242
 463 "Aqqin" 244 170 215
 464 "Pien'Cong" 164 135 208
 465 "Ghilli" 226 21 73
 466 "Qiu" 24 191 171
 467 "Quiri" 177 240 99
-468 "Rhodes" 23 17 218
+468 "Kiboon" 23 17 218
 469 "Qinghai" 182 143 123
 470 "Iriqai" 248 211 176
 471 "Urqhai League" 72 72 229
-472 "Viroconium" 16 89 132
-473 "Wroxeter" 186 113 248
+472 "Wu Wun" 16 89 132
+473 "Wu Tau" 186 113 248
 474 "Xishai" 179 250 172
-475 "Yaroslav" 100 95 9
+475 "Yar'Xinghuan" 100 95 9
 476 "Ren" 55 10 123
 477 "Taigzhou" 153 102 109
 478 "Konking" 242 222 72
 479 "Cael" 175 221 120
 480 "Qigang" 57 205 104
-481 "Eld" 251 25 130
-482 "Forn" 97 43 49
+481 "Bo Ma" 251 25 130
+482 "U" 97 43 49
 483 "Gundir" 212 111 222
 484 "Ciriqhai" 191 78 246
 485 "Ior" 142 52 227
-486 "Jarl" 170 139 15
+486 "Wun'i" 170 139 15
 487 "Qrai" 126 190 230
 488 "Haung" 117 55 209
-489 "Murn" 250 98 59
+489 "Xi'i" 250 98 59
 490 "Taiwei" 119 168 144
 491 "Wun" 87 117 57
 492 "Ening" 5 51 161
 493 "Quor" 235 77 52
-494 "Ruhn" 116 46 91
+494 "Run Ma" 116 46 91
 495 "Siquon" 11 63 130
 496 "Geng" 26 237 19
 497 "Songwei" 12 161 121
 498 "Luoyang" 75 198 30
-499 "Wulf" 67 199 109
+499 "Jinghu" 67 199 109
 500 "Xun" 94 15 209
 501 "Tanuan" 6 8 180
 502 "Zung" 167 29 130
-503 "Aethelgard North" 170 184 164
-504 "Brunwich East" 124 68 133
-505 "Carldor South" 133 44 145
-506 "Dunmere West" 50 219 49
-507 "Evershield March" 236 187 209
+503 "Aixi" 170 184 164
+504 "Su'unkhun" 124 68 133
+505 "Ring'i" 133 44 145
+506 "Ganghzouan" 50 219 49
+507 "Taibu'oo" 236 187 209
 508 "Bao" 31 55 219
-509 "Grimshear Vale" 52 185 185
-510 "Hallowvale Ridge" 151 173 215
-511 "Isengard Plains" 179 124 159
-512 "Jorvik Moors" 241 146 124
-513 "Kirkwall Hills" 189 89 216
+509 "U Ma" 52 185 185
+510 "Wu Tang" 151 173 215
+511 "Wuwei" 179 124 159
+512 "Mong Ma" 241 146 124
+513 "Ily Ma" 189 89 216
 514 "Pian" 129 60 30
-515 "Murnival Fen" 168 165 185
+515 "Murniwei" 168 165 185
 516 "Planting" 157 0 20
 517 "Fuzhou" 202 182 152
-518 "Prydain Coast" 155 51 177
+518 "Ringushouo" 155 51 177
 519 "Qunzhin" 120 225 202
 520 "Tiing" 206 43 77
 521 "Ao" 7 124 164
@@ -651,21 +651,21 @@
 616 "Zendikar" 76 207 221
 617 "Aethelney" 161 145 252
 618 "Bamburgh" 68 196 90
-619 "Carisbrooke" 160 212 98
+619 "Brookzhen" 160 212 98
 620 "Dunster" 30 42 126
-621 "Eynsford" 42 49 27
+621 "Onghu Ma" 42 49 27
 622 "Framlingham" 46 83 161
 623 "Goodrich" 150 253 124
-624 "Hedingham" 202 151 22
+624 "Henhghan" 202 151 22
 625 "Iskander" 56 142 219
 626 "Jazer" 72 75 52
 627 "Kenilworth" 101 57 140
 628 "Lancaster" 251 195 79
 629 "Middleham" 117 83 231
-630 "Norham" 59 85 189
-631 "Orford" 186 51 62
+630 "Noramagh" 59 85 189
+631 "Vanzhou Ma" 186 51 62
 632 "Peveril" 92 87 212
-633 "Quatford" 140 44 233
+633 "Qiqanzhen" 140 44 233
 634 "Rochester" 179 29 232
 635 "Sherborne" 62 149 60
 636 "Tintagel" 151 254 79
@@ -674,7 +674,7 @@
 639 "Wawuntang" 156 10 48
 640 "Zhou'our" 86 98 108
 641 "Yorkshire" 242 193 124
-642 "Ziguran" 221 145 204
+642 "Zigrah Ma" 221 145 204
 643 "Arghamao" 127 61 198
 644 "Brunwich West" 69 47 212
 645 "Carldor North" 152 210 98
@@ -690,25 +690,25 @@
 655 "Murnival Vault" 239 241 248
 656 "Noxus Gates" 216 177 127
 657 "Oristano Port" 78 35 134
-658 "Prydain Castle" 189 177 119
+658 "Jun Ma" 189 177 119
 659 "Quarth Bazaar" 143 197 189
 660 "An'han" 47 202 194
 661 "Sadrith Tower" 7 43 241
 662 "Telvanni Grove" 129 83 181
-663 "Ushuaia Camp" 10 172 120
+663 "Jinghazhen Ma" 10 172 120
 664 "Virling" 11 160 165
 665 "Whiterun Keep" 238 155 167
 666 "Ysmir Tomb" 32 8 233
 667 "Zandalar Temple" 9 80 212
 668 "Ashenvale Forest" 22 223 213
 669 "Boreand Tundra" 176 31 85
-670 "Cinderford Mine" 66 122 190
+670 "Kitrengh" 66 122 190
 671 "Dreadfort Dungeon" 56 93 125
 672 "Emberstrike Forge" 251 48 251
-673 "Frostfire Ridge" 246 96 163
+673 "Fan Ma" 246 96 163
 674 "Gloomspire Peak" 149 85 224
 675 "Shikanzen" 65 124 28
-676 "Ironforge Mountain" 101 63 194
+676 "Felghahan" 101 63 194
 677 "Jolund Islands" 108 9 61
 678 "Kaldorei Ruins" 193 67 247
 679 "Lordaeron Capital" 206 90 92
@@ -716,8 +716,8 @@
 681 "Netherstorm Wastes" 188 197 206
 682 "Outland Camp" 114 239 176
 683 "Plaguelands East" 139 159 232
-684 "Quelthalas Woods" 114 65 223
-685 "Redridge Canyon" 145 63 0
+684 "Rikhan" 114 65 223
+685 "Jin" 145 63 0
 
 686 "Aelfheim" 83 3 181
 687 "Breidablik" 34 248 106
@@ -1059,37 +1059,37 @@
 
 965 "Maria" 58 72 68
 
-966 "Netherstorm Eco" 228 216 83
-967 "Outland Shattered" 71 68 13
-968 "Plaguelands West" 204 246 220
-969 "Quelthalas Palace" 223 90 42
-970 "Redridge Bridge" 234 217 98
-971 "Silithus Sands" 89 223 238
-972 "Tanaris Dunes" 149 214 59
-973 "Uldum Oasis" 9 41 177
-974 "Vashjir Sunken" 32 66 188
-975 "Winterspring Grove" 69 141 198
-976 "Xibala Tomb" 226 115 59
-977 "Zangarmarsh Fungi" 98 96 132
-978 "Ahnqiraj Hive" 48 190 13
-979 "Blackrock Spire" 182 248 63
-980 "CaerDarrow Keep" 95 121 135
-981 "Dalaran Crater" 150 171 77
-982 "Ebonhold Fort" 197 248 254
-983 "Felwood Corrupted" 87 204 4
-984 "GrimBatol Gates" 182 146 201
-985 "Hearthglen Manor" 78 179 184
-986 "Icecrown Citadel" 137 154 60
-987 "JinthaAlor Top" 209 179 191
-988 "KulTiras Port" 146 104 173
-989 "LochModan Dam" 54 35 111
-990 "Moonglade Shrine" 39 79 112
-991 "Nagrand Garrison" 209 87 28
-992 "Orgrimmar Hold" 157 166 220
+966 "Bienco" 228 216 83
+967 "Sierra" 71 68 13
+968 "Pown" 204 246 220
+969 "Peridot" 223 90 42
+970 "Onyxia" 234 217 98
+971 "Siltus" 89 223 238
+972 "Jubel" 149 214 59
+973 "Oatswolds" 9 41 177
+974 "Secleen" 32 66 188
+975 "Grover" 69 141 198
+976 "Fungberg" 226 115 59
+977 "Marshland" 98 96 132
+978 "Massie" 48 190 13
+979 "Spirus" 182 248 63
+980 "Caerd" 95 121 135
+981 "Craterus" 150 171 77
+982 "Ebonnie" 197 248 254
+983 "Barbara" 87 204 4
+984 "Batol" 182 146 201
+985 "Heartstone" 78 179 184
+986 "The Chambrais" 137 154 60
+987 "Mauve" 209 179 191
+988 "Quart" 146 104 173
+989 "Lochmodain" 54 35 111
+990 "Moonglade" 39 79 112
+991 "Nagranth" 209 87 28
+992 "Great Quarry" 157 166 220
 993 "Pyrewood Village" 247 166 28
-994 "QuelDanas Isle" 74 194 70
-995 "Rethban Quarry" 255 100 196
-996 "Stormwind Keep" 130 248 2
+994 "Saphire" 74 194 70
+995 "Rethbran" 255 100 196
+996 "Essena" 130 248 2
 997 "Theramore Isle" 62 231 106
 
 998 "Welmar" 156 157 103
@@ -1242,7 +1242,7 @@
 
 1116 "Consworth" 38 160 233
 
-1117 "Okda Planet" 69 158 10
+1117 "Prunel" 69 158 10
 
 1118 "Poltheim" 7 98 191
 1119 "Totberg" 215 87 116
@@ -1311,7 +1311,7 @@
 1168 "Tangra Planet" 221 186 92
 1169 "Uruk Orbit" 150 139 51
 
-1170 "Vytis System" 157 204 74
+1170 "Bruno" 157 204 74
 
 1171 "Wandelo Sector" 92 234 11
 1172 "Xolotl Planet" 62 78 224
@@ -1333,16 +1333,16 @@
 1187 "Mundern" 51 143 115
 1188 "Niels" 239 6 64
 
-1189 "Odo Orbit" 227 216 54
-1190 "Penda System" 123 114 193
-1191 "Quendreda Sector" 31 60 75
-1192 "Roric Planet" 61 163 64
-1193 "Sigeric Orbit" 61 16 9
-1194 "Tostig System" 139 238 18
-1195 "Uhtred Sector" 145 168 196
-1196 "Vortigern Planet" 186 169 140
-1197 "Wulfric Orbit" 112 90 210
-1198 "Xene System" 31 40 3
+1189 "Onion Island" 227 216 54
+1190 "Pedantic City" 123 114 193
+1191 "Ytaia" 31 60 75
+1192 "Roricau" 61 163 64
+1193 "Quasimund" 61 16 9
+1194 "Tostring" 139 238 18
+1195 "Ungarn" 145 168 196
+1196 "Jooms" 186 169 140
+1197 "Wulfric Island" 112 90 210
+1198 "Xanthia" 31 40 3
 
 1199 "Obercaled" 49 124 137
 
@@ -1363,7 +1363,7 @@
 1209 "Idda" 210 86 161
 1210 "Volkstadt" 164 242 75
 
-1211 "Kendra Sector" 218 20 73
+1211 "Njola" 218 20 73
 
 1212 "Hohenstadt" 221 39 7
 
@@ -1378,14 +1378,14 @@
 
 1220 "Oberohm" 224 174 226
 
-1221 "Uul Orbit" 222 252 26
-1222 "Valda System" 212 102 61
-1223 "Wilfrida Sector" 45 87 180
-1224 "Xandra Planet" 84 56 235
-1225 "Ymma Orbit" 178 118 76
-1226 "Zelda System" 180 122 66
-1227 "Asgard Sector" 196 175 55
-1228 "Bifrost Planet" 76 128 150
+1221 "Heggs" 222 252 26
+1222 "Conrad" 212 102 61
+1223 "Wilfrey" 45 87 180
+1224 "Bobcat" 84 56 235
+1225 "Pond" 178 118 76
+1226 "Zelda" 180 122 66
+1227 "Lykourgos" 196 175 55
+1228 "Hagger" 76 128 150
 
 1229 "Caled" 182 88 202
 
@@ -1425,15 +1425,15 @@
 1256 "Allours" 154 54 226
 1257 "Porfyrria" 2 239 134
 1258 "Anwerp" 99 195 19
-1259 "Gath Sector" 39 30 245
-1260 "Hazor Planet" 184 107 151
-1261 "Illyria Orbit" 129 19 98
-1262 "Jericho System" 238 130 194
-1263 "Karnak Sector" 104 34 34
-1264 "Lycia Planet" 91 93 236
-1265 "Memphis Orbit" 48 160 139
-1266 "Nineveh System" 83 83 105
-1267 "Olympia Sector" 47 227 241
+1259 "Garth" 39 30 245
+1260 "Cornifex" 184 107 151
+1261 "Curbland" 129 19 98
+1262 "Bloomberg" 238 130 194
+1263 "Blone" 104 34 34
+1264 "Publia" 91 93 236
+1265 "Pearlside" 48 160 139
+1266 "Elika" 83 83 105
+1267 "Pearlside Island" 47 227 241
 
 1268 "Chuko" 45 184 141
 1269 "Shinjiku" 185 63 169
@@ -1602,7 +1602,7 @@
 
 1393 "Gottheim" 35 169 94
 
-1394 "Orgrimmar City" 23 244 240
+1394 "Falacrow" 23 244 240
 
 1395 "Pyrewood Village North" 24 113 130
 1396 "QuelDanas Sunwell" 146 137 125
@@ -1613,7 +1613,7 @@
 
 1401 "Einz" 148 185 52
 
-1402 "Westfall Plains" 159 56 108
+1402 "Grand Basillica" 159 56 108
 
 1403 "Neu Epp" 13 62 248
 
