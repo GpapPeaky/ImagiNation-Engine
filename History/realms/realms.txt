@@ -182,7 +182,6 @@
 
 180 183 0   PIRATE_REPUBLIC         "Marnonga"
 204 204 16  PIRATE_REPUBLIC         "Baragan"
-#comp
 
 116 140 122 PIRATE_REPUBLIC         "Gillis"
 
@@ -205,8 +204,11 @@
 149 170 135 KINGDOM                 "Gneisenau"
 
 47 48 0     KINGDOM                 "Croeler"
+#comp
 110 113 0   DUCHY                   "Liberland"
+#comp
 72 73 0     DUCHY                   "Northen Duchy"
+
 
 96 17 58    KINGDOM                 "Pierisia"
 
@@ -223,8 +225,6 @@
 137 178 150 REPUBLIC                "Vazhai"
 
 151 120 137 REPUBLIC                "Totale"
-
-#comp
 
 158 109 75  KINGDOM                 "Lake Cities"
 
@@ -244,7 +244,6 @@
 59 70 99    KINGDOM                 "Pii"
 
 130 134 255 KINGDOM                 "Poolo"
-#comp
 
 41 99 140   KINGDOM                 "Kiipi"
 
@@ -257,6 +256,7 @@
 137 176 255 TRIBE                   "Isnia"
 
 69 103 142  TRIBE                   "Axxa"
+#comp
 
 48 142 142  TRIBE                   "Natt"
 
@@ -359,7 +359,6 @@
 105 132 165 KINGDOM                 "Siera-Perideaux"
 
 105 159 175 DUCHY                   "Lothair-Saint Erz"
-#comp
 
 78 164 119  DUCHY                   "Abbote"
 
@@ -372,6 +371,7 @@
 117 178 85  DUCHY                   "Pointe"
 
 116 74 105  TRIBE                   "Bolle"
+#comp
 
 101 204 204 TRIBE                   "Author"
 
