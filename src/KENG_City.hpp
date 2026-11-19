@@ -5,7 +5,10 @@
 namespace KENG {
     class City {
         public:
-            ui8 cityObjX = 0;
-            ui8 cityObjY = 0;
+            i32 cityObjX = 0;
+            i32 cityObjY = 0;
+
+            City(i32 x, i32 y);
+            ~City();
     }; // City class
 } // KENG
