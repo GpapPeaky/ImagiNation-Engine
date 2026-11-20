@@ -137,8 +137,12 @@ namespace KENG {
     }
     
     Province& ProvinceRegistry::GetProvince(llui id) {
-        // We are required to have the correct id here, intended to be used AFTER getting the correct id or maybe after colorto id matching
-        return provinces[id];
+        if (id >= 1 && id <= provinces.size()) {
+            return provinces[id - 1];
+        }
+    
+        static Province nullProvince{PROV::NULL_PROV_ID, "nullprov", 0xffffff};
+        return nullProvince;
     }
 
     const std::vector<Province>& ProvinceRegistry::Provinces(void) const {
