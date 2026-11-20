@@ -38,9 +38,6 @@ i32 main(i32, ui8**){
     TRS::S(*provinceMap, {50.0f * 1.777777778f, 50.f, 1.f});
 
     /* Text rendering */
-    OGL_Object* provinceLabelsObj = OGL_CreateObject(OGL_GetShader("glyph"));
-    OGL_CreateTextQuad(*provinceLabelsObj->mesh);
-
     OGL_Object* provinceHoverInfoObj = OGL_CreateObject(OGL_GetShader("glyph"));
     OGL_CreateTextQuad(*provinceHoverInfoObj->mesh);
     OGL_Object* provinceClickedInfoObj = OGL_CreateObject(OGL_GetShader("glyph"));
@@ -58,7 +55,7 @@ i32 main(i32, ui8**){
 
     /* Background */
     OGL_Object* bgObject = OGL_CreateObject(OGL_GetShader("tex"));
-    OGL_CreateTextQuad(*bgObject->mesh);
+    OGL_CreateTextureQuad(*bgObject->mesh);
     OGL_LoadBitmapToObject(*bgObject, "assets/img/bg.png");
     TRS::S(*bgObject, {50.0f * 1.777777778f, 50.f, 1.f});
     
@@ -90,8 +87,6 @@ i32 main(i32, ui8**){
     FT_Library provinceHover_FTLib = OGL_InitFreeType();
     FT_Face provinceHover_FTFace = OGL_LoadFont(provinceHover_FTLib, "assets/fonts/BodoniXT.ttf", hoverFontHeight);
     std::map<char, OGL_Character> hover_CharMap = OGL_LoadCharacters(provinceHover_FTFace);
-
-    std::vector<KENG::MapLabel> provinceLabels = KENG::BuildProvinceMapLabelsCPU("History/provinces/province_map.png", preg, provinceHover_FTFace);
     // FT_Done_Face(face); // Do when we are done with it, will be used in realm names which are dynamic so we keep it 
 
     /* Controllers */
@@ -121,8 +116,7 @@ i32 main(i32, ui8**){
         
         KENG::GPU::RenderProvinceOutlines(provinceOutlines, {0.0f, 0.0f, 0.0f}); /* Outlines, on top of the realm masks */
         KENG::GPU::RenderMapMask(maskedMap, mmm); /* Actual coloured realm map rendering */
-        KENG::RenderProvinceMapLabels(*provinceLabelsObj, provinceLabels, preg, {1.0f, 1.0f, 1.0f}, hover_CharMap);
-        // OGL_Render(bgObject); // Manually render, figure this out
+        OGL_Render(bgObject); // Manually render, figure this out
         
         llui hoveredProvinceID = hoverCtrl.HoverProv().Id();
         llui hoveredRealmID = hoverCtrl.HoverRealm().Id();

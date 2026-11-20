@@ -46,6 +46,10 @@ void main() {
     vec2 provIdColor = texture(uProvinceIndexTex, 1.0 - TexCoord).rg;
     float provId = int(floor(provIdColor.r * 255.0 + 0.5)) | (int(floor(provIdColor.g * 255.0 + 0.5)) << 8);
     
+    if (provId == 0U) {
+        discard;
+    }
+
     float u = (provId + 0.5) / uProvinceCount;
 
     vec2 rlmIdColor = texture(uRealmIndexTex, vec2(u, 0.5)).rg;
