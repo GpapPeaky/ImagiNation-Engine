@@ -99,7 +99,7 @@ namespace KENG::GPU {
     
         std::vector<unsigned char> idBuffer(textureWidth * 2, 0);
     
-        for (int i = 0; i < preg.Count(); i++) {
+        for (llui i = 0; i < preg.Count(); i++) {
             KENG::Province& prov = preg.GetProvince(i);
     
             const int provinceID = prov.Id();

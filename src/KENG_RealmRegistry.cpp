@@ -72,7 +72,7 @@ namespace KENG {
             Utils::LOG_RLM << realm.Id() << " " << realm.Name() << " " << realm.Color() << " " << " \n";
             for (llui provID : realm.Provinces()) {
 
-                Province& prov = pr.GetProvince(provID - 1);
+                Province& prov = pr.GetProvince(provID);
                 Utils::LOG_RLM << "\t" << provID << " " << prov.Name() << " " << prov.Color() << "\n";
             }
         }
