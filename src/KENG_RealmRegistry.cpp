@@ -11,7 +11,7 @@ namespace KENG {
             return;
         }
     
-        llui id = 0;
+        llui id = 1;
         std::string line;
         while (std::getline(inputFile, line)) {
             // Skip empty lines
