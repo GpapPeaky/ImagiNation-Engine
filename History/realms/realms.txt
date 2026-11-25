@@ -256,13 +256,13 @@
 137 176 255 TRIBE                   "Isnia"
 
 69 103 142  TRIBE                   "Axxa"
-#comp
 
 48 142 142  TRIBE                   "Natt"
 
 175 155 255 TRIBE                   "Ool"
 
 155 147 168 TRIBE                   "Suo"
+#comp
 
 155 167 168 KINGDOM                 "Embarga"
 
