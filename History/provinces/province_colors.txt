@@ -1115,9 +1115,9 @@
 1014 "Lochton Bridge" 21 113 56
 1015 "Maelstrom Eye" 5 22 213
 
-1016 "Goose" 25 1 135
-1017 "Lair" 186 157 185
-1018 "Toople" 84 85 213
+1016 "Gornizi" 25 1 135
+1017 "Anthiriel" 186 157 185
+1018 "Tuplia" 84 85 213
 
 1019 "Suhkara" 80 148 69
 1020 "Shattrah" 27 196 117
@@ -1940,7 +1940,7 @@
 1626 "Foi"      156 187 134
 1627 "Stolou"   105 128 90
 
-1628 "Stolakas" 42 70 182
+1628 "Basilica" 42 70 182
 1629 "Saint George" 49 63 119
 1630 "Saint Johanna" 88 47 109
 1631 "Saint Garcia"  88 74 96
@@ -1990,3 +1990,21 @@
 1668 "Benna" 91 159 95
 1669 "Lovestein" 126 116 124
 1670 "Menthus" 83 23 72
+
+1671 "Osava" 139 60 45
+
+1672 "Santa Laura" 98 19 34
+
+1673 "Coruni" 85 100 108
+
+1674 "Sigurd" 29 153 169
+1675 "Gunhe" 80 85 86
+
+1676 "Grossberg" 98 106 89
+
+1677 "Vadouse" 60 94 84
+
+1678 "Dantonxhi" 68 152 56
+
+1679 "Wrynstadt" 145 152 137
+1680 "Janone" 172 215 164

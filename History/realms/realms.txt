@@ -499,5 +499,7 @@
 
 182 174 190 DUCHY                   "Ends"
 
+240 215 20 CELESTIAL_KINGDOM "Dantonxhi"
+
 255 255 255 UNCOLONISED             "Uncolonised"
 #comp
