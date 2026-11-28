@@ -1264,7 +1264,7 @@
 1133 "Hessel" 29 67 114
 1134 "Ichlil" 185 26 30
 
-1135 "Jishui System" 13 205 117
+1135 "Teinas" 13 205 117
 1136 "Mithrilio" 132 198 224
 1137 "Abbote" 137 113 202
 
@@ -2008,3 +2008,53 @@
 
 1679 "Wrynstadt" 145 152 137
 1680 "Janone" 172 215 164
+
+1681 "Longida" 77 141 65
+1682 "Avara" 65 187 42
+1683 "Tetria" 217 173 141
+1684 "Fondas" 86 60 94
+1685 "Dunder" 159 136 120
+1686 "Agrippa" 58 159 84
+1687 "Euta" 58 109 159
+1688 "Sutha" 34 53 73
+1689 "Gerland" 108 63 86
+1690 "Gina" 49 197 137
+1691 "Kouvas" 129 185 146
+
+1692 "Konitze" 47 75 74
+1693 "Germ" 76 121 120
+
+1694 "Avutel" 98 128 141
+1695 "Noglia" 139 85 48
+
+1696 "Anthena" 159 78 133
+1697 "Pothria" 108 83 100
+1698 "Katw Karavia" 61 61 61
+1699 "Ammoudia" 67 94 77
+1700 "Chanida" 149 163 171
+1701 "Kasapia" 90 116 129
+1702 "Poseidon" 22 63 86
+1703 "Kroteio" 75 128 105
+1704 "Mathematike" 24 88 61
+1705 "Ypogeion" 19 182 113
+1706 "Skopeion" 119 93 82
+1707 "Poreion" 94 93 93
+1708 "Katwdromeion" 193 131 106
+1709 "Leoforos" 139 63 140
+1710 "Akrata" 105 85 106
+1711 "Katramia" 59 78 133
+1712 "Varideion" 46 59 97
+1713 "Palatia" 49 134 84
+1714 "Koinovouleion" 23 132 68
+1715 "Viannos" 56 87 95
+1716 "Limanaki" 60 237 0
+1717 "Proto Posto" 126 124 27
+1718 "Proth Eksodos" 19 93 42
+1719 "Ekatopolis" 218 217 195
+1720 "Kleida" 84 95 42
+1721 "Katw Chora" 0 96 3
+1722 "Elaiourgeion" 133 65 111
+1723 "Roloi" 31 105 118
+1724 "Pyrgiskos" 136 90 121
+1725 "Neapoli" 78 17 29
+1726 "Agathi" 96 31 95

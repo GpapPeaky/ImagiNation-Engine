@@ -70,7 +70,7 @@ void main() {
     else
     {
         // Other realms.
-        FragColor = vec4(realmColor, 0.25);
+        FragColor = vec4(realmColor, 0.15);
     }
 }
 )";
